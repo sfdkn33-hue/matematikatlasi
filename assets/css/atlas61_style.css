@@ -1,0 +1,41 @@
+/* v6.1: stable foreground/background pairs across both app themes */
+#atlas61Lab,#atlas61Lab *{box-sizing:border-box}
+#atlas61Lab{background:#f3f9fc!important;color:#17384b!important;border:2px solid #8bb4ce!important;border-radius:19px;padding:clamp(13px,3vw,23px);margin:12px 0 20px;line-height:1.55;font-size:1rem}
+#atlas61Lab[hidden]{display:none!important}
+#atlas61Lab .v61-kicker{font-size:.78rem;font-weight:800;color:#15587d;letter-spacing:.045em}
+#atlas61Lab .v61-title{font-size:1.28rem;color:#143c58!important;margin:6px 0}
+#atlas61Lab .v61-text{font-size:1.04rem;color:#17384b!important;line-height:1.58;margin:10px 0 16px}
+#atlas61Lab .v61-stage{display:grid;gap:12px;background:#fff!important;color:#183c54!important;border:1px solid #a4c3d5!important;border-radius:14px;padding:clamp(11px,2.5vw,20px)}
+#atlas61Lab .v61-graph{width:100%;max-width:400px;margin:0 auto;background:#f6fbff;border:1px solid #c2d7e1;border-radius:12px;padding:6px}
+#atlas61Lab .v61-graph svg{display:block;width:100%;height:auto}
+#atlas61Lab .v61-subtitle{color:#1a4762!important;font-size:1rem}
+#atlas61Lab .v61-choices{display:flex;flex-wrap:wrap;gap:8px}
+#atlas61Lab .v61-button{min-height:45px;padding:9px 13px;background:#f0f7fc!important;color:#134d6d!important;border:2px solid #83a7bc!important;border-radius:10px;font-size:.98rem;font-weight:750;cursor:pointer;text-align:center;flex:1 1 130px}
+#atlas61Lab .v61-button[aria-pressed="true"]{background:#b8ebdb!important;color:#064933!important;border-color:#177b61!important}
+#atlas61Lab .v61-field{display:grid;gap:5px;font-weight:700;color:#18465d!important}
+#atlas61Lab .v61-input{background:#fff!important;color:#163d54!important;border:2px solid #759cb3!important;border-radius:9px;padding:10px;font-size:1.05rem;width:100%;min-height:46px}
+#atlas61Lab .v61-button:focus-visible,#atlas61Lab .v61-input:focus-visible{outline:3px solid #aa5400;outline-offset:2px}
+#atlas61Lab .v61-fact,#atlas61Lab .v61-expression{padding:12px;background:#e9f4fb!important;color:#16425e!important;border-radius:10px;font-weight:800;font-size:1.03rem}
+#atlas61Lab .v61-expression{text-align:center;font-size:1.4rem}
+#atlas61Lab .v61-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+#atlas61Lab .v61-ballrow{display:grid;gap:6px;margin:7px 0;color:#18465d}
+#atlas61Lab .v61-balltray{display:flex;flex-wrap:wrap;gap:5px}
+#atlas61Lab .v61-balltray span{display:inline-block;width:19px;height:19px;border:2px solid #38576a;border-radius:50%}
+#atlas61Lab .v61-red{background:#c6504c}#atlas61Lab .v61-blue{background:#3e80b7}#atlas61Lab .v61-green{background:#3b966e}
+#atlas61Lab .v61-status{padding:10px 12px;background:#e0f2fd!important;color:#174661!important;border-radius:10px}
+#atlas61Lab .v61-status[data-error="true"]{background:#fff1e3!important;color:#793a0b!important}
+#atlas61Lab .v61-actions{display:flex;flex-wrap:wrap;gap:8px}
+#atlas61Lab .v61-actions .v61-button:first-child{background:#156b8b!important;color:#fff!important;border-color:#156b8b!important}
+/* v6.1 contrast patch: stats charts must remain visible in light and dark theme, even when legacy CSS sets inherited white text */
+.statslab .st-colname,.statslab .st-colvalue,.statslab .st-legend,.statslab .st-axisnote{color:#133d55!important;text-shadow:none!important}
+.statslab .st-col{background:linear-gradient(180deg,#8cd8ca,#55b9a8)!important;border:1px solid #377a75!important}
+.statslab .st-axis,.statslab .st-axis-label{color:#163f5e!important}
+.atlas-dark #atlas61Lab{background:#f3f9fc!important;color:#17384b!important}
+@media(max-width:520px){#atlas61Lab .v61-tiles{grid-template-columns:1fr}#atlas61Lab .v61-choices{display:grid;grid-template-columns:1fr 1fr}#atlas61Lab .v61-choices .v61-button{min-width:0;font-size:.93rem;padding:8px 7px}#atlas61Lab .v61-actions{display:grid;grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){#atlas61Lab *{animation:none!important;transition:none!important}}
+
+#atlas61Lab .v61-pie{width:120px;height:120px;border-radius:50%;border:3px solid #f2f7fc;outline:1px solid #6b94a8;margin:4px auto;box-shadow:0 2px 8px #153c5422}
+#atlas61Lab .v61-ratio-table{border:1px solid #b1d1e0;border-radius:12px;overflow:hidden;display:grid}
+#atlas61Lab .v61-ratio-row{display:grid;grid-template-columns:2fr 1fr 1fr;gap:8px;padding:8px 11px;background:#eef7fb;color:#143f58}
+#atlas61Lab .v61-ratio-row+ .v61-ratio-row{background:#fff;border-top:1px solid #b1d1e0}
+#atlas61Lab .v61-ratio-row span{text-align:center;font-weight:800}

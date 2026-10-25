@@ -1,0 +1,12 @@
+# Secrets and private student data must never enter GitHub
+.env
+.env.*
+!.env.example
+**/client_secret.json
+**/credentials.json
+**/*private-key*.pem
+**/*.p12
+**/student-data/
+**/student-exports/
+node_modules/
+.DS_Store

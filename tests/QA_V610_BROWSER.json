@@ -1,0 +1,17 @@
+{
+  "count": 48,
+  "failed": [],
+  "saved": 48,
+  "attempts": 48,
+  "overflow320": false,
+  "overflow390": false,
+  "overflow768": false,
+  "overflow1280": false,
+  "otherTasksPreserved": true,
+  "legacyBypassBlocked": true,
+  "legacyProgressKept": true,
+  "wrongModelBlocked": true,
+  "blockedStorage": true,
+  "storageWarning": true,
+  "jsErrors": []
+}

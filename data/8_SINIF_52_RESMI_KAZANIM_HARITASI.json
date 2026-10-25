@@ -1,0 +1,477 @@
+{
+  "academic_year": "2026-2027",
+  "program": "MEB-2018",
+  "total_outcomes": 52,
+  "source": "https://mufredat.meb.gov.tr/Dosyalar/201813017165445-MATEMAT%C4%B0K%20%C3%96%C4%9ERET%C4%B0M%20PROGRAMI%202018v.pdf?v=1.0.24",
+  "note": "Kazanım kodları MEB 2018; başlıklar Atlas özetidir. Her kodda en az bir pilot açık uçlu soru bulunması becerinin tam karşılandığı anlamına gelmez; rubrik, görsel ve sınıf içi denetim gerekir.",
+  "outcomes": [
+    {
+      "code": "M.8.1.1.1",
+      "group": "Çarpanlar ve Katlar",
+      "short_title": "Pozitif tam sayıların çarpanları ve asal çarpan gösterimi",
+      "pilot_question_count": 3,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.1.1.2",
+      "group": "Çarpanlar ve Katlar",
+      "short_title": "EBOB ve EKOK problemleri",
+      "pilot_question_count": 3,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.1.1.3",
+      "group": "Çarpanlar ve Katlar",
+      "short_title": "Aralarında asal sayılar",
+      "pilot_question_count": 3,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.1.2.1",
+      "group": "Üslü İfadeler",
+      "short_title": "Tam sayıların tam sayı kuvvetleri",
+      "pilot_question_count": 3,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.1.2.2",
+      "group": "Üslü İfadeler",
+      "short_title": "Üslü ifadelerin kuralları",
+      "pilot_question_count": 3,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.1.2.3",
+      "group": "Üslü İfadeler",
+      "short_title": "10’un kuvvetleriyle ondalık çözümleme",
+      "pilot_question_count": 3,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.1.2.4",
+      "group": "Üslü İfadeler",
+      "short_title": "Bir sayıyı 10’un farklı kuvvetleriyle ifade etme",
+      "pilot_question_count": 3,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.1.2.5",
+      "group": "Üslü İfadeler",
+      "short_title": "Bilimsel gösterim ve karşılaştırma",
+      "pilot_question_count": 3,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.1.3.1",
+      "group": "Kareköklü İfadeler",
+      "short_title": "Tam kare ve karekök ilişkisi",
+      "pilot_question_count": 3,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.1.3.2",
+      "group": "Kareköklü İfadeler",
+      "short_title": "Tam kare olmayan karekökün aralığı",
+      "pilot_question_count": 3,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.1.3.3",
+      "group": "Kareköklü İfadeler",
+      "short_title": "Karekökü a√b biçiminde yazma",
+      "pilot_question_count": 3,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.1.3.4",
+      "group": "Kareköklü İfadeler",
+      "short_title": "Kareköklülerde çarpma ve bölme",
+      "pilot_question_count": 1,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.1.3.5",
+      "group": "Kareköklü İfadeler",
+      "short_title": "Kareköklülerde toplama ve çıkarma",
+      "pilot_question_count": 1,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.1.3.6",
+      "group": "Kareköklü İfadeler",
+      "short_title": "Çarpımı doğal sayı yapan köklü çarpan",
+      "pilot_question_count": 1,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.1.3.7",
+      "group": "Kareköklü İfadeler",
+      "short_title": "Ondalık ifadelerin karekökü",
+      "pilot_question_count": 1,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.1.3.8",
+      "group": "Kareköklü İfadeler",
+      "short_title": "Rasyonel ve irrasyonel sayılar",
+      "pilot_question_count": 1,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.4.1.1",
+      "group": "Veri Analizi",
+      "short_title": "En fazla üç grubun çizgi ve sütun grafiklerini yorumlama",
+      "pilot_question_count": 1,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.4.1.2",
+      "group": "Veri Analizi",
+      "short_title": "Sütun, daire ve çizgi grafiği arasında dönüşüm",
+      "pilot_question_count": 1,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.5.1.1",
+      "group": "Basit Olayların Olma Olasılığı",
+      "short_title": "Bir olayın olası durumları",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.5.1.2",
+      "group": "Basit Olayların Olma Olasılığı",
+      "short_title": "Olasılığı karşılaştırma",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.5.1.3",
+      "group": "Basit Olayların Olma Olasılığı",
+      "short_title": "Eş olasılıklı çıktı için 1/n",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.5.1.4",
+      "group": "Basit Olayların Olma Olasılığı",
+      "short_title": "Olasılığın 0–1 aralığında oluşu",
+      "pilot_question_count": 1,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.5.1.5",
+      "group": "Basit Olayların Olma Olasılığı",
+      "short_title": "Basit olayların olasılığını hesaplama",
+      "pilot_question_count": 1,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.2.1.1",
+      "group": "Cebirsel İfadeler ve Özdeşlikler",
+      "short_title": "Basit cebirsel ifadeler",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.2.1.2",
+      "group": "Cebirsel İfadeler ve Özdeşlikler",
+      "short_title": "Cebirsel ifadelerin çarpımı",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.2.1.3",
+      "group": "Cebirsel İfadeler ve Özdeşlikler",
+      "short_title": "Özdeşlikleri modellerle açıklama",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.2.1.4",
+      "group": "Cebirsel İfadeler ve Özdeşlikler",
+      "short_title": "Çarpanlara ayırma",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.2.2.1",
+      "group": "Doğrusal Denklemler",
+      "short_title": "Birinci dereceden bilinmeyenli denklem",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.2.2.2",
+      "group": "Doğrusal Denklemler",
+      "short_title": "Koordinat sistemi ve sıralı ikililer",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.2.2.3",
+      "group": "Doğrusal Denklemler",
+      "short_title": "Tablo ve denklemlerle doğrusal ilişki",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.2.2.4",
+      "group": "Doğrusal Denklemler",
+      "short_title": "Doğrusal denklem grafiği",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.2.2.5",
+      "group": "Doğrusal Denklemler",
+      "short_title": "Gerçek yaşamda doğrusal model",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.2.2.6",
+      "group": "Doğrusal Denklemler",
+      "short_title": "Eğim ve doğrusal ilişki",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.2.3.1",
+      "group": "Eşitsizlikler",
+      "short_title": "Bir bilinmeyenli eşitsizlikle durumu modelleme",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.2.3.2",
+      "group": "Eşitsizlikler",
+      "short_title": "Eşitsizlikleri sayı doğrusunda gösterme",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.2.3.3",
+      "group": "Eşitsizlikler",
+      "short_title": "Bir bilinmeyenli eşitsizlik çözme",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.3.1.1",
+      "group": "Üçgenler",
+      "short_title": "Üçgende kenarortay, açıortay, yükseklik inşası",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": true
+    },
+    {
+      "code": "M.8.3.1.2",
+      "group": "Üçgenler",
+      "short_title": "Üçgen eşitsizliği",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.3.1.3",
+      "group": "Üçgenler",
+      "short_title": "Üçgende kenar-açı ilişkisi",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.3.1.4",
+      "group": "Üçgenler",
+      "short_title": "Verilen elemanlarla üçgen çizme",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": true
+    },
+    {
+      "code": "M.8.3.1.5",
+      "group": "Üçgenler",
+      "short_title": "Pisagor bağıntısı",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.3.3.1",
+      "group": "Eşlik ve Benzerlik",
+      "short_title": "Eş ve benzer çokgenlerin ilişkileri",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.3.3.2",
+      "group": "Eşlik ve Benzerlik",
+      "short_title": "Benzerlik oranı ve benzer çokgen oluşturma",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": true
+    },
+    {
+      "code": "M.8.3.2.1",
+      "group": "Dönüşüm Geometrisi",
+      "short_title": "Öteleme görüntüsü çizme",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": true
+    },
+    {
+      "code": "M.8.3.2.2",
+      "group": "Dönüşüm Geometrisi",
+      "short_title": "Yansıma görüntüsü oluşturma",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": true
+    },
+    {
+      "code": "M.8.3.2.3",
+      "group": "Dönüşüm Geometrisi",
+      "short_title": "Öteleme ve yansıma bileşkesi",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": true
+    },
+    {
+      "code": "M.8.3.4.1",
+      "group": "Geometrik Cisimler",
+      "short_title": "Dik prizma ve açınımı",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": true
+    },
+    {
+      "code": "M.8.3.4.2",
+      "group": "Geometrik Cisimler",
+      "short_title": "Dik dairesel silindir ve açınımı",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": true
+    },
+    {
+      "code": "M.8.3.4.3",
+      "group": "Geometrik Cisimler",
+      "short_title": "Silindirin yüzey alanı",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.3.4.4",
+      "group": "Geometrik Cisimler",
+      "short_title": "Silindirin hacmi",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": false
+    },
+    {
+      "code": "M.8.3.4.5",
+      "group": "Geometrik Cisimler",
+      "short_title": "Dik piramit ve açınımı",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": true
+    },
+    {
+      "code": "M.8.3.4.6",
+      "group": "Geometrik Cisimler",
+      "short_title": "Dik koni ve açınımı",
+      "pilot_question_count": 2,
+      "status": "soru_var_ogretmen_onayi_bekliyor",
+      "full_skill_validation": false,
+      "diagram_review_needed": true
+    }
+  ]
+}

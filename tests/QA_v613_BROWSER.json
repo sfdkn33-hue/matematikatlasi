@@ -1,0 +1,34 @@
+{
+  "tasks": 4037,
+  "unchanged_data": true,
+  "uniqueIds": true,
+  "online_source_loaded": true,
+  "initial_tracked_count": 471,
+  "grade6_recs_count": 3,
+  "skill_coverage": {
+    "tasks": 471,
+    "outcomes": 29,
+    "grade": {
+      "5": 24,
+      "6": 120,
+      "7": 134,
+      "8": 193
+    }
+  },
+  "v60_wrong_recorded": true,
+  "v60_success_recorded": true,
+  "v61_wrong_success_recorded": true,
+  "v61_different_family_rec": true,
+  "no_permission_ui": true,
+  "v610_navigation_debug": {
+    "active": "MAT.6.2.1 · GÖREV 1/70 · Keşfet",
+    "title": "Maliyet sayacı · 01",
+    "labHidden": false,
+    "labHtml": "<p class=\"a610-kicker\">MAT.6.2.1 · 6. sınıf · ANA ETKİNLİK</p><h3>Maliyet sayacı · 01</h3><p class=\"",
+    "checkCount": 2
+  },
+  "v610_focus_on_model": true,
+  "no_horizontal_overflow390": true,
+  "old_completion_not_mastery": true,
+  "js_errors": []
+}

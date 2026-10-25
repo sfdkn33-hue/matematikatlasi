@@ -1,0 +1,168 @@
+/* v3.0: light, layered, child-first shell. Dark art/canvas inside legacy activities is intentional. */
+:root{color-scheme:light;background:#f6f9ff;color:#1d3151}
+body.atlas-v3{--atlas-bg:#f6f9ff;--atlas-paper:#fff;--atlas-ink:#183153;--atlas-muted:#60738e;--atlas-line:#dce7f5;--atlas-soft:#edf5ff;--atlas-primary:#2768d5;--atlas-shadow:0 12px 35px rgba(41,84,140,.08);background:var(--atlas-bg);color:var(--atlas-ink);min-height:100vh}
+body.atlas-v3 *{box-sizing:border-box}
+body.atlas-v3 [hidden]{display:none!important}
+body.atlas-v3 button,body.atlas-v3 select,body.atlas-v3 input,body.atlas-v3 textarea{font:inherit}
+body.atlas-v3 button{touch-action:manipulation}
+body.atlas-v3 a{color:#2059be}
+body.atlas-v3 :is(button,a,select,input,textarea):focus-visible{outline:3px solid #ffb52c;outline-offset:3px}
+body.atlas-v3 .atlas-top{height:72px;max-width:1200px;padding:0 22px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.atlas-brand{display:flex;align-items:center;gap:10px;font-size:22px;font-weight:850;text-decoration:none;color:#194184!important;letter-spacing:-.03em}
+.atlas-brand:first-letter{color:#25bda6}.atlas-brand span b{color:#4f84e3}
+.atlas-toplinks{display:flex;align-items:center;gap:9px}.atlas-class-pill{background:#e8f1ff;color:#3663a0;padding:8px 13px;border-radius:40px;font-size:13px;font-weight:800}
+body.atlas-v3 .atlas-topquiet{background:transparent;border:1px solid #d9e5f5;color:#446180;border-radius:30px;padding:8px 12px;font-size:13px}
+.atlas-welcome{padding:12px 20px 40px}.atlas-welcome-wrap{max-width:1120px;margin:0 auto}
+.atlas-hero{position:relative;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(280px,.75fr);align-items:center;min-height:500px;gap:25px;background:linear-gradient(115deg,#fff 0%,#fcfeff 61%,#e9f2ff 100%);border:1px solid #e3ecf9;box-shadow:var(--atlas-shadow);border-radius:36px;overflow:hidden;padding:clamp(25px,5vw,65px)}
+.atlas-hero-copy{position:relative;z-index:2}.atlas-kicker{color:#5483be;font-size:13px;letter-spacing:.09em;font-weight:850;text-transform:uppercase}
+.atlas-hero h1{margin:14px 0 14px;font-size:clamp(34px,5vw,62px);line-height:1.15;letter-spacing:-.045em;color:#1c3c65;font-weight:900}
+.atlas-hero h1 span{color:#3d80e6}.atlas-hero p,.atlas-themes p{font-size:clamp(16px,2vw,19px);line-height:1.5;color:#6e819d;max-width:480px;margin:0 0 24px}
+.atlas-grade-switch,.atlas-themes-grades{display:inline-flex;background:#eff5ff;border-radius:16px;padding:5px;gap:5px;margin-bottom:22px}
+body.atlas-v3 .atlas-grade-switch button,body.atlas-v3 .atlas-themes-grades button{min-width:106px;background:transparent;color:#56718e;border-radius:12px;padding:12px 18px;font-size:15px;box-shadow:none}
+body.atlas-v3 .atlas-grade-switch button.is-current,body.atlas-v3 .atlas-themes-grades button.is-current{background:#fff;color:#2764bd;box-shadow:0 3px 13px #c9d9f2;font-weight:900}
+.atlas-bigactions{display:grid;gap:12px;max-width:430px}
+body.atlas-v3 .atlas-bigactions button{display:grid;grid-template-columns:40px 1fr 20px;text-align:left;align-items:center;gap:10px;min-height:74px;padding:14px 19px;border-radius:19px;box-shadow:none}
+body.atlas-v3 .atlas-bigactions button b{display:block;font-size:16px;line-height:1.3}
+body.atlas-v3 .atlas-bigactions button small{display:block;font-size:12px;font-weight:500;margin-top:5px;opacity:.78}
+body.atlas-v3 .atlas-bigactions .atlas-primary{background:#286bdc;color:#fff;box-shadow:0 9px 18px #2c73df32}
+body.atlas-v3 .atlas-bigactions .atlas-secondary{background:#fff;border:1px solid #dfebf8;color:#274e79}
+body.atlas-v3 .atlas-bigactions button>span:first-child{font-size:23px;text-align:center}
+.atlas-hero-art{position:relative;height:375px;display:flex;align-items:center;justify-content:center;isolation:isolate}
+.atlas-hero-art:before{content:'';position:absolute;width:340px;height:340px;border-radius:50%;background:radial-gradient(circle,#dbebff 1%,#ecf5ff 65%,transparent 70%);z-index:-3}
+.atlas-orbit{position:absolute;border:2px dashed #a5c7ff;border-radius:50%;width:270px;height:270px;transform:rotate(25deg)}
+.atlas-orbit-b{width:350px;height:165px;transform:rotate(-32deg);border-color:#b2e7dd}
+.atlas-planet{width:196px;height:196px;border-radius:39% 61% 57% 43% / 47% 36% 64% 53%;background:linear-gradient(145deg,#3aa2ec,#6461db);box-shadow:inset -18px -13px 0 #263a9230,0 23px 40px #5979cf3b;display:grid;place-items:center;color:white;font-size:104px;font-family:Georgia,serif;font-weight:bold;transform:rotate(-12deg)}
+.atlas-float{position:absolute;display:grid;place-items:center;border-radius:19px;box-shadow:0 9px 16px #496db22c;font-weight:900}.atlas-float-star{top:22px;left:36px;background:#ffce65;color:#9d6300;width:67px;height:67px;font-size:39px;transform:rotate(-12deg)}
+.atlas-float-square{top:42px;right:20px;background:#a4e9cf;color:#247f78;width:76px;height:76px;font-size:43px;transform:rotate(12deg)}
+.atlas-float-triangle{bottom:15px;left:30px;background:#ffb3ad;color:#b54047;width:70px;height:70px;font-size:48px;transform:rotate(15deg)}
+.atlas-float-math{bottom:25px;right:40px;background:#ded0ff;color:#7244ba;width:70px;height:70px;font-size:34px;transform:rotate(-10deg)}
+.atlas-welcome-bottom{display:flex;gap:22px;align-items:stretch;margin-top:20px}
+.atlas-progress-slab{flex:1;min-width:0;padding:25px 29px;background:#fff;border:1px solid #e1eaf8;border-radius:24px;box-shadow:var(--atlas-shadow)}
+.atlas-progress-head{display:flex;justify-content:space-between;gap:14px;align-items:center;font-size:16px}.atlas-progress-head strong{color:#2c68c2;font-size:14px}
+.atlas-progress-rail,.atlas-tiny-progress{height:12px;background:#e4edfa;border-radius:20px;margin-top:15px;overflow:hidden}
+.atlas-progress-rail>div,.atlas-tiny-progress>div{height:100%;width:0;background:linear-gradient(90deg,#4cbacb,#4c83eb);border-radius:inherit;transition:width .3s}
+.atlas-progress-slab p{margin:10px 0 0;color:#8193a9;font-size:13px}
+.atlas-adult-tools{width:300px;padding:20px 24px;border:1px solid #e1eaf8;border-radius:24px;display:grid;align-content:center;gap:9px;background:#fff;font-size:13px;box-shadow:var(--atlas-shadow)}
+.atlas-adult-tools span{font-weight:800;color:#7b8da1}.atlas-adult-tools a{text-decoration:none;font-weight:750;padding:4px 0}
+.atlas-themes{padding:12px 20px 40px}.atlas-themes-inner{max-width:1120px;margin:0 auto}.atlas-themes-inner h1{font-size:clamp(28px,4vw,42px);color:#234568;margin:12px 0}.atlas-themes .atlas-kicker{display:block;margin-top:24px}
+body.atlas-v3 .atlas-back{background:#eef4ff;border:1px solid #d9e6f8;color:#285c9a;font-size:14px;border-radius:13px;padding:11px 16px}
+.atlas-theme-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px;margin-top:16px}
+body.atlas-v3 .atlas-theme-card{min-width:0;display:flex;flex-direction:column;text-align:left;align-items:stretch;gap:9px;background:#fff;border:1px solid #e2ebf7;border-radius:24px;padding:22px;color:#203e5f;box-shadow:0 5px 22px #335b8d12;min-height:218px;transition:transform .15s,box-shadow .15s}
+body.atlas-v3 .atlas-theme-card:hover{transform:translateY(-3px);box-shadow:0 14px 30px #335b8d25}
+.atlas-theme-symbol{width:56px;height:56px;border-radius:17px;display:grid;place-items:center;background:var(--card-bg,#d9eafe);font-size:28px;color:#244f80}.atlas-theme-title{font-size:18px;font-weight:850;line-height:1.32;overflow-wrap:anywhere}.atlas-theme-subtitle{color:#7c8fa6;font-size:13px;font-weight:500}.atlas-theme-bar{height:8px;background:#e8effa;border-radius:15px;overflow:hidden;margin-top:auto}.atlas-theme-bar span{height:100%;display:block;background:var(--card-bar,#5b87d9);width:0;border-radius:inherit}
+.atlas-theme-bottom{font-size:13px;font-weight:750;color:#4f76a9;display:flex;justify-content:space-between;gap:10px}
+.atlas-playing-top{max-width:1120px;margin:10px auto 0;padding:14px 19px;border:1px solid #e0eafa;border-radius:18px;background:white;display:flex;align-items:center;justify-content:space-between;gap:16px;box-shadow:0 5px 20px #335b8d12}
+.atlas-playing-info{display:flex;align-items:center;gap:18px;min-width:0}.atlas-playing-info>div{min-width:0}.atlas-playing-info b{display:block;color:#294b78;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:410px}.atlas-playing-info span{color:#8394aa;font-size:12px;display:block;margin-top:3px}.atlas-playing-actions{display:flex;align-items:center;gap:14px}.atlas-tiny-progress{width:90px;margin:0;height:9px}
+body.atlas-v3 #atlasPickTask{background:#e8f2ff;color:#2960a7;padding:12px 18px;border-radius:14px;white-space:nowrap}
+body.atlas-v3>header{display:none!important}
+body.atlas-v3 main{max-width:1120px;display:grid;grid-template-columns:minmax(0,1fr);margin:0 auto;padding:18px 12px 36px}
+body.atlas-v3 main>.panel{background:#fff;border:1px solid #e1eaf7;border-radius:24px;box-shadow:var(--atlas-shadow);padding:clamp(16px,3vw,35px);min-height:550px}
+body.atlas-v3 main>.panel>.eyebrow{color:#588ac2;font-size:13px}
+body.atlas-v3 main>.panel>h2{color:#1d3a5e;margin:8px 0 17px;font-size:clamp(23px,3vw,33px)}
+body.atlas-v3 main>.panel>.card{background:#f2f7ff;border:1px solid #e1ebf9;color:#264363;border-radius:19px;padding:20px}
+body.atlas-v3 main>.panel>.card #question{font-size:clamp(17px,2.2vw,20px)!important;line-height:1.55;color:#2d4767}
+body.atlas-v3 main>.panel>.card .chip{background:#fff;border-color:#d7e7f9;color:#49709e;font-size:12px;padding:7px 10px;font-weight:650}
+body.atlas-v3 main>.panel .lesson-plan{background:#eef6ff;border-left-color:#71a4e9;color:#476487;border-radius:12px;font-size:13px}
+body.atlas-v3 main>.panel .lesson-plan b{color:#345989}
+body.atlas-v3 main>.panel .lesson-plan .muted{color:#7089a4}
+body.atlas-v3 #atlasTaskNav{display:none;position:fixed;inset:0 auto 0 0;max-height:100dvh;width:min(88vw,370px);z-index:60;overflow:auto;background:#fff;border:0;border-radius:0 24px 24px 0;padding:24px;box-shadow:20px 0 70px #21385830;overscroll-behavior:contain}
+body.atlas-v3.atlas-nav-open #atlasTaskNav{display:block}
+body.atlas-v3 #atlasTaskNav h2{color:#234a78}
+body.atlas-v3 #atlasTaskNav label{color:#607d9c;font-size:13px}
+body.atlas-v3 #atlasTaskNav :is(select,input,textarea){background:#f2f7ff;border-color:#d4e4f8;color:#234563}
+body.atlas-v3 #atlasTaskNav .theme-step{background:#f4f8fe;color:#2b476b;border-color:#dce9f8}
+body.atlas-v3 #atlasTaskNav .theme-step.selected{background:#dceeff;border-color:#7daee5}
+body.atlas-v3 #atlasTaskNav .step-meta{color:#7690a8}
+body.atlas-v3 #atlasTaskNav .step-num{background:#dce9fa;color:#3768a8}
+body.atlas-v3 #atlasTaskNav .numgrid button{background:#e6effc;color:#345f98;min-height:41px}
+body.atlas-v3 #atlasTaskNav .numgrid button.active{background:#2f71da;color:#fff}
+body.atlas-v3 #atlasTaskNav .note{color:#627e9c;background:#f7faff;border:1px dashed #cfdeef}
+body.atlas-v3 #atlasTaskNav .small{color:#728ca7}
+body.atlas-v3 .atlas-screen-shade{position:fixed;z-index:55;inset:0;width:100%;height:100%;border:0;border-radius:0;background:#16325377}
+body.atlas-v3 .atlas-screen-shade:not([hidden]){display:block}
+body.atlas-v3 .feedback{background:#eff7fc;color:#31516f;border:1px solid #d9e9f5}
+body.atlas-v3 .note{color:#687f97;background:#f7fbff;border-color:#c6dbee}
+body.atlas-v3 #progress{margin-top:16px}
+body.atlas-v3 #legacyAnswer>label{color:#4c6c8f;font-size:15px}
+body.atlas-v3 #legacyAnswer textarea{background:white;color:#173253;border-color:#bbd1e7}
+body.atlas-v3 #legacyAnswer button.alt,body.atlas-v3 main>.panel>.flex>button.alt{background:#e7f1ff;color:#2b5b98}
+body.atlas-v3 #legacyAnswer button:not(.alt){background:#2e70d6;color:white}
+body.atlas-v3 main>.panel hr{border-color:#e1eaf6!important}
+/* Let the game be a softly tinted workspace. High contrast boards remain for legible SVG scenes. */
+body.atlas-v3 :is(.studio,.numberlab,.measure-lab,.fxlab,.statslab,.ab-lab,.pr-lab,.ft-lab,.decimal-lab,.g6-lab,.a6-lab,.m6-lab,.rs-lab,.applied-lab,.experiment-lab,.p5-lab,.a5-lab,.s5-lab,.m5-lab,.f5-lab,.n5-lab,.g5x-lab){border-radius:22px;box-shadow:0 7px 20px #092e5011}
+body.atlas-v3 #studio{background:linear-gradient(165deg,#eaf6fb,#e6f3fd);border:1px solid #cce6f1;color:#153b59}
+body.atlas-v3 #studio :is(h3,.studio-small,.studio-stat){color:#2a607a}
+body.atlas-v3 #studio p{color:#476a81}
+body.atlas-v3 #studio .studio-tag{background:#d2eaf6;color:#28617c}
+body.atlas-v3 #studio .studio-choices button{background:#fff;color:#276080;border-color:#bddde9}
+body.atlas-v3 #studio .studio-choices button.selected{background:#89deea;color:#12475c}
+body.atlas-v3 #studio .studio-canvasbox{background:#102c44}
+body.atlas-v3 #studio .lab-controls{background:#dbedf7;color:#315871;border-color:#b9dce9}
+body.atlas-v3 #studio .lab-controls label{color:#34566b}
+body.atlas-v3 #studio .studio-explain{color:#53718a!important}
+body.atlas-v3 main>.panel button{min-height:43px}
+/* teacher page uses the same bright foundational colors without the child navigation overlay */
+body.atlas-v3.atlas-teacher>header{display:block!important;background:#edf5ff;color:#1c477c;border-bottom-color:#d9e7fa}
+body.atlas-v3.atlas-teacher header p{color:#597798}
+body.atlas-v3.atlas-teacher .teacher-wrap .panel{background:#fff;color:#1e3c5f;border:1px solid #dfebfa}
+body.atlas-v3.atlas-teacher .teacher-notice{background:#fff8e7;color:#684f27}
+body.atlas-v3.atlas-teacher .teacher-wrap :is(input,select){background:#fff;border-color:#cfdef0;color:#244563}
+body.atlas-v3.atlas-teacher .teacher-wrap td{color:#284969}
+body.atlas-v3.atlas-teacher .teacher-wrap th{color:#21477d}
+body.atlas-v3.atlas-teacher .teacher-wrap tr:hover td{background:#eff6ff}
+body.atlas-v3.atlas-teacher .teacher-wrap .chip{background:#ebf4ff;color:#295482;border-color:#d9e8f8}
+/* optional dark only through user request */
+body.atlas-v3.atlas-dark{--atlas-bg:#142037;--atlas-paper:#1c2e49;--atlas-ink:#e6f0ff;--atlas-muted:#c1d1e7;--atlas-line:#3b5678;--atlas-soft:#233852;background:var(--atlas-bg);color:var(--atlas-ink)}
+body.atlas-v3.atlas-dark :is(.atlas-hero,.atlas-progress-slab,.atlas-adult-tools,.atlas-playing-top,.atlas-theme-card){background:#1c2e49!important;border-color:#3b5572!important;color:#e8f3ff!important}
+body.atlas-v3.atlas-dark :is(.atlas-hero h1,.atlas-themes h1,.atlas-theme-title,.atlas-brand,.atlas-playing-info b){color:#edf5ff!important}
+body.atlas-v3.atlas-dark :is(.atlas-hero p,.atlas-themes p,.atlas-theme-subtitle){color:#c8d8ee!important}
+body.atlas-v3.atlas-dark .atlas-hero h1 span{color:#88b4fa}
+body.atlas-v3.atlas-dark main>.panel{background:#20324b;border-color:#405a78;color:#ecf4ff}
+body.atlas-v3.atlas-dark main>.panel>h2{color:#f4f8ff}
+body.atlas-v3.atlas-dark main>.panel>.card{background:#29415f;border-color:#48658a}
+body.atlas-v3.atlas-dark main>.panel>.card #question{color:#f1f8ff}
+body.atlas-v3.atlas-dark main>.panel>.card .chip{color:#254c70}
+body.atlas-v3.atlas-dark .atlas-orbit{opacity:.7}
+@media(max-width:900px){.atlas-hero{grid-template-columns:1fr;min-height:0}.atlas-hero-art{height:210px;position:absolute;right:-70px;top:22px;opacity:.16;pointer-events:none}.atlas-hero-copy{max-width:100%}.atlas-theme-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){body.atlas-v3 .atlas-top{height:60px;padding:0 15px}.atlas-brand{font-size:19px}.atlas-class-pill{font-size:11px;padding:7px 10px}body.atlas-v3 .atlas-topquiet{font-size:12px;padding:7px 9px}.atlas-welcome{padding:6px 12px 26px}.atlas-hero{border-radius:25px;padding:26px 21px}.atlas-hero h1{font-size:clamp(31px,8vw,44px)}.atlas-hero p{font-size:16px}.atlas-hero-art{display:none}.atlas-welcome-bottom{flex-direction:column;gap:12px;margin-top:12px}.atlas-progress-slab,.atlas-adult-tools{width:100%;border-radius:20px;padding:19px}.atlas-adult-tools{grid-template-columns:1fr 1fr}.atlas-adult-tools>span{grid-column:1/-1}.atlas-progress-head{align-items:start;font-size:14px}.atlas-progress-head strong{font-size:12px}.atlas-theme-cards{grid-template-columns:1fr;gap:12px}.atlas-themes{padding:8px 13px 32px}.atlas-theme-card{min-height:0!important}.atlas-playing-top{margin:4px 9px 0;padding:10px;gap:9px;border-radius:15px}.atlas-playing-info{gap:8px}.atlas-playing-info .atlas-back{padding:10px!important;font-size:12px!important}.atlas-playing-info b{font-size:13px;max-width:130px}.atlas-tiny-progress{display:none}.atlas-playing-actions #atlasPickTask{padding:10px!important;font-size:12px}.atlas-theme-cards .atlas-theme-card{padding:19px!important}body.atlas-v3 main{padding:9px}body.atlas-v3 main>.panel{padding:16px;border-radius:20px}.atlas-themes-grades button{min-width:110px}}
+@media(prefers-reduced-motion:reduce){.atlas-theme-card,.atlas-progress-rail>div{transition:none!important}}
+/* A single screen at a time is the key reduction in cognitive load. */
+body.atlas-v3.atlas-home main,body.atlas-v3.atlas-theme-mode main{display:none!important}
+body.atlas-v3:not(.atlas-playing) #atlasPlayingTop{display:none!important}
+/* Gameplay: light backgrounds around manipulative models. Legacy SVG boards may stay dark for line contrast. */
+body.atlas-v3 main>.panel>#title:focus{outline:0}
+body.atlas-v3.atlas-playing #lessonPlan{display:none}
+body.atlas-v3.atlas-playing .panel>.card .flex{display:none}
+body.atlas-v3 :is(.n5-lab,.f5-lab,.g5x-lab,.m5-lab,.s5-lab,.a5-lab,.p5-lab,.g6-lab,.m6-lab,.a6-lab,.rs-lab,.decimal-lab,.applied-lab,.experiment-lab,.ft-lab,.f5-lab,.statslab,.ab-lab,.fxlab,.pr-lab,.measure-lab,.numberlab){background:linear-gradient(155deg,#f4faff,#eaf5fc)!important;color:#1f4164!important;border:1px solid #cfdfef!important}
+body.atlas-v3 :is(.n5-lab,.f5-lab,.g5x-lab,.m5-lab,.s5-lab,.a5-lab,.p5-lab,.g6-lab,.m6-lab,.a6-lab,.rs-lab,.decimal-lab,.applied-lab,.experiment-lab,.ft-lab,.statslab,.ab-lab,.fxlab,.pr-lab,.measure-lab,.numberlab) :is(h3,h4,legend){color:#234564!important}
+body.atlas-v3 :is(.n5-kicker,.f5-kicker,.p5-tag,.numlab-kicker,.ml-kicker){color:#407aa5!important}
+body.atlas-v3 :is(.n5-muted,.n5-footnote,.f5-hint,.f5-note,.p5-muted,.p5-caption,.p5-note,.n5-prompt,.f5-prompt,.p5-intro){color:#516d86!important}
+body.atlas-v3 :is(.n5-visual,.f5-visual,.p5-field,.p5-display,.p5-gridwrap,.p5-bag,.n5-field,.f5-field){background:#fff!important;border-color:#cbdff0!important;color:#294e70!important}
+body.atlas-v3 :is(.n5-group,.n5-tile,.n5-flow span){background:#e4f2ff!important;color:#234564!important;border-color:#c3ddf1!important}
+body.atlas-v3 :is(.n5-group,.n5-tile) small{color:#557b9c!important}
+body.atlas-v3 .n5-silent{background:#f0f2f6!important}
+body.atlas-v3 .n5-silent strong{color:#6c8499!important}
+body.atlas-v3 .n5-field :is(input,textarea),body.atlas-v3 .n5-reason textarea,body.atlas-v3 .f5-field input,body.atlas-v3 .f5-reason textarea,body.atlas-v3 .p5-lab textarea{background:#fff!important;color:#244666!important;border-color:#b6cfe5!important}
+body.atlas-v3 .n5-choice,body.atlas-v3 .n5-btn{background:#e5f1ff!important;color:#285580!important;border-color:#c0d8ee!important}
+body.atlas-v3 .n5-choice[aria-pressed=true]{background:#c8efda!important;color:#196146!important;border-color:#56b88c!important}
+body.atlas-v3 .n5-status,body.atlas-v3 .f5-status{background:#e5f4f5!important;color:#2b5963!important}
+body.atlas-v3 .f5-visual{overflow:auto}
+body.atlas-v3 .f5-choice,body.atlas-v3 .f5-alt{background:#e2f0ff!important;color:#2a587c!important;border-color:#b0d2eb!important}
+body.atlas-v3 .f5-choice[aria-pressed="true"]{background:#cef5e4!important;color:#155f4c!important}
+body.atlas-v3 .f5-cell{background:#d7e7f7!important;border-color:#9fbcd5!important}
+body.atlas-v3 .f5-cell.marked{background:#39c5b0!important}
+body.atlas-v3 .f5-model-whole span{background:#e5eef7}
+body.atlas-v3 .f5-model-whole span.f5-filled{background:#40c5aa}
+body.atlas-v3 .f5-output{color:#207e6b}
+body.atlas-v3 .p5-btn{background:#e9f3ff;color:#2f648a;border-color:#bdd6eb}
+body.atlas-v3 .p5-btn[aria-pressed=true]{background:#c9f2e1;color:#125d4d;border-color:#49be98}
+body.atlas-v3 .p5-count{color:#2b587b}
+body.atlas-v3 .p5-reading{color:#1a876f}
+body.atlas-v3 .p5-status{background:#dff3f8;color:#225d70}
+body.atlas-v3 .p5-status[data-error=true]{background:#fce8dd;color:#8c4f2e}
+body.atlas-v3 .p5-status[data-error=false]{background:#dcf7e8;color:#205f49}
+body.atlas-v3 .p5-wheel{box-shadow:0 4px 0 #a8cfdb,0 0 0 2px #8bb9cb}
+/* Keyboard navigation remains visible on interactive inputs and buttons. */
+body.atlas-v3 :is(.n5-lab,.f5-lab,.p5-lab,.g5x-lab,.m5-lab,.s5-lab,.a5-lab) :is(label,legend){color:#315778!important}
+body.atlas-v3 :is(.n5-lab,.f5-lab,.p5-lab,.g5x-lab,.m5-lab,.s5-lab,.a5-lab) :is(.n5-reason label,.f5-reason label,.p5-note,.n5-footnote){color:#56748c!important}
+body.atlas-v3 .atlas-duplicate-prompt{display:none!important}

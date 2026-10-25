@@ -1,0 +1,15 @@
+{
+  "version": "4.5",
+  "date": "2026-10-23",
+  "game_tasks": 2807,
+  "exam_questions": 790,
+  "new_written_questions": 20,
+  "lgs_pilot_questions": 12,
+  "official_grade8_outcomes": 52,
+  "grade8_outcomes_with_pilot": 20,
+  "grade8_outcomes_waiting_pilot": 32,
+  "legacy_8_provisional_codes": 168,
+  "grade8_exam_questions": 210,
+  "unchanged_tasks_sha256": "cc9b5c0829ee1fc35b0fb1814225a9e0513d2ef15f0282b512d8e8da5d659e21",
+  "live_github_modified": false
+}

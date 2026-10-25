@@ -1,0 +1,1 @@
+Bu dosyalar v4.3 Yazılı Merkezi uygulamasının ayrı okunabilir kaynaklarıdır. Uygulamanın çalışan sürümleri kökteki YAZILI_MERKEZI.html ve ATLAS_TEK_DOSYA.html dosyalarıdır. Paketleme yardımcısı geliştirici çalışma ortamındaki konum varsayımlarını kullanır; doğrudan bu klasörde çalıştırılmak üzere yapılandırılmamıştır.

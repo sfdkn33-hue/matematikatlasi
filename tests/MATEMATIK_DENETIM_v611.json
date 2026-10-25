@@ -1,0 +1,246 @@
+{
+  "total": 48,
+  "correct": 48,
+  "results": [
+    {
+      "id": "MAT.5.3.7-G01",
+      "mode": "circle",
+      "ok": true
+    },
+    {
+      "id": "MAT.5.3.7-G02",
+      "mode": "circle",
+      "ok": true
+    },
+    {
+      "id": "MAT.5.3.7-G03",
+      "mode": "circle",
+      "ok": true
+    },
+    {
+      "id": "MAT.5.3.7-G04",
+      "mode": "circle",
+      "ok": true
+    },
+    {
+      "id": "MAT.5.3.7-G05",
+      "mode": "circle",
+      "ok": true
+    },
+    {
+      "id": "MAT.5.3.7-G06",
+      "mode": "circle",
+      "ok": true
+    },
+    {
+      "id": "MAT.5.3.7-G07",
+      "mode": "circle",
+      "ok": true
+    },
+    {
+      "id": "MAT.5.3.7-G08",
+      "mode": "circle",
+      "ok": true
+    },
+    {
+      "id": "MAT.5.3.7-G09",
+      "mode": "circle",
+      "ok": true
+    },
+    {
+      "id": "MAT.5.3.7-G10",
+      "mode": "circle",
+      "ok": true
+    },
+    {
+      "id": "MAT.5.3.7-G11",
+      "mode": "circle",
+      "ok": true
+    },
+    {
+      "id": "MAT.5.3.7-G12",
+      "mode": "circle",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.7.2-G01-V41",
+      "mode": "balls",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.7.2-G02-V41",
+      "mode": "balls",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.7.2-G03-V41",
+      "mode": "balls",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.7.2-G04-V41",
+      "mode": "balls",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.7.2-G05-V41",
+      "mode": "wheel",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.7.2-G06-V41",
+      "mode": "wheel",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.7.2-G07-V41",
+      "mode": "wheel",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.7.2-G08-V41",
+      "mode": "wheel",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.7.2-G09-V41",
+      "mode": "claim",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.7.2-G10-V41",
+      "mode": "claim",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.7.2-G11-V41",
+      "mode": "claim",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.7.2-G12-V41",
+      "mode": "claim",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.4.8-Q001-V49",
+      "mode": "sectorangle",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.4.8-Q002-V49",
+      "mode": "sectorangle",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.4.8-Q003-V49",
+      "mode": "sectorangle",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.4.8-Q004-V49",
+      "mode": "sectorangle",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.4.8-Q005-V49",
+      "mode": "sectorparts",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.4.8-Q006-V49",
+      "mode": "sectorparts",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.4.8-Q007-V49",
+      "mode": "sectorparts",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.4.8-Q008-V49",
+      "mode": "sectorparts",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.4.8-Q009-V49",
+      "mode": "sectorinverse",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.4.8-Q010-V49",
+      "mode": "sectorinverse",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.4.8-Q011-V49",
+      "mode": "sectorinverse",
+      "ok": true
+    },
+    {
+      "id": "MAT.7.4.8-Q012-V49",
+      "mode": "sectorinverse",
+      "ok": true
+    },
+    {
+      "id": "M.8.1.3.3-Q001-V49",
+      "mode": "rootfactor",
+      "ok": true
+    },
+    {
+      "id": "M.8.1.3.3-Q002-V49",
+      "mode": "rootfactor",
+      "ok": true
+    },
+    {
+      "id": "M.8.1.3.3-Q003-V49",
+      "mode": "rootfactor",
+      "ok": true
+    },
+    {
+      "id": "M.8.1.3.3-Q004-V49",
+      "mode": "rootfactor",
+      "ok": true
+    },
+    {
+      "id": "M.8.1.3.3-Q005-V49",
+      "mode": "rootchoice",
+      "ok": true
+    },
+    {
+      "id": "M.8.1.3.3-Q006-V49",
+      "mode": "rootchoice",
+      "ok": true
+    },
+    {
+      "id": "M.8.1.3.3-Q007-V49",
+      "mode": "rootchoice",
+      "ok": true
+    },
+    {
+      "id": "M.8.1.3.3-Q008-V49",
+      "mode": "rootchoice",
+      "ok": true
+    },
+    {
+      "id": "M.8.1.3.3-Q009-V49",
+      "mode": "rootreverse",
+      "ok": true
+    },
+    {
+      "id": "M.8.1.3.3-Q010-V49",
+      "mode": "rootreverse",
+      "ok": true
+    },
+    {
+      "id": "M.8.1.3.3-Q011-V49",
+      "mode": "rootreverse",
+      "ok": true
+    },
+    {
+      "id": "M.8.1.3.3-Q012-V49",
+      "mode": "rootreverse",
+      "ok": true
+    }
+  ]
+}

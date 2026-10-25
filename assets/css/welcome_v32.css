@@ -1,0 +1,42 @@
+/* v3.2 · Visual geometry workshop / precise input. No answer or progress modifications. */
+body.atlas-v3 #studio .studio-canvasbox{position:relative;border:2px solid #b9dcf1;background:#eaf5fc;border-radius:17px;overflow:hidden;isolation:isolate}
+body.atlas-v3 #studio #studioCanvas{display:block;width:100%;height:auto;min-height:0!important;aspect-ratio:600/380;touch-action:none}
+body.atlas-v3 #studio .atlas-board-zoom{position:absolute;right:10px;top:9px;z-index:2;padding:9px 13px;border:1px solid #bed6e8;background:#ffffffed;color:#245478;min-height:42px;border-radius:11px;font-size:13px;box-shadow:0 2px 10px #163e561c}
+body.atlas-v3 #studio .studio-choices button{min-height:47px;border-radius:12px;padding:10px 18px}
+body.atlas-v3 #studio .studio-toolbar{border-top:1px solid #d9e8f4;padding-top:14px}
+body.atlas-v3 #studio .studio-toolbar #studioVerify{background:#198cb1;color:white;min-height:50px;font-size:14px}
+body.atlas-v3 #studio .studio-toolbar .alt{border:1px solid #c7daed;background:#f0f7fc;color:#285e80}
+body.atlas-v3 #studio .studio-toolbar .studio-stat{background:#eef7fb;border-radius:12px;padding:10px 12px;color:#2b5971;line-height:1.5}
+body.atlas-v3 .atlas-precise{border:1px solid #cde2f2;background:#f8fcff;border-radius:13px;margin-top:10px;padding:0 12px;color:#244e6a}
+body.atlas-v3 .atlas-precise[hidden]{display:none!important}
+body.atlas-v3 .atlas-precise summary{padding:13px 2px;cursor:pointer;font-size:14px;font-weight:760;list-style:disclosure-closed}
+body.atlas-v3 .atlas-precise[open] summary{list-style:disclosure-open}
+body.atlas-v3 .atlas-precise summary span{font-size:11px;white-space:nowrap;font-weight:550;color:#577a96;margin-left:5px}
+body.atlas-v3 .atlas-precise p{font-size:13px;line-height:1.45;margin:4px 0 11px;color:#51738c}
+body.atlas-v3 .atlas-precise-layout{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:0 0 15px}
+body.atlas-v3 .atlas-directions{display:grid;grid-template-columns:repeat(3,51px);grid-template-rows:repeat(3,45px);gap:4px}
+body.atlas-v3 .atlas-directions button{border:1px solid #abcce5;background:#e5f3fc;color:#1d608a;font-size:23px;padding:0;min-height:45px}
+body.atlas-v3 .atlas-directions [data-dir=up]{grid-area:1/2}
+body.atlas-v3 .atlas-directions [data-dir=left]{grid-area:2/1}
+body.atlas-v3 .atlas-directions [data-dir=down]{grid-area:2/2}
+body.atlas-v3 .atlas-directions [data-dir=right]{grid-area:2/3}
+body.atlas-v3 .atlas-precise-action{display:flex;flex-direction:column;gap:12px;align-items:center}
+body.atlas-v3 .atlas-precise-action output{color:#365d7d;font-variant-numeric:tabular-nums;font-size:13px;font-weight:700}
+body.atlas-v3 #studioPlace{background:#198fb2;color:white;min-height:48px;border-radius:12px}
+body.atlas-v3.atlas-board-focus{overflow:hidden}
+body.atlas-v3.atlas-board-focus #studio #studioCanvasBox{position:fixed!important;inset:8px!important;z-index:10012;width:auto;max-width:none;max-height:none;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 100vmax #082133ef;border:3px solid #e3f5ff;background:#eaf5fc;overflow:hidden!important}
+body.atlas-v3.atlas-board-focus #studio #studioCanvas{width:100%;height:100%!important;max-width:1180px;max-height:100%;aspect-ratio:auto;object-fit:contain}
+body.atlas-v3.atlas-board-focus #studio #studioFocus{position:fixed;z-index:10013;right:24px;top:22px;background:#ffffff;color:#1b5779}
+body.atlas-v3.atlas-dark #studio .studio-canvasbox{border-color:#719bb5}
+body.atlas-v3.atlas-dark #studio .studio-toolbar .studio-stat{color:#d6edff;background:#27435a}
+body.atlas-v3.atlas-dark #studio .atlas-precise{background:#213b53;border-color:#53758e;color:#eaf7ff}
+body.atlas-v3.atlas-dark #studio .atlas-precise p{color:#cadce9}
+body.atlas-v3.atlas-dark #studio .atlas-precise summary span{color:#c1d8e6}
+body.atlas-v3.atlas-dark #studio .atlas-precise-action output{color:#e2f6ff}
+@media(max-width:540px){body.atlas-v3 #studio .studio-toolbar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}body.atlas-v3 #studio #studioStat{grid-column:1/-1}body.atlas-v3 #studio #studioVerify{grid-column:1/-1;grid-row:2}body.atlas-v3 #studio .studio-toolbar button{min-width:0;width:100%}body.atlas-v3 #studio .atlas-board-zoom{font-size:12px;right:7px;top:7px;padding:7px 10px}body.atlas-v3 #studio .atlas-precise-layout{gap:9px}body.atlas-v3 #studio .atlas-directions{grid-template-columns:repeat(3,46px);grid-template-rows:repeat(3,44px)}body.atlas-v3 .atlas-precise-action{min-width:110px}body.atlas-v3 #studioPlace{font-size:12px;padding:11px}}
+
+/* Maintain text contrast on pale geometry workbench. */
+body.atlas-v3 #studio .angle-control label,body.atlas-v3 #studio .angle-control label b{color:#255778!important;font-size:15px}
+body.atlas-v3 #studio .studio-heading h3{color:#245878}
+body.atlas-v3 #studio .studio-explain{color:#4a6b83!important}
+body.atlas-v3 #studio .studio-choices button:focus-visible,body.atlas-v3 #studio button:focus-visible{outline:3px solid #d5961b!important;outline-offset:3px}

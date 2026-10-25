@@ -1,0 +1,268 @@
+[
+  {
+    "kod": "MAT.5.3.1",
+    "sinif": 5,
+    "tema": "Geometrik Şekiller",
+    "etiket": "Geometrik çizim araçlarını kullanma",
+    "resmi_metin_mi": "True",
+    "kaynak_pdf_sayfasi": "41",
+    "plan_sirasi": 1,
+    "tema_sirasi": 1,
+    "tema_adi": "Geometrik Şekiller",
+    "tema_cikti_sirasi": 1,
+    "tema_ders_saati": 38,
+    "tema_tahmini_hafta": "1–8",
+    "resmi_tarih_degil": true,
+    "resmi_metin": "Temel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme",
+    "resmi_kaynak_url": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/448?kod=MAB3",
+    "tema_alan_becerileri": [
+      "MAB5.1 Matematiksel Araç ve Teknolojiden Yararlanma"
+    ],
+    "tema_kavramsal_becerileri": [
+      "KB2.10 Çıkarım Yapma",
+      "KB2.14 Yorumlama",
+      "KB2.15 Yansıtma"
+    ],
+    "tema_egilimler": [
+      "E1.2 Bağımsızlık",
+      "E3.3 Yaratıcılık"
+    ],
+    "tema_degerler": [
+      "D7 Estetik",
+      "D19 Vatanseverlik"
+    ],
+    "tema_dijital_ve_gorsel": [
+      "OB2 Dijital Okuryazarlık",
+      "OB4 Görsel Okuryazarlık"
+    ],
+    "tema_eslesmesi_notu": "Bu beceri/değerler temanın resmî üst düzey bileşenleridir; her göreve otomatik olarak ayrı ayrı atfedilmemiştir."
+  },
+  {
+    "kod": "MAT.5.3.2",
+    "sinif": 5,
+    "tema": "Geometrik Şekiller",
+    "etiket": "Temel çizimlerden geometrik çıkarım",
+    "resmi_metin_mi": "True",
+    "kaynak_pdf_sayfasi": "41",
+    "plan_sirasi": 2,
+    "tema_sirasi": 1,
+    "tema_adi": "Geometrik Şekiller",
+    "tema_cikti_sirasi": 2,
+    "tema_ders_saati": 38,
+    "tema_tahmini_hafta": "1–8",
+    "resmi_tarih_degil": true,
+    "resmi_metin": "Temel geometrik çizimlere dayalı deneyimlerini yansıtabilme",
+    "resmi_kaynak_url": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/448?kod=MAB3",
+    "tema_alan_becerileri": [
+      "MAB5.1 Matematiksel Araç ve Teknolojiden Yararlanma"
+    ],
+    "tema_kavramsal_becerileri": [
+      "KB2.10 Çıkarım Yapma",
+      "KB2.14 Yorumlama",
+      "KB2.15 Yansıtma"
+    ],
+    "tema_egilimler": [
+      "E1.2 Bağımsızlık",
+      "E3.3 Yaratıcılık"
+    ],
+    "tema_degerler": [
+      "D7 Estetik",
+      "D19 Vatanseverlik"
+    ],
+    "tema_dijital_ve_gorsel": [
+      "OB2 Dijital Okuryazarlık",
+      "OB4 Görsel Okuryazarlık"
+    ],
+    "tema_eslesmesi_notu": "Bu beceri/değerler temanın resmî üst düzey bileşenleridir; her göreve otomatik olarak ayrı ayrı atfedilmemiştir."
+  },
+  {
+    "kod": "MAT.5.3.3",
+    "sinif": 5,
+    "tema": "Geometrik Şekiller",
+    "etiket": "Açı ölçümünde araç kullanımı",
+    "resmi_metin_mi": "True",
+    "kaynak_pdf_sayfasi": "41",
+    "plan_sirasi": 3,
+    "tema_sirasi": 1,
+    "tema_adi": "Geometrik Şekiller",
+    "tema_cikti_sirasi": 3,
+    "tema_ders_saati": 38,
+    "tema_tahmini_hafta": "1–8",
+    "resmi_tarih_degil": true,
+    "resmi_metin": "Açıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme",
+    "resmi_kaynak_url": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/448?kod=MAB3",
+    "tema_alan_becerileri": [
+      "MAB5.1 Matematiksel Araç ve Teknolojiden Yararlanma"
+    ],
+    "tema_kavramsal_becerileri": [
+      "KB2.10 Çıkarım Yapma",
+      "KB2.14 Yorumlama",
+      "KB2.15 Yansıtma"
+    ],
+    "tema_egilimler": [
+      "E1.2 Bağımsızlık",
+      "E3.3 Yaratıcılık"
+    ],
+    "tema_degerler": [
+      "D7 Estetik",
+      "D19 Vatanseverlik"
+    ],
+    "tema_dijital_ve_gorsel": [
+      "OB2 Dijital Okuryazarlık",
+      "OB4 Görsel Okuryazarlık"
+    ],
+    "tema_eslesmesi_notu": "Bu beceri/değerler temanın resmî üst düzey bileşenleridir; her göreve otomatik olarak ayrı ayrı atfedilmemiştir."
+  },
+  {
+    "kod": "MAT.5.3.4",
+    "sinif": 5,
+    "tema": "Geometrik Şekiller",
+    "etiket": "Doğruların oluşturduğu açılar",
+    "resmi_metin_mi": "True",
+    "kaynak_pdf_sayfasi": "41",
+    "plan_sirasi": 4,
+    "tema_sirasi": 1,
+    "tema_adi": "Geometrik Şekiller",
+    "tema_cikti_sirasi": 4,
+    "tema_ders_saati": 38,
+    "tema_tahmini_hafta": "1–8",
+    "resmi_tarih_degil": true,
+    "resmi_metin": "Düzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme",
+    "resmi_kaynak_url": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/448?kod=MAB3",
+    "tema_alan_becerileri": [
+      "MAB5.1 Matematiksel Araç ve Teknolojiden Yararlanma"
+    ],
+    "tema_kavramsal_becerileri": [
+      "KB2.10 Çıkarım Yapma",
+      "KB2.14 Yorumlama",
+      "KB2.15 Yansıtma"
+    ],
+    "tema_egilimler": [
+      "E1.2 Bağımsızlık",
+      "E3.3 Yaratıcılık"
+    ],
+    "tema_degerler": [
+      "D7 Estetik",
+      "D19 Vatanseverlik"
+    ],
+    "tema_dijital_ve_gorsel": [
+      "OB2 Dijital Okuryazarlık",
+      "OB4 Görsel Okuryazarlık"
+    ],
+    "tema_eslesmesi_notu": "Bu beceri/değerler temanın resmî üst düzey bileşenleridir; her göreve otomatik olarak ayrı ayrı atfedilmemiştir."
+  },
+  {
+    "kod": "MAT.5.3.5",
+    "sinif": 5,
+    "tema": "Geometrik Şekiller",
+    "etiket": "Doğrularla kapalı çokgenler oluşturma",
+    "resmi_metin_mi": "True",
+    "kaynak_pdf_sayfasi": "41",
+    "plan_sirasi": 5,
+    "tema_sirasi": 1,
+    "tema_adi": "Geometrik Şekiller",
+    "tema_cikti_sirasi": 5,
+    "tema_ders_saati": 38,
+    "tema_tahmini_hafta": "1–8",
+    "resmi_tarih_degil": true,
+    "resmi_metin": "Çokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme",
+    "resmi_kaynak_url": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/448?kod=MAB3",
+    "tema_alan_becerileri": [
+      "MAB5.1 Matematiksel Araç ve Teknolojiden Yararlanma"
+    ],
+    "tema_kavramsal_becerileri": [
+      "KB2.10 Çıkarım Yapma",
+      "KB2.14 Yorumlama",
+      "KB2.15 Yansıtma"
+    ],
+    "tema_egilimler": [
+      "E1.2 Bağımsızlık",
+      "E3.3 Yaratıcılık"
+    ],
+    "tema_degerler": [
+      "D7 Estetik",
+      "D19 Vatanseverlik"
+    ],
+    "tema_dijital_ve_gorsel": [
+      "OB2 Dijital Okuryazarlık",
+      "OB4 Görsel Okuryazarlık"
+    ],
+    "tema_eslesmesi_notu": "Bu beceri/değerler temanın resmî üst düzey bileşenleridir; her göreve otomatik olarak ayrı ayrı atfedilmemiştir."
+  },
+  {
+    "kod": "MAT.5.3.6",
+    "sinif": 5,
+    "tema": "Geometrik Şekiller",
+    "etiket": "Çokgen ve üçgen özelliklerini yorumlama",
+    "resmi_metin_mi": "True",
+    "kaynak_pdf_sayfasi": "41",
+    "plan_sirasi": 6,
+    "tema_sirasi": 1,
+    "tema_adi": "Geometrik Şekiller",
+    "tema_cikti_sirasi": 6,
+    "tema_ders_saati": 38,
+    "tema_tahmini_hafta": "1–8",
+    "resmi_tarih_degil": true,
+    "resmi_metin": "Çokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme",
+    "resmi_kaynak_url": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/448?kod=MAB3",
+    "tema_alan_becerileri": [
+      "MAB5.1 Matematiksel Araç ve Teknolojiden Yararlanma"
+    ],
+    "tema_kavramsal_becerileri": [
+      "KB2.10 Çıkarım Yapma",
+      "KB2.14 Yorumlama",
+      "KB2.15 Yansıtma"
+    ],
+    "tema_egilimler": [
+      "E1.2 Bağımsızlık",
+      "E3.3 Yaratıcılık"
+    ],
+    "tema_degerler": [
+      "D7 Estetik",
+      "D19 Vatanseverlik"
+    ],
+    "tema_dijital_ve_gorsel": [
+      "OB2 Dijital Okuryazarlık",
+      "OB4 Görsel Okuryazarlık"
+    ],
+    "tema_eslesmesi_notu": "Bu beceri/değerler temanın resmî üst düzey bileşenleridir; her göreve otomatik olarak ayrı ayrı atfedilmemiştir."
+  },
+  {
+    "kod": "MAT.5.3.7",
+    "sinif": 5,
+    "tema": "Geometrik Şekiller",
+    "etiket": "Kesişen çemberlerden üçgen kurma",
+    "resmi_metin_mi": "True",
+    "kaynak_pdf_sayfasi": "41",
+    "plan_sirasi": 7,
+    "tema_sirasi": 1,
+    "tema_adi": "Geometrik Şekiller",
+    "tema_cikti_sirasi": 7,
+    "tema_ders_saati": 38,
+    "tema_tahmini_hafta": "1–8",
+    "resmi_tarih_degil": true,
+    "resmi_metin": "Matematiksel araç ve teknoloji yardımıyla düzlemde iki noktada kesişen çember çiftinin merkezleri ve kesişim noktalarından biri ile inşa edilen üçgenlerin kenar özelliklerine yönelik çıkarım yapabilme",
+    "resmi_kaynak_url": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/448?kod=MAB3",
+    "tema_alan_becerileri": [
+      "MAB5.1 Matematiksel Araç ve Teknolojiden Yararlanma"
+    ],
+    "tema_kavramsal_becerileri": [
+      "KB2.10 Çıkarım Yapma",
+      "KB2.14 Yorumlama",
+      "KB2.15 Yansıtma"
+    ],
+    "tema_egilimler": [
+      "E1.2 Bağımsızlık",
+      "E3.3 Yaratıcılık"
+    ],
+    "tema_degerler": [
+      "D7 Estetik",
+      "D19 Vatanseverlik"
+    ],
+    "tema_dijital_ve_gorsel": [
+      "OB2 Dijital Okuryazarlık",
+      "OB4 Görsel Okuryazarlık"
+    ],
+    "tema_eslesmesi_notu": "Bu beceri/değerler temanın resmî üst düzey bileşenleridir; her göreve otomatik olarak ayrı ayrı atfedilmemiştir."
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "tema": "Geometrik Nicelikler",
+  "ders_saati": 20,
+  "resmi_kaynak": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/451",
+  "tema_beceri": [
+    "MAB2 Matematiksel Problem Çözme",
+    "KB2.14 Yorumlama",
+    "KB2.17 Değerlendirme"
+  ],
+  "egilimler": [
+    "E1.1 Merak",
+    "E3.6 Analitiklik"
+  ],
+  "degerler": [
+    "D7 Estetik",
+    "D14 Saygı"
+  ],
+  "beceriler_arasi": [
+    "MAB3 Matematiksel Temsil",
+    "MAB5 Matematiksel Araç ve Teknoloji ile Çalışma"
+  ],
+  "uyari": "Bu bileşenler tema düzeyindedir. Oyun görevleri MEB onaylı değildir.",
+  "ciktilar": [
+    {
+      "kod": "MAT.5.4.1",
+      "resmi_metin": "Kenar uzunlukları doğal sayı olan bir dikdörtgenin çevre uzunluğu verildiğinde kenar uzunluklarını yorumlayabilme",
+      "mevcut_gorev": 30
+    },
+    {
+      "kod": "MAT.5.4.2",
+      "resmi_metin": "Birim karelerden yola çıkarak dikdörtgenin alanını değerlendirebilme",
+      "mevcut_gorev": 25
+    },
+    {
+      "kod": "MAT.5.4.3",
+      "resmi_metin": "Kenar uzunlukları doğal sayı olan bir dikdörtgenin alanının ölçüsü verildiğinde çevre uzunluğunu, çevre uzunluğu verildiğinde alanını yorumlayabilme",
+      "mevcut_gorev": 25
+    },
+    {
+      "kod": "MAT.5.4.4",
+      "resmi_metin": "Dikdörtgenin çevre uzunluğu ve alanı ile ilgili problemleri çözebilme",
+      "mevcut_gorev": 30
+    }
+  ]
+}

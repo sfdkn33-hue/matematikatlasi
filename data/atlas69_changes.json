@@ -1,0 +1,418 @@
+[
+  {
+    "id": "MAT.6.1.6-G01",
+    "code": "MAT.6.1.6",
+    "family": "Ondalık basamak kartları",
+    "mode": "order",
+    "expected": [
+      "2",
+      "5"
+    ],
+    "number": 4
+  },
+  {
+    "id": "MAT.6.1.6-G02",
+    "code": "MAT.6.1.6",
+    "family": "Ondalık basamak kartları",
+    "mode": "order",
+    "expected": [
+      "4",
+      "0"
+    ],
+    "number": 5
+  },
+  {
+    "id": "MAT.6.1.6-G03",
+    "code": "MAT.6.1.6",
+    "family": "Ondalık basamak kartları",
+    "mode": "order",
+    "expected": [
+      "3",
+      "7"
+    ],
+    "number": 8
+  },
+  {
+    "id": "MAT.6.1.6-G04",
+    "code": "MAT.6.1.6",
+    "family": "Ondalık basamak kartları",
+    "mode": "order",
+    "expected": [
+      "3",
+      "5"
+    ],
+    "number": 20
+  },
+  {
+    "id": "MAT.6.1.6-G05",
+    "code": "MAT.6.1.6",
+    "family": "Payda asal çarpan analizi",
+    "mode": "choice",
+    "expected": "Devirli",
+    "number": 6
+  },
+  {
+    "id": "MAT.6.1.6-G06",
+    "code": "MAT.6.1.6",
+    "family": "Payda asal çarpan analizi",
+    "mode": "choice",
+    "expected": "Devirli",
+    "number": 7
+  },
+  {
+    "id": "MAT.6.1.6-G07",
+    "code": "MAT.6.1.6",
+    "family": "Payda asal çarpan analizi",
+    "mode": "choice",
+    "expected": "Sonlu",
+    "number": 10
+  },
+  {
+    "id": "MAT.6.1.6-G08",
+    "code": "MAT.6.1.6",
+    "family": "Payda asal çarpan analizi",
+    "mode": "choice",
+    "expected": "Devirli",
+    "number": 12
+  },
+  {
+    "id": "MAT.6.1.6-G09",
+    "code": "MAT.6.1.6",
+    "family": "Uzun bölme ve kalan",
+    "mode": "choice",
+    "expected": "3",
+    "number": 1
+  },
+  {
+    "id": "MAT.6.1.6-G10",
+    "code": "MAT.6.1.6",
+    "family": "Uzun bölme ve kalan",
+    "mode": "choice",
+    "expected": "4",
+    "number": 2
+  },
+  {
+    "id": "MAT.6.1.6-G11",
+    "code": "MAT.6.1.6",
+    "family": "Uzun bölme ve kalan",
+    "mode": "choice",
+    "expected": "2",
+    "number": 2
+  },
+  {
+    "id": "MAT.6.1.6-G12",
+    "code": "MAT.6.1.6",
+    "family": "Uzun bölme ve kalan",
+    "mode": "choice",
+    "expected": "2",
+    "number": 8
+  },
+  {
+    "id": "MAT.6.2.3-G01",
+    "code": "MAT.6.2.3",
+    "family": "Akış şeması kurma",
+    "mode": "order",
+    "expected": [
+      "Girdiyi oku",
+      "2 ile çarp",
+      "3 ekle",
+      "Çıktıyı yaz"
+    ],
+    "number": 11
+  },
+  {
+    "id": "MAT.6.2.3-G02",
+    "code": "MAT.6.2.3",
+    "family": "Akış şeması kurma",
+    "mode": "order",
+    "expected": [
+      "Girdiyi oku",
+      "3 ile çarp",
+      "4 ekle",
+      "Çıktıyı yaz"
+    ],
+    "number": 19
+  },
+  {
+    "id": "MAT.6.2.3-G03",
+    "code": "MAT.6.2.3",
+    "family": "Akış şeması kurma",
+    "mode": "order",
+    "expected": [
+      "Girdiyi oku",
+      "4 ile çarp",
+      "2 ekle",
+      "Çıktıyı yaz"
+    ],
+    "number": 14
+  },
+  {
+    "id": "MAT.6.2.3-G04",
+    "code": "MAT.6.2.3",
+    "family": "Akış şeması kurma",
+    "mode": "order",
+    "expected": [
+      "Girdiyi oku",
+      "5 ile çarp",
+      "6 ekle",
+      "Çıktıyı yaz"
+    ],
+    "number": 16
+  },
+  {
+    "id": "MAT.6.2.3-G05",
+    "code": "MAT.6.2.3",
+    "family": "Algoritma hatasını teşhis",
+    "mode": "choice",
+    "expected": "Toplama yerine çıkarma",
+    "number": 17
+  },
+  {
+    "id": "MAT.6.2.3-G06",
+    "code": "MAT.6.2.3",
+    "family": "Algoritma hatasını teşhis",
+    "mode": "choice",
+    "expected": "Toplama yerine çıkarma",
+    "number": 19
+  },
+  {
+    "id": "MAT.6.2.3-G07",
+    "code": "MAT.6.2.3",
+    "family": "Algoritma hatasını teşhis",
+    "mode": "choice",
+    "expected": "Toplama yerine çıkarma",
+    "number": 23
+  },
+  {
+    "id": "MAT.6.2.3-G08",
+    "code": "MAT.6.2.3",
+    "family": "Algoritma hatasını teşhis",
+    "mode": "choice",
+    "expected": "Toplama yerine çıkarma",
+    "number": 17
+  },
+  {
+    "id": "MAT.6.2.3-G09",
+    "code": "MAT.6.2.3",
+    "family": "Algoritmayı ters çözme",
+    "mode": "choice",
+    "expected": "4",
+    "number": 8
+  },
+  {
+    "id": "MAT.6.2.3-G10",
+    "code": "MAT.6.2.3",
+    "family": "Algoritmayı ters çözme",
+    "mode": "choice",
+    "expected": "6",
+    "number": 18
+  },
+  {
+    "id": "MAT.6.2.3-G11",
+    "code": "MAT.6.2.3",
+    "family": "Algoritmayı ters çözme",
+    "mode": "choice",
+    "expected": "3",
+    "number": 12
+  },
+  {
+    "id": "MAT.6.2.3-G12",
+    "code": "MAT.6.2.3",
+    "family": "Algoritmayı ters çözme",
+    "mode": "choice",
+    "expected": "7",
+    "number": 35
+  },
+  {
+    "id": "MAT.6.4.2-G01",
+    "code": "MAT.6.4.2",
+    "family": "Kes–kaydır–alan koruma",
+    "mode": "slider",
+    "expected": 0,
+    "number": 24
+  },
+  {
+    "id": "MAT.6.4.2-G02",
+    "code": "MAT.6.4.2",
+    "family": "Kes–kaydır–alan koruma",
+    "mode": "slider",
+    "expected": 0,
+    "number": 24
+  },
+  {
+    "id": "MAT.6.4.2-G03",
+    "code": "MAT.6.4.2",
+    "family": "Kes–kaydır–alan koruma",
+    "mode": "slider",
+    "expected": 0,
+    "number": 42
+  },
+  {
+    "id": "MAT.6.4.2-G04",
+    "code": "MAT.6.4.2",
+    "family": "Kes–kaydır–alan koruma",
+    "mode": "slider",
+    "expected": 0,
+    "number": 36
+  },
+  {
+    "id": "MAT.6.4.2-G05",
+    "code": "MAT.6.4.2",
+    "family": "Eş üçgenle alan modeli",
+    "mode": "choice",
+    "expected": "İki eş üçgenle paralelkenar",
+    "number": 20.0
+  },
+  {
+    "id": "MAT.6.4.2-G06",
+    "code": "MAT.6.4.2",
+    "family": "Eş üçgenle alan modeli",
+    "mode": "choice",
+    "expected": "İki eş üçgenle paralelkenar",
+    "number": 21.0
+  },
+  {
+    "id": "MAT.6.4.2-G07",
+    "code": "MAT.6.4.2",
+    "family": "Eş üçgenle alan modeli",
+    "mode": "choice",
+    "expected": "İki eş üçgenle paralelkenar",
+    "number": 15.0
+  },
+  {
+    "id": "MAT.6.4.2-G08",
+    "code": "MAT.6.4.2",
+    "family": "Eş üçgenle alan modeli",
+    "mode": "choice",
+    "expected": "İki eş üçgenle paralelkenar",
+    "number": 30.0
+  },
+  {
+    "id": "MAT.6.4.2-G09",
+    "code": "MAT.6.4.2",
+    "family": "Ters alan problemi",
+    "mode": "choice",
+    "expected": "2 × alan ÷ taban",
+    "number": 8.0
+  },
+  {
+    "id": "MAT.6.4.2-G10",
+    "code": "MAT.6.4.2",
+    "family": "Ters alan problemi",
+    "mode": "choice",
+    "expected": "2 × alan ÷ taban",
+    "number": 9.0
+  },
+  {
+    "id": "MAT.6.4.2-G11",
+    "code": "MAT.6.4.2",
+    "family": "Ters alan problemi",
+    "mode": "choice",
+    "expected": "2 × alan ÷ taban",
+    "number": 5.0
+  },
+  {
+    "id": "MAT.6.4.2-G12",
+    "code": "MAT.6.4.2",
+    "family": "Ters alan problemi",
+    "mode": "choice",
+    "expected": "2 × alan ÷ taban",
+    "number": 7.0
+  },
+  {
+    "id": "MAT.6.4.6-G01",
+    "code": "MAT.6.4.6",
+    "family": "Dinamik yay dilimi",
+    "mode": "slider",
+    "expected": 45,
+    "number": 1
+  },
+  {
+    "id": "MAT.6.4.6-G02",
+    "code": "MAT.6.4.6",
+    "family": "Dinamik yay dilimi",
+    "mode": "slider",
+    "expected": 90,
+    "number": 1
+  },
+  {
+    "id": "MAT.6.4.6-G03",
+    "code": "MAT.6.4.6",
+    "family": "Dinamik yay dilimi",
+    "mode": "slider",
+    "expected": 120,
+    "number": 1
+  },
+  {
+    "id": "MAT.6.4.6-G04",
+    "code": "MAT.6.4.6",
+    "family": "Dinamik yay dilimi",
+    "mode": "slider",
+    "expected": 180,
+    "number": 1
+  },
+  {
+    "id": "MAT.6.4.6-G05",
+    "code": "MAT.6.4.6",
+    "family": "Yay uzunluğu ve çevre",
+    "mode": "choice",
+    "expected": "90/360",
+    "number": 2
+  },
+  {
+    "id": "MAT.6.4.6-G06",
+    "code": "MAT.6.4.6",
+    "family": "Yay uzunluğu ve çevre",
+    "mode": "choice",
+    "expected": "60/360",
+    "number": 2
+  },
+  {
+    "id": "MAT.6.4.6-G07",
+    "code": "MAT.6.4.6",
+    "family": "Yay uzunluğu ve çevre",
+    "mode": "choice",
+    "expected": "45/360",
+    "number": 2
+  },
+  {
+    "id": "MAT.6.4.6-G08",
+    "code": "MAT.6.4.6",
+    "family": "Yay uzunluğu ve çevre",
+    "mode": "choice",
+    "expected": "120/360",
+    "number": 2
+  },
+  {
+    "id": "MAT.6.4.6-G09",
+    "code": "MAT.6.4.6",
+    "family": "Yay verisinden açıyı bulma",
+    "mode": "choice",
+    "expected": "90",
+    "number": 12
+  },
+  {
+    "id": "MAT.6.4.6-G10",
+    "code": "MAT.6.4.6",
+    "family": "Yay verisinden açıyı bulma",
+    "mode": "choice",
+    "expected": "180",
+    "number": 10
+  },
+  {
+    "id": "MAT.6.4.6-G11",
+    "code": "MAT.6.4.6",
+    "family": "Yay verisinden açıyı bulma",
+    "mode": "choice",
+    "expected": "135",
+    "number": 16
+  },
+  {
+    "id": "MAT.6.4.6-G12",
+    "code": "MAT.6.4.6",
+    "family": "Yay verisinden açıyı bulma",
+    "mode": "choice",
+    "expected": "60",
+    "number": 18
+  }
+]

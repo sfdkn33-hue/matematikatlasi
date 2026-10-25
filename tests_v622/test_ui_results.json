@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "board_room_appears": true,
+    "remote_task_visible": true,
+    "remote_grade_6": true,
+    "remote_outcome_6": true,
+    "remote_second_task": true,
+    "remote_prev": true,
+    "progress_not_changed": true,
+    "4037_unchanged": true,
+    "board_1280_no_overflow": true,
+    "mobile_390_no_overflow": true
+  },
+  "jsErrors": [],
+  "note": "Simulated network; real HTTP server tests separately"
+}

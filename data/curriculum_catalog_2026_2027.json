@@ -1,0 +1,122 @@
+{
+  "academic_year": "2026-2027",
+  "rule": "Grades 8 and 12 use the previous curriculum until adoption officially changes.",
+  "readiness": {
+    "5": "complete_task_set_existing",
+    "6": "complete_task_set_existing",
+    "7": "ilk_dort_uygulama_bolumu_14_cikti_uygulandi_16_cikti_planlandi",
+    "8": "pilot",
+    "9": "pilot",
+    "10": "pilot",
+    "11": "pilot",
+    "12": "pilot"
+  },
+  "grades": {
+    "7": {
+      "model": "TYMM-2026-2027",
+      "official_topics": [
+        "Sayılar ve Nicelikler (1)",
+        "Sayılar ve Nicelikler (2)",
+        "İşlemlerle Cebirsel Düşünme ve Değişimler",
+        "Dönüşüm",
+        "Geometrik Nicelikler (1)",
+        "Geometrik Nicelikler (2)",
+        "Geometrik Şekiller",
+        "İstatistiksel Araştırma Süreci",
+        "Veriden Olasılığa"
+      ],
+      "source": "https://tymm.meb.gov.tr/ogretim-programlari/ortaokul-matematik-dersi/8",
+      "implemented_output_codes": [
+        "MAT.7.1.1",
+        "MAT.7.1.2",
+        "MAT.7.1.3",
+        "MAT.7.1.4",
+        "MAT.7.4.1",
+        "MAT.7.4.2",
+        "MAT.7.4.3",
+        "MAT.7.4.4",
+        "MAT.7.4.5",
+        "MAT.7.4.6",
+        "MAT.7.6.1",
+        "MAT.7.6.2",
+        "MAT.7.3.1",
+        "MAT.7.3.2"
+      ],
+      "official_output_count": 30,
+      "planned_output_count": 16,
+      "official_list_file": "7_sinif_TYMM_2026_2027_katalog.json"
+    },
+    "8": {
+      "model": "MEB-2018",
+      "unit_topics": [
+        "Çarpanlar ve Katlar · Üslü İfadeler",
+        "Kareköklü İfadeler · Veri Analizi",
+        "Olasılık · Özdeşlikler",
+        "Doğrusal Denklemler · Eşitsizlikler",
+        "Üçgenler · Eşlik ve Benzerlik",
+        "Dönüşüm Geometrisi · Geometrik Cisimler"
+      ],
+      "source": "https://tymm.meb.gov.tr/taslak-cerceve-planlari/temel-egitim",
+      "migration_status": "waiting_for_new_program_adoption"
+    },
+    "9": {
+      "model": "TYMM-2026-2027",
+      "official_topics": [
+        "Sayılar",
+        "Nicelikler ve Değişimler",
+        "Geometrik Şekiller",
+        "Eşlik ve Benzerlik",
+        "Algoritma ve Bilişim",
+        "İstatistiksel Araştırma Süreci",
+        "Veriden Olasılığa"
+      ],
+      "source": "https://tymm.meb.gov.tr/ogretim-programlari/matematik-dersi/11"
+    },
+    "10": {
+      "model": "TYMM-2026-2027",
+      "official_topics": [
+        "Geometrik Şekiller",
+        "İstatistiksel Araştırma Süreci",
+        "Sayılar",
+        "Nicelikler ve Değişimler",
+        "Sayma, Algoritma ve Bilişim",
+        "Analitik İnceleme",
+        "Veriden Olasılığa"
+      ],
+      "source": "https://tymm.meb.gov.tr/ogretim-programlari/matematik-dersi/12"
+    },
+    "11": {
+      "model": "TYMM-2026-2027",
+      "official_topics": [
+        "İstatistiksel Araştırma Süreci",
+        "Geometrik Şekiller",
+        "Nicelikler ve Değişimler (1)",
+        "Nicelikler ve Değişimler (2)",
+        "Nicelikler ve Değişimler (3)"
+      ],
+      "source": "https://tymm.meb.gov.tr/ogretim-programlari/matematik-dersi/13"
+    },
+    "12": {
+      "model": "MEB-2018",
+      "unit_topics": [
+        "Üstel ve Logaritmik Fonksiyonlar",
+        "Diziler",
+        "Trigonometri",
+        "Dönüşümler",
+        "Türev",
+        "İntegral",
+        "Analitik Geometri"
+      ],
+      "source": "https://tymm.meb.gov.tr/taslak-cerceve-planlari/ortaogretim",
+      "migration_status": "waiting_for_new_program_adoption"
+    }
+  },
+  "migration_policy": {
+    "old_codes_retained": true,
+    "old_progress_localStorage_key": "mathAtlas940Done",
+    "never_repurpose_task_ids": true,
+    "release_new_curriculum_under_new_version": true,
+    "curriculum_mapping_needed": true,
+    "official_grade_8_and_12_codes": "Not assigned to pilot; ATLAS prefixes are internal codes, NOT MEB identifiers."
+  }
+}

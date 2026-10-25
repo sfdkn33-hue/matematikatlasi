@@ -1,0 +1,3109 @@
+[
+  {
+    "grade": "5",
+    "code": "MAT.5.3.1",
+    "name": "Geometrik çizim araçlarını kullanma",
+    "official": "Temel geometrik çizimler için matematiksel araç ve teknolojiden yararlanabilme",
+    "total": 28,
+    "tagged": 0,
+    "families": {},
+    "unique": 21,
+    "numeric_template_excess": 7,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.3.1-G27",
+        "question": "Kareli düzlemde A(1, 2) ile B(5, 2) noktalarını sırayla işaretle ve uzunluklarını belirle."
+      },
+      {
+        "id": "MAT.5.3.1-G28",
+        "question": "Kareli düzlemde A(2, 2) ile B(2, 7) noktalarını sırayla işaretle ve uzunluklarını belirle."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.3.2",
+    "name": "Temel çizimlerden geometrik çıkarım",
+    "official": "Temel geometrik çizimlere dayalı deneyimlerini yansıtabilme",
+    "total": 28,
+    "tagged": 0,
+    "families": {},
+    "unique": 22,
+    "numeric_template_excess": 6,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.3.2-G27",
+        "question": "Dikme ayağını bul modelini değiştir; çizimden çıkarımlarını doğrula. 3. farklı düzenek."
+      },
+      {
+        "id": "MAT.5.3.2-G28",
+        "question": "Dikme ayağını bul modelini değiştir; çizimden çıkarımlarını doğrula. 4. farklı düzenek."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.3.3",
+    "name": "Açı ölçümünde araç kullanımı",
+    "official": "Açıları ölçmek için matematiksel araç ve teknolojiden yararlanabilme",
+    "total": 28,
+    "tagged": 0,
+    "families": {},
+    "unique": 13,
+    "numeric_template_excess": 15,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.3.3-G27",
+        "question": "Açıölçer hata avcısı modelini değiştir; çizimden çıkarımlarını doğrula. 3. farklı düzenek."
+      },
+      {
+        "id": "MAT.5.3.3-G28",
+        "question": "Açıölçer hata avcısı modelini değiştir; çizimden çıkarımlarını doğrula. 4. farklı düzenek."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.3.4",
+    "name": "Doğruların oluşturduğu açılar",
+    "official": "Düzlemde iki veya üç doğrunun birbirine göre durumuna bağlı olarak oluşabilecek açılara dair çıkarım yapabilme",
+    "total": 28,
+    "tagged": 0,
+    "families": {},
+    "unique": 19,
+    "numeric_template_excess": 9,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.3.4-G27",
+        "question": "Üç doğru tek noktadan geçiyor. Yarım turdaki görünen açılar 40° ve 60°. Üçüncüsünü ve ters açıyı bul."
+      },
+      {
+        "id": "MAT.5.3.4-G28",
+        "question": "Üç doğru tek noktadan geçiyor. Yarım turdaki görünen açılar 50° ve 65°. Üçüncüsünü ve ters açıyı bul."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.3.5",
+    "name": "Doğrularla kapalı çokgenler oluşturma",
+    "official": "Çokgenleri düzlemde ardışık olarak kesişen doğruların oluşturduğu kapalı şekiller olarak yorumlayabilme",
+    "total": 28,
+    "tagged": 0,
+    "families": {},
+    "unique": 18,
+    "numeric_template_excess": 10,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.3.5-G27",
+        "question": "Köşeleri A, B, C ... sırasıyla seçerek 5 kenarlı kapalı çokgeni inşa et. Şekli A köşesine dönerek kapat."
+      },
+      {
+        "id": "MAT.5.3.5-G28",
+        "question": "Köşeleri A, B, C ... sırasıyla seçerek 6 kenarlı kapalı çokgeni inşa et. Şekli A köşesine dönerek kapat."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.3.6",
+    "name": "Çokgen ve üçgen özelliklerini yorumlama",
+    "official": "Çokgenlerin özellikleri ile ilgili edindiği deneyimleri yansıtabilme",
+    "total": 28,
+    "tagged": 0,
+    "families": {},
+    "unique": 11,
+    "numeric_template_excess": 17,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.3.6-G27",
+        "question": "Kenar-köşe karşılaştırması modelini değiştir; çizimden çıkarımlarını doğrula. 3. farklı düzenek."
+      },
+      {
+        "id": "MAT.5.3.6-G28",
+        "question": "Kenar-köşe karşılaştırması modelini değiştir; çizimden çıkarımlarını doğrula. 4. farklı düzenek."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.3.7",
+    "name": "Kesişen çemberlerden üçgen kurma",
+    "official": "Matematiksel araç ve teknoloji yardımıyla düzlemde iki noktada kesişen çember çiftinin merkezleri ve kesişim noktalarından biri ile inşa edilen üçgenlerin kenar özelliklerine yönelik çıkarım yapabilme",
+    "total": 32,
+    "tagged": 0,
+    "families": {},
+    "unique": 9,
+    "numeric_template_excess": 23,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.3.7-G31",
+        "question": "İki çemberin yarıçapını ve merkezler aralığını değiştirerek çeşitkenar üçgen oluştur. İki kesişim noktasını koru."
+      },
+      {
+        "id": "MAT.5.3.7-G32",
+        "question": "İki çemberin yarıçapları farklı olacak biçimde, merkez aralığını bir yarıçapa eşit seçerek ikizkenar üçgen inşa et."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.1.1",
+    "name": "Çok basamaklı doğal sayıları okuma ve yazma",
+    "official": "Altı basamaklı sayıları okuma ve yazmayı çok basamaklı sayılara genelleyebilme",
+    "total": 70,
+    "tagged": 0,
+    "families": {},
+    "unique": 29,
+    "numeric_template_excess": 41,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.1.1-G69",
+        "question": "Sayı panosunda milyonlar bölüğü 58, birler bölüğü 214; binler bölüğü gizli! Okunuş ipuçlarını değerlendir; üç rakam çarkıyla gizli kartı tamamla."
+      },
+      {
+        "id": "MAT.5.1.1-G70",
+        "question": "Sayı panosunda milyonlar bölüğü 75, birler bölüğü 281; binler bölüğü gizli! Okunuş ipuçlarını değerlendir; üç rakam çarkıyla gizli kartı tamamla."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.1.2",
+    "name": "Doğal sayılarla yaşam problemleri çözme",
+    "official": "Doğal sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme",
+    "total": 80,
+    "tagged": 0,
+    "families": {},
+    "unique": 32,
+    "numeric_template_excess": 48,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.1.2-G79",
+        "question": "Önce 1860 sonra 550 malzeme geldi. 40 takıma eşit dağıtılırsa hangi işlem sırası ve kaç ürün gerekir?"
+      },
+      {
+        "id": "MAT.5.1.2-G80",
+        "question": "Önce 1980 sonra 600 malzeme geldi. 45 takıma eşit dağıtılırsa hangi işlem sırası ve kaç ürün gerekir?"
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.4.1",
+    "name": "Verilen çevreden dikdörtgen kenarlarını bulma",
+    "official": "Kenar uzunlukları doğal sayı olan bir dikdörtgenin çevre uzunluğu verildiğinde kenar uzunluklarını yorumlayabilme",
+    "total": 30,
+    "tagged": 0,
+    "families": {},
+    "unique": 30,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.4.1-G29",
+        "question": "Spor sahası için 20 cm uzunluğunda çit var. Kenarları doğal sayı olan ve alanı 36 cm² yi aşmayan en geniş dikdörtgeni kur. Ölçüleri seç ve alanı hesapla."
+      },
+      {
+        "id": "MAT.5.4.1-G30",
+        "question": "Okuma bahçesi için 22 m uzunluğunda çit var. Kenarları doğal sayı olan ve alanı 36 m² yi aşmayan en geniş dikdörtgeni kur. Ölçüleri seç ve alanı hesapla."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.4.2",
+    "name": "Birim karelerden dikdörtgen alanını keşfetme",
+    "official": "Birim karelerden yola çıkarak dikdörtgenin alanını değerlendirebilme",
+    "total": 25,
+    "tagged": 0,
+    "families": {},
+    "unique": 25,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.4.2-G24",
+        "question": "Spor sahası için 4×4 birim boyutlarında dikdörtgeni kareli zeminde boyayarak oluştur. Alanını ve çevresini ayrı ayrı hesapla."
+      },
+      {
+        "id": "MAT.5.4.2-G25",
+        "question": "Okuma bahçesi için 4×5 birim boyutlarında dikdörtgeni kareli zeminde boyayarak oluştur. Alanını ve çevresini ayrı ayrı hesapla."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.4.3",
+    "name": "Alan–çevre ilişkilerini karşılaştırma",
+    "official": "Kenar uzunlukları doğal sayı olan bir dikdörtgenin alanının ölçüsü verildiğinde çevre uzunluğunu, çevre uzunluğu verildiğinde alanını yorumlayabilme",
+    "total": 25,
+    "tagged": 0,
+    "families": {},
+    "unique": 7,
+    "numeric_template_excess": 18,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.4.3-G24",
+        "question": "Spor sahası için aynı 24 birimkare alana sahip dikdörtgenleri karşılaştır. En az ve en çok çit isteyen iki farklı kenar çiftini seçip çevre farkını bul."
+      },
+      {
+        "id": "MAT.5.4.3-G25",
+        "question": "Okuma bahçesi için aynı 30 birimkare alana sahip dikdörtgenleri karşılaştır. En az ve en çok çit isteyen iki farklı kenar çiftini seçip çevre farkını bul."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.4.4",
+    "name": "Dikdörtgenin alan ve çevre problemleri",
+    "official": "Dikdörtgenin çevre uzunluğu ve alanı ile ilgili problemleri çözebilme",
+    "total": 30,
+    "tagged": 0,
+    "families": {},
+    "unique": 30,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.4.4-G29",
+        "question": "Spor sahası için en az 24 cm² alan gerekli. Üç arsanın çit (5 TL/cm) ve döşeme (3 TL/cm²) giderlerini karşılaştır; koşulu sağlayan en ekonomik arsayı seç ve toplam maliyetini hesap"
+      },
+      {
+        "id": "MAT.5.4.4-G30",
+        "question": "Okuma bahçesi için en az 28 m² alan gerekli. Üç arsanın çit (4 TL/m) ve döşeme (2 TL/m²) giderlerini karşılaştır; koşulu sağlayan en ekonomik arsayı seç ve toplam maliyetini hesapl"
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.1.3",
+    "name": "Gerçek yaşam durumlarına karşılık gelen kesirleri farklı biçimlerde temsil edebilme",
+    "official": "Gerçek yaşam durumlarına karşılık gelen kesirleri farklı biçimlerde temsil edebilme",
+    "total": 100,
+    "tagged": 0,
+    "families": {},
+    "unique": 100,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.1.3-G99",
+        "question": "Geri dönüşüm noktası: 60/100 oranlı alanı çark üzerinde belirle, kesir gösterimiyle eşleştir."
+      },
+      {
+        "id": "MAT.5.1.3-G100",
+        "question": "Okuma kulübü: 75/100 oranlı alanı çark üzerinde belirle, kesir gösterimiyle eşleştir."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.1.4",
+    "name": "Farklı gösterimlerle ifade edilen kesirlerin karşılaştırılmasına yönelik çıkarım yapabilme",
+    "official": "Farklı gösterimlerle ifade edilen kesirlerin karşılaştırılmasına yönelik çıkarım yapabilme",
+    "total": 90,
+    "tagged": 0,
+    "families": {},
+    "unique": 90,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.1.4-G89",
+        "question": "Geri dönüşüm noktası: Üç kaynak planı %85, 1/5, 0,4 ile gösteriliyor. En yüksek payı seç ve en büyük ile en küçük payın yüzde farkını hesapla."
+      },
+      {
+        "id": "MAT.5.1.4-G90",
+        "question": "Okuma kulübü: Üç kaynak planı %25, 9/20, 0,75 ile gösteriliyor. En yüksek payı seç ve en büyük ile en küçük payın yüzde farkını hesapla."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.5.1",
+    "name": "Kategorik verilerle araştırma yürütme",
+    "official": "Kategorik veri ile çalışabilme ve veriye dayalı karar verebilme",
+    "total": 60,
+    "tagged": 0,
+    "families": {},
+    "unique": 60,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.5.1-G59",
+        "question": "Spor Şenliği: istatistiksel araştırma sürecinin adımlarını doğru sıraya getir."
+      },
+      {
+        "id": "MAT.5.5.1-G60",
+        "question": "Ulaşım Araştırması: istatistiksel araştırma sürecinin adımlarını doğru sıraya getir."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.5.2",
+    "name": "Kategorik istatistik yorumlarını eleştirme",
+    "official": "Başkaları tarafından oluşturulan kategorik veriye dayalı istatistiksel sonuç veya yorumları tartışabilme",
+    "total": 65,
+    "tagged": 0,
+    "families": {},
+    "unique": 65,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.5.2-G64",
+        "question": "Spor Şenliği: rapordaki çelişkili sütunu belirle ve doğru toplamı yeniden oluştur."
+      },
+      {
+        "id": "MAT.5.5.2-G65",
+        "question": "Ulaşım Araştırması: rapordaki çelişkili sütunu belirle ve doğru toplamı yeniden oluştur."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.2.1",
+    "name": "Eşitliği koruma ve işlem özellikleri",
+    "official": "",
+    "total": 33,
+    "tagged": 0,
+    "families": {},
+    "unique": 20,
+    "numeric_template_excess": 13,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.2.1-G32",
+        "question": "Hatalı tabelada 7 + 5 = 8 + 4 + 1 yazıyor. Yalnız sağ tarafı düzelterek eşitliği onar."
+      },
+      {
+        "id": "MAT.5.2.1-G33",
+        "question": "Hatalı tabelada 8 + 7 = 9 + 6 + 1 yazıyor. Yalnız sağ tarafı düzelterek eşitliği onar."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.2.2",
+    "name": "Dört işlemde işlem sırası",
+    "official": "",
+    "total": 33,
+    "tagged": 0,
+    "families": {},
+    "unique": 25,
+    "numeric_template_excess": 8,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.2.2-G32",
+        "question": "6 kutunun her birinde 3 kalem, kutuların dışında da 7 kalem var. Toplamı anlatan işlem cümlesini seçip sonucu bul."
+      },
+      {
+        "id": "MAT.5.2.2-G33",
+        "question": "2 kutunun her birinde 4 kalem, kutuların dışında da 8 kalem var. Toplamı anlatan işlem cümlesini seçip sonucu bul."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.2.3",
+    "name": "Sayı ve şekil örüntülerini gerekçelendirme",
+    "official": "",
+    "total": 32,
+    "tagged": 0,
+    "families": {},
+    "unique": 11,
+    "numeric_template_excess": 21,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.2.3-G31",
+        "question": "Bir öğrenci n. adım = 5 × n + 5 diyor. İlk üç terimle sınayıp 8. adımda karşı örnek kur."
+      },
+      {
+        "id": "MAT.5.2.3-G32",
+        "question": "Bir öğrenci n. adım = 2 × n + 3 diyor. İlk üç terimle sınayıp 6. adımda karşı örnek kur."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.2.4",
+    "name": "Aritmetik algoritmaları yorumlama",
+    "official": "",
+    "total": 32,
+    "tagged": 0,
+    "families": {},
+    "unique": 17,
+    "numeric_template_excess": 15,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.2.4-G31",
+        "question": "Robot 8 ile başladı; +4 sonrası ara rapor 13 görünüyor, ardından ×2 yapılıyor. Hatalı ara adımı saptayıp düzelt."
+      },
+      {
+        "id": "MAT.5.2.4-G32",
+        "question": "Robot 10 ile başladı; +5 sonrası ara rapor 16 görünüyor, ardından ×4 yapılıyor. Hatalı ara adımı saptayıp düzelt."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.6.1",
+    "name": "Olasılığı 0–1 spektrumunda yorumlama",
+    "official": "Herhangi bir olayın olasılığının 0 (imkânsız) ile 1 (kesin) arasında (0 ve 1 dâhil) olduğunu (olasılık spektrumu) yorumlayabilme",
+    "total": 37,
+    "tagged": 12,
+    "families": {
+      "Kavramı keşfetme": 1,
+      "Temel beceri / doğru işlem": 1,
+      "Karşılaştırma, sıralama ve sınıflama": 2,
+      "Yanlış çözüm veya karşı örnek analizi": 2,
+      "Ters problem / eksik veriyi tamamlama": 1,
+      "Gerçek yaşamda matematiksel model kurma": 1,
+      "Farklı temsile dönüştürme": 1,
+      "Yapılandırılmış problem kurma": 1,
+      "Birden fazla koşullu muhakeme": 1,
+      "MEB açık uçlu yazılı türü": 1
+    },
+    "unique": 26,
+    "numeric_template_excess": 11,
+    "priority": "Sürdürme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA64-5-11",
+        "question": "A torbasında 3 kırmızı/6 toplam, B torbasında 4 kırmızı/10 toplam var. Kırmızı kazanma şansı daha yüksek olan torbayı seç."
+      },
+      {
+        "id": "MA64-5-12",
+        "question": "Bir torbada 1 altın ve 9 gümüş bilye var. “Altın imkânsızdır” iddiasını sayısal olarak test et."
+      }
+    ]
+  },
+  {
+    "grade": "5",
+    "code": "MAT.5.6.2",
+    "name": "Olayları az ve çok olasılıklı ayırma",
+    "official": "Olayları az ya da çok olasılıklı şeklinde yapılandırabilme",
+    "total": 25,
+    "tagged": 0,
+    "families": {},
+    "unique": 17,
+    "numeric_template_excess": 8,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.5.6.2-G24",
+        "question": "7 kırmızı 3 mavi özdeş topun olduğu torbada altı denemede 2 kırmızı ve 4 mavi gelmiş. Sence hangisi uzun vadede daha olası? Kısa deneyden ne çıkarılamaz?"
+      },
+      {
+        "id": "MAT.5.6.2-G25",
+        "question": "Sınıf ödül çekilişinin tüm öğrenciler için adil olmasını istiyorsun. Hangi sistemi seçer ve neden onu savunursun?"
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.1.1",
+    "name": "Çarpan ve katlarına yönelik muhakeme yapabilme",
+    "official": "",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 8,
+    "numeric_template_excess": 12,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.1.1-G19",
+        "question": "Önerme: “Bir sayı 20’nin katıysa mutlaka 4’ün de katıdır.” Modelden yararlanarak doğru mu yanlış mı karar ver."
+      },
+      {
+        "id": "MAT.6.1.1-G20",
+        "question": "Önerme: “15 sayısının 100’den küçük pozitif katları sonsuz tanedir.” Modelden yararlanarak doğru mu yanlış mı karar ver."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.1.2",
+    "name": "2, 3, 4, 5, 6, 9 ve 10 ile bölünebilme kriterlerine ilişkin çıkarım",
+    "official": "",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 5,
+    "numeric_template_excess": 15,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.1.2-G19",
+        "question": "10 ile tam bölünebilen bütün sayıları seçerek geçerli rotayı oluştur."
+      },
+      {
+        "id": "MAT.6.1.2-G20",
+        "question": "3 ile tam bölünebilen bütün sayıları seçerek geçerli rotayı oluştur."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.1.3",
+    "name": "Asal olma durumunu ve asal çarpanları çözümleme",
+    "official": "",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 4,
+    "numeric_template_excess": 16,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.1.3-G19",
+        "question": "75 sayısının birbirinden farklı asal çarpanlarını seç."
+      },
+      {
+        "id": "MAT.6.1.3-G20",
+        "question": "110 sayısının birbirinden farklı asal çarpanlarını seç."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.1.4",
+    "name": "Ortak kat ve ortak böleni problem durumlarında yorumlama",
+    "official": "",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 4,
+    "numeric_template_excess": 16,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.1.4-G19",
+        "question": "36 ve 48 sayılarının bütün ortak bölenlerini işaretle."
+      },
+      {
+        "id": "MAT.6.1.4-G20",
+        "question": "28 ve 42 sayılarının bütün ortak bölenlerini işaretle."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.6.1",
+    "name": "Gözlemlerle deneysel olasılık tahmin etme",
+    "official": "",
+    "total": 50,
+    "tagged": 0,
+    "families": {},
+    "unique": 32,
+    "numeric_template_excess": 18,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.6.1-G49",
+        "question": "Kırmızı topun beklenen payı 4/5 olacak şekilde torbanı tasarla. Sonra en az 20 çekiliş yap ve gözlenen sonuçların neden değişebildiğini açıkla."
+      },
+      {
+        "id": "MAT.6.6.1-G50",
+        "question": "Kırmızı topun beklenen payı 1/6 olacak şekilde torbanı tasarla. Sonra en az 20 çekiliş yap ve gözlenen sonuçların neden değişebildiğini açıkla."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.1.5",
+    "name": "Ondalık basamak değerlerini kesirle açıklama",
+    "official": "",
+    "total": 156,
+    "tagged": 24,
+    "families": {
+      "Görsel modelleme / inşa / sürükleme": 2,
+      "Farklı temsile dönüştürme": 4,
+      "Ters problem / eksik veriyi tamamlama": 1,
+      "Karşılaştırma, sıralama ve sınıflama": 1,
+      "Yanlış çözüm veya karşı örnek analizi": 1,
+      "Temel beceri / doğru işlem": 1,
+      "Ara adımlı çözüm": 1,
+      "Birden fazla koşullu muhakeme": 1,
+      "Basamak kartlarıyla sayı oluştur": 3,
+      "Çözümlemeyi seç": 3,
+      "Binde birliklerle karşılaştır": 3,
+      "Basamak hatasını yakala": 3
+    },
+    "unique": 35,
+    "numeric_template_excess": 121,
+    "priority": "İlk inceleme",
+    "new68": 12,
+    "examples": [
+      {
+        "id": "MA68-6-11",
+        "question": "1,706 için iddia: “Onda birler rakamı 0’dır.” İddiayı değerlendir ve onda birler rakamını yaz."
+      },
+      {
+        "id": "MA68-6-12",
+        "question": "9,184 için iddia: “Binde birler rakamı 8’dir.” İddiayı değerlendir ve binde birler rakamını yaz."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.1.6",
+    "name": "Kesir ile bölme ve devirli ondalık ilişkisi",
+    "official": "",
+    "total": 60,
+    "tagged": 0,
+    "families": {},
+    "unique": 8,
+    "numeric_template_excess": 52,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.1.6-G59",
+        "question": "3/8 kesrini doğru ondalık gösterimle eşleştir. Parantez içindeki basamakların tekrar ettiğini unutma."
+      },
+      {
+        "id": "MAT.6.1.6-G60",
+        "question": "5/12 kesrini doğru ondalık gösterimle eşleştir. Parantez içindeki basamakların tekrar ettiğini unutma."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.1.7",
+    "name": "Kesir, ondalık ve yüzde problemleri",
+    "official": "",
+    "total": 60,
+    "tagged": 0,
+    "families": {},
+    "unique": 60,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.1.7-G59",
+        "question": "Atölye: 5/6 litre miktarla 1/6 litre kapların kaç tanesi doldurulabilir?"
+      },
+      {
+        "id": "MAT.6.1.7-G60",
+        "question": "Toplum merkezi: 7/10 litrelik karışımdan 2/1 kat hazırlanırsa toplam kaç litre gerekir?"
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.1.8",
+    "name": "Uzunluk ölçme birimlerini karşılaştırma",
+    "official": "",
+    "total": 60,
+    "tagged": 0,
+    "families": {},
+    "unique": 60,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.1.8-G59",
+        "question": "Atölye: “Cep telefonunun uzunluğu” için en gerçekçi uzunluk tahminini seç. Bu bir ölçüm değil, yaklaşık değer kararın olacak."
+      },
+      {
+        "id": "MAT.6.1.8-G60",
+        "question": "Toplum merkezi: “Ev ile okul arasındaki yürüyüş yolu” için en gerçekçi uzunluk tahminini seç. Bu bir ölçüm değil, yaklaşık değer kararın olacak."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.5.1",
+    "name": "Kesikli nicel/kategorik veriyi araştırma",
+    "official": "",
+    "total": 80,
+    "tagged": 0,
+    "families": {},
+    "unique": 80,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.5.1-G79",
+        "question": "Oyun Bahçesi: Araştırma sürecinin dört adımını doğru sıraya getir; adımların döngüsel olduğunu hatırla."
+      },
+      {
+        "id": "MAT.6.5.1-G80",
+        "question": "Mahalle Festivali: Araştırma sürecinin dört adımını doğru sıraya getir; adımların döngüsel olduğunu hatırla."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.5.2",
+    "name": "İstatistik yorumlarını ve yanlılığı değerlendirme",
+    "official": "",
+    "total": 60,
+    "tagged": 0,
+    "families": {},
+    "unique": 60,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.5.2-G59",
+        "question": "Oyun Bahçesi: Grafikteki sütunlardan biri veri tablosunu yanlış temsil ediyor. Hatalı sütunu seç ve gerçek sıklığı gir."
+      },
+      {
+        "id": "MAT.6.5.2-G60",
+        "question": "Mahalle Festivali: Grafikteki sütunlardan biri veri tablosunu yanlış temsil ediyor. Hatalı sütunu seç ve gerçek sıklığı gir."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.3.1",
+    "name": "Paralel doğrular ve kesen açılarını tanıma",
+    "official": "",
+    "total": 40,
+    "tagged": 0,
+    "families": {},
+    "unique": 20,
+    "numeric_template_excess": 20,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.3.1-G39",
+        "question": "Uçurtma Tasarımı: Kesenin oluşturduğu A1 ve B1 açılarını eşitleyerek doğruların paralelliğini test et; hangi açı ilişkisinin kullanıldığını belirt."
+      },
+      {
+        "id": "MAT.6.3.1-G40",
+        "question": "Arkeoloji Kazısı: Kesenin oluşturduğu A1 ve B1 açılarını eşitleyerek doğruların paralelliğini test et; hangi açı ilişkisinin kullanıldığını belirt."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.3.2",
+    "name": "İki paralel doğru ve kesenlerin oluşturduğu şekiller",
+    "official": "",
+    "total": 40,
+    "tagged": 0,
+    "families": {},
+    "unique": 40,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.3.2-G39",
+        "question": "Uçurtma Tasarımı: İki paralel doğru ve iki kesenle oluşan paralelkenar modelini incele; kenar ve açı özelliklerinden sınıflandır."
+      },
+      {
+        "id": "MAT.6.3.2-G40",
+        "question": "Arkeoloji Kazısı: İki paralel doğru ve iki kesenle oluşan dikdörtgen modelini incele; kenar ve açı özelliklerinden sınıflandır."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.3.3",
+    "name": "Birbirini ortalayan köşegenlerle dörtgen kurma",
+    "official": "",
+    "total": 40,
+    "tagged": 0,
+    "families": {},
+    "unique": 40,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.3.3-G39",
+        "question": "Uçurtma Tasarımı: Birbirini ortalayan köşegenlerle kare oluşturmak için köşegen uzunlukları ve kesişme açılarını kullan."
+      },
+      {
+        "id": "MAT.6.3.3-G40",
+        "question": "Arkeoloji Kazısı: Birbirini ortalayan köşegenlerle paralelkenar oluşturmak için köşegen uzunlukları ve kesişme açılarını kullan."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.3.4",
+    "name": "Üçgen ve dörtgen açı problemleri",
+    "official": "",
+    "total": 50,
+    "tagged": 0,
+    "families": {},
+    "unique": 50,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.3.4-G49",
+        "question": "Uçurtma Tasarımı: Eşkenar dörtgende köşegen 140° lik köşe açısını ikiye böler. Oluşan yarım açıyı ayarla."
+      },
+      {
+        "id": "MAT.6.3.4-G50",
+        "question": "Arkeoloji Kazısı: Eşkenar dörtgende köşegen 150° lik köşe açısını ikiye böler. Oluşan yarım açıyı ayarla."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.2.1",
+    "name": "Bilinmeyen nicelikleri cebirle temsil etme",
+    "official": "",
+    "total": 70,
+    "tagged": 0,
+    "families": {},
+    "unique": 16,
+    "numeric_template_excess": 54,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.2.1-G69",
+        "question": "Tabloda 2 ürün 11 TL, 5 ürün 17 TL. x ürünün maliyeti ax+b olsun. a ve b’yi bul."
+      },
+      {
+        "id": "MAT.6.2.1-G70",
+        "question": "Tabloda 2 ürün 16 TL, 5 ürün 25 TL. x ürünün maliyeti ax+b olsun. a ve b’yi bul."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.2.2",
+    "name": "Sayı–şekil örüntülerini cebirsel gösterme",
+    "official": "",
+    "total": 70,
+    "tagged": 0,
+    "families": {},
+    "unique": 18,
+    "numeric_template_excess": 52,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.2.2-G69",
+        "question": "15 kenarlı düzgün çokgende bir dış açı kaç derecedir? Dönüş turunu 360° kabul et."
+      },
+      {
+        "id": "MAT.6.2.2-G70",
+        "question": "18 kenarlı düzgün çokgende bir dış açı kaç derecedir? Dönüş turunu 360° kabul et."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.2.3",
+    "name": "Cebirsel ifadeli algoritmaları yorumlama",
+    "official": "",
+    "total": 70,
+    "tagged": 0,
+    "families": {},
+    "unique": 8,
+    "numeric_template_excess": 62,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.2.3-G69",
+        "question": "Program x=6 sayısını 2 ile çarpıp yanlışlıkla 7 çıkarıyor. Hedef ifade 2x+7. Komutu onar ve doğru çıktıyı bul."
+      },
+      {
+        "id": "MAT.6.2.3-G70",
+        "question": "Program x=8 sayısını 3 ile çarpıp yanlışlıkla 10 ekliyor. Hedef ifade 3x−10. Komutu onar ve doğru çıktıyı bul."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.4.1",
+    "name": "Uzunluk ve alan birimleri arasında ilişki kurma",
+    "official": "",
+    "total": 50,
+    "tagged": 0,
+    "families": {},
+    "unique": 28,
+    "numeric_template_excess": 22,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.4.1-G49",
+        "question": "Bir planlamacı 4 m² = 40 dm² yazmış. Yanlışı belirle ve 100 karelik modelle sonucu düzelt."
+      },
+      {
+        "id": "MAT.6.4.1-G50",
+        "question": "Bir planlamacı 6 m² = 60 dm² yazmış. Yanlışı belirle ve 100 karelik modelle sonucu düzelt. İkinci düşünme adımı: Fidanlık: 6 m² kaç dm² eder?"
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.4.2",
+    "name": "Dikdörtgenden üçgen ve paralelkenar alanına",
+    "official": "",
+    "total": 50,
+    "tagged": 0,
+    "families": {},
+    "unique": 5,
+    "numeric_template_excess": 45,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.4.2-G49",
+        "question": "Tabanı 4 birim olan bir üçgeni yüksekliği 6 olacak şekilde kur. Alanını bul."
+      },
+      {
+        "id": "MAT.6.4.2-G50",
+        "question": "Tabanı 6 birim olan bir üçgeni yüksekliği 9 olacak şekilde kur. Alanını bul."
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.4.3",
+    "name": "Şekillerin alanıyla yaşam problemi çözme",
+    "official": "",
+    "total": 50,
+    "tagged": 0,
+    "families": {},
+    "unique": 24,
+    "numeric_template_excess": 26,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.4.3-G49",
+        "question": "Kütüphane için 4×6 dikdörtgen kadar alan gerektiğinde, aynı taban/yükseklik değerleriyle hangi başka şekil uygundur?"
+      },
+      {
+        "id": "MAT.6.4.3-G50",
+        "question": "Fidanlık için 6×9 dikdörtgen kadar alan gerektiğinde, aynı taban/yükseklik değerleriyle hangi başka şekil uygundur?"
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.4.4",
+    "name": "Çemberin uzunluğu ile çap ilişkisi",
+    "official": "",
+    "total": 50,
+    "tagged": 0,
+    "families": {},
+    "unique": 10,
+    "numeric_template_excess": 40,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.4.4-G49",
+        "question": "Ölçüm tablosunu doldur: çaplar 10 ve 12 cm, π≈3,14. Oranın sabitliğini açıkla."
+      },
+      {
+        "id": "MAT.6.4.4-G50",
+        "question": "Ölçüm tablosunu doldur: çaplar 12 ve 14 cm, π≈3,14. Oranın sabitliğini açıkla. İkinci düşünme adımı: Fidanlık: Çapı 12 olan çemberin yarıçapı kaç birimdir?"
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.4.5",
+    "name": "Yarıçap veya çapla çember uzunluğu",
+    "official": "",
+    "total": 50,
+    "tagged": 0,
+    "families": {},
+    "unique": 17,
+    "numeric_template_excess": 33,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.4.5-G49",
+        "question": "Çapları 10 cm ve 12 cm olan iki tekerlek bir tur dönüyor. Aldıkları yolların farkını bul."
+      },
+      {
+        "id": "MAT.6.4.5-G50",
+        "question": "Çapları 12 cm ve 14 cm olan iki tekerlek bir tur dönüyor. Aldıkları yolların farkını bul. İkinci düşünme adımı: Fidanlık: 12 ve 14 çaplı iki tekerleğin çap farkı kaçtır?"
+      }
+    ]
+  },
+  {
+    "grade": "6",
+    "code": "MAT.6.4.6",
+    "name": "Merkez açı ile yay uzunluğu ilişkisi",
+    "official": "",
+    "total": 50,
+    "tagged": 0,
+    "families": {},
+    "unique": 5,
+    "numeric_template_excess": 45,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.6.4.6-G49",
+        "question": "A çemberi çap 10 cm, açısı 180°; B çemberi çap 20 cm, açısı 90°. Yayları karşılaştır."
+      },
+      {
+        "id": "MAT.6.4.6-G50",
+        "question": "A çemberi çap 12 cm, açısı 270°; B çemberi çap 24 cm, açısı 135°. Yayları karşılaştır."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.1.1",
+    "name": "Doğal, tam ve rasyonel sayıları yorumlama",
+    "official": "Gerçek yaşam ya da matematiksel durumlarda doğal sayı, tam sayı ve rasyonel sayıları yorumlayabilme",
+    "total": 23,
+    "tagged": 0,
+    "families": {},
+    "unique": 13,
+    "numeric_template_excess": 10,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.1.1-G19-V35",
+        "question": "Kartları soldan sağa, küçükten büyüğe sırala: 1,5, -3, -0,5, 2"
+      },
+      {
+        "id": "MAT.7.1.1-G20-V35",
+        "question": "Kartları soldan sağa, küçükten büyüğe sırala: -1, 4, -3,5, 1,5"
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "ATLAS.8.2018.PILOT.01",
+    "name": "2018 programı 1. ünite · pilot etkinlik",
+    "official": "Çarpanlar ve katlar, üslü ifadeler: 2018 öğretim programıyla ilişkili örnek pilot etkinlikler; kod resmî kazanım kodu değildir.",
+    "total": 3,
+    "tagged": 0,
+    "families": {},
+    "unique": 3,
+    "numeric_template_excess": 0,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "ATLAS.8.MEB-2018.PILOT-G02",
+        "question": "6 ve 8 sayılarının en küçük ortak katı kaçtır?"
+      },
+      {
+        "id": "ATLAS.8.MEB-2018.PILOT-G03",
+        "question": "2⁵ ifadesinin değeri kaçtır?"
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.1.2",
+    "name": "Rasyonel sayıların sonlu ve devirli ondalık gösterimleri",
+    "official": "Rasyonel sayıların sonlu ve devirli ondalık gösterimleri",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 4,
+    "numeric_template_excess": 16,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.1.2-G19-V35",
+        "question": "Ondalık sayıları küçükten büyüğe diz: 0,125, 0,5, 0,25"
+      },
+      {
+        "id": "MAT.7.1.2-G20-V35",
+        "question": "Ondalık sayıları küçükten büyüğe diz: 0,9, 0,45, 0,75"
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.1.3",
+    "name": "Rasyonel sayıları karşılaştırma ve sıralama",
+    "official": "Rasyonel sayıları karşılaştırma ve sıralama",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 10,
+    "numeric_template_excess": 10,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.1.3-G19-V35",
+        "question": "1/5 ile 3/5 sayılarının sayı doğrusundaki tam orta noktasının değeri nedir?"
+      },
+      {
+        "id": "MAT.7.1.3-G20-V35",
+        "question": "-3/4 ile 1/4 sayılarının sayı doğrusundaki tam orta noktasının değeri nedir?"
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.1.4",
+    "name": "Rasyonel sayılarla işlemler ve problem çözme",
+    "official": "Rasyonel sayılarla işlemler ve problem çözme",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 13,
+    "numeric_template_excess": 7,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.1.4-G19-V35",
+        "question": "Başlangıç bakiyesi -3. Değişim 1. Son bakiyeyi sayı doğrusunda göster."
+      },
+      {
+        "id": "MAT.7.1.4-G20-V35",
+        "question": "Başlangıç bakiyesi 1. Değişim -4,5. Son bakiyeyi sayı doğrusunda göster."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.4.1",
+    "name": "Eş küplerle oluşturulan yapılar ile görünümleri arasındaki ilişkiyi çözümleyebilme",
+    "official": "Eş küplerle oluşturulan yapılar ile görünümleri arasındaki ilişkiyi çözümleyebilme",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 3,
+    "numeric_template_excess": 17,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.4.1-G19-V36",
+        "question": "Kule Gözlemcisi 19 — Eş küplerden oluşan yapıya önden bak. Görülen dolu karelerin hepsini ızgarada işaretle. Silüeti oluştur."
+      },
+      {
+        "id": "MAT.7.4.1-G20-V36",
+        "question": "Kule Gözlemcisi 20 — Eş küplerden oluşan yapıya sağdan bak. Görülen dolu karelerin hepsini ızgarada işaretle. Silüeti oluştur."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.4.2",
+    "name": "Dikdörtgenler prizmasının yüzey alanını yorumlayabilme",
+    "official": "Dikdörtgenler prizmasının yüzey alanını yorumlayabilme",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 6,
+    "numeric_template_excess": 14,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.4.2-G19-V36",
+        "question": "Kutu Açınımı 19 — Ayrıtları 5, 4 ve 6 cm olan kapalı kutunun açınımını incele. Karşılıklı eş yüzleri eşleştirerek üç çiftin alanını ve toplam kâğıt miktarını bul. İkinci tasarımda "
+      },
+      {
+        "id": "MAT.7.4.2-G20-V36",
+        "question": "Kutu Açınımı 20 — Ayrıtları 6, 5 ve 3 cm olan kapalı kutunun açınımını incele. Karşılıklı eş yüzleri eşleştirerek üç çiftin alanını ve toplam kâğıt miktarını bul. İkinci tasarımda "
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.4.3",
+    "name": "Dikdörtgenler prizmasının hacmini eş nesneler aracılığıyla yorumlayabilme",
+    "official": "Dikdörtgenler prizmasının hacmini eş nesneler aracılığıyla yorumlayabilme",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 5,
+    "numeric_template_excess": 15,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.4.3-G19-V36",
+        "question": "2×2×4 yapısını 2×4 tabanlı olacak biçimde döndür. Kaç kat oluşturmalı ve hacmin değişip değişmediğini denetlemelisin?"
+      },
+      {
+        "id": "MAT.7.4.3-G20-V36",
+        "question": "3×2×4 prizmasının tabanını 2×4 yap. Yeni yönde bir katı ve toplam hacmi modelle."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.4.4",
+    "name": "Dikdörtgenler prizmasının hacim bağıntısını değerlendirebilme",
+    "official": "Dikdörtgenler prizmasının hacim bağıntısını değerlendirebilme",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 5,
+    "numeric_template_excess": 15,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.4.4-G19-V36",
+        "question": "Tabanın ikinci kenarı 2 yerine 3 birim oldu. 24 birimküplük hacim için taban alanı ve yüksekliği belirle."
+      },
+      {
+        "id": "MAT.7.4.4-G20-V36",
+        "question": "Tabanın iki kenarını da birer birim büyüt. Yeni 6×3 tabanda 126 birimküplük hacim için kat sayısını bul."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.4.5",
+    "name": "Hacim ölçme birimleri arasındaki ilişkileri değerlendirebilme",
+    "official": "Hacim ölçme birimleri arasındaki ilişkileri değerlendirebilme",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 17,
+    "numeric_template_excess": 3,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.4.5-G19-V36",
+        "question": "Ölçü Birimi İstasyonu 19 — 0.4 m³ ölçüsünü L birimine dönüştür. Sonucu yazmadan önce birim merdivenini incele."
+      },
+      {
+        "id": "MAT.7.4.5-G20-V36",
+        "question": "Ölçü Birimi İstasyonu 20 — 2.2 L ölçüsünü cm³ birimine dönüştür. Sonucu yazmadan önce birim merdivenini incele."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.4.6",
+    "name": "Günlük hayat durumlarında dikdörtgenler prizmaları ile modellenen cisimlerin yüzey ala",
+    "official": "Günlük hayat durumlarında dikdörtgenler prizmaları ile modellenen cisimlerin yüzey alanı ve hacmine yönelik problem çözebilme",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 10,
+    "numeric_template_excess": 10,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.4.6-G19-V36",
+        "question": "Gerçek Yaşam Tasarımı 19 — Kapalı posta paketinin dışını folyoyla sar. Ölçüler 5 cm × 4 cm × 6 cm. Hangi büyüklüğü hesaplamalısın? Sonucu cm² cinsinden bul."
+      },
+      {
+        "id": "MAT.7.4.6-G20-V36",
+        "question": "Gerçek Yaşam Tasarımı 20 — Laboratuvar tankının kapladığı hacmi bul. Ölçüler 6 cm × 5 cm × 3 cm. Hangi büyüklüğü hesaplamalısın? Sonucu cm³ cinsinden bul."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.6.1",
+    "name": "Kategorik veya nicel (sürekli) veri ile çalışabilme ve veriye dayalı karar verebilme",
+    "official": "Kategorik veya nicel (sürekli) veri ile çalışabilme ve veriye dayalı karar verebilme",
+    "total": 40,
+    "tagged": 0,
+    "families": {},
+    "unique": 31,
+    "numeric_template_excess": 9,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.6.1-G39-V37",
+        "question": "Merkez ve Yayılım 9 — Beş ölçümün ortalamasını, ortancasını, açıklığını ve ortalama mutlak sapmasını bul. Kararını veri dağılımına göre denetle."
+      },
+      {
+        "id": "MAT.7.6.1-G40-V37",
+        "question": "Merkez ve Yayılım 10 — Beş ölçümün ortalamasını, ortancasını, açıklığını ve ortalama mutlak sapmasını bul. Kararını veri dağılımına göre denetle."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.6.2",
+    "name": "Başkaları tarafından oluşturulan kategorik veya nicel (sürekli) veriye dayalı istatis",
+    "official": "Başkaları tarafından oluşturulan kategorik veya nicel (sürekli) veriye dayalı istatistiksel sonuç veya yorumları tartışabilme",
+    "total": 94,
+    "tagged": 32,
+    "families": {
+      "Yanlış çözüm veya karşı örnek analizi": 4,
+      "Karşılaştırma, sıralama ve sınıflama": 1,
+      "Tablo, grafik, veri değerlendirme": 3,
+      "Farklı temsile dönüştürme": 2,
+      "Birden fazla koşullu muhakeme": 2,
+      "Grafik eleştirisi": 1,
+      "Örnekleme yanlılığı": 1,
+      "Oransal değişim": 1,
+      "Eğilim ve çıkarım": 1,
+      "Çoklu seri karşılaştırması": 1,
+      "Aritmetik ortalama": 1,
+      "Dağılım ve uç değer": 1,
+      "Kanıt ve çürütme": 1,
+      "Eksen yanılgısı": 3,
+      "Sıralayıp ortancayı bul": 3,
+      "Örneklem dedektifi": 3,
+      "Yüzdelik değişim": 3
+    },
+    "unique": 68,
+    "numeric_template_excess": 26,
+    "priority": "Sürdürme",
+    "new68": 12,
+    "examples": [
+      {
+        "id": "MA68-7-11",
+        "question": "Önce 80, sonra 60 kişi. Değişimin yönünü seç ve ilk değere göre yüzde değişimi hesapla."
+      },
+      {
+        "id": "MA68-7-12",
+        "question": "Önce 50, sonra 65 kişi. Değişimin yönünü seç ve ilk değere göre yüzde değişimi hesapla."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.3.1",
+    "name": "Şekillerin yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yap",
+    "official": "Şekillerin yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme",
+    "total": 30,
+    "tagged": 0,
+    "families": {},
+    "unique": 16,
+    "numeric_template_excess": 14,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.3.1-G29-V38",
+        "question": "A(-3, 1) noktasının yansıması A′(1, 1). Karşılıklı noktaların eşit dik uzaklığını kullanarak olası simetri doğrularından doğrusunu ve gerekçeyi seç."
+      },
+      {
+        "id": "MAT.7.3.1-G30-V38",
+        "question": "A(2, -3) noktasının yansıması A′(2, 3). Karşılıklı noktaların eşit dik uzaklığını kullanarak olası simetri doğrularından doğrusunu ve gerekçeyi seç."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.3.2",
+    "name": "Yansıma dönüşümündeki deneyimlerini orta dikme ve açıortay inşasına yansıtabilme",
+    "official": "Yansıma dönüşümündeki deneyimlerini orta dikme ve açıortay inşasına yansıtabilme",
+    "total": 30,
+    "tagged": 0,
+    "families": {},
+    "unique": 6,
+    "numeric_template_excess": 24,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.3.2-G29-V38",
+        "question": "12 birimlik doğru parçasında orta dikme inşası tartışılıyor. Eşit uzaklık veya eş açı ölçüsüne dayanarak geçerli geometrik kanıtı seç."
+      },
+      {
+        "id": "MAT.7.3.2-G30-V38",
+        "question": "130 birimlik açıda açıortay inşası tartışılıyor. Eşit uzaklık veya eş açı ölçüsüne dayanarak geçerli geometrik kanıtı seç."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.5.1",
+    "name": "Matematiksel araç ve teknolojiden yararlanarak üçgende kenarortayı, açıortayı ve yüks",
+    "official": "Matematiksel araç ve teknolojiden yararlanarak üçgende kenarortayı, açıortayı ve yüksekliği çözümleyebilme",
+    "total": 32,
+    "tagged": 0,
+    "families": {},
+    "unique": 4,
+    "numeric_template_excess": 28,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.5.1-G31-V39",
+        "question": "A(2, 2), B(8, 2), C(2, 5) üçgeninde iki kenarortayın kesişimini oluştur. Ağırlık merkezi G'yi yerleştirip kenarortayların ortak özelliğini doğrula."
+      },
+      {
+        "id": "MAT.7.5.1-G32-V39",
+        "question": "A(2, 2), B(8, 2), C(8, 5) üçgeninde iki kenarortayın kesişimini oluştur. Ağırlık merkezi G'yi yerleştirip kenarortayların ortak özelliğini doğrula."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.5.2",
+    "name": "Orta dikme inşasına yönelik deneyimlerini üçgende kenarortay inşasına yansıtabilme",
+    "official": "Orta dikme inşasına yönelik deneyimlerini üçgende kenarortay inşasına yansıtabilme",
+    "total": 24,
+    "tagged": 0,
+    "families": {},
+    "unique": 4,
+    "numeric_template_excess": 20,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.5.2-G23-V39",
+        "question": "A(1, 2), B(7, 2) ve C(3, 7) üçgeninde AB kenarının orta noktasını pergel yardımıyla inşa et. Kenarortayın oluşması için üç geçerli adımı sırala."
+      },
+      {
+        "id": "MAT.7.5.2-G24-V39",
+        "question": "A(4, 2), B(8, 2) ve C(6, 8) üçgeninde AB kenarının orta noktasını pergel yardımıyla inşa et. Kenarortayın oluşması için üç geçerli adımı sırala."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.1.5",
+    "name": "Gerçek yaşam durumları üzerinden oran ilişkileri hakkında muhakeme yapabilme",
+    "official": "Gerçek yaşam durumları üzerinden oran ilişkileri hakkında muhakeme yapabilme",
+    "total": 30,
+    "tagged": 0,
+    "families": {},
+    "unique": 13,
+    "numeric_template_excess": 17,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.1.5-G29-V40",
+        "question": "5 kalemin toplam fiyatı 25 TL. Bir kalemin fiyatı kaç TL?"
+      },
+      {
+        "id": "MAT.7.1.5-G30-V40",
+        "question": "6 saatte 36 km yol yürüyen bir ekip, aynı hızla 1 saatte kaç km yürür?"
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.1.6",
+    "name": "Gerçek yaşam durumları üzerinden orantılı durumları yorumlayabilme",
+    "official": "Gerçek yaşam durumları üzerinden orantılı durumları yorumlayabilme",
+    "total": 30,
+    "tagged": 0,
+    "families": {},
+    "unique": 7,
+    "numeric_template_excess": 23,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.1.6-G29-V40",
+        "question": "Koordinat grafiğinde O(0,0), P(2,4) ve Q(8,18) gösteriliyor. Bu noktalar tek bir doğru orantı doğrusunda mı? Eğimler üzerinden karar ver ve gerekçeyi seç."
+      },
+      {
+        "id": "MAT.7.1.6-G30-V40",
+        "question": "Koordinat grafiğinde O(0,0), P(3,9) ve Q(10,30) gösteriliyor. Bu noktalar tek bir doğru orantı doğrusunda mı? Eğimler üzerinden karar ver ve gerekçeyi seç."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.1.7",
+    "name": "Gerçek yaşam durumları üzerinden doğru orantılı durumlara ilişkin problemleri çözebil",
+    "official": "Gerçek yaşam durumları üzerinden doğru orantılı durumlara ilişkin problemleri çözebilme",
+    "total": 52,
+    "tagged": 0,
+    "families": {},
+    "unique": 40,
+    "numeric_template_excess": 12,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA7-V57-RATIO-07",
+        "question": "A standında 5 kalem 90 TL, B standında 3 kalem 51 TL. Her stantta birim fiyat sabittir. 6 kalem alınacaksa iki teklifi birim fiyata indir, A’dan alınırsa toplamı bul ve daha ekonom"
+      },
+      {
+        "id": "MA7-V57-RATIO-08",
+        "question": "A standında 2 kalem 26 TL, B standında 3 kalem 42 TL. Her stantta birim fiyat sabittir. 9 kalem alınacaksa iki teklifi birim fiyata indir, A’dan alınırsa toplamı bul ve daha ekonom"
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.7.1",
+    "name": "Bir olayın ve tümleyeninin olasılığına ilişkin tümevarımsal akıl yürütebilme",
+    "official": "Bir olayın ve tümleyeninin olasılığına ilişkin tümevarımsal akıl yürütebilme",
+    "total": 52,
+    "tagged": 8,
+    "families": {
+      "Tümleyen olay": 1,
+      "Birleşik olay tümleyeni": 1,
+      "Örnek uzay": 1,
+      "Eş olasılıklı model": 1,
+      "Sınır durum": 1,
+      "Tümleyen sayma": 1,
+      "Çok seçenekli tümleyen": 1,
+      "Ters tasarım": 1
+    },
+    "unique": 24,
+    "numeric_template_excess": 28,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA66-PROB7-07",
+        "question": "Torbada 4 yeşil, 1 sarı, 3 kırmızı bilye var. Yeşil gelmeme olayını tanımla ve kesri sadeleştir."
+      },
+      {
+        "id": "MA66-PROB7-08",
+        "question": "Torbada 2 kırmızı ve 3 mavi var. Yalnız kırmızı eklenebiliyor. İki renk eşit olasılıklı olsun diye en az kaç kırmızı eklenmeli? Yeni durumda mavi olasılığı?"
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.7.2",
+    "name": "Aynı deneye ait olayların eşit olasılıklı olma durumlarını değerlendirebilme",
+    "official": "Aynı deneye ait olayların eşit olasılıklı olma durumlarını değerlendirebilme",
+    "total": 30,
+    "tagged": 0,
+    "families": {},
+    "unique": 3,
+    "numeric_template_excess": 27,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.7.2-G29-V41",
+        "question": "15 eş dilimli çarkta kırmızı ve mavinin gelme olasılıklarını kıyasla. Eşit olasılıklı mılar?"
+      },
+      {
+        "id": "MAT.7.7.2-G30-V41",
+        "question": "16 eş dilimli çarkta kırmızı ve mavinin gelme olasılıklarını kıyasla. Eşit olasılıklı mılar?"
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.7.3",
+    "name": "Olayları ayrık olma ve ayrık olmama durumlarına göre sınıflandırabilme",
+    "official": "Olayları ayrık olma ve ayrık olmama durumlarına göre sınıflandırabilme",
+    "total": 30,
+    "tagged": 0,
+    "families": {},
+    "unique": 5,
+    "numeric_template_excess": 25,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.7.3-G29-V41",
+        "question": "1–15 arasından kart seçiliyor. A = çift sayılar, B = 4’ten büyük sayılar. 9 sayısını doğru Venn bölgesine yerleştir ve ortak eleman sayısını hesapla."
+      },
+      {
+        "id": "MAT.7.7.3-G30-V41",
+        "question": "1–16 arasından kart seçiliyor. A = çift sayılar, B = 5’ten büyük sayılar. 13 sayısını doğru Venn bölgesine yerleştir ve ortak eleman sayısını hesapla."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.2.1",
+    "name": "Cebirsel ifadelerle toplama, çıkarma ve rasyonel sayıyla çarpma işlemlerini yorumlayabilme",
+    "official": "Cebirsel ifadelerle toplama, çıkarma ve rasyonel sayıyla çarpma işlemlerini yorumlayabilme",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 11,
+    "numeric_template_excess": 9,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.2.1-G19-V42",
+        "question": "6(3x +1) ifadesini dağıtma özelliğiyle aç. x katsayısını ve sabit terimi bul."
+      },
+      {
+        "id": "MAT.7.2.1-G20-V42",
+        "question": "-6(-4x +5) ifadesini dağıtma özelliğiyle aç. x katsayısını ve sabit terimi bul."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.2.2",
+    "name": "Birinci dereceden denklem ve eşitsizlik içeren gerçek yaşam problemlerini çözebilme",
+    "official": "Birinci dereceden denklem ve eşitsizlik içeren gerçek yaşam problemlerini çözebilme",
+    "total": 28,
+    "tagged": 0,
+    "families": {},
+    "unique": 11,
+    "numeric_template_excess": 17,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA7-V57-EQUATION-07",
+        "question": "Bir etkinliğin başlangıç gideri 12 TL, her katılımcı için ücreti 9 TL. Toplam ödeme 48 TL olduğunda x katılımcı için bağıntıyı kur; önce sabit gideri çıkar, sonra kişi sayısını tam"
+      },
+      {
+        "id": "MA7-V57-EQUATION-08",
+        "question": "Bir etkinliğin başlangıç gideri 35 TL, her katılımcı için ücreti 5 TL. Toplam ödeme en fazla 70 TL olduğunda x katılımcı için bağıntıyı kur; önce sabit gideri çıkar, sonra kişi say"
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.2.3",
+    "name": "Sayıların özelliklerini ispatlarla matematiksel olarak gerekçelendirebilme",
+    "official": "Sayıların özelliklerini ispatlarla matematiksel olarak gerekçelendirebilme",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 8,
+    "numeric_template_excess": 12,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.2.3-G19-V42",
+        "question": "“Bütün asal sayılar tektir.” iddiasını çürüten doğru karşı örneği seç. Hangi adım bütün sayılar için genellemeyi geçersiz kılar?"
+      },
+      {
+        "id": "MAT.7.2.3-G20-V42",
+        "question": "“Bir tam sayının karesi her zaman çifttir.” iddiasını çürüten doğru karşı örneği seç. Hangi adım bütün sayılar için genellemeyi geçersiz kılar?"
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.2.4",
+    "name": "Aritmetik ve cebirsel işlemler için algoritma tasarlayabilme",
+    "official": "Aritmetik ve cebirsel işlemler için algoritma tasarlayabilme",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 2,
+    "numeric_template_excess": 18,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.2.4-G19-V42",
+        "question": "Amaç: 10 değerini önce 2 ile çarpmak, sonra 4 eklemek. Hatalı algoritmada “10 → 14 → 28” yazıyor. Yanlış ilk adımı bul ve doğru sonucu hesapla."
+      },
+      {
+        "id": "MAT.7.2.4-G20-V42",
+        "question": "Amaç: 11 değerini önce 3 ile çarpmak, sonra 2 eklemek. Hatalı algoritmada “11 → 13 → 39” yazıyor. Yanlış ilk adımı bul ve doğru sonucu hesapla."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.1.1",
+    "name": "Pozitif tam sayıların çarpanları ve asal çarpan gösterimi",
+    "official": "Pozitif tam sayıların çarpanları ve asal çarpan gösterimi",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 2,
+    "numeric_template_excess": 18,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.1.1.1-G19-V47",
+        "question": "50 sayısını her adımda uygun asal sayıya bölerek 1’e ulaş. Asal çarpanları oluştur."
+      },
+      {
+        "id": "M.8.1.1.1-G20-V47",
+        "question": "60 sayısını her adımda uygun asal sayıya bölerek 1’e ulaş. Asal çarpanları oluştur."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.1.2",
+    "name": "EBOB, EKOK ve problem çözme",
+    "official": "EBOB, EKOK ve problem çözme",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 2,
+    "numeric_template_excess": 18,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.1.1.2-G19-V47",
+        "question": "14 dakikada bir ve 21 dakikada bir çalışan iki zil ilk kez aynı anda kaçıncı dakikada çalar?"
+      },
+      {
+        "id": "M.8.1.1.2-G20-V47",
+        "question": "8 dakikada bir ve 18 dakikada bir çalışan iki zil ilk kez aynı anda kaçıncı dakikada çalar?"
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.1.3",
+    "name": "Aralarında asal iki doğal sayı",
+    "official": "Aralarında asal iki doğal sayı",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 5,
+    "numeric_template_excess": 15,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.1.1.3-G19-V47",
+        "question": "42 sabitken 28 sayısını en az kaç artırırsan EBOB 1 olur? En küçük artışı matematiksel olarak doğrula."
+      },
+      {
+        "id": "M.8.1.1.3-G20-V47",
+        "question": "30 sayısını iki, 45 sayısını bir artırınca oluşan 32 ve 46 sayı çiftinin EBOB değerini ve asallık durumunu bul."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.2.1",
+    "name": "Tam sayıların tam sayı kuvvetleri",
+    "official": "Tam sayıların tam sayı kuvvetleri",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 4,
+    "numeric_template_excess": 16,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.1.2.1-G19-V47",
+        "question": "(4)^(-1) işleminin tam değerini pay ve payda ile kur. Payda 1 olabilir."
+      },
+      {
+        "id": "M.8.1.2.1-G20-V47",
+        "question": "(6)^(2) işleminin tam değerini pay ve payda ile kur. Payda 1 olabilir."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.2.2",
+    "name": "Üslü ifadelerde temel kurallar ve denk ifadeler",
+    "official": "Üslü ifadelerde temel kurallar ve denk ifadeler",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 3,
+    "numeric_template_excess": 17,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.1.2.2-G19-V47",
+        "question": "(4^3)^2 işlemini aynı tabanlı tek üslü ifade biçimine dönüştür ve kuralını seç."
+      },
+      {
+        "id": "M.8.1.2.2-G20-V47",
+        "question": "(5^1)^4 işlemini aynı tabanlı tek üslü ifade biçimine dönüştür ve kuralını seç."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.2.3",
+    "name": "Sayıları 10’un tam sayı kuvvetlerini kullanarak çözümleme",
+    "official": "Sayıları 10’un tam sayı kuvvetlerini kullanarak çözümleme",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 5,
+    "numeric_template_excess": 15,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.1.2.3-G19-V48",
+        "question": "43,29 sayısının 10 katını oluştur; soldan 1. rakamın başlangıçtaki basamak üssünü ve yeni sayıyı bul."
+      },
+      {
+        "id": "M.8.1.2.3-G20-V48",
+        "question": "870,25 sayısını 10’a böl. Virgül sola kayarken soldan 5. rakamın başlangıç üssünü ve elde edilen sayıyı yaz."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.2.4",
+    "name": "Sayıları 10’un farklı tam sayı kuvvetleriyle ifade etme",
+    "official": "Sayıları 10’un farklı tam sayı kuvvetleriyle ifade etme",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 1,
+    "numeric_template_excess": 19,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.1.2.4-G19-V48",
+        "question": "840000 = 84 × 10^□ olacak şekilde üssü belirle."
+      },
+      {
+        "id": "M.8.1.2.4-G20-V48",
+        "question": "9500000 = 95 × 10^□ olacak şekilde üssü belirle."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.2.5",
+    "name": "Bilimsel gösterim ve çok büyük/küçük sayıları karşılaştırma",
+    "official": "Bilimsel gösterim ve çok büyük/küçük sayıları karşılaştırma",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 4,
+    "numeric_template_excess": 16,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.1.2.5-G19-V48",
+        "question": "8,9 × 10^5 ile 2,3 × 10^5 sayılarını karşılaştır ve doğru sembolü seç."
+      },
+      {
+        "id": "M.8.1.2.5-G20-V48",
+        "question": "4,3 × 10^6 ile 9,1 × 10^5 sayılarını karşılaştır ve doğru sembolü seç."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.3.1",
+    "name": "Tam kare pozitif sayılar ve karekökleri",
+    "official": "Tam kare pozitif sayılar ve karekökleri",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 1,
+    "numeric_template_excess": 19,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.1.3.1-G19-V48",
+        "question": "Alanı 441 birimkare olan karenin kenar uzunluğunu birim kareli model üzerinde bul."
+      },
+      {
+        "id": "M.8.1.3.1-G20-V48",
+        "question": "Alanı 484 birimkare olan karenin kenar uzunluğunu birim kareli model üzerinde bul."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.3.2",
+    "name": "Tam kare olmayan karekökün iki doğal sayı arasındaki yeri",
+    "official": "Tam kare olmayan karekökün iki doğal sayı arasındaki yeri",
+    "total": 28,
+    "tagged": 8,
+    "families": {
+      "Aralık belirleme": 1,
+      "Sayı doğrusu": 1,
+      "Yaklaşık değer": 1,
+      "Kanıtla yakınlık": 1,
+      "Geometrik aktarım": 1,
+      "Sıralama": 1,
+      "Yanlış iddiayı çürüt": 1,
+      "Uç sınıra yakınlık": 1
+    },
+    "unique": 13,
+    "numeric_template_excess": 15,
+    "priority": "Sürdürme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA66-ROOT8-07",
+        "question": "Bir öğrenci √30 > 6 iddiasında bulunuyor. İddiayı denetle ve 6’nın karesini yaz."
+      },
+      {
+        "id": "MA66-ROOT8-08",
+        "question": "√80 sayısının hangi ardışık tam sayılar arasında olduğunu ve bunların karelerini bul."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.4.7",
+    "name": "Dairenin alan bağıntısı",
+    "official": "Dairenin alan bağıntısı",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 1,
+    "numeric_template_excess": 19,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.4.7-Q019-V49",
+        "question": "Yarıçapı 7 birim olan daireyi 32 eş dilime ayır. Alan bağıntısını modelden yola çıkarak belirle ve π katsayısını yaz. Aynı dairenin yarıçapı 14 birime dönüştürülürse alan değişimin"
+      },
+      {
+        "id": "MAT.7.4.7-Q020-V49",
+        "question": "Yarıçapı 10 birim olan daireyi 4 eş dilime ayır. Alan bağıntısını modelden yola çıkarak belirle ve π katsayısını yaz. Aynı dairenin yarıçapı 9 birime dönüştürülürse alan değişimini"
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.4.8",
+    "name": "Daire diliminin alanı",
+    "official": "Daire diliminin alanı",
+    "total": 28,
+    "tagged": 0,
+    "families": {},
+    "unique": 4,
+    "numeric_template_excess": 24,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.4.8-Q007-V50",
+        "question": "Yarıçapı 14 birim olan dairede merkez açı 240° olduğunda sektörün kapladığı payı ve alanının π katsayısını bul. Açıyı modelde değiştirip gözlemle."
+      },
+      {
+        "id": "MAT.7.4.8-Q008-V50",
+        "question": "Yarıçapı 16 birim olan dairede merkez açı 270° olduğunda sektörün kapladığı payı ve alanının π katsayısını bul. Açıyı modelde değiştirip gözlemle."
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.4.9",
+    "name": "Eşkenar dörtgen ve yamuk alanları",
+    "official": "Eşkenar dörtgen ve yamuk alanları",
+    "total": 58,
+    "tagged": 0,
+    "families": {},
+    "unique": 19,
+    "numeric_template_excess": 39,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA7-V55-MAT-7-4-9-07",
+        "question": "Doğa yürüyüşü: Paralel kenarları 12 ve 18 m, yüksekliği 18 m olan yamuk bahçenin yüksekliği boyunca 8 m genişlikte dikdörtgen bir alan ayrılıyor. Önce tüm alanı, sonra ayrılan dikd"
+      },
+      {
+        "id": "MA7-V55-MAT-7-4-9-08",
+        "question": "Deney laboratuvarı: Paralel kenarları 13 ve 19 m, yüksekliği 20 m olan yamuk bahçenin yüksekliği boyunca 9 m genişlikte dikdörtgen bir alan ayrılıyor. Önce tüm alanı, sonra ayrılan"
+      }
+    ]
+  },
+  {
+    "grade": "7",
+    "code": "MAT.7.4.10",
+    "name": "Alan problemleri",
+    "official": "Alan problemleri",
+    "total": 28,
+    "tagged": 0,
+    "families": {},
+    "unique": 7,
+    "numeric_template_excess": 21,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MAT.7.4.10-Q023-V50",
+        "question": "Yamuk şeklindeki bahçenin paralel kenarları 20 m ve 25 m, yüksekliği 10 m. İçine köşegenleri 10 m ve 14 m olan eşkenar dörtgen çiçeklik yerleştirildi. Kalan çim alanı kaç m²?"
+      },
+      {
+        "id": "MAT.7.4.10-Q024-V50",
+        "question": "Yamuk şeklindeki bahçenin paralel kenarları 21 m ve 26 m, yüksekliği 8 m. İçine köşegenleri 6 m ve 8 m olan eşkenar dörtgen çiçeklik yerleştirildi. Kalan çim alanı kaç m²?"
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.3.3",
+    "name": "Kareköklü ifadeleri a√b biçiminde yazma",
+    "official": "Kareköklü ifadeleri a√b biçiminde yazma",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 1,
+    "numeric_template_excess": 19,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.1.3.3-Q019-V49",
+        "question": "√245 ifadesini katsayıyı kök dışına çıkararak a√b biçiminde yaz."
+      },
+      {
+        "id": "M.8.1.3.3-Q020-V49",
+        "question": "√448 ifadesini katsayıyı kök dışına çıkararak a√b biçiminde yaz."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.3.4",
+    "name": "Kareköklü ifadelerle çarpma ve bölme",
+    "official": "Kareköklü ifadelerle çarpma ve bölme",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 4,
+    "numeric_template_excess": 16,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.1.3.4-Q019-V49",
+        "question": "√128 × √243 ifadesini tek kök altında işleyip tam kare çarpanlarını ayır. Sonucu c√d biçiminde model üzerinde doğrula."
+      },
+      {
+        "id": "M.8.1.3.4-Q020-V49",
+        "question": "√576 ÷ √9 ifadesini tek kök altında işleyip tam kare çarpanlarını ayır. Sonucu c√d biçiminde model üzerinde doğrula."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.3.5",
+    "name": "Kareköklülerde toplama ve çıkarma",
+    "official": "Kareköklülerde toplama ve çıkarma",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 2,
+    "numeric_template_excess": 18,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.1.3.5-Q019-V50",
+        "question": "3√14 + 4√14 işlemini aynı köklü terimleri bir araya getirerek sadeleştir. Katsayıyı ve değişmeyen kök içini göster."
+      },
+      {
+        "id": "M.8.1.3.5-Q020-V50",
+        "question": "5√15 - 1√15 işlemini aynı köklü terimleri bir araya getirerek sadeleştir. Katsayıyı ve değişmeyen kök içini göster."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.3.6",
+    "name": "Çarpımı doğal sayı yapan köklü çarpan",
+    "official": "Çarpımı doğal sayı yapan köklü çarpan",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 1,
+    "numeric_template_excess": 19,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.1.3.6-Q019-V50",
+        "question": "√294 sayısını hangi en küçük √k ile çarparsak sonuç pozitif bir tam sayı olur? k ve çarpım sonucunu bul."
+      },
+      {
+        "id": "M.8.1.3.6-Q020-V50",
+        "question": "√448 sayısını hangi en küçük √k ile çarparsak sonuç pozitif bir tam sayı olur? k ve çarpım sonucunu bul."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.3.7",
+    "name": "Ondalık ifadelerin karekökü",
+    "official": "Ondalık ifadelerin karekökü",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 1,
+    "numeric_template_excess": 19,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.1.3.7-Q019-V50",
+        "question": "√(3,6100) sayısını bul. İçerideki ondalık sayıyı önce paydası 10000 olan bir kesir olarak düşün."
+      },
+      {
+        "id": "M.8.1.3.7-Q020-V50",
+        "question": "√(5,0625) sayısını bul. İçerideki ondalık sayıyı önce paydası 10000 olan bir kesir olarak düşün."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.1.3.8",
+    "name": "Rasyonel ve irrasyonel sayılar",
+    "official": "Rasyonel ve irrasyonel sayılar",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 7,
+    "numeric_template_excess": 13,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.1.3.8-V51-019",
+        "question": "A = √121, B = √22. Hangi ifade rasyonel, hangisi irrasyoneldir? Gerekçeyi matematiksel özelliğe bağla."
+      },
+      {
+        "id": "M.8.1.3.8-V51-020",
+        "question": "A = √2, B = 5/2. Hangi ifade rasyonel, hangisi irrasyoneldir? Gerekçeyi matematiksel özelliğe bağla."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.4.1.1",
+    "name": "En fazla üç grubun çizgi ve sütun grafiklerini yorumlama",
+    "official": "En fazla üç grubun çizgi ve sütun grafiklerini yorumlama",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 1,
+    "numeric_template_excess": 19,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.4.1.1-V51-019",
+        "question": "Grafikte A=[10, 16, 15, 14], B=[12, 13, 14, 15], C=[15, 18, 21, 24] dört dönemlik verileri yer alıyor. Tek sütuna bakmak yerine bütün dönemleri topla; en yüksek toplamı ve ikinciyl"
+      },
+      {
+        "id": "M.8.4.1.1-V51-020",
+        "question": "Grafikte A=[11, 18, 18, 18], B=[14, 16, 18, 20], C=[18, 15, 19, 23] dört dönemlik verileri yer alıyor. Tek sütuna bakmak yerine bütün dönemleri topla; en yüksek toplamı ve ikinciyl"
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.4.1.2",
+    "name": "Sütun, daire ve çizgi grafiği arasında dönüşüm",
+    "official": "Sütun, daire ve çizgi grafiği arasında dönüşüm",
+    "total": 32,
+    "tagged": 0,
+    "families": {},
+    "unique": 19,
+    "numeric_template_excess": 13,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.4.1.2-V52-011",
+        "question": "Dört haftalık [9, 11, 9, 11] veri sütunlardan çizgi grafiğine aktarılacak. Her hafta noktasını doğru yüksekliğe yerleştirip noktaları birleştir; en büyük ve en küçük değer farkını "
+      },
+      {
+        "id": "M.8.4.1.2-V52-012",
+        "question": "Dört haftalık [3, 5, 4, 10] veri sütunlardan çizgi grafiğine aktarılacak. Her hafta noktasını doğru yüksekliğe yerleştirip noktaları birleştir; en büyük ve en küçük değer farkını b"
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.5.1.1",
+    "name": "Bir olayın olası durumları",
+    "official": "Bir olayın olası durumları",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 1,
+    "numeric_template_excess": 19,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.5.1.1-V52-019",
+        "question": "Torbada 3 kırmızı, 5 mavi ve 7 yeşil bilye var. Tek çekilişte kaç bilye olası çıktı olarak düşünülebilir? Kaç farklı renk görülebilir?"
+      },
+      {
+        "id": "M.8.5.1.1-V52-020",
+        "question": "Torbada 6 kırmızı, 0 mavi ve 6 yeşil bilye var. Tek çekilişte kaç bilye olası çıktı olarak düşünülebilir? Kaç farklı renk görülebilir?"
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.5.1.2",
+    "name": "Olasılığı karşılaştırma",
+    "official": "Olasılığı karşılaştırma",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 1,
+    "numeric_template_excess": 19,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.5.1.2-V52-019",
+        "question": "Torbadan rastgele tek bilye çekilecek: 4 kırmızı, 7 mavi. Kırmızı çıkma şansı maviye göre daha mı fazla, eşit mi, daha mı az?. Torbaya en az sayıda bilye ekleyerek iki rengin olası"
+      },
+      {
+        "id": "M.8.5.1.2-V52-020",
+        "question": "Torbadan rastgele tek bilye çekilecek: 7 kırmızı, 7 mavi. Kırmızı çıkma şansı maviye göre daha mı fazla, eşit mi, daha mı az?. Torbaya en az sayıda bilye ekleyerek iki rengin olası"
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.5.1.3",
+    "name": "Eş olasılıklı çıktı için 1/n",
+    "official": "Eş olasılıklı çıktı için 1/n",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 1,
+    "numeric_template_excess": 19,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.5.1.3-V52-019",
+        "question": "3 eş büyüklükte dilime ayrılmış adil çarkta 19. denemenin ilk dilimi işaretleniyor. Bu tek dilimin olasılığı nedir? Merkez açısını bul."
+      },
+      {
+        "id": "M.8.5.1.3-V52-020",
+        "question": "6 eş büyüklükte dilime ayrılmış adil çarkta 20. denemenin ilk dilimi işaretleniyor. Bu tek dilimin olasılığı nedir? Merkez açısını bul."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.5.1.4",
+    "name": "Olasılığın 0–1 aralığında oluşu",
+    "official": "Olasılığın 0–1 aralığında oluşu",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 3,
+    "numeric_template_excess": 17,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.5.1.4-V52-019",
+        "question": "Bir öğrenci olay olasılığını P(A)=3/5 bulmuş. Bu değer 0 ile 1 arasında mı? Durumu sınıflandır ve geçerliyse P(A olmaması) değerini bul."
+      },
+      {
+        "id": "M.8.5.1.4-V52-020",
+        "question": "Bir öğrenci olay olasılığını P(A)=6/5 bulmuş. Bu değer 0 ile 1 arasında mı? Durumu sınıflandır ve geçerliyse P(A olmaması) değerini bul."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.5.1.5",
+    "name": "Basit olayların olasılığını hesaplama",
+    "official": "Basit olayların olasılığını hesaplama",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 18,
+    "numeric_template_excess": 2,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.5.1.5-V52-019",
+        "question": "6 kırmızı, 2 mavi ve 6 yeşil bilye bulunan torbadan tek bilye seçiliyor. kırmızı seçilme olasılığını uygun durum / tüm durum olarak kurup sadeleştir."
+      },
+      {
+        "id": "M.8.5.1.5-V52-020",
+        "question": "4 kırmızı, 5 mavi ve 4 yeşil bilye bulunan torbadan tek bilye seçiliyor. mavi seçilme olasılığını uygun durum / tüm durum olarak kurup sadeleştir."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.2.1.1",
+    "name": "Basit cebirsel ifadeleri farklı biçimlerde yazma",
+    "official": "Basit cebirsel ifadeleri farklı biçimlerde yazma",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 17,
+    "numeric_template_excess": 3,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.2.1.1-V53-019",
+        "question": "Bir kütüphanede x adet birim için her birine 6 katsayılı azalış uygulanıyor; ardından 5 birim çıkarılıyor. İfadeyi a·x+b olarak yaz ve x=3 için değerini bul."
+      },
+      {
+        "id": "M.8.2.1.1-V53-020",
+        "question": "Bir laboratuvarda x adet birim için her birine 4 katsayılı azalış uygulanıyor; ardından 5 birim çıkarılıyor. İfadeyi a·x+b olarak yaz ve x=4 için değerini bul."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.2.1.2",
+    "name": "Cebirsel ifadelerin çarpımını yapma",
+    "official": "Cebirsel ifadelerin çarpımını yapma",
+    "total": 40,
+    "tagged": 20,
+    "families": {
+      "Alan modeli": 1,
+      "Çoklu dağıtma": 1,
+      "İşaret incelemesi": 1,
+      "Özdeşlik doğrulama": 1,
+      "Negatif dağılım": 1,
+      "Karşıt terimleri götürme": 1,
+      "Yanlış çözüm analizi": 1,
+      "Gerçek yaşamda alan": 1,
+      "Cebirsel alan karoları": 3,
+      "Eksik çarpımı yakala": 3,
+      "Doğru cebirsel ifadeyi seç": 3,
+      "Bahçe alanını hesapla": 3
+    },
+    "unique": 32,
+    "numeric_template_excess": 8,
+    "priority": "Sürdürme",
+    "new68": 12,
+    "examples": [
+      {
+        "id": "MA68-8-11",
+        "question": "Bir dikdörtgenin kenarları (2x+1) ve (1x+3) metredir. x=3 için alanı bul; açılımda x teriminin katsayısını seç."
+      },
+      {
+        "id": "MA68-8-12",
+        "question": "Bir dikdörtgenin kenarları (1x+3) ve (2x+2) metredir. x=2 için alanı bul; açılımda x teriminin katsayısını seç."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.2.1.3",
+    "name": "Özdeşlikleri modelle açıklama",
+    "official": "Özdeşlikleri modelle açıklama",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 7,
+    "numeric_template_excess": 13,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.2.1.3-V53-019",
+        "question": "(1x − 4)(1x + 4) özdeşliğinin hangi modele ait olduğunu seç. x², x, sabit terimlerin katsayılarını işaretli karolarla göster."
+      },
+      {
+        "id": "M.8.2.1.3-V53-020",
+        "question": "(3x − 8)(3x + 8) özdeşliğinin hangi modele ait olduğunu seç. x², x, sabit terimlerin katsayılarını işaretli karolarla göster."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.2.1.4",
+    "name": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "official": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "total": 20,
+    "tagged": 0,
+    "families": {},
+    "unique": 9,
+    "numeric_template_excess": 11,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "M.8.2.1.4-V53-019",
+        "question": "x² −16x + 64 ifadesinin tam kare olduğunu karolarla göster ve (x±b)² biçiminde çarpanlara ayır."
+      },
+      {
+        "id": "M.8.2.1.4-V53-020",
+        "question": "x² −8x + 16 ifadesinin tam kare olduğunu karolarla göster ve (x±b)² biçiminde çarpanlara ayır."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.2.2.1",
+    "name": "Birinci dereceden bir bilinmeyenli denklem",
+    "official": "Birinci dereceden bir bilinmeyenli denklem",
+    "total": 16,
+    "tagged": 8,
+    "families": {
+      "Görsel modelleme / inşa / sürükleme": 1,
+      "Gerçek yaşamda matematiksel model kurma": 1,
+      "Yanlış çözüm veya karşı örnek analizi": 2,
+      "Temel beceri / doğru işlem": 1,
+      "Ters problem / eksik veriyi tamamlama": 1,
+      "Farklı temsile dönüştürme": 1,
+      "Birden fazla koşullu muhakeme": 1
+    },
+    "unique": 16,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA65-8-07",
+        "question": "−2x+4=12 denkleminde x kaçtır ve işareti nedir?"
+      },
+      {
+        "id": "MA65-8-08",
+        "question": "2(x+3)=2x+6 eşitliği her x için doğru mudur? x=4 için iki tarafı hesapla."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.2.2.2",
+    "name": "Koordinat sistemi ve sıralı ikililer",
+    "official": "Koordinat sistemi ve sıralı ikililer",
+    "total": 16,
+    "tagged": 8,
+    "families": {
+      "Karşılaştırma, sıralama ve sınıflama": 2,
+      "Temel beceri / doğru işlem": 1,
+      "Görsel modelleme / inşa / sürükleme": 1,
+      "Birden fazla koşullu muhakeme": 1,
+      "Yanlış çözüm veya karşı örnek analizi": 1,
+      "Ters problem / eksik veriyi tamamlama": 1,
+      "Ara adımlı çözüm": 1
+    },
+    "unique": 16,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA65-8-15",
+        "question": "A(−2,1), B(3,1), C(3,4), D(−2,4) dikdörtgeninin çevresi kaçtır?"
+      },
+      {
+        "id": "MA65-8-16",
+        "question": "M(−5, 0) ile N(0, 6) noktalarından hangisi x eksenindedir; ikisi de orijinde midir?"
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.2.2.3",
+    "name": "Doğrusal ilişki: tablo ve denklem",
+    "official": "Doğrusal ilişki: tablo ve denklem",
+    "total": 8,
+    "tagged": 0,
+    "families": {},
+    "unique": 8,
+    "numeric_template_excess": 0,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V54-M-8-2-2-3-07",
+        "question": "Bilet satışı gelir tablosu: Ölçümler (x,y) olarak [1, 14], [3, 22], [5, 30]. Artış hızını, x=0 başlangıç değerini ve x=7 için değeri bulunuz."
+      },
+      {
+        "id": "MA8-V54-M-8-2-2-3-08",
+        "question": "Sıcaklık kontrol çizelgesi: Ölçümler (x,y) olarak [1, 16], [3, 26], [5, 36]. Artış hızını, x=0 başlangıç değerini ve x=7 için değeri bulunuz."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.2.2.4",
+    "name": "Doğrusal denklemin grafiği",
+    "official": "Doğrusal denklemin grafiği",
+    "total": 8,
+    "tagged": 0,
+    "families": {},
+    "unique": 8,
+    "numeric_template_excess": 0,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V54-M-8-2-2-4-07",
+        "question": "Koşu parkuru mesafe grafiği: Sensör doğrusu y=4x+9. Grafiğin y eksenini kestiği noktadaki değeri ve x=2 için değeri bularak iki noktadan eğimi doğrulayınız."
+      },
+      {
+        "id": "MA8-V54-M-8-2-2-4-08",
+        "question": "Kantin sipariş grafiği: Sensör doğrusu y=1x+10. Grafiğin y eksenini kestiği noktadaki değeri ve x=2 için değeri bularak iki noktadan eğimi doğrulayınız."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.2.2.5",
+    "name": "Gerçek hayat doğrusal ilişkileri yorumlama",
+    "official": "Gerçek hayat doğrusal ilişkileri yorumlama",
+    "total": 28,
+    "tagged": 20,
+    "families": {
+      "Gerçek yaşamda matematiksel model kurma": 3,
+      "Tablo, grafik, veri değerlendirme": 2,
+      "Farklı temsile dönüştürme": 2,
+      "Birden fazla koşullu muhakeme": 1,
+      "Görsel modelleme / inşa / sürükleme": 1,
+      "Karşılaştırma, sıralama ve sınıflama": 1,
+      "Temel beceri / doğru işlem": 1,
+      "Yanlış çözüm veya karşı örnek analizi": 1,
+      "İki tarifeyi karşılaştırma": 1,
+      "Denklem kurma": 1,
+      "Sözelden grafiğe": 1,
+      "Tablodan kural": 1,
+      "Koordinattan genelleme": 1,
+      "İki koşul, tek karar": 1,
+      "Maliyet optimizasyonu": 1,
+      "Negatif eğim": 1
+    },
+    "unique": 28,
+    "numeric_template_excess": 0,
+    "priority": "Sürdürme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA66-LINE8-07",
+        "question": "A=12+5n, B=24+3n TL. n=8 için ucuz olanı ve bu tarifedeki toplam bedeli belirle."
+      },
+      {
+        "id": "MA66-LINE8-08",
+        "question": "y=−2x+14 doğrusu için x=3 iken y kaçtır? Değişimin yönünü seç."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.2.2.6",
+    "name": "Doğrunun eğimini modelleme",
+    "official": "Doğrunun eğimini modelleme",
+    "total": 20,
+    "tagged": 12,
+    "families": {
+      "Temel beceri / doğru işlem": 1,
+      "Karşılaştırma, sıralama ve sınıflama": 2,
+      "Kavramı keşfetme": 1,
+      "Ara adımlı çözüm": 1,
+      "Yanlış çözüm veya karşı örnek analizi": 2,
+      "Tablo, grafik, veri değerlendirme": 1,
+      "Gerçek yaşamda matematiksel model kurma": 1,
+      "Ters problem / eksik veriyi tamamlama": 1,
+      "Farklı temsile dönüştürme": 1,
+      "Birden fazla koşullu muhakeme": 1
+    },
+    "unique": 20,
+    "numeric_template_excess": 0,
+    "priority": "Sürdürme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA64-8-11",
+        "question": "“Eğim sıfırsa doğru yoktur.” iddiasını y=5 doğrusu üzerinde değerlendir."
+      },
+      {
+        "id": "MA64-8-12",
+        "question": "K(−2,5) ve L(2,−3) arasında Δx, Δy ve eğimi hesapla; doğru artıyor mu azalıyor mu?"
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.2.3.1",
+    "name": "Günlük yaşam durumlarından eşitsizlik oluşturma",
+    "official": "Günlük yaşam durumlarından eşitsizlik oluşturma",
+    "total": 12,
+    "tagged": 0,
+    "families": {},
+    "unique": 12,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V55-M-8-2-3-1-11",
+        "question": "Uzay kulübü: Sabit 30 TL ve her katılımcı için 5 TL harcanıyor. Toplam tutar 100 TL’yi aşamaz. Katılımcı sayısı x ise eşitsizliği kur; sınır değeri ve eşitsizliğin yönünü belirt."
+      },
+      {
+        "id": "MA8-V55-M-8-2-3-1-12",
+        "question": "Spor turnuvası: Sabit 32 TL ve her katılımcı için 2 TL gelir elde ediliyor. Toplam tutar 62 TL’yi en az bulmalıdır. Katılımcı sayısı x ise eşitsizliği kur; sınır değeri ve eşitsizl"
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.2.3.2",
+    "name": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "official": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "total": 12,
+    "tagged": 0,
+    "families": {},
+    "unique": 12,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V55-M-8-2-3-2-11",
+        "question": "Uzay kulübü: x > 4 koşulunu sayı doğrusunda göster. Sınırdaki noktanın dolu/boş olacağını, taramanın yönünü ve koşulu sağlayan komşu tam sayıyı belirle."
+      },
+      {
+        "id": "MA8-V55-M-8-2-3-2-12",
+        "question": "Spor turnuvası: x ≥ 5 koşulunu sayı doğrusunda göster. Sınırdaki noktanın dolu/boş olacağını, taramanın yönünü ve koşulu sağlayan komşu tam sayıyı belirle."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.2.3.3",
+    "name": "Birinci dereceden eşitsizlikleri çözme",
+    "official": "Birinci dereceden eşitsizlikleri çözme",
+    "total": 12,
+    "tagged": 0,
+    "families": {},
+    "unique": 12,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V55-M-8-2-3-3-11",
+        "question": "Uzay kulübü: −5x + 43 > 3 eşitsizliğini çöz. Önce 43−(3) farkını, ardından sınır x değerini bul. Negatif sayıya bölünce yönün ne olacağını seç."
+      },
+      {
+        "id": "MA8-V55-M-8-2-3-3-12",
+        "question": "Spor turnuvası: −2x + 46 ≥ 28 eşitsizliğini çöz. Önce 46−(28) farkını, ardından sınır x değerini bul. Negatif sayıya bölünce yönün ne olacağını seç."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.1.1",
+    "name": "Kenarortay, açıortay ve yüksekliği inşa etme",
+    "official": "Kenarortay, açıortay ve yüksekliği inşa etme",
+    "total": 12,
+    "tagged": 0,
+    "families": {},
+    "unique": 12,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V55-M-8-3-1-1-11",
+        "question": "Uzay kulübü: A köşesinin açısı 92° olan ABC üçgeninde AD, A açısını iki eş parçaya ayırıyor. Parçalardan birinin açısını ve AD doğrusunun adını seç."
+      },
+      {
+        "id": "MA8-V55-M-8-3-1-1-12",
+        "question": "Spor turnuvası: ABC üçgeninde AD, BC kenarına A'dan çizilen dikme. AD ile BC arasındaki açıyı ve doğrunun adını seç."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.1.2",
+    "name": "Üçgen eşitsizliğini modelleme",
+    "official": "Üçgen eşitsizliğini modelleme",
+    "total": 12,
+    "tagged": 0,
+    "families": {},
+    "unique": 12,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V55-M-8-3-1-2-11",
+        "question": "Uzay kulübü: Uzunlukları 9 cm ve 7 cm olan iki çubuğa, uzunluğu tam sayı cm olan üçüncü bir çubuk eklenecek. Üçgen kurulabilmesi için üçüncü çubuğun alabileceği en küçük, en büyük "
+      },
+      {
+        "id": "MA8-V55-M-8-3-1-2-12",
+        "question": "Spor turnuvası: Uzunlukları 4 cm ve 9 cm olan iki çubuğa, uzunluğu tam sayı cm olan üçüncü bir çubuk eklenecek. Üçgen kurulabilmesi için üçüncü çubuğun alabileceği en küçük, en büy"
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.1.3",
+    "name": "Kenar ve karşı açı ilişkisini açıklama",
+    "official": "Kenar ve karşı açı ilişkisini açıklama",
+    "total": 12,
+    "tagged": 0,
+    "families": {},
+    "unique": 12,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V55-M-8-3-1-3-11",
+        "question": "Uzay kulübü: ABC üçgeninin kenar uzunlukları AB=7 cm, BC=8 cm, CA=10 cm. En büyük uzunluğu yaz ve en büyük açının hangi köşede olduğunu seç."
+      },
+      {
+        "id": "MA8-V55-M-8-3-1-3-12",
+        "question": "Spor turnuvası: ABC üçgeninin kenar uzunlukları AB=6 cm, BC=8 cm, CA=5 cm. En büyük uzunluğu yaz ve en büyük açının hangi köşede olduğunu seç."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.1.4",
+    "name": "Verilen ölçülerle üçgen çizme",
+    "official": "Verilen ölçülerle üçgen çizme",
+    "total": 12,
+    "tagged": 0,
+    "families": {},
+    "unique": 12,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V55-M-8-3-1-4-11",
+        "question": "Uzay kulübü: Bir kenar ile bu kenarın uçlarındaki 55° ve 60° açılar verildi. Eksik açıyı hesaplayıp yapım yöntemini seç."
+      },
+      {
+        "id": "MA8-V55-M-8-3-1-4-12",
+        "question": "Spor turnuvası: Uzunlukları 7 cm ve 9 cm olan iki kenar ve aralarındaki 60° açı verildi. Yapımda sabitlenmesi gereken açıyı yazıp kullanılacak yöntemini seç."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.1.5",
+    "name": "Pisagor bağıntısını uygulama",
+    "official": "Pisagor bağıntısını uygulama",
+    "total": 12,
+    "tagged": 0,
+    "families": {},
+    "unique": 12,
+    "numeric_template_excess": 0,
+    "priority": "Genişletme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V55-M-8-3-1-5-11",
+        "question": "Uzay kulübü: Dik konumdaki iki koridor sırasıyla 24 ve 45 m. Başlangıçtan karşı köşeye düz geçiş yapılacak. Önce dik kenar karelerinin toplamını, sonra kestirmenin uzunluğunu ve kö"
+      },
+      {
+        "id": "MA8-V55-M-8-3-1-5-12",
+        "question": "Spor turnuvası: Dik konumdaki iki koridor sırasıyla 21 ve 72 m. Başlangıçtan karşı köşeye düz geçiş yapılacak. Önce dik kenar karelerinin toplamını, sonra kestirmenin uzunluğunu ve"
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.3.1",
+    "name": "Eş ve benzer çokgenlerin kenar-açı ilişkilerini belirler",
+    "official": "Eş ve benzer çokgenlerin kenar-açı ilişkilerini belirler",
+    "total": 10,
+    "tagged": 0,
+    "families": {},
+    "unique": 10,
+    "numeric_template_excess": 0,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V56-M-8-3-3-1-09",
+        "question": "Karton maket: Kenarları 3 ve 6 birim olan dikdörtgen ile 3 ve 6 birim olan dikdörtgeni karşılaştır. İkinci şeklin bir kenarını ve benzerlik sınıfını belirle."
+      },
+      {
+        "id": "MA8-V56-M-8-3-3-1-10",
+        "question": "Şehir haritası: Kenarları 4 ve 3 birim olan dikdörtgen ile 12 ve 9 birim olan dikdörtgeni karşılaştır. İkinci şeklin bir kenarını ve benzerlik sınıfını belirle."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.3.2",
+    "name": "Benzerlik oranı belirler ve çokgeni ölçekleyerek oluşturur",
+    "official": "Benzerlik oranı belirler ve çokgeni ölçekleyerek oluşturur",
+    "total": 10,
+    "tagged": 0,
+    "families": {},
+    "unique": 10,
+    "numeric_template_excess": 0,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V56-M-8-3-3-2-09",
+        "question": "Karton maket: 6×3 birimlik dikdörtgenin 1 kat ölçekli benzerini oluştur; iki yeni kenarı da hesapla."
+      },
+      {
+        "id": "MA8-V56-M-8-3-3-2-10",
+        "question": "Şehir haritası: 2×4 birimlik dikdörtgenin 2 kat ölçekli benzerini oluştur; iki yeni kenarı da hesapla."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.2.1",
+    "name": "Öteleme sonucu görüntüyü oluşturur",
+    "official": "Öteleme sonucu görüntüyü oluşturur",
+    "total": 10,
+    "tagged": 0,
+    "families": {},
+    "unique": 10,
+    "numeric_template_excess": 0,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V56-M-8-3-2-1-09",
+        "question": "Karton maket: A(-2,1) köşeli üçgeni 1 birim sağa ve 2 birim aşağı ötele. Kontrollerle görüntüyü taşı, A′ koordinatını yaz."
+      },
+      {
+        "id": "MA8-V56-M-8-3-2-1-10",
+        "question": "Şehir haritası: A(-1,-2) köşeli üçgeni 2 birim sağa ve 1 birim aşağı ötele. Kontrollerle görüntüyü taşı, A′ koordinatını yaz."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.2.2",
+    "name": "Yansıma sonucu görüntüyü oluşturur",
+    "official": "Yansıma sonucu görüntüyü oluşturur",
+    "total": 10,
+    "tagged": 0,
+    "families": {},
+    "unique": 10,
+    "numeric_template_excess": 0,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V56-M-8-3-2-2-09",
+        "question": "Karton maket: A(-2,1) köşeli üçgeni x eksenine göre yansıt. Ekseni seçip A′ koordinatını oluştur."
+      },
+      {
+        "id": "MA8-V56-M-8-3-2-2-10",
+        "question": "Şehir haritası: A(-1,-2) köşeli üçgeni y eksenine göre yansıt. Ekseni seçip A′ koordinatını oluştur."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.2.3",
+    "name": "İki ardışık öteleme ve yansıma ile çokgen görüntüsü oluşturur",
+    "official": "İki ardışık öteleme ve yansıma ile çokgen görüntüsü oluşturur",
+    "total": 10,
+    "tagged": 0,
+    "families": {},
+    "unique": 10,
+    "numeric_template_excess": 0,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V56-M-8-3-2-3-09",
+        "question": "Karton maket: A(-2,1) köşeli üçgeni önce 1 birim sağa, 2 birim aşağı ötele, sonra x eksenine yansıt. İki adımı sırasıyla uygula; son A″ koordinatını yaz."
+      },
+      {
+        "id": "MA8-V56-M-8-3-2-3-10",
+        "question": "Şehir haritası: A(-1,-2) köşeli üçgeni önce 2 birim sağa, 1 birim aşağı ötele, sonra y eksenine yansıt. İki adımı sırasıyla uygula; son A″ koordinatını yaz."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.4.1",
+    "name": "Dik prizmaları tanır ve açınımlarını oluşturur",
+    "official": "Dik prizmaları tanır ve açınımlarını oluşturur",
+    "total": 10,
+    "tagged": 0,
+    "families": {},
+    "unique": 10,
+    "numeric_template_excess": 0,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V56-M-8-3-4-1-09",
+        "question": "Karton maket: Tabanı Dikdörtgen olan dik prizma modeli (verilen uzunluklar 3, 5, 4 birim). Açınımı açarak yüz, ayrıt ve köşe sayılarını bul."
+      },
+      {
+        "id": "MA8-V56-M-8-3-4-1-10",
+        "question": "Şehir haritası: Tabanı Üçgen olan dik prizma modeli (verilen uzunluklar 4, 2, 5 birim). Açınımı açarak yüz, ayrıt ve köşe sayılarını bul."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.4.2",
+    "name": "Dik dairesel silindiri tanır ve açınımını oluşturur",
+    "official": "Dik dairesel silindiri tanır ve açınımını oluşturur",
+    "total": 10,
+    "tagged": 0,
+    "families": {},
+    "unique": 10,
+    "numeric_template_excess": 0,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V56-M-8-3-4-2-09",
+        "question": "Karton maket: Yarıçapı 5, yüksekliği 6 birim olan silindirin açınımını oluştur. π=3 al; açılan dikdörtgenin taban çemberine eşit olan kenarını ve açınımın parça sayısını bul."
+      },
+      {
+        "id": "MA8-V56-M-8-3-4-2-10",
+        "question": "Şehir haritası: Yarıçapı 1, yüksekliği 7 birim olan silindirin açınımını oluştur. π=3 al; açılan dikdörtgenin taban çemberine eşit olan kenarını ve açınımın parça sayısını bul."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.4.3",
+    "name": "Dik dairesel silindir yüzey alanı ilişkisini kurar",
+    "official": "Dik dairesel silindir yüzey alanı ilişkisini kurar",
+    "total": 10,
+    "tagged": 0,
+    "families": {},
+    "unique": 10,
+    "numeric_template_excess": 0,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V56-M-8-3-4-3-09",
+        "question": "Karton maket: r=2, h=8 olan silindirin açınımında iki daire ve dikdörtgeni kullan. π=3 al. Yan alan, iki tabanın toplam alanı ve tüm yüzey alanını hesapla."
+      },
+      {
+        "id": "MA8-V56-M-8-3-4-3-10",
+        "question": "Şehir haritası: r=3, h=4 olan silindirin açınımında iki daire ve dikdörtgeni kullan. π=3 al. Yan alan, iki tabanın toplam alanı ve tüm yüzey alanını hesapla."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.4.4",
+    "name": "Dik dairesel silindir hacim ilişkisini kurar",
+    "official": "Dik dairesel silindir hacim ilişkisini kurar",
+    "total": 10,
+    "tagged": 0,
+    "families": {},
+    "unique": 10,
+    "numeric_template_excess": 0,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V56-M-8-3-4-4-09",
+        "question": "Karton maket: Taban yarıçapı 2 birim, yüksekliği 6 birim olan silindiri taban alanı kadar katmanlarla doldur. π=3 al. Taban alanını ve hacmi hesapla."
+      },
+      {
+        "id": "MA8-V56-M-8-3-4-4-10",
+        "question": "Şehir haritası: Taban yarıçapı 3 birim, yüksekliği 2 birim olan silindiri taban alanı kadar katmanlarla doldur. π=3 al. Taban alanını ve hacmi hesapla."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.4.5",
+    "name": "Dik piramidin temel elemanlarını ve açınımını belirler",
+    "official": "Dik piramidin temel elemanlarını ve açınımını belirler",
+    "total": 10,
+    "tagged": 0,
+    "families": {},
+    "unique": 10,
+    "numeric_template_excess": 0,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V56-M-8-3-4-5-09",
+        "question": "Karton maket: Kare tabanlı dik piramidin açınımını aç ve geometrik elemanlarını say. Alan veya hacim hesaplanmayacak."
+      },
+      {
+        "id": "MA8-V56-M-8-3-4-5-10",
+        "question": "Şehir haritası: Üçgen tabanlı dik piramidin açınımını aç ve geometrik elemanlarını say. Alan veya hacim hesaplanmayacak."
+      }
+    ]
+  },
+  {
+    "grade": "8",
+    "code": "M.8.3.4.6",
+    "name": "Dik koninin temel elemanlarını ve açınımını belirler",
+    "official": "Dik koninin temel elemanlarını ve açınımını belirler",
+    "total": 10,
+    "tagged": 0,
+    "families": {},
+    "unique": 10,
+    "numeric_template_excess": 0,
+    "priority": "İlk inceleme",
+    "new68": 0,
+    "examples": [
+      {
+        "id": "MA8-V56-M-8-3-4-6-09",
+        "question": "Karton maket: Dik koninin açınımını aç. Taban ve yan yüzün geometrik şekillerini seç, tepe noktası sayısını yaz; alan veya hacim hesaplanmayacak."
+      },
+      {
+        "id": "MA8-V56-M-8-3-4-6-10",
+        "question": "Şehir haritası: Dik koninin açınımını aç. Taban ve yan yüzün geometrik şekillerini seç, tepe noktası sayısını yaz; alan veya hacim hesaplanmayacak."
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "total": 96,
+  "counts": {
+    "triangle": 12,
+    "cost": 12,
+    "pattern": 12,
+    "area": 12,
+    "circumference": 12,
+    "probability": 12,
+    "sector": 12,
+    "root": 12
+  },
+  "positions": [
+    34,
+    32,
+    30
+  ],
+  "issues": [],
+  "overflow": false
+}

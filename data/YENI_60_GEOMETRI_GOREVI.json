@@ -1,0 +1,3391 @@
+[
+  {
+    "plan_sirasi": 1,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "sinif": "5",
+    "tema_ici_sira": 21,
+    "id": "MAT.5.3.1-G21",
+    "gorev_no": "21",
+    "seviye": "1",
+    "asama": "Keşfet",
+    "rol": "Mimar",
+    "mekan": "Okul atölyesi",
+    "mekanik": "Geometri laboratuvarı · Araç–işlev eşleştirme",
+    "baslik": "Araç–işlev eşleştirme · 1",
+    "gorev": "Araç sırasını planla modelini değiştir; çizimden çıkarımlarını doğrula. 1. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "toolPath",
+      "seed": 0,
+      "fields": [
+        {
+          "key": "tool",
+          "kind": "choice",
+          "label": "Bu geometrik işlem için temel araç",
+          "answer": "cetvel",
+          "options": [
+            "cetvel",
+            "pergel",
+            "açıölçer",
+            "gönye"
+          ]
+        },
+        {
+          "key": "purpose",
+          "kind": "choice",
+          "label": "Aracın temel işlevi",
+          "answer": "uzunluk belirleme",
+          "options": [
+            "uzunluk belirleme",
+            "sabit yarıçaplı çember çizme",
+            "açı ölçme",
+            "dikme oluşturma"
+          ]
+        }
+      ],
+      "scene": "tools",
+      "target": "cetvel",
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 1,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "sinif": "5",
+    "tema_ici_sira": 22,
+    "id": "MAT.5.3.1-G22",
+    "gorev_no": "22",
+    "seviye": "1",
+    "asama": "Kur",
+    "rol": "Haritacı",
+    "mekan": "Kent parkı",
+    "mekanik": "Geometri laboratuvarı · Araç–işlev eşleştirme",
+    "baslik": "Araç–işlev eşleştirme · 2",
+    "gorev": "Araç sırasını planla modelini değiştir; çizimden çıkarımlarını doğrula. 2. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "toolPath",
+      "seed": 1,
+      "fields": [
+        {
+          "key": "tool",
+          "kind": "choice",
+          "label": "Bu geometrik işlem için temel araç",
+          "answer": "pergel",
+          "options": [
+            "cetvel",
+            "pergel",
+            "açıölçer",
+            "gönye"
+          ]
+        },
+        {
+          "key": "purpose",
+          "kind": "choice",
+          "label": "Aracın temel işlevi",
+          "answer": "sabit yarıçaplı çember çizme",
+          "options": [
+            "uzunluk belirleme",
+            "sabit yarıçaplı çember çizme",
+            "açı ölçme",
+            "dikme oluşturma"
+          ]
+        }
+      ],
+      "scene": "tools",
+      "target": "pergel",
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 1,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "sinif": "5",
+    "tema_ici_sira": 23,
+    "id": "MAT.5.3.1-G23",
+    "gorev_no": "23",
+    "seviye": "1",
+    "asama": "Sına",
+    "rol": "Dedektif",
+    "mekan": "Bilim laboratuvarı",
+    "mekanik": "Geometri laboratuvarı · Araç–işlev eşleştirme",
+    "baslik": "Araç–işlev eşleştirme · 3",
+    "gorev": "Araç sırasını planla modelini değiştir; çizimden çıkarımlarını doğrula. 3. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "toolPath",
+      "seed": 2,
+      "fields": [
+        {
+          "key": "tool",
+          "kind": "choice",
+          "label": "Bu geometrik işlem için temel araç",
+          "answer": "açıölçer",
+          "options": [
+            "cetvel",
+            "pergel",
+            "açıölçer",
+            "gönye"
+          ]
+        },
+        {
+          "key": "purpose",
+          "kind": "choice",
+          "label": "Aracın temel işlevi",
+          "answer": "açı ölçme",
+          "options": [
+            "uzunluk belirleme",
+            "sabit yarıçaplı çember çizme",
+            "açı ölçme",
+            "dikme oluşturma"
+          ]
+        }
+      ],
+      "scene": "tools",
+      "target": "açıölçer",
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 1,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "sinif": "5",
+    "tema_ici_sira": 24,
+    "id": "MAT.5.3.1-G24",
+    "gorev_no": "24",
+    "seviye": "2",
+    "asama": "Gerekçelendir",
+    "rol": "Tasarıcı",
+    "mekan": "Şehir meydanı",
+    "mekanik": "Geometri laboratuvarı · Araç–işlev eşleştirme",
+    "baslik": "Araç–işlev eşleştirme · 4",
+    "gorev": "Araç sırasını planla modelini değiştir; çizimden çıkarımlarını doğrula. 4. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "toolPath",
+      "seed": 3,
+      "fields": [
+        {
+          "key": "tool",
+          "kind": "choice",
+          "label": "Bu geometrik işlem için temel araç",
+          "answer": "gönye",
+          "options": [
+            "cetvel",
+            "pergel",
+            "açıölçer",
+            "gönye"
+          ]
+        },
+        {
+          "key": "purpose",
+          "kind": "choice",
+          "label": "Aracın temel işlevi",
+          "answer": "dikme oluşturma",
+          "options": [
+            "uzunluk belirleme",
+            "sabit yarıçaplı çember çizme",
+            "açı ölçme",
+            "dikme oluşturma"
+          ]
+        }
+      ],
+      "scene": "tools",
+      "target": "gönye",
+      "requireReason": true
+    }
+  },
+  {
+    "plan_sirasi": 1,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "sinif": "5",
+    "tema_ici_sira": 25,
+    "id": "MAT.5.3.1-G25",
+    "gorev_no": "25",
+    "seviye": "2",
+    "asama": "Keşfet",
+    "rol": "Mimar",
+    "mekan": "Okul atölyesi",
+    "mekanik": "Geometri laboratuvarı · Koordinatlı doğru parçası",
+    "baslik": "Koordinatlı doğru parçası · 1",
+    "gorev": "Kareli düzlemde A(1, 2) ile B(3, 2) noktalarını sırayla işaretle ve uzunluklarını belirle.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "gridSegment",
+      "seed": 0,
+      "fields": [
+        {
+          "key": "length",
+          "kind": "choice",
+          "label": "A ile B arası kare sayısı",
+          "answer": 2,
+          "options": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "scene": "grid",
+      "A": [
+        1,
+        2
+      ],
+      "B": [
+        3,
+        2
+      ],
+      "distance": 2,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 1,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "sinif": "5",
+    "tema_ici_sira": 26,
+    "id": "MAT.5.3.1-G26",
+    "gorev_no": "26",
+    "seviye": "2",
+    "asama": "Kur",
+    "rol": "Haritacı",
+    "mekan": "Kent parkı",
+    "mekanik": "Geometri laboratuvarı · Koordinatlı doğru parçası",
+    "baslik": "Koordinatlı doğru parçası · 2",
+    "gorev": "Kareli düzlemde A(2, 3) ile B(2, 6) noktalarını sırayla işaretle ve uzunluklarını belirle.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "gridSegment",
+      "seed": 1,
+      "fields": [
+        {
+          "key": "length",
+          "kind": "choice",
+          "label": "A ile B arası kare sayısı",
+          "answer": 3,
+          "options": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "scene": "grid",
+      "A": [
+        2,
+        3
+      ],
+      "B": [
+        2,
+        6
+      ],
+      "distance": 3,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 1,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "sinif": "5",
+    "tema_ici_sira": 27,
+    "id": "MAT.5.3.1-G27",
+    "gorev_no": "27",
+    "seviye": "3",
+    "asama": "Sına",
+    "rol": "Dedektif",
+    "mekan": "Bilim laboratuvarı",
+    "mekanik": "Geometri laboratuvarı · Koordinatlı doğru parçası",
+    "baslik": "Koordinatlı doğru parçası · 3",
+    "gorev": "Kareli düzlemde A(1, 2) ile B(5, 2) noktalarını sırayla işaretle ve uzunluklarını belirle.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "gridSegment",
+      "seed": 2,
+      "fields": [
+        {
+          "key": "length",
+          "kind": "choice",
+          "label": "A ile B arası kare sayısı",
+          "answer": 4,
+          "options": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "scene": "grid",
+      "A": [
+        1,
+        2
+      ],
+      "B": [
+        5,
+        2
+      ],
+      "distance": 4,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 1,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "sinif": "5",
+    "tema_ici_sira": 28,
+    "id": "MAT.5.3.1-G28",
+    "gorev_no": "28",
+    "seviye": "3",
+    "asama": "Gerekçelendir",
+    "rol": "Tasarıcı",
+    "mekan": "Şehir meydanı",
+    "mekanik": "Geometri laboratuvarı · Koordinatlı doğru parçası",
+    "baslik": "Koordinatlı doğru parçası · 4",
+    "gorev": "Kareli düzlemde A(2, 2) ile B(2, 7) noktalarını sırayla işaretle ve uzunluklarını belirle.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "gridSegment",
+      "seed": 3,
+      "fields": [
+        {
+          "key": "length",
+          "kind": "choice",
+          "label": "A ile B arası kare sayısı",
+          "answer": 5,
+          "options": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "scene": "grid",
+      "A": [
+        2,
+        2
+      ],
+      "B": [
+        2,
+        7
+      ],
+      "distance": 5,
+      "requireReason": true
+    }
+  },
+  {
+    "plan_sirasi": 2,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "sinif": "5",
+    "tema_ici_sira": 21,
+    "id": "MAT.5.3.2-G21",
+    "gorev_no": "21",
+    "seviye": "1",
+    "asama": "Keşfet",
+    "rol": "Mimar",
+    "mekan": "Okul atölyesi",
+    "mekanik": "Geometri laboratuvarı · Uç noktalar dedektifi",
+    "baslik": "Uç noktalar dedektifi · 1",
+    "gorev": "Uç noktalar dedektifi modelini değiştir; çizimden çıkarımlarını doğrula. 1. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "lineExtent",
+      "seed": 0,
+      "fields": [
+        {
+          "key": "kind",
+          "kind": "choice",
+          "label": "Hangi geometrik nesneyi temsil ediyor?",
+          "answer": "doğru",
+          "options": [
+            "doğru",
+            "ışın",
+            "doğru parçası"
+          ]
+        },
+        {
+          "key": "ends",
+          "kind": "choice",
+          "label": "Uç nokta sayısı",
+          "answer": 0,
+          "options": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "scene": "extent",
+      "target": "doğru",
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 2,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "sinif": "5",
+    "tema_ici_sira": 22,
+    "id": "MAT.5.3.2-G22",
+    "gorev_no": "22",
+    "seviye": "1",
+    "asama": "Kur",
+    "rol": "Haritacı",
+    "mekan": "Kent parkı",
+    "mekanik": "Geometri laboratuvarı · Uç noktalar dedektifi",
+    "baslik": "Uç noktalar dedektifi · 2",
+    "gorev": "Uç noktalar dedektifi modelini değiştir; çizimden çıkarımlarını doğrula. 2. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "lineExtent",
+      "seed": 1,
+      "fields": [
+        {
+          "key": "kind",
+          "kind": "choice",
+          "label": "Hangi geometrik nesneyi temsil ediyor?",
+          "answer": "ışın",
+          "options": [
+            "doğru",
+            "ışın",
+            "doğru parçası"
+          ]
+        },
+        {
+          "key": "ends",
+          "kind": "choice",
+          "label": "Uç nokta sayısı",
+          "answer": 1,
+          "options": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "scene": "extent",
+      "target": "ışın",
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 2,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "sinif": "5",
+    "tema_ici_sira": 23,
+    "id": "MAT.5.3.2-G23",
+    "gorev_no": "23",
+    "seviye": "1",
+    "asama": "Sına",
+    "rol": "Dedektif",
+    "mekan": "Bilim laboratuvarı",
+    "mekanik": "Geometri laboratuvarı · Uç noktalar dedektifi",
+    "baslik": "Uç noktalar dedektifi · 3",
+    "gorev": "Uç noktalar dedektifi modelini değiştir; çizimden çıkarımlarını doğrula. 3. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "lineExtent",
+      "seed": 2,
+      "fields": [
+        {
+          "key": "kind",
+          "kind": "choice",
+          "label": "Hangi geometrik nesneyi temsil ediyor?",
+          "answer": "doğru parçası",
+          "options": [
+            "doğru",
+            "ışın",
+            "doğru parçası"
+          ]
+        },
+        {
+          "key": "ends",
+          "kind": "choice",
+          "label": "Uç nokta sayısı",
+          "answer": 2,
+          "options": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "scene": "extent",
+      "target": "doğru parçası",
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 2,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "sinif": "5",
+    "tema_ici_sira": 24,
+    "id": "MAT.5.3.2-G24",
+    "gorev_no": "24",
+    "seviye": "2",
+    "asama": "Gerekçelendir",
+    "rol": "Tasarıcı",
+    "mekan": "Şehir meydanı",
+    "mekanik": "Geometri laboratuvarı · Uç noktalar dedektifi",
+    "baslik": "Uç noktalar dedektifi · 4",
+    "gorev": "Uç noktalar dedektifi modelini değiştir; çizimden çıkarımlarını doğrula. 4. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "lineExtent",
+      "seed": 3,
+      "fields": [
+        {
+          "key": "kind",
+          "kind": "choice",
+          "label": "Hangi geometrik nesneyi temsil ediyor?",
+          "answer": "ışın",
+          "options": [
+            "doğru",
+            "ışın",
+            "doğru parçası"
+          ]
+        },
+        {
+          "key": "ends",
+          "kind": "choice",
+          "label": "Uç nokta sayısı",
+          "answer": 1,
+          "options": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "scene": "extent",
+      "target": "ışın",
+      "requireReason": true
+    }
+  },
+  {
+    "plan_sirasi": 2,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "sinif": "5",
+    "tema_ici_sira": 25,
+    "id": "MAT.5.3.2-G25",
+    "gorev_no": "25",
+    "seviye": "2",
+    "asama": "Keşfet",
+    "rol": "Mimar",
+    "mekan": "Okul atölyesi",
+    "mekanik": "Geometri laboratuvarı · Dikme ayağını bul",
+    "baslik": "Dikme ayağını bul · 1",
+    "gorev": "Dikme ayağını bul modelini değiştir; çizimden çıkarımlarını doğrula. 1. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "perpendicularFoot",
+      "seed": 0,
+      "fields": [
+        {
+          "key": "foot",
+          "kind": "range",
+          "label": "Yatay doğru üzerindeki dikme ayağı (x)",
+          "answer": 3,
+          "min": 0,
+          "max": 10,
+          "step": 1
+        },
+        {
+          "key": "angle",
+          "kind": "choice",
+          "label": "Doğru ile dikme arasındaki açı",
+          "answer": 90,
+          "options": [
+            45,
+            60,
+            90,
+            120
+          ]
+        }
+      ],
+      "scene": "perpendicular",
+      "pointX": 3,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 2,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "sinif": "5",
+    "tema_ici_sira": 26,
+    "id": "MAT.5.3.2-G26",
+    "gorev_no": "26",
+    "seviye": "2",
+    "asama": "Kur",
+    "rol": "Haritacı",
+    "mekan": "Kent parkı",
+    "mekanik": "Geometri laboratuvarı · Dikme ayağını bul",
+    "baslik": "Dikme ayağını bul · 2",
+    "gorev": "Dikme ayağını bul modelini değiştir; çizimden çıkarımlarını doğrula. 2. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "perpendicularFoot",
+      "seed": 1,
+      "fields": [
+        {
+          "key": "foot",
+          "kind": "range",
+          "label": "Yatay doğru üzerindeki dikme ayağı (x)",
+          "answer": 5,
+          "min": 0,
+          "max": 10,
+          "step": 1
+        },
+        {
+          "key": "angle",
+          "kind": "choice",
+          "label": "Doğru ile dikme arasındaki açı",
+          "answer": 90,
+          "options": [
+            45,
+            60,
+            90,
+            120
+          ]
+        }
+      ],
+      "scene": "perpendicular",
+      "pointX": 5,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 2,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "sinif": "5",
+    "tema_ici_sira": 27,
+    "id": "MAT.5.3.2-G27",
+    "gorev_no": "27",
+    "seviye": "3",
+    "asama": "Sına",
+    "rol": "Dedektif",
+    "mekan": "Bilim laboratuvarı",
+    "mekanik": "Geometri laboratuvarı · Dikme ayağını bul",
+    "baslik": "Dikme ayağını bul · 3",
+    "gorev": "Dikme ayağını bul modelini değiştir; çizimden çıkarımlarını doğrula. 3. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "perpendicularFoot",
+      "seed": 2,
+      "fields": [
+        {
+          "key": "foot",
+          "kind": "range",
+          "label": "Yatay doğru üzerindeki dikme ayağı (x)",
+          "answer": 7,
+          "min": 0,
+          "max": 10,
+          "step": 1
+        },
+        {
+          "key": "angle",
+          "kind": "choice",
+          "label": "Doğru ile dikme arasındaki açı",
+          "answer": 90,
+          "options": [
+            45,
+            60,
+            90,
+            120
+          ]
+        }
+      ],
+      "scene": "perpendicular",
+      "pointX": 7,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 2,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "sinif": "5",
+    "tema_ici_sira": 28,
+    "id": "MAT.5.3.2-G28",
+    "gorev_no": "28",
+    "seviye": "3",
+    "asama": "Gerekçelendir",
+    "rol": "Tasarıcı",
+    "mekan": "Şehir meydanı",
+    "mekanik": "Geometri laboratuvarı · Dikme ayağını bul",
+    "baslik": "Dikme ayağını bul · 4",
+    "gorev": "Dikme ayağını bul modelini değiştir; çizimden çıkarımlarını doğrula. 4. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "perpendicularFoot",
+      "seed": 3,
+      "fields": [
+        {
+          "key": "foot",
+          "kind": "range",
+          "label": "Yatay doğru üzerindeki dikme ayağı (x)",
+          "answer": 9,
+          "min": 0,
+          "max": 10,
+          "step": 1
+        },
+        {
+          "key": "angle",
+          "kind": "choice",
+          "label": "Doğru ile dikme arasındaki açı",
+          "answer": 90,
+          "options": [
+            45,
+            60,
+            90,
+            120
+          ]
+        }
+      ],
+      "scene": "perpendicular",
+      "pointX": 9,
+      "requireReason": true
+    }
+  },
+  {
+    "plan_sirasi": 3,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.3",
+    "sinif": "5",
+    "tema_ici_sira": 21,
+    "id": "MAT.5.3.3-G21",
+    "gorev_no": "21",
+    "seviye": "1",
+    "asama": "Keşfet",
+    "rol": "Mimar",
+    "mekan": "Okul atölyesi",
+    "mekanik": "Geometri laboratuvarı · Açı ve komşu bütünler",
+    "baslik": "Açı ve komşu bütünler · 1",
+    "gorev": "Açı ve komşu bütünler modelini değiştir; çizimden çıkarımlarını doğrula. 1. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "angleTurn",
+      "seed": 0,
+      "fields": [
+        {
+          "key": "theta",
+          "kind": "range",
+          "label": "Açıyı döndür (derece)",
+          "answer": 35,
+          "min": 0,
+          "max": 180,
+          "step": 5
+        },
+        {
+          "key": "adjacent",
+          "kind": "choice",
+          "label": "Komşu bütünler açının ölçüsü",
+          "answer": 145,
+          "options": [
+            35,
+            145,
+            90,
+            325
+          ]
+        }
+      ],
+      "scene": "angle",
+      "target": 35,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 3,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.3",
+    "sinif": "5",
+    "tema_ici_sira": 22,
+    "id": "MAT.5.3.3-G22",
+    "gorev_no": "22",
+    "seviye": "1",
+    "asama": "Kur",
+    "rol": "Haritacı",
+    "mekan": "Kent parkı",
+    "mekanik": "Geometri laboratuvarı · Açı ve komşu bütünler",
+    "baslik": "Açı ve komşu bütünler · 2",
+    "gorev": "Açı ve komşu bütünler modelini değiştir; çizimden çıkarımlarını doğrula. 2. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "angleTurn",
+      "seed": 1,
+      "fields": [
+        {
+          "key": "theta",
+          "kind": "range",
+          "label": "Açıyı döndür (derece)",
+          "answer": 65,
+          "min": 0,
+          "max": 180,
+          "step": 5
+        },
+        {
+          "key": "adjacent",
+          "kind": "choice",
+          "label": "Komşu bütünler açının ölçüsü",
+          "answer": 115,
+          "options": [
+            65,
+            115,
+            90,
+            295
+          ]
+        }
+      ],
+      "scene": "angle",
+      "target": 65,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 3,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.3",
+    "sinif": "5",
+    "tema_ici_sira": 23,
+    "id": "MAT.5.3.3-G23",
+    "gorev_no": "23",
+    "seviye": "1",
+    "asama": "Sına",
+    "rol": "Dedektif",
+    "mekan": "Bilim laboratuvarı",
+    "mekanik": "Geometri laboratuvarı · Açı ve komşu bütünler",
+    "baslik": "Açı ve komşu bütünler · 3",
+    "gorev": "Açı ve komşu bütünler modelini değiştir; çizimden çıkarımlarını doğrula. 3. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "angleTurn",
+      "seed": 2,
+      "fields": [
+        {
+          "key": "theta",
+          "kind": "range",
+          "label": "Açıyı döndür (derece)",
+          "answer": 105,
+          "min": 0,
+          "max": 180,
+          "step": 5
+        },
+        {
+          "key": "adjacent",
+          "kind": "choice",
+          "label": "Komşu bütünler açının ölçüsü",
+          "answer": 75,
+          "options": [
+            105,
+            75,
+            90,
+            255
+          ]
+        }
+      ],
+      "scene": "angle",
+      "target": 105,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 3,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.3",
+    "sinif": "5",
+    "tema_ici_sira": 24,
+    "id": "MAT.5.3.3-G24",
+    "gorev_no": "24",
+    "seviye": "2",
+    "asama": "Gerekçelendir",
+    "rol": "Tasarıcı",
+    "mekan": "Şehir meydanı",
+    "mekanik": "Geometri laboratuvarı · Açı ve komşu bütünler",
+    "baslik": "Açı ve komşu bütünler · 4",
+    "gorev": "Açı ve komşu bütünler modelini değiştir; çizimden çıkarımlarını doğrula. 4. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "angleTurn",
+      "seed": 3,
+      "fields": [
+        {
+          "key": "theta",
+          "kind": "range",
+          "label": "Açıyı döndür (derece)",
+          "answer": 135,
+          "min": 0,
+          "max": 180,
+          "step": 5
+        },
+        {
+          "key": "adjacent",
+          "kind": "choice",
+          "label": "Komşu bütünler açının ölçüsü",
+          "answer": 45,
+          "options": [
+            135,
+            45,
+            90,
+            225
+          ]
+        }
+      ],
+      "scene": "angle",
+      "target": 135,
+      "requireReason": true
+    }
+  },
+  {
+    "plan_sirasi": 3,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.3",
+    "sinif": "5",
+    "tema_ici_sira": 25,
+    "id": "MAT.5.3.3-G25",
+    "gorev_no": "25",
+    "seviye": "2",
+    "asama": "Keşfet",
+    "rol": "Mimar",
+    "mekan": "Okul atölyesi",
+    "mekanik": "Geometri laboratuvarı · Açıölçer hata avcısı",
+    "baslik": "Açıölçer hata avcısı · 1",
+    "gorev": "Açıölçer hata avcısı modelini değiştir; çizimden çıkarımlarını doğrula. 1. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "angleReadRepair",
+      "seed": 0,
+      "fields": [
+        {
+          "key": "read",
+          "kind": "choice",
+          "label": "0° başlangıcına göre doğru okuma",
+          "answer": 35,
+          "options": [
+            35,
+            145,
+            45,
+            25
+          ]
+        },
+        {
+          "key": "class",
+          "kind": "choice",
+          "label": "Açının türü",
+          "answer": "dar",
+          "options": [
+            "dar",
+            "dik",
+            "geniş",
+            "doğru"
+          ]
+        }
+      ],
+      "scene": "protractor",
+      "target": 35,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 3,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.3",
+    "sinif": "5",
+    "tema_ici_sira": 26,
+    "id": "MAT.5.3.3-G26",
+    "gorev_no": "26",
+    "seviye": "2",
+    "asama": "Kur",
+    "rol": "Haritacı",
+    "mekan": "Kent parkı",
+    "mekanik": "Geometri laboratuvarı · Açıölçer hata avcısı",
+    "baslik": "Açıölçer hata avcısı · 2",
+    "gorev": "Açıölçer hata avcısı modelini değiştir; çizimden çıkarımlarını doğrula. 2. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "angleReadRepair",
+      "seed": 1,
+      "fields": [
+        {
+          "key": "read",
+          "kind": "choice",
+          "label": "0° başlangıcına göre doğru okuma",
+          "answer": 70,
+          "options": [
+            70,
+            110,
+            80,
+            60
+          ]
+        },
+        {
+          "key": "class",
+          "kind": "choice",
+          "label": "Açının türü",
+          "answer": "dar",
+          "options": [
+            "dar",
+            "dik",
+            "geniş",
+            "doğru"
+          ]
+        }
+      ],
+      "scene": "protractor",
+      "target": 70,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 3,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.3",
+    "sinif": "5",
+    "tema_ici_sira": 27,
+    "id": "MAT.5.3.3-G27",
+    "gorev_no": "27",
+    "seviye": "3",
+    "asama": "Sına",
+    "rol": "Dedektif",
+    "mekan": "Bilim laboratuvarı",
+    "mekanik": "Geometri laboratuvarı · Açıölçer hata avcısı",
+    "baslik": "Açıölçer hata avcısı · 3",
+    "gorev": "Açıölçer hata avcısı modelini değiştir; çizimden çıkarımlarını doğrula. 3. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "angleReadRepair",
+      "seed": 2,
+      "fields": [
+        {
+          "key": "read",
+          "kind": "choice",
+          "label": "0° başlangıcına göre doğru okuma",
+          "answer": 120,
+          "options": [
+            120,
+            60,
+            130,
+            110
+          ]
+        },
+        {
+          "key": "class",
+          "kind": "choice",
+          "label": "Açının türü",
+          "answer": "geniş",
+          "options": [
+            "dar",
+            "dik",
+            "geniş",
+            "doğru"
+          ]
+        }
+      ],
+      "scene": "protractor",
+      "target": 120,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 3,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.3",
+    "sinif": "5",
+    "tema_ici_sira": 28,
+    "id": "MAT.5.3.3-G28",
+    "gorev_no": "28",
+    "seviye": "3",
+    "asama": "Gerekçelendir",
+    "rol": "Tasarıcı",
+    "mekan": "Şehir meydanı",
+    "mekanik": "Geometri laboratuvarı · Açıölçer hata avcısı",
+    "baslik": "Açıölçer hata avcısı · 4",
+    "gorev": "Açıölçer hata avcısı modelini değiştir; çizimden çıkarımlarını doğrula. 4. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "angleReadRepair",
+      "seed": 3,
+      "fields": [
+        {
+          "key": "read",
+          "kind": "choice",
+          "label": "0° başlangıcına göre doğru okuma",
+          "answer": 155,
+          "options": [
+            155,
+            25,
+            165,
+            145
+          ]
+        },
+        {
+          "key": "class",
+          "kind": "choice",
+          "label": "Açının türü",
+          "answer": "geniş",
+          "options": [
+            "dar",
+            "dik",
+            "geniş",
+            "doğru"
+          ]
+        }
+      ],
+      "scene": "protractor",
+      "target": 155,
+      "requireReason": true
+    }
+  },
+  {
+    "plan_sirasi": 4,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.4",
+    "sinif": "5",
+    "tema_ici_sira": 21,
+    "id": "MAT.5.3.4-G21",
+    "gorev_no": "21",
+    "seviye": "1",
+    "asama": "Keşfet",
+    "rol": "Mimar",
+    "mekan": "Okul atölyesi",
+    "mekanik": "Geometri laboratuvarı · Ters açı eşleştir",
+    "baslik": "Ters açı eşleştir · 1",
+    "gorev": "Ters açı eşleştir modelini değiştir; çizimden çıkarımlarını doğrula. 1. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "oppositeAngles",
+      "seed": 0,
+      "fields": [
+        {
+          "key": "opposite",
+          "kind": "choice",
+          "label": "Ters açının ölçüsü",
+          "answer": 35,
+          "options": [
+            35,
+            145,
+            90,
+            325
+          ]
+        },
+        {
+          "key": "adjacent",
+          "kind": "choice",
+          "label": "Komşu bütünler açının ölçüsü",
+          "answer": 145,
+          "options": [
+            35,
+            145,
+            90,
+            325
+          ]
+        }
+      ],
+      "scene": "cross",
+      "target": 35,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 4,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.4",
+    "sinif": "5",
+    "tema_ici_sira": 22,
+    "id": "MAT.5.3.4-G22",
+    "gorev_no": "22",
+    "seviye": "1",
+    "asama": "Kur",
+    "rol": "Haritacı",
+    "mekan": "Kent parkı",
+    "mekanik": "Geometri laboratuvarı · Ters açı eşleştir",
+    "baslik": "Ters açı eşleştir · 2",
+    "gorev": "Ters açı eşleştir modelini değiştir; çizimden çıkarımlarını doğrula. 2. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "oppositeAngles",
+      "seed": 1,
+      "fields": [
+        {
+          "key": "opposite",
+          "kind": "choice",
+          "label": "Ters açının ölçüsü",
+          "answer": 55,
+          "options": [
+            55,
+            125,
+            90,
+            305
+          ]
+        },
+        {
+          "key": "adjacent",
+          "kind": "choice",
+          "label": "Komşu bütünler açının ölçüsü",
+          "answer": 125,
+          "options": [
+            55,
+            125,
+            90,
+            305
+          ]
+        }
+      ],
+      "scene": "cross",
+      "target": 55,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 4,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.4",
+    "sinif": "5",
+    "tema_ici_sira": 23,
+    "id": "MAT.5.3.4-G23",
+    "gorev_no": "23",
+    "seviye": "1",
+    "asama": "Sına",
+    "rol": "Dedektif",
+    "mekan": "Bilim laboratuvarı",
+    "mekanik": "Geometri laboratuvarı · Ters açı eşleştir",
+    "baslik": "Ters açı eşleştir · 3",
+    "gorev": "Ters açı eşleştir modelini değiştir; çizimden çıkarımlarını doğrula. 3. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "oppositeAngles",
+      "seed": 2,
+      "fields": [
+        {
+          "key": "opposite",
+          "kind": "choice",
+          "label": "Ters açının ölçüsü",
+          "answer": 75,
+          "options": [
+            75,
+            105,
+            90,
+            285
+          ]
+        },
+        {
+          "key": "adjacent",
+          "kind": "choice",
+          "label": "Komşu bütünler açının ölçüsü",
+          "answer": 105,
+          "options": [
+            75,
+            105,
+            90,
+            285
+          ]
+        }
+      ],
+      "scene": "cross",
+      "target": 75,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 4,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.4",
+    "sinif": "5",
+    "tema_ici_sira": 24,
+    "id": "MAT.5.3.4-G24",
+    "gorev_no": "24",
+    "seviye": "2",
+    "asama": "Gerekçelendir",
+    "rol": "Tasarıcı",
+    "mekan": "Şehir meydanı",
+    "mekanik": "Geometri laboratuvarı · Ters açı eşleştir",
+    "baslik": "Ters açı eşleştir · 4",
+    "gorev": "Ters açı eşleştir modelini değiştir; çizimden çıkarımlarını doğrula. 4. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "oppositeAngles",
+      "seed": 3,
+      "fields": [
+        {
+          "key": "opposite",
+          "kind": "choice",
+          "label": "Ters açının ölçüsü",
+          "answer": 110,
+          "options": [
+            110,
+            70,
+            90,
+            250
+          ]
+        },
+        {
+          "key": "adjacent",
+          "kind": "choice",
+          "label": "Komşu bütünler açının ölçüsü",
+          "answer": 70,
+          "options": [
+            110,
+            70,
+            90,
+            250
+          ]
+        }
+      ],
+      "scene": "cross",
+      "target": 110,
+      "requireReason": true
+    }
+  },
+  {
+    "plan_sirasi": 4,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.4",
+    "sinif": "5",
+    "tema_ici_sira": 25,
+    "id": "MAT.5.3.4-G25",
+    "gorev_no": "25",
+    "seviye": "2",
+    "asama": "Keşfet",
+    "rol": "Mimar",
+    "mekan": "Okul atölyesi",
+    "mekanik": "Geometri laboratuvarı · Üç doğru açı tablosu",
+    "baslik": "Üç doğru açı tablosu · 1",
+    "gorev": "Üç doğru tek noktadan geçiyor. Yarım turdaki görünen açılar 20° ve 50°. Üçüncüsünü ve ters açıyı bul.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "angleTable",
+      "seed": 0,
+      "fields": [
+        {
+          "key": "missing",
+          "kind": "choice",
+          "label": "Üç doğru aynı noktadan geçiyor: gösterilen üç komşu açı toplamında kalan açı",
+          "answer": 110,
+          "options": [
+            100,
+            110,
+            120,
+            70
+          ]
+        },
+        {
+          "key": "opposite",
+          "kind": "choice",
+          "label": "x açısının karşısındaki ters açı",
+          "answer": 20,
+          "options": [
+            20,
+            50,
+            110,
+            160
+          ]
+        }
+      ],
+      "scene": "three",
+      "sectors": [
+        20,
+        50,
+        110
+      ],
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 4,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.4",
+    "sinif": "5",
+    "tema_ici_sira": 26,
+    "id": "MAT.5.3.4-G26",
+    "gorev_no": "26",
+    "seviye": "2",
+    "asama": "Kur",
+    "rol": "Haritacı",
+    "mekan": "Kent parkı",
+    "mekanik": "Geometri laboratuvarı · Üç doğru açı tablosu",
+    "baslik": "Üç doğru açı tablosu · 2",
+    "gorev": "Üç doğru tek noktadan geçiyor. Yarım turdaki görünen açılar 30° ve 55°. Üçüncüsünü ve ters açıyı bul.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "angleTable",
+      "seed": 1,
+      "fields": [
+        {
+          "key": "missing",
+          "kind": "choice",
+          "label": "Üç doğru aynı noktadan geçiyor: gösterilen üç komşu açı toplamında kalan açı",
+          "answer": 95,
+          "options": [
+            85,
+            95,
+            105,
+            85
+          ]
+        },
+        {
+          "key": "opposite",
+          "kind": "choice",
+          "label": "x açısının karşısındaki ters açı",
+          "answer": 30,
+          "options": [
+            30,
+            55,
+            95,
+            150
+          ]
+        }
+      ],
+      "scene": "three",
+      "sectors": [
+        30,
+        55,
+        95
+      ],
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 4,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.4",
+    "sinif": "5",
+    "tema_ici_sira": 27,
+    "id": "MAT.5.3.4-G27",
+    "gorev_no": "27",
+    "seviye": "3",
+    "asama": "Sına",
+    "rol": "Dedektif",
+    "mekan": "Bilim laboratuvarı",
+    "mekanik": "Geometri laboratuvarı · Üç doğru açı tablosu",
+    "baslik": "Üç doğru açı tablosu · 3",
+    "gorev": "Üç doğru tek noktadan geçiyor. Yarım turdaki görünen açılar 40° ve 60°. Üçüncüsünü ve ters açıyı bul.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "angleTable",
+      "seed": 2,
+      "fields": [
+        {
+          "key": "missing",
+          "kind": "choice",
+          "label": "Üç doğru aynı noktadan geçiyor: gösterilen üç komşu açı toplamında kalan açı",
+          "answer": 80,
+          "options": [
+            70,
+            80,
+            90,
+            100
+          ]
+        },
+        {
+          "key": "opposite",
+          "kind": "choice",
+          "label": "x açısının karşısındaki ters açı",
+          "answer": 40,
+          "options": [
+            40,
+            60,
+            80,
+            140
+          ]
+        }
+      ],
+      "scene": "three",
+      "sectors": [
+        40,
+        60,
+        80
+      ],
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 4,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.4",
+    "sinif": "5",
+    "tema_ici_sira": 28,
+    "id": "MAT.5.3.4-G28",
+    "gorev_no": "28",
+    "seviye": "3",
+    "asama": "Gerekçelendir",
+    "rol": "Tasarıcı",
+    "mekan": "Şehir meydanı",
+    "mekanik": "Geometri laboratuvarı · Üç doğru açı tablosu",
+    "baslik": "Üç doğru açı tablosu · 4",
+    "gorev": "Üç doğru tek noktadan geçiyor. Yarım turdaki görünen açılar 50° ve 65°. Üçüncüsünü ve ters açıyı bul.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "angleTable",
+      "seed": 3,
+      "fields": [
+        {
+          "key": "missing",
+          "kind": "choice",
+          "label": "Üç doğru aynı noktadan geçiyor: gösterilen üç komşu açı toplamında kalan açı",
+          "answer": 65,
+          "options": [
+            55,
+            65,
+            75,
+            115
+          ]
+        },
+        {
+          "key": "opposite",
+          "kind": "choice",
+          "label": "x açısının karşısındaki ters açı",
+          "answer": 50,
+          "options": [
+            50,
+            65,
+            65,
+            130
+          ]
+        }
+      ],
+      "scene": "three",
+      "sectors": [
+        50,
+        65,
+        65
+      ],
+      "requireReason": true
+    }
+  },
+  {
+    "plan_sirasi": 5,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "sinif": "5",
+    "tema_ici_sira": 21,
+    "id": "MAT.5.3.5-G21",
+    "gorev_no": "21",
+    "seviye": "1",
+    "asama": "Keşfet",
+    "rol": "Mimar",
+    "mekan": "Okul atölyesi",
+    "mekanik": "Geometri laboratuvarı · Kapanan çokgen atölyesi",
+    "baslik": "Kapanan çokgen atölyesi · 1",
+    "gorev": "Kapanan çokgen atölyesi modelini değiştir; çizimden çıkarımlarını doğrula. 1. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "polygonGate",
+      "seed": 0,
+      "fields": [
+        {
+          "key": "sides",
+          "kind": "range",
+          "label": "Çizimdeki doğru sayısını ayarla",
+          "answer": 3,
+          "min": 3,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "closure",
+          "kind": "choice",
+          "label": "Çokgen oluşturmak için son doğru ilk doğruyla kesişmeli mi?",
+          "answer": "evet",
+          "options": [
+            "evet",
+            "hayır"
+          ]
+        }
+      ],
+      "scene": "polygon",
+      "sides": 3,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 5,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "sinif": "5",
+    "tema_ici_sira": 22,
+    "id": "MAT.5.3.5-G22",
+    "gorev_no": "22",
+    "seviye": "1",
+    "asama": "Kur",
+    "rol": "Haritacı",
+    "mekan": "Kent parkı",
+    "mekanik": "Geometri laboratuvarı · Kapanan çokgen atölyesi",
+    "baslik": "Kapanan çokgen atölyesi · 2",
+    "gorev": "Kapanan çokgen atölyesi modelini değiştir; çizimden çıkarımlarını doğrula. 2. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "polygonGate",
+      "seed": 1,
+      "fields": [
+        {
+          "key": "sides",
+          "kind": "range",
+          "label": "Çizimdeki doğru sayısını ayarla",
+          "answer": 4,
+          "min": 3,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "closure",
+          "kind": "choice",
+          "label": "Çokgen oluşturmak için son doğru ilk doğruyla kesişmeli mi?",
+          "answer": "evet",
+          "options": [
+            "evet",
+            "hayır"
+          ]
+        }
+      ],
+      "scene": "polygon",
+      "sides": 4,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 5,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "sinif": "5",
+    "tema_ici_sira": 23,
+    "id": "MAT.5.3.5-G23",
+    "gorev_no": "23",
+    "seviye": "1",
+    "asama": "Sına",
+    "rol": "Dedektif",
+    "mekan": "Bilim laboratuvarı",
+    "mekanik": "Geometri laboratuvarı · Kapanan çokgen atölyesi",
+    "baslik": "Kapanan çokgen atölyesi · 3",
+    "gorev": "Kapanan çokgen atölyesi modelini değiştir; çizimden çıkarımlarını doğrula. 3. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "polygonGate",
+      "seed": 2,
+      "fields": [
+        {
+          "key": "sides",
+          "kind": "range",
+          "label": "Çizimdeki doğru sayısını ayarla",
+          "answer": 5,
+          "min": 3,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "closure",
+          "kind": "choice",
+          "label": "Çokgen oluşturmak için son doğru ilk doğruyla kesişmeli mi?",
+          "answer": "evet",
+          "options": [
+            "evet",
+            "hayır"
+          ]
+        }
+      ],
+      "scene": "polygon",
+      "sides": 5,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 5,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "sinif": "5",
+    "tema_ici_sira": 24,
+    "id": "MAT.5.3.5-G24",
+    "gorev_no": "24",
+    "seviye": "2",
+    "asama": "Gerekçelendir",
+    "rol": "Tasarıcı",
+    "mekan": "Şehir meydanı",
+    "mekanik": "Geometri laboratuvarı · Kapanan çokgen atölyesi",
+    "baslik": "Kapanan çokgen atölyesi · 4",
+    "gorev": "Kapanan çokgen atölyesi modelini değiştir; çizimden çıkarımlarını doğrula. 4. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "polygonGate",
+      "seed": 3,
+      "fields": [
+        {
+          "key": "sides",
+          "kind": "range",
+          "label": "Çizimdeki doğru sayısını ayarla",
+          "answer": 6,
+          "min": 3,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "closure",
+          "kind": "choice",
+          "label": "Çokgen oluşturmak için son doğru ilk doğruyla kesişmeli mi?",
+          "answer": "evet",
+          "options": [
+            "evet",
+            "hayır"
+          ]
+        }
+      ],
+      "scene": "polygon",
+      "sides": 6,
+      "requireReason": true
+    }
+  },
+  {
+    "plan_sirasi": 5,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "sinif": "5",
+    "tema_ici_sira": 25,
+    "id": "MAT.5.3.5-G25",
+    "gorev_no": "25",
+    "seviye": "2",
+    "asama": "Keşfet",
+    "rol": "Mimar",
+    "mekan": "Okul atölyesi",
+    "mekanik": "Geometri laboratuvarı · Köşe rotası inşası",
+    "baslik": "Köşe rotası inşası · 1",
+    "gorev": "Köşeleri A, B, C ... sırasıyla seçerek 3 kenarlı kapalı çokgeni inşa et. Şekli A köşesine dönerek kapat.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "vertexRoute",
+      "seed": 0,
+      "fields": [
+        {
+          "key": "sides",
+          "kind": "choice",
+          "label": "Kapanan şeklin kenar sayısı",
+          "answer": 3,
+          "options": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "scene": "vertices",
+      "sides": 3,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 5,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "sinif": "5",
+    "tema_ici_sira": 26,
+    "id": "MAT.5.3.5-G26",
+    "gorev_no": "26",
+    "seviye": "2",
+    "asama": "Kur",
+    "rol": "Haritacı",
+    "mekan": "Kent parkı",
+    "mekanik": "Geometri laboratuvarı · Köşe rotası inşası",
+    "baslik": "Köşe rotası inşası · 2",
+    "gorev": "Köşeleri A, B, C ... sırasıyla seçerek 4 kenarlı kapalı çokgeni inşa et. Şekli A köşesine dönerek kapat.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "vertexRoute",
+      "seed": 1,
+      "fields": [
+        {
+          "key": "sides",
+          "kind": "choice",
+          "label": "Kapanan şeklin kenar sayısı",
+          "answer": 4,
+          "options": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "scene": "vertices",
+      "sides": 4,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 5,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "sinif": "5",
+    "tema_ici_sira": 27,
+    "id": "MAT.5.3.5-G27",
+    "gorev_no": "27",
+    "seviye": "3",
+    "asama": "Sına",
+    "rol": "Dedektif",
+    "mekan": "Bilim laboratuvarı",
+    "mekanik": "Geometri laboratuvarı · Köşe rotası inşası",
+    "baslik": "Köşe rotası inşası · 3",
+    "gorev": "Köşeleri A, B, C ... sırasıyla seçerek 5 kenarlı kapalı çokgeni inşa et. Şekli A köşesine dönerek kapat.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "vertexRoute",
+      "seed": 2,
+      "fields": [
+        {
+          "key": "sides",
+          "kind": "choice",
+          "label": "Kapanan şeklin kenar sayısı",
+          "answer": 5,
+          "options": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "scene": "vertices",
+      "sides": 5,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 5,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "sinif": "5",
+    "tema_ici_sira": 28,
+    "id": "MAT.5.3.5-G28",
+    "gorev_no": "28",
+    "seviye": "3",
+    "asama": "Gerekçelendir",
+    "rol": "Tasarıcı",
+    "mekan": "Şehir meydanı",
+    "mekanik": "Geometri laboratuvarı · Köşe rotası inşası",
+    "baslik": "Köşe rotası inşası · 4",
+    "gorev": "Köşeleri A, B, C ... sırasıyla seçerek 6 kenarlı kapalı çokgeni inşa et. Şekli A köşesine dönerek kapat.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "vertexRoute",
+      "seed": 3,
+      "fields": [
+        {
+          "key": "sides",
+          "kind": "choice",
+          "label": "Kapanan şeklin kenar sayısı",
+          "answer": 6,
+          "options": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "scene": "vertices",
+      "sides": 6,
+      "requireReason": true
+    }
+  },
+  {
+    "plan_sirasi": 6,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.6",
+    "sinif": "5",
+    "tema_ici_sira": 21,
+    "id": "MAT.5.3.6-G21",
+    "gorev_no": "21",
+    "seviye": "1",
+    "asama": "Keşfet",
+    "rol": "Mimar",
+    "mekan": "Okul atölyesi",
+    "mekanik": "Geometri laboratuvarı · Düzgün çokgeni onar",
+    "baslik": "Düzgün çokgeni onar · 1",
+    "gorev": "Düzgün çokgeni onar modelini değiştir; çizimden çıkarımlarını doğrula. 1. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "regularRepair",
+      "seed": 0,
+      "fields": [
+        {
+          "key": "offset",
+          "kind": "range",
+          "label": "Bozulmuş köşeyi onar (sapma)",
+          "answer": 0,
+          "min": 0,
+          "max": 30,
+          "step": 1
+        },
+        {
+          "key": "both",
+          "kind": "choice",
+          "label": "Düzgün çokgende ortak özellik",
+          "answer": "kenarlar ve iç açılar eşit",
+          "options": [
+            "yalnız kenarlar eşit",
+            "yalnız iç açılar eşit",
+            "kenarlar ve iç açılar eşit",
+            "köşegenler eşit"
+          ]
+        }
+      ],
+      "scene": "regular",
+      "sides": 3,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 6,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.6",
+    "sinif": "5",
+    "tema_ici_sira": 22,
+    "id": "MAT.5.3.6-G22",
+    "gorev_no": "22",
+    "seviye": "1",
+    "asama": "Kur",
+    "rol": "Haritacı",
+    "mekan": "Kent parkı",
+    "mekanik": "Geometri laboratuvarı · Düzgün çokgeni onar",
+    "baslik": "Düzgün çokgeni onar · 2",
+    "gorev": "Düzgün çokgeni onar modelini değiştir; çizimden çıkarımlarını doğrula. 2. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "regularRepair",
+      "seed": 1,
+      "fields": [
+        {
+          "key": "offset",
+          "kind": "range",
+          "label": "Bozulmuş köşeyi onar (sapma)",
+          "answer": 0,
+          "min": 0,
+          "max": 30,
+          "step": 1
+        },
+        {
+          "key": "both",
+          "kind": "choice",
+          "label": "Düzgün çokgende ortak özellik",
+          "answer": "kenarlar ve iç açılar eşit",
+          "options": [
+            "yalnız kenarlar eşit",
+            "yalnız iç açılar eşit",
+            "kenarlar ve iç açılar eşit",
+            "köşegenler eşit"
+          ]
+        }
+      ],
+      "scene": "regular",
+      "sides": 4,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 6,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.6",
+    "sinif": "5",
+    "tema_ici_sira": 23,
+    "id": "MAT.5.3.6-G23",
+    "gorev_no": "23",
+    "seviye": "1",
+    "asama": "Sına",
+    "rol": "Dedektif",
+    "mekan": "Bilim laboratuvarı",
+    "mekanik": "Geometri laboratuvarı · Düzgün çokgeni onar",
+    "baslik": "Düzgün çokgeni onar · 3",
+    "gorev": "Düzgün çokgeni onar modelini değiştir; çizimden çıkarımlarını doğrula. 3. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "regularRepair",
+      "seed": 2,
+      "fields": [
+        {
+          "key": "offset",
+          "kind": "range",
+          "label": "Bozulmuş köşeyi onar (sapma)",
+          "answer": 0,
+          "min": 0,
+          "max": 30,
+          "step": 1
+        },
+        {
+          "key": "both",
+          "kind": "choice",
+          "label": "Düzgün çokgende ortak özellik",
+          "answer": "kenarlar ve iç açılar eşit",
+          "options": [
+            "yalnız kenarlar eşit",
+            "yalnız iç açılar eşit",
+            "kenarlar ve iç açılar eşit",
+            "köşegenler eşit"
+          ]
+        }
+      ],
+      "scene": "regular",
+      "sides": 5,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 6,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.6",
+    "sinif": "5",
+    "tema_ici_sira": 24,
+    "id": "MAT.5.3.6-G24",
+    "gorev_no": "24",
+    "seviye": "2",
+    "asama": "Gerekçelendir",
+    "rol": "Tasarıcı",
+    "mekan": "Şehir meydanı",
+    "mekanik": "Geometri laboratuvarı · Düzgün çokgeni onar",
+    "baslik": "Düzgün çokgeni onar · 4",
+    "gorev": "Düzgün çokgeni onar modelini değiştir; çizimden çıkarımlarını doğrula. 4. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "regularRepair",
+      "seed": 3,
+      "fields": [
+        {
+          "key": "offset",
+          "kind": "range",
+          "label": "Bozulmuş köşeyi onar (sapma)",
+          "answer": 0,
+          "min": 0,
+          "max": 30,
+          "step": 1
+        },
+        {
+          "key": "both",
+          "kind": "choice",
+          "label": "Düzgün çokgende ortak özellik",
+          "answer": "kenarlar ve iç açılar eşit",
+          "options": [
+            "yalnız kenarlar eşit",
+            "yalnız iç açılar eşit",
+            "kenarlar ve iç açılar eşit",
+            "köşegenler eşit"
+          ]
+        }
+      ],
+      "scene": "regular",
+      "sides": 6,
+      "requireReason": true
+    }
+  },
+  {
+    "plan_sirasi": 6,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.6",
+    "sinif": "5",
+    "tema_ici_sira": 25,
+    "id": "MAT.5.3.6-G25",
+    "gorev_no": "25",
+    "seviye": "2",
+    "asama": "Keşfet",
+    "rol": "Mimar",
+    "mekan": "Okul atölyesi",
+    "mekanik": "Geometri laboratuvarı · Kenar-köşe karşılaştırması",
+    "baslik": "Kenar-köşe karşılaştırması · 1",
+    "gorev": "Kenar-köşe karşılaştırması modelini değiştir; çizimden çıkarımlarını doğrula. 1. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "polygonProperties",
+      "seed": 0,
+      "fields": [
+        {
+          "key": "sides",
+          "kind": "range",
+          "label": "Çokgenin kenar sayısını kur",
+          "answer": 3,
+          "min": 3,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "vertices",
+          "kind": "choice",
+          "label": "Köşe sayısını belirt",
+          "answer": 3,
+          "options": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "scene": "properties",
+      "sides": 3,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 6,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.6",
+    "sinif": "5",
+    "tema_ici_sira": 26,
+    "id": "MAT.5.3.6-G26",
+    "gorev_no": "26",
+    "seviye": "2",
+    "asama": "Kur",
+    "rol": "Haritacı",
+    "mekan": "Kent parkı",
+    "mekanik": "Geometri laboratuvarı · Kenar-köşe karşılaştırması",
+    "baslik": "Kenar-köşe karşılaştırması · 2",
+    "gorev": "Kenar-köşe karşılaştırması modelini değiştir; çizimden çıkarımlarını doğrula. 2. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "polygonProperties",
+      "seed": 1,
+      "fields": [
+        {
+          "key": "sides",
+          "kind": "range",
+          "label": "Çokgenin kenar sayısını kur",
+          "answer": 4,
+          "min": 3,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "vertices",
+          "kind": "choice",
+          "label": "Köşe sayısını belirt",
+          "answer": 4,
+          "options": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "scene": "properties",
+      "sides": 4,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 6,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.6",
+    "sinif": "5",
+    "tema_ici_sira": 27,
+    "id": "MAT.5.3.6-G27",
+    "gorev_no": "27",
+    "seviye": "3",
+    "asama": "Sına",
+    "rol": "Dedektif",
+    "mekan": "Bilim laboratuvarı",
+    "mekanik": "Geometri laboratuvarı · Kenar-köşe karşılaştırması",
+    "baslik": "Kenar-köşe karşılaştırması · 3",
+    "gorev": "Kenar-köşe karşılaştırması modelini değiştir; çizimden çıkarımlarını doğrula. 3. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "polygonProperties",
+      "seed": 2,
+      "fields": [
+        {
+          "key": "sides",
+          "kind": "range",
+          "label": "Çokgenin kenar sayısını kur",
+          "answer": 5,
+          "min": 3,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "vertices",
+          "kind": "choice",
+          "label": "Köşe sayısını belirt",
+          "answer": 5,
+          "options": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "scene": "properties",
+      "sides": 5,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 6,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.6",
+    "sinif": "5",
+    "tema_ici_sira": 28,
+    "id": "MAT.5.3.6-G28",
+    "gorev_no": "28",
+    "seviye": "3",
+    "asama": "Gerekçelendir",
+    "rol": "Tasarıcı",
+    "mekan": "Şehir meydanı",
+    "mekanik": "Geometri laboratuvarı · Kenar-köşe karşılaştırması",
+    "baslik": "Kenar-köşe karşılaştırması · 4",
+    "gorev": "Kenar-köşe karşılaştırması modelini değiştir; çizimden çıkarımlarını doğrula. 4. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "polygonProperties",
+      "seed": 3,
+      "fields": [
+        {
+          "key": "sides",
+          "kind": "range",
+          "label": "Çokgenin kenar sayısını kur",
+          "answer": 6,
+          "min": 3,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "vertices",
+          "kind": "choice",
+          "label": "Köşe sayısını belirt",
+          "answer": 6,
+          "options": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "scene": "properties",
+      "sides": 6,
+      "requireReason": true
+    }
+  },
+  {
+    "plan_sirasi": 7,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.7",
+    "sinif": "5",
+    "tema_ici_sira": 21,
+    "id": "MAT.5.3.7-G21",
+    "gorev_no": "21",
+    "seviye": "1",
+    "asama": "Keşfet",
+    "rol": "Mimar",
+    "mekan": "Okul atölyesi",
+    "mekanik": "Geometri laboratuvarı · İki çemberden üçgen kur",
+    "baslik": "İki çemberden üçgen kur · 1",
+    "gorev": "İki çemberden üçgen kur modelini değiştir; çizimden çıkarımlarını doğrula. 1. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "circlesConstruct",
+      "seed": 0,
+      "fields": [
+        {
+          "key": "r1",
+          "kind": "range",
+          "label": "1. çember yarıçapı",
+          "answer": 3,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "r2",
+          "kind": "range",
+          "label": "2. çember yarıçapı",
+          "answer": 3,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "d",
+          "kind": "range",
+          "label": "Merkezler arası uzaklık",
+          "answer": 3,
+          "min": 1,
+          "max": 9,
+          "step": 1
+        },
+        {
+          "key": "type",
+          "kind": "choice",
+          "label": "Oluşan üçgenin kenar türü",
+          "answer": "eşkenar",
+          "options": [
+            "eşkenar",
+            "ikizkenar",
+            "çeşitkenar",
+            "oluşmaz"
+          ]
+        }
+      ],
+      "scene": "circles",
+      "r1": 3,
+      "r2": 3,
+      "d": 3,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 7,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.7",
+    "sinif": "5",
+    "tema_ici_sira": 22,
+    "id": "MAT.5.3.7-G22",
+    "gorev_no": "22",
+    "seviye": "1",
+    "asama": "Kur",
+    "rol": "Haritacı",
+    "mekan": "Kent parkı",
+    "mekanik": "Geometri laboratuvarı · İki çemberden üçgen kur",
+    "baslik": "İki çemberden üçgen kur · 2",
+    "gorev": "İki çemberden üçgen kur modelini değiştir; çizimden çıkarımlarını doğrula. 2. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "circlesConstruct",
+      "seed": 1,
+      "fields": [
+        {
+          "key": "r1",
+          "kind": "range",
+          "label": "1. çember yarıçapı",
+          "answer": 2,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "r2",
+          "kind": "range",
+          "label": "2. çember yarıçapı",
+          "answer": 2,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "d",
+          "kind": "range",
+          "label": "Merkezler arası uzaklık",
+          "answer": 3,
+          "min": 1,
+          "max": 9,
+          "step": 1
+        },
+        {
+          "key": "type",
+          "kind": "choice",
+          "label": "Oluşan üçgenin kenar türü",
+          "answer": "ikizkenar",
+          "options": [
+            "eşkenar",
+            "ikizkenar",
+            "çeşitkenar",
+            "oluşmaz"
+          ]
+        }
+      ],
+      "scene": "circles",
+      "r1": 2,
+      "r2": 2,
+      "d": 3,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 7,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.7",
+    "sinif": "5",
+    "tema_ici_sira": 23,
+    "id": "MAT.5.3.7-G23",
+    "gorev_no": "23",
+    "seviye": "1",
+    "asama": "Sına",
+    "rol": "Dedektif",
+    "mekan": "Bilim laboratuvarı",
+    "mekanik": "Geometri laboratuvarı · İki çemberden üçgen kur",
+    "baslik": "İki çemberden üçgen kur · 3",
+    "gorev": "İki çemberden üçgen kur modelini değiştir; çizimden çıkarımlarını doğrula. 3. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "circlesConstruct",
+      "seed": 2,
+      "fields": [
+        {
+          "key": "r1",
+          "kind": "range",
+          "label": "1. çember yarıçapı",
+          "answer": 2,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "r2",
+          "kind": "range",
+          "label": "2. çember yarıçapı",
+          "answer": 3,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "d",
+          "kind": "range",
+          "label": "Merkezler arası uzaklık",
+          "answer": 4,
+          "min": 1,
+          "max": 9,
+          "step": 1
+        },
+        {
+          "key": "type",
+          "kind": "choice",
+          "label": "Oluşan üçgenin kenar türü",
+          "answer": "çeşitkenar",
+          "options": [
+            "eşkenar",
+            "ikizkenar",
+            "çeşitkenar",
+            "oluşmaz"
+          ]
+        }
+      ],
+      "scene": "circles",
+      "r1": 2,
+      "r2": 3,
+      "d": 4,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 7,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.7",
+    "sinif": "5",
+    "tema_ici_sira": 24,
+    "id": "MAT.5.3.7-G24",
+    "gorev_no": "24",
+    "seviye": "2",
+    "asama": "Gerekçelendir",
+    "rol": "Tasarıcı",
+    "mekan": "Şehir meydanı",
+    "mekanik": "Geometri laboratuvarı · İki çemberden üçgen kur",
+    "baslik": "İki çemberden üçgen kur · 4",
+    "gorev": "İki çemberden üçgen kur modelini değiştir; çizimden çıkarımlarını doğrula. 4. farklı düzenek.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "circlesConstruct",
+      "seed": 3,
+      "fields": [
+        {
+          "key": "r1",
+          "kind": "range",
+          "label": "1. çember yarıçapı",
+          "answer": 3,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "r2",
+          "kind": "range",
+          "label": "2. çember yarıçapı",
+          "answer": 4,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "d",
+          "kind": "range",
+          "label": "Merkezler arası uzaklık",
+          "answer": 5,
+          "min": 1,
+          "max": 9,
+          "step": 1
+        },
+        {
+          "key": "type",
+          "kind": "choice",
+          "label": "Oluşan üçgenin kenar türü",
+          "answer": "çeşitkenar",
+          "options": [
+            "eşkenar",
+            "ikizkenar",
+            "çeşitkenar",
+            "oluşmaz"
+          ]
+        }
+      ],
+      "scene": "circles",
+      "r1": 3,
+      "r2": 4,
+      "d": 5,
+      "requireReason": true
+    }
+  },
+  {
+    "plan_sirasi": 7,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.7",
+    "sinif": "5",
+    "tema_ici_sira": 25,
+    "id": "MAT.5.3.7-G25",
+    "gorev_no": "25",
+    "seviye": "2",
+    "asama": "Keşfet",
+    "rol": "Mimar",
+    "mekan": "Okul atölyesi",
+    "mekanik": "Geometri laboratuvarı · Çember kesişimi araştır",
+    "baslik": "Çember kesişimi araştır · 1",
+    "gorev": "Yarıçapları 2 ve 3 birim, merkezler arası uzaklık 1 birim olan iki çemberi incele.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "circlesCompare",
+      "seed": 0,
+      "fields": [
+        {
+          "key": "intersections",
+          "kind": "choice",
+          "label": "Çemberlerin farklı kesişim noktası sayısı",
+          "answer": 1,
+          "options": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "key": "triangle",
+          "kind": "choice",
+          "label": "Merkezler ve bir kesişim noktasıyla gerçek üçgen kurulabilir mi?",
+          "answer": "hayır",
+          "options": [
+            "evet",
+            "hayır"
+          ]
+        }
+      ],
+      "scene": "circles",
+      "r1": 2,
+      "r2": 3,
+      "d": 1,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 7,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.7",
+    "sinif": "5",
+    "tema_ici_sira": 26,
+    "id": "MAT.5.3.7-G26",
+    "gorev_no": "26",
+    "seviye": "2",
+    "asama": "Kur",
+    "rol": "Haritacı",
+    "mekan": "Kent parkı",
+    "mekanik": "Geometri laboratuvarı · Çember kesişimi araştır",
+    "baslik": "Çember kesişimi araştır · 2",
+    "gorev": "Yarıçapları 2 ve 3 birim, merkezler arası uzaklık 2 birim olan iki çemberi incele.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "circlesCompare",
+      "seed": 1,
+      "fields": [
+        {
+          "key": "intersections",
+          "kind": "choice",
+          "label": "Çemberlerin farklı kesişim noktası sayısı",
+          "answer": 2,
+          "options": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "key": "triangle",
+          "kind": "choice",
+          "label": "Merkezler ve bir kesişim noktasıyla gerçek üçgen kurulabilir mi?",
+          "answer": "evet",
+          "options": [
+            "evet",
+            "hayır"
+          ]
+        }
+      ],
+      "scene": "circles",
+      "r1": 2,
+      "r2": 3,
+      "d": 2,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 7,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.7",
+    "sinif": "5",
+    "tema_ici_sira": 27,
+    "id": "MAT.5.3.7-G27",
+    "gorev_no": "27",
+    "seviye": "3",
+    "asama": "Sına",
+    "rol": "Dedektif",
+    "mekan": "Bilim laboratuvarı",
+    "mekanik": "Geometri laboratuvarı · Çember kesişimi araştır",
+    "baslik": "Çember kesişimi araştır · 3",
+    "gorev": "Yarıçapları 2 ve 3 birim, merkezler arası uzaklık 5 birim olan iki çemberi incele.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "circlesCompare",
+      "seed": 2,
+      "fields": [
+        {
+          "key": "intersections",
+          "kind": "choice",
+          "label": "Çemberlerin farklı kesişim noktası sayısı",
+          "answer": 1,
+          "options": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "key": "triangle",
+          "kind": "choice",
+          "label": "Merkezler ve bir kesişim noktasıyla gerçek üçgen kurulabilir mi?",
+          "answer": "hayır",
+          "options": [
+            "evet",
+            "hayır"
+          ]
+        }
+      ],
+      "scene": "circles",
+      "r1": 2,
+      "r2": 3,
+      "d": 5,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 7,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.7",
+    "sinif": "5",
+    "tema_ici_sira": 28,
+    "id": "MAT.5.3.7-G28",
+    "gorev_no": "28",
+    "seviye": "3",
+    "asama": "Gerekçelendir",
+    "rol": "Tasarıcı",
+    "mekan": "Şehir meydanı",
+    "mekanik": "Geometri laboratuvarı · Çember kesişimi araştır",
+    "baslik": "Çember kesişimi araştır · 4",
+    "gorev": "Yarıçapları 2 ve 3 birim, merkezler arası uzaklık 7 birim olan iki çemberi incele.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "circlesCompare",
+      "seed": 3,
+      "fields": [
+        {
+          "key": "intersections",
+          "kind": "choice",
+          "label": "Çemberlerin farklı kesişim noktası sayısı",
+          "answer": 0,
+          "options": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "key": "triangle",
+          "kind": "choice",
+          "label": "Merkezler ve bir kesişim noktasıyla gerçek üçgen kurulabilir mi?",
+          "answer": "hayır",
+          "options": [
+            "evet",
+            "hayır"
+          ]
+        }
+      ],
+      "scene": "circles",
+      "r1": 2,
+      "r2": 3,
+      "d": 7,
+      "requireReason": true
+    }
+  },
+  {
+    "plan_sirasi": 7,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.7",
+    "sinif": "5",
+    "tema_ici_sira": 29,
+    "id": "MAT.5.3.7-G29",
+    "gorev_no": "29",
+    "seviye": "3",
+    "asama": "Keşfet",
+    "rol": "Mimar",
+    "mekan": "Okul atölyesi",
+    "mekanik": "Geometri laboratuvarı · Üçgene göre çember tasarla",
+    "baslik": "Üçgene göre çember tasarla · 1",
+    "gorev": "İki çemberin yarıçapını ve merkezler aralığını değiştirerek eşkenar üçgen oluştur. İki kesişim noktasını koru.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "circlesInverse",
+      "seed": 0,
+      "fields": [
+        {
+          "key": "r1",
+          "kind": "range",
+          "label": "İlk çember yarıçapını seç",
+          "answer": null,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "r2",
+          "kind": "range",
+          "label": "İkinci çember yarıçapını seç",
+          "answer": null,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "d",
+          "kind": "range",
+          "label": "Merkezler uzaklığını seç",
+          "answer": null,
+          "min": 1,
+          "max": 9,
+          "step": 1
+        }
+      ],
+      "scene": "circles",
+      "requiredType": "eşkenar",
+      "r1": 1,
+      "r2": 2,
+      "d": 4,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 7,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.7",
+    "sinif": "5",
+    "tema_ici_sira": 30,
+    "id": "MAT.5.3.7-G30",
+    "gorev_no": "30",
+    "seviye": "4",
+    "asama": "Kur",
+    "rol": "Haritacı",
+    "mekan": "Kent parkı",
+    "mekanik": "Geometri laboratuvarı · Üçgene göre çember tasarla",
+    "baslik": "Üçgene göre çember tasarla · 2",
+    "gorev": "İki çemberin yarıçapını ve merkezler aralığını değiştirerek ikizkenar üçgen oluştur. İki kesişim noktasını koru.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "circlesInverse",
+      "seed": 1,
+      "fields": [
+        {
+          "key": "r1",
+          "kind": "range",
+          "label": "İlk çember yarıçapını seç",
+          "answer": null,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "r2",
+          "kind": "range",
+          "label": "İkinci çember yarıçapını seç",
+          "answer": null,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "d",
+          "kind": "range",
+          "label": "Merkezler uzaklığını seç",
+          "answer": null,
+          "min": 1,
+          "max": 9,
+          "step": 1
+        }
+      ],
+      "scene": "circles",
+      "requiredType": "ikizkenar",
+      "r1": 1,
+      "r2": 2,
+      "d": 4,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 7,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.7",
+    "sinif": "5",
+    "tema_ici_sira": 31,
+    "id": "MAT.5.3.7-G31",
+    "gorev_no": "31",
+    "seviye": "4",
+    "asama": "Sına",
+    "rol": "Dedektif",
+    "mekan": "Bilim laboratuvarı",
+    "mekanik": "Geometri laboratuvarı · Üçgene göre çember tasarla",
+    "baslik": "Üçgene göre çember tasarla · 3",
+    "gorev": "İki çemberin yarıçapını ve merkezler aralığını değiştirerek çeşitkenar üçgen oluştur. İki kesişim noktasını koru.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "circlesInverse",
+      "seed": 2,
+      "fields": [
+        {
+          "key": "r1",
+          "kind": "range",
+          "label": "İlk çember yarıçapını seç",
+          "answer": null,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "r2",
+          "kind": "range",
+          "label": "İkinci çember yarıçapını seç",
+          "answer": null,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "d",
+          "kind": "range",
+          "label": "Merkezler uzaklığını seç",
+          "answer": null,
+          "min": 1,
+          "max": 9,
+          "step": 1
+        }
+      ],
+      "scene": "circles",
+      "requiredType": "çeşitkenar",
+      "r1": 1,
+      "r2": 2,
+      "d": 4,
+      "requireReason": false
+    }
+  },
+  {
+    "plan_sirasi": 7,
+    "tema_sirasi": 1,
+    "tema": "Geometrik Şekiller",
+    "temanin_yaklasik_haftalari": "1–8",
+    "ogrenme_ciktisi": "MAT.5.3.7",
+    "sinif": "5",
+    "tema_ici_sira": 32,
+    "id": "MAT.5.3.7-G32",
+    "gorev_no": "32",
+    "seviye": "4",
+    "asama": "Gerekçelendir",
+    "rol": "Tasarıcı",
+    "mekan": "Şehir meydanı",
+    "mekanik": "Geometri laboratuvarı · Üçgene göre çember tasarla",
+    "baslik": "Üçgene göre çember tasarla · 4",
+    "gorev": "İki çemberin yarıçapları farklı olacak biçimde, merkez aralığını bir yarıçapa eşit seçerek ikizkenar üçgen inşa et.",
+    "kontrol_turu": "etkilesimli",
+    "beklenen_yanit_veya_rubrik": "Çizim, model ve sayısal kararlar birlikte doğrulanır; gerekçe öğretmen tarafından okunur.",
+    "ipucu": "Görsel modele bak, ilgili özelliği fark et ve seçimini çizimde sınayarak doğrula.",
+    "oyuncu_eylemi": "Görsel modeli düzenle, seçimini yap, iki aşamayı doğrula.",
+    "sure_dakika": "5",
+    "ogrenci_urun": "Görsel matematiksel model ve gerekçe",
+    "geometry5PlusLab": {
+      "mode": "circlesInverse",
+      "seed": 3,
+      "fields": [
+        {
+          "key": "r1",
+          "kind": "range",
+          "label": "İlk çember yarıçapını seç",
+          "answer": null,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "r2",
+          "kind": "range",
+          "label": "İkinci çember yarıçapını seç",
+          "answer": null,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "key": "d",
+          "kind": "range",
+          "label": "Merkezler uzaklığını seç",
+          "answer": null,
+          "min": 1,
+          "max": 9,
+          "step": 1
+        }
+      ],
+      "scene": "circles",
+      "requiredType": "ikizkenar",
+      "r1": 1,
+      "r2": 2,
+      "d": 4,
+      "requireReason": true,
+      "variant": "farklı_yaricapli_ikizkenar"
+    }
+  }
+]

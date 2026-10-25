@@ -1,0 +1,46 @@
+{
+  "dataSame": true,
+  "taskCount": 4037,
+  "idUnique": true,
+  "tracked": 296,
+  "noErrorsOnLoad": true,
+  "firstGrade5": [
+    "MAT.5.3.7-G01",
+    "MA64-5-01"
+  ],
+  "starterNoFalseWeakness": true,
+  "dashboardCardsInitial": 2,
+  "dashboardOverflow390": false,
+  "grade6Source": "MAT.6.1.6-G01",
+  "grade6Rec": [
+    {
+      "kind": "practice",
+      "sourceId": "MAT.6.1.6-G01",
+      "sourceFamily": "Ondalık basamak kartları",
+      "targetId": "MAT.6.1.6-G05",
+      "targetFamily": "Payda asal çarpan analizi",
+      "code": "MAT.6.1.6",
+      "wrong": 1,
+      "hints": 1,
+      "alreadyDone": false
+    }
+  ],
+  "sameOutcomeDifferentFamily": true,
+  "gradeSeparation": true,
+  "grade6CoachText": "MAT.6.1.6 · Payda asal çarpan analiziBu kazanımdaki “Ondalık basamak kartları” sorularında 1 yanlış, 1 ipucu kaydı var. Şimdi farklı bir yöntem dene.Farklı soruyu aç →",
+  "clickedNavigation": true,
+  "oldCompletionStillSaved": true,
+  "suggestionDidNotComplete": true,
+  "inlineAppeared": true,
+  "inlineBelowTask": true,
+  "inlineDifferentFamily": true,
+  "noFinishAfterWrong": true,
+  "inlineNavigated": true,
+  "oldCompletionAfterNavigation": true,
+  "unchangedSuccessEvidence": true,
+  "overflowDashboard320": false,
+  "overflowDashboard390": false,
+  "overflowDashboard768": false,
+  "overflowDashboard1280": false,
+  "jsErrors": []
+}

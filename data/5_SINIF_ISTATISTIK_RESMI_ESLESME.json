@@ -1,0 +1,33 @@
+{
+  "program": "Türkiye Yüzyılı Maarif Modeli — Ortaokul Matematik 5. Sınıf / 5. Tema",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/452",
+  "ders_saati": 24,
+  "resmi_metinler": {
+    "MAT.5.5.1": "Kategorik veri ile çalışabilme ve veriye dayalı karar verebilme",
+    "MAT.5.5.2": "Başkaları tarafından oluşturulan kategorik veriye dayalı istatistiksel sonuç veya yorumları tartışabilme"
+  },
+  "alan_becerileri": [
+    "MAB4. Veri ile Çalışma ve Veriye Dayalı Karar Verme"
+  ],
+  "kavramsal_beceriler": [
+    "KB2.18. Tartışma"
+  ],
+  "egilimler": [
+    "E3.4 Gerçeği Arama",
+    "E3.5 Açık Fikirlilik",
+    "E3.6 Analitiklik",
+    "E3.7 Sistematiklik",
+    "E3.8 Soru Sorma",
+    "E3.9 Şüphe Duyma",
+    "E3.10 Eleştirel Bakma"
+  ],
+  "degerler": [
+    "D5 Duyarlılık",
+    "D6 Dürüstlük",
+    "D17 Tasarruf",
+    "D18 Temizlik",
+    "D8 Mahremiyet"
+  ],
+  "eslesme_duzeyi": "Tema düzeyi program bileşenleri. Her bir göreve resmî atama yapıldığı iddia edilmez.",
+  "süreç": "Kategorik veri, araştırma sorusu, tarafsız örneklem, güvenli veri toplama, görselleştirme ve sonuç eleştirisi."
+}

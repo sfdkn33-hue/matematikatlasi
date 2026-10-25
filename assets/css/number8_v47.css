@@ -1,0 +1,26 @@
+/* v4.7 — airy, touch-first 8th grade laboratory */
+.atlas8-lab{padding:18px;border:1px solid #bad8e8;border-radius:20px;background:linear-gradient(160deg,#f7fcff,#edf8ff);color:#193c58;margin:22px 0;box-shadow:0 6px 22px #164b7020}
+.atlas8-lab[hidden]{display:none!important}
+.a8-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px;color:#155481;font-weight:800}
+.a8-head strong{padding:6px 11px;background:#dbeefa;border-radius:999px;font-size:.85rem}
+.a8-stage{display:flex;flex-direction:column;gap:12px;min-height:175px;font-size:1rem;line-height:1.6}
+.a8-stage p{margin:3px 0;font-size:1rem;color:#27485d}
+.a8-number{margin:auto;text-align:center;border-radius:18px;border:1px solid #abd6ea;background:white;padding:10px 32px;font-size:2.7rem;font-weight:900;color:#0e6e9f;min-width:140px}
+.a8-number small{display:block;font-size:.75rem;font-weight:600;color:#55758a}
+.a8-chips{display:flex;flex-wrap:wrap;gap:8px}
+.a8-chip{border-radius:12px!important;min-height:46px;min-width:56px;padding:9px 14px!important;background:white!important;border:2px solid #abcddd!important;color:#164865!important;font-weight:800!important;cursor:pointer}
+.a8-chip.is-active,.a8-chip[aria-pressed="true"]{background:#d0f4ed!important;border-color:#14866f!important;color:#0e604f!important}
+.a8-chip:focus-visible{outline:3px solid #f3a52b;outline-offset:2px}
+.a8-dual{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.a8-dual>div{border:1px solid #b4d6e7;border-radius:14px;background:#fff;padding:12px;display:flex;flex-direction:column;gap:6px}
+.a8-dual small{font-size:.78rem;color:#466b85}.a8-dual strong{font-size:1.7rem;color:#0a6692}.a8-dual span{font-size:.83rem}
+.a8-entry{display:flex;flex-wrap:wrap;gap:12px}.a8-input{display:flex;flex-direction:column;gap:5px;font-weight:700;min-width:130px;flex:1}
+.a8-input span{font-size:.85rem;color:#255672!important}.a8-input input{width:100%;box-sizing:border-box;min-height:46px;font-size:1.1rem;color:#122e44;background:white;border:2px solid #a4c8da;border-radius:10px;padding:8px 12px}
+.a8-timeline{display:grid;gap:8px}.a8-timeline>div{display:flex;gap:6px;flex-wrap:wrap}.a8-timeline span{background:#d8ecfc;border-radius:8px;padding:5px 9px;min-width:30px;font-weight:650}.a8-timeline strong:nth-of-type(2){color:#975d1e}
+.a8-mathpanel{display:flex;align-items:center;justify-content:center;gap:22px;flex-wrap:wrap;background:white;border:1px solid #bad8e8;border-radius:15px;padding:16px;font-size:1.6rem}.a8-power{font-weight:800;color:#106ea0}.a8-equals{color:#648095}.a8-fraction{display:grid;line-height:1.2;font-size:.7rem;text-align:center;color:#688a9b}.a8-fraction span:first-child{border-bottom:2px solid #406d83;padding:5px}
+.a8-steps,.a8-visual-note{padding:10px 13px;border-radius:11px;background:#deeffb;color:#225579}
+.a8-tiles{display:flex;align-items:center;flex-wrap:wrap;gap:4px;color:#286a88}.a8-tiles span{background:#bee6f3;padding:4px 7px;border-radius:5px}.a8-tiles b{margin:0 7px}
+.a8-status{min-height:29px;padding:10px 12px;margin:12px 0;border-radius:10px;background:#e8f3fb;color:#24587b}.a8-status.good{background:#d6f4e7;color:#075e48}.a8-status.bad{background:#fff0d9;color:#8d4c1d}
+.a8-actions{display:flex;flex-wrap:wrap;gap:8px}.a8-actions button{min-height:44px;border-radius:11px;padding:9px 14px;font-weight:750;cursor:pointer}.a8-actions button:first-child{background:#157daf;color:white;border:0}
+.a8-actions button:not(:first-child){background:#fff;border:1px solid #aacddd;color:#165372}
+@media(max-width:460px){.atlas8-lab{padding:12px}.a8-chip{min-width:49px;padding:8px!important}.a8-dual{grid-template-columns:1fr}.a8-mathpanel{gap:12px;font-size:1.3rem}}

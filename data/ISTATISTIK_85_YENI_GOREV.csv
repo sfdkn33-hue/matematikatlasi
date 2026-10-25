@@ -1,0 +1,86 @@
+﻿Görev ID;Öğrenme çıktısı;Yer;Oyun türü;Görev yönergesi;Beceri odağı
+MAT.5.5.1-G21;MAT.5.5.1;Kitap Kulübü;Araştırma Sorusu Tasarımcısı;"Kitap Kulübü: kitap türü üzerine veriyle yanıtlanabilir araştırma sorusunu kur; veriyi nasıl güvenle toplayacağını seç.";Kategorik veri analizi
+MAT.5.5.1-G22;MAT.5.5.1;Okul Kantini;Araştırma Sorusu Tasarımcısı;"Okul Kantini: ara öğün tercihi üzerine veriyle yanıtlanabilir araştırma sorusunu kur; veriyi nasıl güvenle toplayacağını seç.";Kategorik veri analizi
+MAT.5.5.1-G23;MAT.5.5.1;Doğa Gözlem Ekibi;Araştırma Sorusu Tasarımcısı;"Doğa Gözlem Ekibi: doğa gözlemi üzerine veriyle yanıtlanabilir araştırma sorusunu kur; veriyi nasıl güvenle toplayacağını seç.";Kategorik veri analizi
+MAT.5.5.1-G24;MAT.5.5.1;Spor Şenliği;Araştırma Sorusu Tasarımcısı;"Spor Şenliği: etkinlik tercihi üzerine veriyle yanıtlanabilir araştırma sorusunu kur; veriyi nasıl güvenle toplayacağını seç.";Kategorik veri analizi
+MAT.5.5.1-G25;MAT.5.5.1;Ulaşım Araştırması;Araştırma Sorusu Tasarımcısı;"Ulaşım Araştırması: okula ulaşım şekli üzerine veriyle yanıtlanabilir araştırma sorusunu kur; veriyi nasıl güvenle toplayacağını seç.";Kategorik veri analizi
+MAT.5.5.1-G26;MAT.5.5.1;Kitap Kulübü;Tarafsız Anket Laboratuvarı;Kitap Kulübü: tarafsız anket sorusunu ve geçerli tek seçimli yanıt seçeneklerini belirle.;Kategorik veri analizi
+MAT.5.5.1-G27;MAT.5.5.1;Okul Kantini;Tarafsız Anket Laboratuvarı;Okul Kantini: tarafsız anket sorusunu ve geçerli tek seçimli yanıt seçeneklerini belirle.;Kategorik veri analizi
+MAT.5.5.1-G28;MAT.5.5.1;Doğa Gözlem Ekibi;Tarafsız Anket Laboratuvarı;Doğa Gözlem Ekibi: tarafsız anket sorusunu ve geçerli tek seçimli yanıt seçeneklerini belirle.;Kategorik veri analizi
+MAT.5.5.1-G29;MAT.5.5.1;Spor Şenliği;Tarafsız Anket Laboratuvarı;Spor Şenliği: tarafsız anket sorusunu ve geçerli tek seçimli yanıt seçeneklerini belirle.;Kategorik veri analizi
+MAT.5.5.1-G30;MAT.5.5.1;Ulaşım Araştırması;Tarafsız Anket Laboratuvarı;Ulaşım Araştırması: tarafsız anket sorusunu ve geçerli tek seçimli yanıt seçeneklerini belirle.;Kategorik veri analizi
+MAT.5.5.1-G31;MAT.5.5.1;Kitap Kulübü;Veri Güvenliği Nöbetçisi;Kitap Kulübü: anonim veriyi güvenli topla ve güvenli paylaş.;Kategorik veri analizi
+MAT.5.5.1-G32;MAT.5.5.1;Okul Kantini;Veri Güvenliği Nöbetçisi;Okul Kantini: anonim veriyi güvenli topla ve güvenli paylaş.;Kategorik veri analizi
+MAT.5.5.1-G33;MAT.5.5.1;Doğa Gözlem Ekibi;Veri Güvenliği Nöbetçisi;Doğa Gözlem Ekibi: anonim veriyi güvenli topla ve güvenli paylaş.;Kategorik veri analizi
+MAT.5.5.1-G34;MAT.5.5.1;Spor Şenliği;Veri Güvenliği Nöbetçisi;Spor Şenliği: anonim veriyi güvenli topla ve güvenli paylaş.;Kategorik veri analizi
+MAT.5.5.1-G35;MAT.5.5.1;Ulaşım Araştırması;Veri Güvenliği Nöbetçisi;Ulaşım Araştırması: anonim veriyi güvenli topla ve güvenli paylaş.;Kategorik veri analizi
+MAT.5.5.1-G36;MAT.5.5.1;Kitap Kulübü;Örneklem Stratejisti;Kitap Kulübü: kitap türü konusunda savunulabilir bir örnekleme planı yap.;Kategorik veri analizi
+MAT.5.5.1-G37;MAT.5.5.1;Okul Kantini;Örneklem Stratejisti;Okul Kantini: ara öğün tercihi konusunda savunulabilir bir örnekleme planı yap.;Kategorik veri analizi
+MAT.5.5.1-G38;MAT.5.5.1;Doğa Gözlem Ekibi;Örneklem Stratejisti;Doğa Gözlem Ekibi: doğa gözlemi konusunda savunulabilir bir örnekleme planı yap.;Kategorik veri analizi
+MAT.5.5.1-G39;MAT.5.5.1;Spor Şenliği;Örneklem Stratejisti;Spor Şenliği: etkinlik tercihi konusunda savunulabilir bir örnekleme planı yap.;Kategorik veri analizi
+MAT.5.5.1-G40;MAT.5.5.1;Ulaşım Araştırması;Örneklem Stratejisti;Ulaşım Araştırması: okula ulaşım şekli konusunda savunulabilir bir örnekleme planı yap.;Kategorik veri analizi
+MAT.5.5.1-G41;MAT.5.5.1;Kitap Kulübü;Çetele İstasyonu;Kitap Kulübü: anonim tercih fişlerini say, kategorik sıklık tablosu oluştur, en sık olanı bul.;Kategorik veri analizi
+MAT.5.5.1-G42;MAT.5.5.1;Okul Kantini;Çetele İstasyonu;Okul Kantini: anonim tercih fişlerini say, kategorik sıklık tablosu oluştur, en sık olanı bul.;Kategorik veri analizi
+MAT.5.5.1-G43;MAT.5.5.1;Doğa Gözlem Ekibi;Çetele İstasyonu;Doğa Gözlem Ekibi: anonim tercih fişlerini say, kategorik sıklık tablosu oluştur, en sık olanı bul.;Kategorik veri analizi
+MAT.5.5.1-G44;MAT.5.5.1;Spor Şenliği;Çetele İstasyonu;Spor Şenliği: anonim tercih fişlerini say, kategorik sıklık tablosu oluştur, en sık olanı bul.;Kategorik veri analizi
+MAT.5.5.1-G45;MAT.5.5.1;Ulaşım Araştırması;Çetele İstasyonu;Ulaşım Araştırması: anonim tercih fişlerini say, kategorik sıklık tablosu oluştur, en sık olanı bul.;Kategorik veri analizi
+MAT.5.5.1-G46;MAT.5.5.1;Kitap Kulübü;Sütun Grafiği Mühendisi;Kitap Kulübü: anket sıklıklarından doğru sütun grafiği kur ve en az tercih edileni işaretle.;Kategorik veri analizi
+MAT.5.5.1-G47;MAT.5.5.1;Okul Kantini;Sütun Grafiği Mühendisi;Okul Kantini: anket sıklıklarından doğru sütun grafiği kur ve en az tercih edileni işaretle.;Kategorik veri analizi
+MAT.5.5.1-G48;MAT.5.5.1;Doğa Gözlem Ekibi;Sütun Grafiği Mühendisi;Doğa Gözlem Ekibi: anket sıklıklarından doğru sütun grafiği kur ve en az tercih edileni işaretle.;Kategorik veri analizi
+MAT.5.5.1-G49;MAT.5.5.1;Spor Şenliği;Sütun Grafiği Mühendisi;Spor Şenliği: anket sıklıklarından doğru sütun grafiği kur ve en az tercih edileni işaretle.;Kategorik veri analizi
+MAT.5.5.1-G50;MAT.5.5.1;Ulaşım Araştırması;Sütun Grafiği Mühendisi;Ulaşım Araştırması: anket sıklıklarından doğru sütun grafiği kur ve en az tercih edileni işaretle.;Kategorik veri analizi
+MAT.5.5.1-G51;MAT.5.5.1;Kitap Kulübü;Nokta Grafiği Kurgusu;Kitap Kulübü: her gözlem için bir nokta yerleştir ve en sık tercih edileni belirle.;Kategorik veri analizi
+MAT.5.5.1-G52;MAT.5.5.1;Okul Kantini;Nokta Grafiği Kurgusu;Okul Kantini: her gözlem için bir nokta yerleştir ve en sık tercih edileni belirle.;Kategorik veri analizi
+MAT.5.5.1-G53;MAT.5.5.1;Doğa Gözlem Ekibi;Nokta Grafiği Kurgusu;Doğa Gözlem Ekibi: her gözlem için bir nokta yerleştir ve en sık tercih edileni belirle.;Kategorik veri analizi
+MAT.5.5.1-G54;MAT.5.5.1;Spor Şenliği;Nokta Grafiği Kurgusu;Spor Şenliği: her gözlem için bir nokta yerleştir ve en sık tercih edileni belirle.;Kategorik veri analizi
+MAT.5.5.1-G55;MAT.5.5.1;Ulaşım Araştırması;Nokta Grafiği Kurgusu;Ulaşım Araştırması: her gözlem için bir nokta yerleştir ve en sık tercih edileni belirle.;Kategorik veri analizi
+MAT.5.5.1-G56;MAT.5.5.1;Kitap Kulübü;Araştırma Süreci Rotası;Kitap Kulübü: istatistiksel araştırma sürecinin adımlarını doğru sıraya getir.;Kategorik veri analizi
+MAT.5.5.1-G57;MAT.5.5.1;Okul Kantini;Araştırma Süreci Rotası;Okul Kantini: istatistiksel araştırma sürecinin adımlarını doğru sıraya getir.;Kategorik veri analizi
+MAT.5.5.1-G58;MAT.5.5.1;Doğa Gözlem Ekibi;Araştırma Süreci Rotası;Doğa Gözlem Ekibi: istatistiksel araştırma sürecinin adımlarını doğru sıraya getir.;Kategorik veri analizi
+MAT.5.5.1-G59;MAT.5.5.1;Spor Şenliği;Araştırma Süreci Rotası;Spor Şenliği: istatistiksel araştırma sürecinin adımlarını doğru sıraya getir.;Kategorik veri analizi
+MAT.5.5.1-G60;MAT.5.5.1;Ulaşım Araştırması;Araştırma Süreci Rotası;Ulaşım Araştırması: istatistiksel araştırma sürecinin adımlarını doğru sıraya getir.;Kategorik veri analizi
+MAT.5.5.2-G21;MAT.5.5.2;Kitap Kulübü;Kanıt Hakemi;Kitap Kulübü: bir başka öğrencinin veri yorumunu kanıtla sınayıp sıklık farkını bul.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G22;MAT.5.5.2;Okul Kantini;Kanıt Hakemi;Okul Kantini: bir başka öğrencinin veri yorumunu kanıtla sınayıp sıklık farkını bul.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G23;MAT.5.5.2;Doğa Gözlem Ekibi;Kanıt Hakemi;Doğa Gözlem Ekibi: bir başka öğrencinin veri yorumunu kanıtla sınayıp sıklık farkını bul.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G24;MAT.5.5.2;Spor Şenliği;Kanıt Hakemi;Spor Şenliği: bir başka öğrencinin veri yorumunu kanıtla sınayıp sıklık farkını bul.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G25;MAT.5.5.2;Ulaşım Araştırması;Kanıt Hakemi;Ulaşım Araştırması: bir başka öğrencinin veri yorumunu kanıtla sınayıp sıklık farkını bul.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G26;MAT.5.5.2;Kitap Kulübü;Yanıltıcı Eksen Dedektifi;Kitap Kulübü: sıfırdan başlamayan grafiğin nasıl yanıltabileceğini incele.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G27;MAT.5.5.2;Okul Kantini;Yanıltıcı Eksen Dedektifi;Okul Kantini: sıfırdan başlamayan grafiğin nasıl yanıltabileceğini incele.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G28;MAT.5.5.2;Doğa Gözlem Ekibi;Yanıltıcı Eksen Dedektifi;Doğa Gözlem Ekibi: sıfırdan başlamayan grafiğin nasıl yanıltabileceğini incele.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G29;MAT.5.5.2;Spor Şenliği;Yanıltıcı Eksen Dedektifi;Spor Şenliği: sıfırdan başlamayan grafiğin nasıl yanıltabileceğini incele.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G30;MAT.5.5.2;Ulaşım Araştırması;Yanıltıcı Eksen Dedektifi;Ulaşım Araştırması: sıfırdan başlamayan grafiğin nasıl yanıltabileceğini incele.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G31;MAT.5.5.2;Kitap Kulübü;Örneklemde Yanlılık Avı;"Kitap Kulübü: taraflı örneklemi teşhis et; hangi sonuca varılamayacağını bul.";İstatistiksel yorum eleştirisi
+MAT.5.5.2-G32;MAT.5.5.2;Okul Kantini;Örneklemde Yanlılık Avı;"Okul Kantini: taraflı örneklemi teşhis et; hangi sonuca varılamayacağını bul.";İstatistiksel yorum eleştirisi
+MAT.5.5.2-G33;MAT.5.5.2;Doğa Gözlem Ekibi;Örneklemde Yanlılık Avı;"Doğa Gözlem Ekibi: taraflı örneklemi teşhis et; hangi sonuca varılamayacağını bul.";İstatistiksel yorum eleştirisi
+MAT.5.5.2-G34;MAT.5.5.2;Spor Şenliği;Örneklemde Yanlılık Avı;"Spor Şenliği: taraflı örneklemi teşhis et; hangi sonuca varılamayacağını bul.";İstatistiksel yorum eleştirisi
+MAT.5.5.2-G35;MAT.5.5.2;Ulaşım Araştırması;Örneklemde Yanlılık Avı;"Ulaşım Araştırması: taraflı örneklemi teşhis et; hangi sonuca varılamayacağını bul.";İstatistiksel yorum eleştirisi
+MAT.5.5.2-G36;MAT.5.5.2;Kitap Kulübü;Grafik Onarım Atölyesi;Kitap Kulübü: bir sütun yanlış çizildi. Hangi kategori, doğru sıklık kaç?;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G37;MAT.5.5.2;Okul Kantini;Grafik Onarım Atölyesi;Okul Kantini: bir sütun yanlış çizildi. Hangi kategori, doğru sıklık kaç?;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G38;MAT.5.5.2;Doğa Gözlem Ekibi;Grafik Onarım Atölyesi;Doğa Gözlem Ekibi: bir sütun yanlış çizildi. Hangi kategori, doğru sıklık kaç?;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G39;MAT.5.5.2;Spor Şenliği;Grafik Onarım Atölyesi;Spor Şenliği: bir sütun yanlış çizildi. Hangi kategori, doğru sıklık kaç?;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G40;MAT.5.5.2;Ulaşım Araştırması;Grafik Onarım Atölyesi;Ulaşım Araştırması: bir sütun yanlış çizildi. Hangi kategori, doğru sıklık kaç?;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G41;MAT.5.5.2;Kitap Kulübü;Eksik Kayıt Bulmacası;"Kitap Kulübü: eksik tabloyu toplam gözlem sayısından tamamla; veri kaynağını sorgula.";İstatistiksel yorum eleştirisi
+MAT.5.5.2-G42;MAT.5.5.2;Okul Kantini;Eksik Kayıt Bulmacası;"Okul Kantini: eksik tabloyu toplam gözlem sayısından tamamla; veri kaynağını sorgula.";İstatistiksel yorum eleştirisi
+MAT.5.5.2-G43;MAT.5.5.2;Doğa Gözlem Ekibi;Eksik Kayıt Bulmacası;"Doğa Gözlem Ekibi: eksik tabloyu toplam gözlem sayısından tamamla; veri kaynağını sorgula.";İstatistiksel yorum eleştirisi
+MAT.5.5.2-G44;MAT.5.5.2;Spor Şenliği;Eksik Kayıt Bulmacası;"Spor Şenliği: eksik tabloyu toplam gözlem sayısından tamamla; veri kaynağını sorgula.";İstatistiksel yorum eleştirisi
+MAT.5.5.2-G45;MAT.5.5.2;Ulaşım Araştırması;Eksik Kayıt Bulmacası;"Ulaşım Araştırması: eksik tabloyu toplam gözlem sayısından tamamla; veri kaynağını sorgula.";İstatistiksel yorum eleştirisi
+MAT.5.5.2-G46;MAT.5.5.2;Kitap Kulübü;İki Sınıfı Karşılaştır;Kitap Kulübü: iki grubun aynı kategorideki sıklıklarını karşılaştır.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G47;MAT.5.5.2;Okul Kantini;İki Sınıfı Karşılaştır;Okul Kantini: iki grubun aynı kategorideki sıklıklarını karşılaştır.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G48;MAT.5.5.2;Doğa Gözlem Ekibi;İki Sınıfı Karşılaştır;Doğa Gözlem Ekibi: iki grubun aynı kategorideki sıklıklarını karşılaştır.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G49;MAT.5.5.2;Spor Şenliği;İki Sınıfı Karşılaştır;Spor Şenliği: iki grubun aynı kategorideki sıklıklarını karşılaştır.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G50;MAT.5.5.2;Ulaşım Araştırması;İki Sınıfı Karşılaştır;Ulaşım Araştırması: iki grubun aynı kategorideki sıklıklarını karşılaştır.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G51;MAT.5.5.2;Kitap Kulübü;Gizli Kategoriyi Bul;Kitap Kulübü: toplamdan eksik kategori sıklığını bulup en çok tercih edileni belirle.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G52;MAT.5.5.2;Okul Kantini;Gizli Kategoriyi Bul;Okul Kantini: toplamdan eksik kategori sıklığını bulup en çok tercih edileni belirle.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G53;MAT.5.5.2;Doğa Gözlem Ekibi;Gizli Kategoriyi Bul;Doğa Gözlem Ekibi: toplamdan eksik kategori sıklığını bulup en çok tercih edileni belirle.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G54;MAT.5.5.2;Spor Şenliği;Gizli Kategoriyi Bul;Spor Şenliği: toplamdan eksik kategori sıklığını bulup en çok tercih edileni belirle.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G55;MAT.5.5.2;Ulaşım Araştırması;Gizli Kategoriyi Bul;Ulaşım Araştırması: toplamdan eksik kategori sıklığını bulup en çok tercih edileni belirle.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G56;MAT.5.5.2;Kitap Kulübü;İddianın Sınırı;Kitap Kulübü: hangi yorum yalnızca bu gözlemlere dayanarak savunulabilir?;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G57;MAT.5.5.2;Okul Kantini;İddianın Sınırı;Okul Kantini: hangi yorum yalnızca bu gözlemlere dayanarak savunulabilir?;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G58;MAT.5.5.2;Doğa Gözlem Ekibi;İddianın Sınırı;Doğa Gözlem Ekibi: hangi yorum yalnızca bu gözlemlere dayanarak savunulabilir?;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G59;MAT.5.5.2;Spor Şenliği;İddianın Sınırı;Spor Şenliği: hangi yorum yalnızca bu gözlemlere dayanarak savunulabilir?;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G60;MAT.5.5.2;Ulaşım Araştırması;İddianın Sınırı;Ulaşım Araştırması: hangi yorum yalnızca bu gözlemlere dayanarak savunulabilir?;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G61;MAT.5.5.2;Kitap Kulübü;Tutarsız Rapor Denetçisi;Kitap Kulübü: rapordaki çelişkili sütunu belirle ve doğru toplamı yeniden oluştur.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G62;MAT.5.5.2;Okul Kantini;Tutarsız Rapor Denetçisi;Okul Kantini: rapordaki çelişkili sütunu belirle ve doğru toplamı yeniden oluştur.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G63;MAT.5.5.2;Doğa Gözlem Ekibi;Tutarsız Rapor Denetçisi;Doğa Gözlem Ekibi: rapordaki çelişkili sütunu belirle ve doğru toplamı yeniden oluştur.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G64;MAT.5.5.2;Spor Şenliği;Tutarsız Rapor Denetçisi;Spor Şenliği: rapordaki çelişkili sütunu belirle ve doğru toplamı yeniden oluştur.;İstatistiksel yorum eleştirisi
+MAT.5.5.2-G65;MAT.5.5.2;Ulaşım Araştırması;Tutarsız Rapor Denetçisi;Ulaşım Araştırması: rapordaki çelişkili sütunu belirle ve doğru toplamı yeniden oluştur.;İstatistiksel yorum eleştirisi

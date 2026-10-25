@@ -1,0 +1,28 @@
+#atlas69Lab{background:#f3f9fd!important;color:#183b54!important;border:2px solid #a4cce0;border-radius:18px;padding:clamp(12px,3vw,22px);margin:14px 0 20px;box-sizing:border-box}
+#atlas69Lab[hidden]{display:none!important}#atlas69Lab *{box-sizing:border-box}
+#atlas69Lab h3{color:#0f4361;font-size:clamp(21px,5vw,27px);margin:4px 0 10px}
+#atlas69Lab .a69-kicker{color:#17658a;font-size:13px;font-weight:750;letter-spacing:.03em}
+#atlas69Lab .a69-question{padding:14px;border:1px solid #b8d2e2;border-radius:12px;background:white;color:#173c56;font-size:17px;font-weight:650;line-height:1.55}
+#atlas69Lab .a69-visual{border:1px solid #b5d1e3;background:#fff;border-radius:12px;margin:14px 0;padding:10px;max-width:100%;overflow:hidden}
+#atlas69Lab .a69-visual svg{width:100%;max-width:500px;display:block;margin:auto;max-height:240px}
+#atlas69Lab .a69-model{border:1px solid #aac7d9;border-radius:12px;background:white;color:#173e57;min-width:0;padding:12px;margin:12px 0}
+#atlas69Lab legend{color:#194d6a;font-weight:800;padding:0 6px}
+#atlas69Lab .a69-pool{display:flex;gap:9px;flex-wrap:wrap;margin:9px 0}
+#atlas69Lab button{font:inherit;font-weight:720;min-height:45px;border-radius:10px;cursor:pointer}
+#atlas69Lab .a69-pool button{background:#e8f4fc;color:#184662;border:2px solid #5a93b7;padding:10px 13px;max-width:100%;text-align:left;overflow-wrap:anywhere}
+#atlas69Lab .a69-pool button.selected{background:#12698e;color:#fff;border-color:#0a5273}
+#atlas69Lab .a69-built{display:flex;gap:7px;align-items:center;flex-wrap:wrap;min-height:46px;background:#f1f8fc;border:1px dashed #9bc2d6;border-radius:9px;padding:8px;margin:10px 0}
+#atlas69Lab .a69-placed{padding:8px;background:#155b7f;color:white;border-radius:8px;font-size:15px}
+#atlas69Lab .a69-secondary{padding:9px 12px;background:#eaf3fa;border:1px solid #90b9d2;color:#154361}
+#atlas69Lab button:disabled{opacity:.5;cursor:default}
+#atlas69Lab button:focus-visible,#atlas69Lab input:focus-visible{outline:3px solid #ffad3f;outline-offset:3px}
+#atlas69Lab .a69-label{display:flex;flex-direction:column;gap:8px;padding:12px;border:1px solid #b4d1e1;background:white;border-radius:12px;font-size:16px;font-weight:750;color:#173f58}
+#atlas69Lab .a69-label input{width:100%;min-height:46px;background:#fff;color:#193a50;border:2px solid #7eafca;border-radius:9px;padding:11px;font-size:19px}
+#atlas69Lab .a69-range{display:flex;flex-direction:column;gap:8px;padding:12px;background:#f0f8fd;border-radius:9px;color:#16435e;font-weight:750}
+#atlas69Lab .a69-range input{width:100%;min-height:37px;accent-color:#14759c;cursor:pointer}
+#atlas69Lab .a69-actions{display:flex;gap:9px;flex-wrap:wrap;margin:12px 0}
+#atlas69Lab .a69-actions button:first-child{background:#116c92;color:white;border:0;padding:12px 15px}
+#atlas69Lab .a69-status{background:#e8f6ee;color:#1d543a;border:1px solid #9bd2b4;border-radius:9px;padding:11px;font-weight:700;line-height:1.5}
+#atlas69Lab .a69-status.error{background:#fff0eb;color:#8d3c22;border-color:#e4aa98}
+#atlas69Lab .a69-explanation{background:#eaf5fc;color:#173b53;padding:11px;border-radius:9px}
+@media(max-width:420px){#atlas69Lab .a69-pool button{flex:1 1 100%}#atlas69Lab .a69-actions button{width:100%}#atlas69Lab{padding:10px}}

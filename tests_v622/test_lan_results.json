@@ -1,0 +1,78 @@
+{
+  "passed": 18,
+  "total": 18,
+  "tests": [
+    {
+      "label": "server health",
+      "passed": true
+    },
+    {
+      "label": "catalog requires teacher login",
+      "passed": true
+    },
+    {
+      "label": "random pairing room",
+      "passed": true
+    },
+    {
+      "label": "board session preserved",
+      "passed": true
+    },
+    {
+      "label": "wrong PIN rejected",
+      "passed": true
+    },
+    {
+      "label": "valid teacher paired",
+      "passed": true
+    },
+    {
+      "label": "second teacher rejected",
+      "passed": true
+    },
+    {
+      "label": "4037 tasks available for navigation",
+      "passed": true
+    },
+    {
+      "label": "teacher can navigate valid task",
+      "passed": true
+    },
+    {
+      "label": "unauthorized command rejected",
+      "passed": true
+    },
+    {
+      "label": "grading command forbidden",
+      "passed": true
+    },
+    {
+      "label": "unknown task forbidden",
+      "passed": true
+    },
+    {
+      "label": "only board may update task state",
+      "passed": true
+    },
+    {
+      "label": "teacher cannot forge board state",
+      "passed": true
+    },
+    {
+      "label": "cross-origin POST rejected",
+      "passed": true
+    },
+    {
+      "label": "board can revoke session",
+      "passed": true
+    },
+    {
+      "label": "room revoked",
+      "passed": true
+    },
+    {
+      "label": "SSE realtime command delivered",
+      "passed": true
+    }
+  ]
+}

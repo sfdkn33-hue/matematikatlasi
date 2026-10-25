@@ -1,0 +1,12 @@
+/* v6.6 responsive visual evidence; high contrast and visible selections */
+.a66-visual{background:#f6fbff;color:#17394e;border:2px solid #b4d1df;border-radius:16px;padding:13px;margin:15px 0;max-width:100%;box-sizing:border-box}
+.a66-intro{margin:0 0 8px;font-weight:700;color:#17394e}
+.a66-visual svg{display:block;width:100%;height:auto;max-height:226px;background:#fff;border-radius:10px;overflow:visible}
+.a66-actions{display:flex;flex-wrap:wrap;gap:9px;min-width:0;border:0;padding:5px 0 0;margin:6px 0 0}
+.a66-actions legend{font-weight:700;padding:7px 0;color:#17394e}
+.a66-choice{flex:1 1 120px;min-height:45px;border:2px solid #397ba4;border-radius:11px;background:#fff;color:#124562;font:inherit;font-weight:700;cursor:pointer;overflow-wrap:anywhere}
+.a66-choice.selected{border-color:#0d664c;background:#d8f6e6;color:#104b37;box-shadow:0 0 0 2px #0d664c inset}
+.a66-choice:focus-visible{outline:3px solid #e08e37;outline-offset:2px}
+.a66-table{width:100%;border-collapse:collapse;margin:8px 0;color:#17394e;font-size:.88rem}
+.a66-table td,.a66-table th{border:1px solid #c9dbe6;padding:5px;text-align:center}
+@media(max-width:440px){.a66-visual{padding:10px}.a66-choice{flex-basis:95px;font-size:.9rem}.a66-visual svg{max-height:180px}}

@@ -1,0 +1,45 @@
+/* Atlas v6.3 — tam öğrenme laboratuvarı; görev dışındaki alanları etkilemez */
+#atlas63PilotLab[hidden],#atlas63Coverage[hidden]{display:none!important}
+#atlas63PilotLab{background:#f8fbff;color:#153550;border:1px solid #bed8ec;border-radius:18px;padding:clamp(14px,2.2vw,24px);margin:16px 0;box-shadow:0 7px 23px #07192b14;line-height:1.55}
+#atlas63PilotLab *{box-sizing:border-box}
+#atlas63PilotLab h3{color:#143a5d;font-size:clamp(19px,2.5vw,25px);margin:4px 0 8px}
+#atlas63PilotLab .v63-kicker{font-size:12px;font-weight:800;letter-spacing:.11em;color:#195f8f}
+#atlas63PilotLab .v63-context{color:#274d67;font-size:14px;margin:0 0 16px}
+#atlas63PilotLab .v63-question{background:#eaf3fc;border-radius:12px;padding:14px 16px;font-size:16px;color:#153550;font-weight:650}
+#atlas63PilotLab .v63-fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,205px),1fr));gap:12px;margin:16px 0}
+#atlas63PilotLab .v63-field{margin:0;padding:12px;border:1px solid #adc9df;border-radius:12px;background:white;min-width:0}
+#atlas63PilotLab .v63-field>span,#atlas63PilotLab legend{display:block;font-size:14px;font-weight:750;color:#173b5a;margin:0 0 8px;padding:0}
+#atlas63PilotLab input[type=text]{background:white;color:#153550;border:2px solid #8daec9;border-radius:9px;width:100%;padding:11px 12px;font:inherit;font-size:16px;min-width:0}
+#atlas63PilotLab input:focus-visible,#atlas63PilotLab button:focus-visible{outline:3px solid #f59d2b;outline-offset:2px}
+#atlas63PilotLab input[aria-invalid=true]{border-color:#b42318;background:#fff2f2}
+#atlas63PilotLab .v63-radio{display:flex;align-items:center;gap:8px;background:#f5faff;border:1px solid #cbddec;border-radius:9px;padding:9px;margin:6px 0;color:#143a5d;cursor:pointer;line-height:1.35}
+#atlas63PilotLab .v63-radio:has(input:checked){border-color:#006e9d;background:#e0f3fc}
+#atlas63PilotLab .v63-radio input{accent-color:#0875a5;width:19px;height:19px;flex-shrink:0}
+#atlas63PilotLab .v63-actions{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 0}
+#atlas63PilotLab .v63-actions button{border-radius:10px;border:2px solid #194f79;color:white;background:#195c89;padding:12px 18px;font-weight:750;cursor:pointer;min-height:44px;font-size:15px}
+#atlas63PilotLab .v63-actions button.v63-hint{color:#194f79;background:white}
+#atlas63PilotLab .v63-status{margin:14px 0 0;padding:12px;border-radius:10px;background:#e9f1f8;color:#1f4562;font-size:15px}
+#atlas63PilotLab .v63-status[data-error=true]{background:#fff0e8;color:#8b330e}
+#atlas63PilotLab .v63-status[data-success=true]{background:#e1f5e9;color:#115732}
+#atlas63PilotLab .v63-explain{padding:12px;background:#e6f6ee;border-radius:10px;color:#164d34;margin-top:10px}
+#atlas63PilotLab .v63-visual{overflow:hidden;margin:14px 0 0;padding:14px;border:1px solid #c9dfec;border-radius:12px;background:white}
+#atlas63PilotLab .v63-visual svg{max-width:100%;width:100%;height:auto;display:block}
+#atlas63PilotLab .v63-digit-tiles{display:flex;flex-wrap:wrap;gap:6px;font-variant-numeric:tabular-nums;font-weight:850}
+#atlas63PilotLab .v63-digit-tiles span{display:inline-grid;place-items:center;background:#e5f4ff;color:#14507c;border:1px solid #9cc9e8;min-width:35px;min-height:44px;border-radius:8px;font-size:21px}
+#atlas63PilotLab .v63-digit-tiles .decimal{background:#fff4df;color:#925000}
+#atlas63PilotLab table{border-collapse:collapse;width:100%;font-size:14px;color:#153550}
+#atlas63PilotLab th,#atlas63PilotLab td{border:1px solid #bdd5e4;padding:7px 9px;text-align:center}
+#atlas63PilotLab th{background:#e5f2fc}
+.atlas63-coverage{margin:14px 0;border:1px solid #9cc3dd;border-radius:12px;background:#ebf4fc;color:#133a57;overflow:hidden}
+.atlas63-coverage summary{cursor:pointer;font-size:14px;font-weight:800;padding:14px;line-height:1.4;list-style-position:inside}
+.atlas63-scope{padding:0 12px 12px;font-size:13px;line-height:1.5;color:#214660}
+.atlas63-scope h4{margin:8px 0;font-size:14px}
+.atlas63-scope p{margin:8px 0}
+.atlas63-scope .v63-dataset{border-radius:9px;padding:10px;background:white;border:1px solid #cadde9}
+.atlas63-scope .v63-chips{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0}
+.atlas63-scope .v63-chip{font-size:11px;line-height:1.25;border-radius:999px;padding:5px 7px;background:#dceefa;color:#174b71}
+.atlas63-scope .v63-outcomes{max-height:215px;overflow:auto;border:1px solid #cadde9;border-radius:8px;background:white;margin-top:8px}
+.atlas63-scope .v63-outcomes>div{padding:8px 10px;border-bottom:1px solid #dfebf3}
+.atlas63-scope .v63-outcomes>div:last-child{border:none}
+.atlas63-scope .v63-outcomes strong{color:#153b5d}
+@media(max-width:460px){#atlas63PilotLab{padding:12px}#atlas63PilotLab .v63-fields{grid-template-columns:1fr}#atlas63PilotLab .v63-actions button{flex:1 1 135px}}

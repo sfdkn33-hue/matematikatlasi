@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Matematik Atlası v6.21 · Öğretmen Öğrenme İzleri</title>
+<link rel="stylesheet" href="assets/css/style.css"><link rel="stylesheet" href="assets/css/welcome_v30.css">
+<link rel="stylesheet" href="assets/css/atlas621_teacher.css"></head>
+<body class="atlas-v3 atlas-teacher">
+<header>
+  <div class="eyebrow">MATEMATİK ATLASI · YEREL RAPOR</div>
+  <h1>📊 Öğretmen Raporu</h1><p class="local-record-notice">Bu rapor yalnızca bu cihazın tarayıcısındaki kayıtları gösterir; öğrencilerin farklı cihazlarındaki ödevleri henüz eşitlemez.</p>
+  <p>Yalnızca bu tarayıcıdaki görev ilerlemesini gösterir; sınıf veya öğrenciler arasında veri eşitlemez.</p>
+  <nav class="top-tools"><a href="index.html">← Oyuna dön</a></nav>
+</header>
+<div class="teacher-wrap">
+  <section class="panel">
+    <h2>Öğrenme çıktısına göre ilerleme</h2>
+    <div class="teacher-notice">Bu rapor resmî notlandırma, kimlik doğrulama  değildir. Aynı cihazı kullanan herkes yerel kayıtları değiştirebilir.</div>
+    <div class="teacher-kpis" id="teacherKpis" aria-live="polite"></div>
+    <label for="teacherGrade">Sınıf filtresi</label>
+    <select id="teacherGrade" class="teacher-filter"><option value="all">Tüm sınıflar</option><option value="5">5. sınıf</option><option value="6">6. sınıf</option><option value="7">7. sınıf</option><option value="8">8. sınıf</option></select>
+    <div class="flex"><button id="teacherDownload" type="button">↓ İlerleme raporunu CSV indir</button><button class="alt" id="teacherRefresh" type="button">↻ Yenile</button></div>
+    <div class="flex"><button class="alt" id="teacherBackup" type="button">↓ Kayıtları JSON yedekle</button><label class="btn" for="teacherImport" style="cursor:pointer;font-size:14px">↑ JSON yedeğini içe aktar</label><input type="file" id="teacherImport" accept="application/json,.json" style="max-width:240px"></div><p id="teacherImportStatus" class="small" aria-live="polite"></p><div class="teacher-table-scroll"><table><thead><tr><th>Sınıf</th><th>Sıra</th><th>Öğrenme çıktısı</th><th>Tema</th><th>İlerleme</th><th>Durum</th></tr></thead><tbody id="teacherRows"></tbody></table></div>
+  </section>
+</div>
+<script src="data/tasks.js"></script>
+<script defer src="assets/js/teacher.js"></script><script defer src="assets/js/atlas621_teacher_insights.js"></script>
+</body>
+</html>

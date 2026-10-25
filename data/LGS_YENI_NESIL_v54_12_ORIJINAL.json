@@ -1,0 +1,206 @@
+[
+  {
+    "id": "LGS54-01",
+    "title": "Eş Karelerle Kaplama",
+    "topic": "EBOB · Alan ve yerleşim",
+    "stem": "Bir okulun 72 cm × 96 cm boyutlarındaki pano yüzeyi, tamamı kullanılacak biçimde boşluk kalmadan, kenar uzunluğu tam sayı olan eş karelerle kaplanacaktır. Mümkün olan en büyük kareler kullanıldığında kaç kare gerekir?",
+    "options": [
+      "7",
+      "12",
+      "24",
+      "28"
+    ],
+    "answer_index": 1,
+    "solution": "72 ile 96’nın EBOB’u 24’tür. Karenin kenarı 24 cm; yatayda 96/24=4, düşeyde 72/24=3 kare olur. 4×3=12.",
+    "graphic": "garden",
+    "code": "M.8.1.1.2",
+    "original": true
+  },
+  {
+    "id": "LGS54-02",
+    "title": "Şifreli Üretim",
+    "topic": "Üslü ifadeler · Değişim",
+    "stem": "Bir deney kutusunda başlangıçta 2⁵ mikro model vardır. Modellerin sayısı her 3 dakikada bir iki katına çıkmaktadır. Başlangıçtan 12 dakika sonra kutuda kaç model bulunur?",
+    "options": [
+      "256",
+      "512",
+      "1024",
+      "2048"
+    ],
+    "answer_index": 1,
+    "solution": "12/3=4 çoğalma. Başlangıç 2⁵, sonuç 2⁵×2⁴=2⁹=512.",
+    "graphic": "power",
+    "code": "M.8.1.2.2",
+    "original": true
+  },
+  {
+    "id": "LGS54-03",
+    "title": "Bilim İstasyonu Mesafesi",
+    "topic": "Bilimsel gösterim · Fark",
+    "stem": "Bir keşif aracının gün başındaki hedef uzaklığı 3,2×10⁶ m’dir. Gün içinde hedefe doğru 8×10⁴ m ilerler. Gün sonunda hedefe kalan uzaklığın bilimsel gösterimi hangisidir?",
+    "options": [
+      "3,12×10⁶",
+      "2,4×10⁶",
+      "3,92×10⁶",
+      "3,12×10⁵"
+    ],
+    "answer_index": 0,
+    "solution": "3,2×10⁶=3.200.000; 8×10⁴=80.000. Kalan 3.120.000=3,12×10⁶ metredir.",
+    "graphic": "distance",
+    "code": "M.8.1.2.5",
+    "original": true
+  },
+  {
+    "id": "LGS54-04",
+    "title": "Kare Parkın Çevresi",
+    "topic": "Köklü ifadeler · Model",
+    "stem": "Alanı 288 m² olan kare biçimindeki bir parkın çevresine tel çekilecektir. Telin toplam uzunluğu kaç metredir?",
+    "options": [
+      "12√2",
+      "24√2",
+      "48√2",
+      "72√2"
+    ],
+    "answer_index": 2,
+    "solution": "Karenin kenarı √288=√(144×2)=12√2 m. Çevre 4×12√2=48√2 m.",
+    "graphic": "square",
+    "code": "M.8.1.3.3",
+    "original": true
+  },
+  {
+    "id": "LGS54-05",
+    "title": "Torbaya Eklenenler",
+    "topic": "Olasılık · Değişen durum",
+    "stem": "Bir torbada 4 kırmızı, 3 mavi ve 5 yeşil eş bilye vardır. Torbaya yalnız kırmızı renkte 4 yeni bilye ekleniyor. Son durumda rastgele çekilen bir bilyenin kırmızı olma olasılığı kaçtır?",
+    "options": [
+      "1/3",
+      "1/2",
+      "2/3",
+      "3/4"
+    ],
+    "answer_index": 1,
+    "solution": "Başta 12 bilye vardır. Kırmızı 4+4=8, toplam 12+4=16 olur. Olasılık 8/16=1/2.",
+    "graphic": "marbles",
+    "code": "M.8.5.1.5",
+    "original": true
+  },
+  {
+    "id": "LGS54-06",
+    "title": "İki Kulübün Veri Grafiği",
+    "topic": "Veri analizi · Grafik okuma",
+    "stem": "Bir etkinlikte A kulübünün üç gün boyunca topladığı malzeme sayıları sırasıyla 10, 12, 14; B kulübünün sayıları 14, 11, 8’dir. İki kulübün topladığı miktar farkı hangi gün en küçüktür?",
+    "options": [
+      "1. gün",
+      "2. gün",
+      "3. gün",
+      "1. ve 3. gün"
+    ],
+    "answer_index": 1,
+    "solution": "Farklar sırasıyla |10−14|=4, |12−11|=1, |14−8|=6. En küçük fark 2. gündedir.",
+    "graphic": "chart",
+    "code": "M.8.4.1.1",
+    "original": true
+  },
+  {
+    "id": "LGS54-07",
+    "title": "Bahçe Alanı",
+    "topic": "Cebirsel alan · Yerine koyma",
+    "stem": "Kenarları (x+3) m ve (x+5) m olan dikdörtgen biçimindeki bahçede x=7 olarak ölçülüyor. Bahçenin alanı kaç metrekaredir?",
+    "options": [
+      "80",
+      "100",
+      "120",
+      "144"
+    ],
+    "answer_index": 2,
+    "solution": "Kenarlar x+3=10, x+5=12. Alan 10×12=120 m². Dağılma özelliğiyle x²+8x+15 bulunur, x=7 için yine 120.",
+    "graphic": "rect",
+    "code": "M.8.2.1.2",
+    "original": true
+  },
+  {
+    "id": "LGS54-08",
+    "title": "Çarpanlardan Çevre",
+    "topic": "Özdeşlik · Çarpanlara ayırma",
+    "stem": "Dikdörtgen biçimindeki bir alanın cebirsel alanı x²+9x+20 metrekaredir. Kenar uzunlukları (x+a) ve (x+b) biçimindedir. x=3 iken alanın çevresi kaç metredir?",
+    "options": [
+      "26",
+      "30",
+      "32",
+      "40"
+    ],
+    "answer_index": 1,
+    "solution": "20’nin çarpanları 4 ve 5, toplamları 9: x²+9x+20=(x+4)(x+5). x=3 için kenarlar 7 ve 8; çevre 2×(7+8)=30.",
+    "graphic": "rect2",
+    "code": "M.8.2.1.4",
+    "original": true
+  },
+  {
+    "id": "LGS54-09",
+    "title": "İki Servis Tarifesi",
+    "topic": "Doğrusal ilişki · Karar",
+    "stem": "A servis tarifesinde sabit 40 TL ve kilometre başına 3 TL; B servis tarifesinde sabit 10 TL ve kilometre başına 6 TL ücret alınır. Eşit fiyat oluşan mesafeden 2 km daha fazla gidildiğinde hangi tarife daha ucuzdur?",
+    "options": [
+      "A",
+      "B",
+      "İkisi eşit",
+      "Belirlenemez"
+    ],
+    "answer_index": 0,
+    "solution": "40+3x=10+6x ⇒ x=10 km. 12 km için A=40+36=76 TL, B=10+72=82 TL. A daha ucuz.",
+    "graphic": "plans",
+    "code": "M.8.2.2.5",
+    "original": true
+  },
+  {
+    "id": "LGS54-10",
+    "title": "İki Rampanın Oranı",
+    "topic": "Eğim · Benzerlik",
+    "stem": "Yatay uzunluğu 8 m, düşey yüksekliği 6 m olan rampa ile aynı eğime sahip ikinci bir rampa tasarlanıyor. İkinci rampanın yatay uzunluğu 16 m ise yüksekliği kaç metre olur?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "answer_index": 1,
+    "solution": "İlk rampanın eğimi 6/8=3/4. Aynı eğimde 16 m yatay için yükseklik 16×3/4=12 m.",
+    "graphic": "ramp",
+    "code": "M.8.2.2.6",
+    "original": true
+  },
+  {
+    "id": "LGS54-11",
+    "title": "Hedef Puan Sınırı",
+    "topic": "Eşitsizlik · Yön değiştirme",
+    "stem": "Bir puan sisteminde x doğruyu ifade eden −2x+7 değeri en fazla −5 olmalıdır. Bu koşulu sağlayan en küçük tam sayı x kaçtır?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "−6"
+    ],
+    "answer_index": 1,
+    "solution": "−2x+7≤−5 ⇒ −2x≤−12. Negatif sayıya bölünürken yön değişir: x≥6. En küçük tam sayı 6.",
+    "graphic": "ineq",
+    "code": "M.8.2.3.3",
+    "original": true
+  },
+  {
+    "id": "LGS54-12",
+    "title": "Anketin Yanıltıcı Yorumu",
+    "topic": "Yüzdeler · Veri yorumlama",
+    "stem": "120 öğrencinin anketinde A seçeneği %30, B seçeneği %25 oy almıştır; kalanlar C seçeneğini işaretlemiştir. C’yi seçenlerin sayısı B’yi seçenlerden kaç fazladır?",
+    "options": [
+      "20",
+      "24",
+      "36",
+      "48"
+    ],
+    "answer_index": 1,
+    "solution": "C yüzdesi 100−30−25=45. C−B farkı %45−%25=%20. 120×0,20=24 öğrenci.",
+    "graphic": "pie",
+    "code": "M.8.4.1.2",
+    "original": true
+  }
+]

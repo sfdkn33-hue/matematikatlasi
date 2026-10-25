@@ -1,0 +1,102 @@
+[
+  {
+    "kod": "MAT.5.1.1",
+    "sinif": 5,
+    "tema": "Sayılar ve Nicelikler",
+    "etiket": "Çok basamaklı doğal sayıları okuma ve yazma",
+    "resmi_metin_mi": "True",
+    "kaynak_pdf_sayfasi": "21",
+    "plan_sirasi": 8,
+    "tema_sirasi": 2,
+    "tema_adi": "Sayılar ve Nicelikler (1) · Doğal Sayılar",
+    "tema_cikti_sirasi": 1,
+    "tema_ders_saati": 28,
+    "tema_tahmini_hafta": "9–14",
+    "resmi_tarih_degil": true,
+    "resmi_metin": "Altı basamaklı sayıları okuma ve yazmayı çok basamaklı sayılara genelleyebilme",
+    "resmi_kaynak_url": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447",
+    "resmi_surec_bilesenleri": [
+      "a",
+      "b",
+      "c",
+      "ç"
+    ],
+    "tema_alan_becerileri": [
+      "MAB2 Matematiksel Problem Çözme"
+    ],
+    "tema_kavramsal_becerileri": [
+      "KB2.9 Genelleme"
+    ],
+    "tema_egilimler": [
+      "E1.1 Merak",
+      "E3.6 Analitiklik",
+      "E3.10 Eleştirel Bakma"
+    ],
+    "tema_degerler": [
+      "D3 Çalışkanlık",
+      "D7 Estetik",
+      "D16 Sorumluluk",
+      "D17 Tasarruf"
+    ],
+    "tema_okuryazarlik": [
+      "OB1 Bilgi",
+      "OB2 Dijital",
+      "OB3 Finansal",
+      "OB8 Sürdürülebilirlik"
+    ],
+    "tema_eslesme_notu": "Bunlar resmî tema bileşenleridir; her görev için aynı bileşenlerin kazanıldığı iddia edilmez."
+  },
+  {
+    "kod": "MAT.5.1.2",
+    "sinif": 5,
+    "tema": "Sayılar ve Nicelikler",
+    "etiket": "Doğal sayılarla yaşam problemleri çözme",
+    "resmi_metin_mi": "True",
+    "kaynak_pdf_sayfasi": "21",
+    "plan_sirasi": 9,
+    "tema_sirasi": 2,
+    "tema_adi": "Sayılar ve Nicelikler (1) · Doğal Sayılar",
+    "tema_cikti_sirasi": 2,
+    "tema_ders_saati": 28,
+    "tema_tahmini_hafta": "9–14",
+    "resmi_tarih_degil": true,
+    "resmi_metin": "Doğal sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme",
+    "resmi_kaynak_url": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447",
+    "resmi_surec_bilesenleri": [
+      "a",
+      "b",
+      "c",
+      "ç",
+      "d",
+      "e",
+      "f",
+      "g",
+      "ğ",
+      "h"
+    ],
+    "tema_alan_becerileri": [
+      "MAB2 Matematiksel Problem Çözme"
+    ],
+    "tema_kavramsal_becerileri": [
+      "KB2.9 Genelleme"
+    ],
+    "tema_egilimler": [
+      "E1.1 Merak",
+      "E3.6 Analitiklik",
+      "E3.10 Eleştirel Bakma"
+    ],
+    "tema_degerler": [
+      "D3 Çalışkanlık",
+      "D7 Estetik",
+      "D16 Sorumluluk",
+      "D17 Tasarruf"
+    ],
+    "tema_okuryazarlik": [
+      "OB1 Bilgi",
+      "OB2 Dijital",
+      "OB3 Finansal",
+      "OB8 Sürdürülebilirlik"
+    ],
+    "tema_eslesme_notu": "Bunlar resmî tema bileşenleridir; her görev için aynı bileşenlerin kazanıldığı iddia edilmez."
+  }
+]

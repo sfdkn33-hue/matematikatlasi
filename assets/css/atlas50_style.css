@@ -1,0 +1,28 @@
+/* v5.0 öğrenme stüdyosu: açık/okunaklı ve cihazlar arası esnek. */
+.atlas50-lab[hidden]{display:none!important}.atlas50-lab{box-sizing:border-box;margin:20px 0;padding:clamp(14px,3vw,23px);background:#f5fbff;color:#16384b;border:2px solid #aacbdc;border-radius:22px;line-height:1.6}
+.atlas50-lab *{box-sizing:border-box}.atlas50-lab h3{font-size:clamp(21px,3.5vw,28px);color:#123d5c;margin:4px 0}.v50-kicker{font-size:12px;font-weight:800;letter-spacing:.065em;color:#12657d}.v50-subtitle{font-size:13px;color:#38546a;margin:0 0 14px}
+.v50-hero{background:#fff;border:2px solid #a5d1df;border-radius:14px;color:#0b5e8a;font-size:clamp(25px,5vw,38px);font-weight:900;text-align:center;padding:14px;margin:12px 0}
+.v50-three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.v50-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.v50-field{display:grid;gap:6px;margin:12px 0;font-weight:750;color:#274961;font-size:14px}.v50-field input,.v50-field select{min-height:47px;width:100%;border:2px solid #8cbbcc;border-radius:11px;background:#fff;color:#14394f;padding:9px 10px;font:inherit;font-size:16px;min-width:0}
+.v50-field input:focus-visible,.v50-field select:focus-visible,.atlas50-lab button:focus-visible{outline:3px solid #ed9c22;outline-offset:2px}.v50-range{appearance:auto;accent-color:#086e8e;width:100%;min-height:43px;cursor:pointer}
+.v50-axis-labels{display:flex;justify-content:space-between;color:#174b65}.v50-axis{margin:0 6px 24px;height:9px;background:repeating-linear-gradient(to right,#167696 0 2px,#cbe4f1 2px 10%);position:relative;border-radius:8px}.v50-axis span{position:absolute;top:-13px;color:#b4551c;font-size:23px;transform:translateX(-50%)}
+.v50-figure{background:white;border:1px solid #bddce8;border-radius:16px;min-height:170px;display:flex;align-items:center;justify-content:center;margin:12px 0;padding:10px}.v50-diagram{width:100%;height:auto;max-height:240px;max-width:360px}.v50-comparison{display:flex;gap:11px;align-items:center;justify-content:space-around;flex-wrap:wrap}.v50-comparison>div{flex:1 1 140px;display:grid;gap:4px;border:1px solid #b7d8e7;background:white;border-radius:13px;padding:10px;text-align:center}.v50-comparison small{color:#4c6577}.v50-comparison strong{font-size:25px;color:#0d5072}
+.v50-result{background:#e1f1fa;border-left:5px solid #13829e;border-radius:12px;color:#18455b;padding:12px 14px;font-weight:770;margin:12px 0;min-height:49px;overflow-wrap:anywhere}.v50-mini{font-size:13px;color:#425f70}.v50-construct{font:inherit;background:#13759a;color:#fff;min-height:49px;border-radius:11px;border:2px solid #115775;padding:10px 14px;font-weight:750;cursor:pointer}.v50-construct[aria-pressed=true]{background:#bce9d8;color:#134c3d;border-color:#138267}
+.v50-controls{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}.v50-controls button{font:inherit;cursor:pointer;background:#096a8e;color:#fff;border:2px solid #075a79;border-radius:11px;min-height:48px;padding:10px 14px;font-weight:750}.v50-controls button.secondary{background:#e4f2fa;color:#154969;border-color:#a7c7d8}
+.v50-status{border-radius:10px;background:#e0f3e9;color:#14533b;border-left:5px solid #158c6a;padding:12px;font-weight:650;min-height:44px}.v50-status[data-error=true]{background:#fff0e1;border-color:#c87925;color:#744316}
+@media(max-width:570px){.v50-three,.v50-two{grid-template-columns:1fr}}
+/* Gerçek kontrast kusuru: eski koyu sütun grafiğini okunaklı açık panel olarak düzenle */
+.statslab .st-chartbox{background:#f4fafe!important;color:#173e53!important;border:2px solid #98bfd1!important;border-radius:14px;padding:12px!important}
+.statslab .st-chartbox .st-colname,.statslab .st-chartbox .st-colvalue,.statslab .st-chartbox .st-axisnote,.statslab .st-chartbox .st-legend{color:#164259!important;font-weight:750!important}
+.statslab .st-chartbox .st-col{background:linear-gradient(#2b8fb4,#155e89)!important;border:1px solid #154d71!important}
+.statslab .st-chartbox .st-columns{border-bottom:2px solid #426b7e!important}
+.statslab .st-chartbox .st-colwrap{min-width:0!important}
+/* Erişilebilirlik: dokunmatik hedefler ve yalnız renge dayanmayan seçim durumu */
+.atlas49-lab button,.atlas50-lab button,.atlas49-lab select,.atlas50-lab select{min-height:44px}
+.atlas49-lab :focus-visible,.atlas50-lab :focus-visible{outline:3px solid #c87100;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){.atlas50-lab *,.statslab .st-chartbox *{transition:none!important;animation:none!important}}
+
+.statslab .st-livechart{background:#f4fafe!important;color:#163e54!important;border:2px solid #98bfd1!important;border-radius:14px;padding:12px!important}
+.statslab .st-livechart .st-colname,.statslab .st-livechart .st-colvalue,.statslab .st-livechart .st-muted{color:#163e54!important;font-weight:750!important}
+.statslab .st-livechart .st-col{background:linear-gradient(#2b8fb4,#155e89)!important;border:1px solid #154d71!important}
+@media(max-width:650px){.atlas-grade-switch,.atlas-themes-grades{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;width:100%!important;gap:7px!important}.atlas-grade-switch button,.atlas-themes-grades button,body.atlas-v3 .atlas-grade-switch button,body.atlas-v3 .atlas-themes-grades button{min-width:0!important;padding:11px 9px!important;width:100%!important;text-align:center!important}}

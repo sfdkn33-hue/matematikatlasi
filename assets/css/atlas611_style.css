@@ -1,0 +1,28 @@
+#atlas611Lab{background:#eff7fd!important;color:#173c56!important;border:2px solid #8bbad2;border-radius:18px;padding:clamp(12px,3vw,22px);margin:14px 0;box-sizing:border-box}
+#atlas611Lab[hidden]{display:none!important}#atlas611Lab *{box-sizing:border-box}
+#atlas611Lab .a611-kicker{font-size:13px;font-weight:800;color:#1b6284;letter-spacing:.04em}
+#atlas611Lab h3{font-size:clamp(20px,5vw,27px);color:#133d59;margin:8px 0}
+#atlas611Lab .a611-question{background:#fff;color:#123852;padding:14px;border:1px solid #c1d8e8;border-radius:12px;font-size:17px;line-height:1.6;font-weight:650}
+#atlas611Lab .a611-scene{background:#fff;border:1px solid #b4d2e2;border-radius:12px;margin:12px 0;padding:10px}
+#atlas611Lab .a611-scene svg{display:block;width:100%;max-width:560px;max-height:245px;margin:0 auto}
+#atlas611Lab fieldset{min-width:0;background:#fff;border:1px solid #accddd;padding:13px;border-radius:12px;margin:12px 0}
+#atlas611Lab legend{color:#194968;font-weight:800;padding:0 6px}
+#atlas611Lab .a611-btn{border:2px solid #5d9dbb;background:#edf7fc;color:#173f59;border-radius:12px;min-height:46px;padding:10px 15px;font-size:16px;font-weight:700;cursor:pointer}
+#atlas611Lab .a611-btn.active{background:#156e96;color:white;border-color:#084665}
+#atlas611Lab .a611-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+#atlas611Lab .a611-output{font-weight:800;color:#173b58;font-size:18px;padding:4px}
+#atlas611Lab .a611-choices{display:flex;gap:8px;flex-wrap:wrap}
+#atlas611Lab .a611-range{display:block;font-weight:750;color:#23465e}
+#atlas611Lab input[type=range]{width:100%;min-height:46px;accent-color:#176d91}
+#atlas611Lab .a611-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}
+#atlas611Lab .a611-grid .a611-btn{min-width:0;padding:8px 3px;font-size:13px}
+#atlas611Lab .a611-number{display:flex;flex-direction:column;gap:6px;background:#fff;color:#173e55;border:1px solid #a6cbdc;border-radius:12px;padding:12px;font-size:17px;font-weight:800}
+#atlas611Lab .a611-number input{width:100%;min-height:51px;font-size:20px;border:2px solid #7eb0c6;border-radius:9px;background:white;color:#173c56;padding:10px}
+#atlas611Lab .a611-actions{display:flex;gap:9px;flex-wrap:wrap;margin:12px 0}
+#atlas611Lab .a611-actions .primary{background:#176b90;border-color:#176b90;color:#fff}
+#atlas611Lab .a611-status{background:#def4eb;color:#125338;border:1px solid #9cceb4;padding:12px;border-radius:11px;font-weight:750}
+#atlas611Lab .a611-status.wrong{background:#fff0e8;color:#883d20;border-color:#e2b39b}
+#atlas611Lab .a611-explain{background:#e5f2f9;color:#163d57;padding:12px;border-radius:11px}
+#atlas611Lab button:focus-visible,#atlas611Lab input:focus-visible{outline:3px solid #e89525;outline-offset:2px}
+body.atlas611-task #title,body.atlas611-task section.panel > .card{display:none!important}
+@media(max-width:420px){#atlas611Lab{padding:10px}#atlas611Lab .a611-choices .a611-btn{flex:1 1 44%}#atlas611Lab .a611-actions button{width:100%}#atlas611Lab .a611-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}

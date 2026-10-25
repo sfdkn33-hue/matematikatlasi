@@ -1,0 +1,12 @@
+{
+  "total_tasks": 3921,
+  "existing_tasks_unchanged": 3885,
+  "added": 36,
+  "pilot_codes": {
+    "MAT.6.1.5": 12,
+    "MAT.7.6.2": 12,
+    "M.8.2.2.5": 12
+  },
+  "style_catalog": 15,
+  "verified_tagging_is_limited_to_new_pilot": true
+}

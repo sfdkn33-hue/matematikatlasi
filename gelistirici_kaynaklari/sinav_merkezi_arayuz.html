@@ -1,0 +1,55 @@
+<div id="examApp">
+<header class="ex-hero">
+ <div class="ex-hrow"><span class="ex-kicker">MATEMATİK ATLASI · ORTAOKUL · YAZILI MERKEZİ</span><button class="ex-topclose" id="exClose" type="button">← Oyuna dön</button></div>
+ <h1>📝 Kendi yazılını hazırla!</h1>
+ <p>5–8. sınıflar · Açık uçlu özgün sorular · Sınav simülasyonu · Word ve PDF</p>
+ <p class="ex-sub"><strong id="exBankNumber">Soru havuzu yükleniyor...</strong> · Bu MEB'in resmî OYSS havuzu değildir. Öğretmenin müfredat ve puanlama denetimi gerekir.</p>
+</header>
+<div class="ex-wrap">
+ <div class="ex-columns">
+  <section class="ex-card" aria-label="Soru bankası">
+   <div class="ex-hrow"><h2>1. Soru havuzu</h2><span id="exResultCount" class="ex-chip"></span></div>
+   <div class="ex-filters">
+    <label>Sınıf<select id="exGrade"><option value="5">5. sınıf</option><option value="6">6. sınıf</option><option value="7">7. sınıf</option><option value="8">8. sınıf</option></select></label>
+    <label>Zorluk<select id="exLevel"><option value="">Tümü</option><option>Kolay</option><option>Orta</option><option>Zor</option></select></label>
+    <label>Kazanım / çıktı<select id="exOutcome"><option value="">Tüm kazanımlar</option></select></label>
+    <label style="grid-column:1/-1">Ara<input id="exSearch" placeholder="Ör. kesir, alan, olasılık, problem..."></label>
+   </div>
+   <div id="exList" class="ex-list" aria-live="polite"></div>
+   <div class="ex-foot">Soru kodları taslak kazanım eşleşmesidir. Resmî senaryodaki konu-soru dağılımını öğretmenin doğrulaması gerekir. İsterseniz kendi hazırladığınız soruları JSON olarak havuza ekleyebilirsiniz.</div>
+   <div class="ex-toolbar"><button id="exImport" type="button">＋ Kendi soru JSON'unu ekle</button><input id="exFile" type="file" accept=".json,application/json" hidden></div>
+  </section>
+  <aside class="ex-card ex-sticky" aria-label="Sınav oluşturucu">
+   <h2>2. Sınav ayarları</h2>
+   <div class="ex-controls">
+    <label class="wide">Okul / kurum adı<input id="exSchool" placeholder="Örn. Cumhuriyet Ortaokulu"></label>
+    <label>Başlık<input id="exTitle" value="Matematik Yazılı Hazırlık Sınavı"></label>
+    <label>Süre (dk)<input id="exMinutes" type="number" min="5" max="180" value="40"></label>
+    <label>Dönem<select id="exTerm"><option>1. dönem 1. yazılı</option><option>1. dönem 2. yazılı</option><option>2. dönem 1. yazılı</option><option>2. dönem 2. yazılı</option><option>Serbest çalışma</option></select></label>
+    <label>Soru sayısı<input id="exCount" type="number" min="1" max="30" value="10"></label>
+   </div>
+   <h3>Önerilen zorluk dağılımı</h3>
+   <div class="ex-weights"><label>Kolay<input type="number" id="exEasy" value="3" min="0" max="30"></label><label>Orta<input type="number" id="exMedium" value="5" min="0" max="30"></label><label>Zor<input type="number" id="exHard" value="2" min="0" max="30"></label></div>
+   <details class="ex-scenario" style="margin:12px 0;padding:12px;border:1px solid #c9dce8;border-radius:10px;background:#f6fafd"><summary style="cursor:pointer;font-weight:750">📋 Okul senaryosuna göre soru dağılımı</summary><p class="ex-note">Zümrenin seçtiği resmî konu-soru dağılım tablosundaki çıktı kodunu ve soru sayısını her satıra yaz. Aşağıdaki örnek resmî senaryo değildir; kodlar yalnızca gösterim içindir.</p><label>Çıktı kodu = soru sayısı<textarea id="exScenarioCodes" rows="5" placeholder="MAT.7.1.5=2&#10;MAT.7.2.2=3"></textarea></label><button type="button" id="exApplyScenario" style="margin-top:8px">Bu dağılımla sınav oluştur</button></details>
+   <div class="ex-toolbar"><button class="ex-primary" id="exRandom">✦ Dağılıma göre oluştur</button><button id="exClear" class="ex-danger">Seçimi temizle</button></div>
+   <div class="ex-hrow"><h3>3. Seçilen sorular</h3><strong id="exTotals">0 soru</strong></div>
+   <div id="exSelected" style="max-height:270px;overflow:auto"></div>
+   <div class="ex-toolbar"><button id="exBalance">Puanları 100'e tamamla</button></div>
+   <p class="ex-sub" id="exPointSum">Toplam: 0 / 100 puan</p>
+   <hr class="ex-divider">
+   <h3>4. Word / PDF</h3>
+   <div class="ex-toolbar"><button class="ex-green" id="exDocx">Word indir (.docx)</button><button class="ex-primary" id="exPdf">PDF indir</button></div>
+   <div class="ex-toolbar"><button id="exDocxKey">Cevap anahtarı Word</button><button id="exPdfKey">Cevap anahtarı PDF</button></div>
+   <button style="width:100%" class="ex-green" id="exStart">▶ Süreli sınav simülasyonunu başlat</button>
+   <div id="exStatus" class="ex-status" role="status">Sınıfını seçip soru ekleyerek başlayabilirsin.</div>
+  </aside>
+ </div>
+ <section id="exSimulation" class="ex-card" style="margin-top:18px" hidden>
+  <div class="ex-hrow"><div><h2>⏳ Sınav simülasyonu</h2><p id="exSimTitle" class="ex-sub"></p></div><div class="ex-timer" id="exClock">40:00</div></div>
+  <div class="ex-compact"><label>Ad soyad<input id="exStudent" placeholder="İsteğe bağlı"></label><label>Şube<input id="exSection" placeholder="Örn. 7/A"></label></div>
+  <div id="exSimQuestions"></div>
+  <div class="ex-toolbar"><button class="ex-green" id="exFinish">Sınavı bitir, cevap anahtarını göster</button><button id="exLeave">Sınav merkezine dön</button></div>
+  <div id="exSimResult" role="status"></div>
+ </section>
+ <p class="ex-foot">Öğrenci yanıtları yalnızca bu tarayıcıda saklanır. Tam otomatik not verilmez: açık uçlu yanıtların işlem basamakları öğretmen tarafından rubrikle değerlendirilmelidir. Bu merkez resmî sınav yerine geçmez.</p>
+</div></div>

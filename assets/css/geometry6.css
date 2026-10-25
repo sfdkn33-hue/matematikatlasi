@@ -1,0 +1,10 @@
+/* v1.7 · Bağımsız 6. sınıf geometri çalışma alanı */
+.g6-lab{border:1px solid #376181;border-radius:16px;background:linear-gradient(160deg,#102e47,#12243b);padding:19px;margin:20px 0;color:#e5f4fc}
+.g6-kicker{font-size:11px;letter-spacing:.12em;font-weight:800;color:#90e7f7}
+.g6-intro{line-height:1.6}.g6-scene{max-width:680px;margin:15px auto}.g6-scene svg{width:100%;height:auto;background:#081d32;border:1px solid #39556b;border-radius:12px;display:block}
+.g6-caption{font-size:13px;color:#d2e5f3;line-height:1.5}.g6-controls{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));margin:13px 0}
+.g6-field{display:flex;flex-direction:column;gap:7px;border:1px solid #345773;background:#0d273d;border-radius:10px;padding:11px;font-weight:600}
+.g6-field input[type=range]{width:100%;accent-color:#47d6ed}.g6-field input[type=number]{padding:10px;border-radius:7px;background:#102f48;color:#fff;border:1px solid #6682a0;font-size:18px;max-width:100%}
+.g6-fieldset{border:1px solid #375a76;border-radius:10px;padding:12px;min-width:0}.g6-fieldset legend{font-weight:700;padding:0 7px}.g6-choices{display:flex;flex-wrap:wrap;gap:7px}.g6-button{padding:10px 14px;cursor:pointer;border:1px solid #49718c;background:#123b56;color:#fff;border-radius:9px;min-height:42px;font-size:14px}.g6-button[aria-pressed=true]{background:#065a64;border:2px solid #77f3ec}.g6-button:focus-visible{outline:3px solid #ffc97c;outline-offset:2px}.g6-note{margin-top:12px}.g6-note textarea{width:100%;box-sizing:border-box;padding:10px;background:#0b2338;color:#fff;border:1px solid #64819b;border-radius:7px}
+.g6-status{border-radius:9px;background:#1a4158;padding:12px;min-height:43px;margin-top:12px}.g6-status[data-error=true]{background:#593b2c}.g6-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}.g6-actions button:first-child{background:#086c79}.g6-foot{font-size:12px;color:#abc9dc;line-height:1.5}
+@media(max-width:510px){.g6-lab{padding:11px;margin:12px 0}.g6-controls{grid-template-columns:1fr}.g6-button{font-size:13px}}

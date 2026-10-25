@@ -1,0 +1,33 @@
+/* v5.2: erişilebilir, yüksek kontrastlı deney ekranı */
+.atlas52-lab[hidden]{display:none!important}
+.atlas52-lab,.atlas52-lab *{box-sizing:border-box}
+.atlas52-lab{margin:20px 0;padding:clamp(14px,3vw,24px);border-radius:22px;border:2px solid #90bbca;background:#f6fbff!important;color:#17384e!important;line-height:1.6}
+.atlas52-lab h3{margin:4px 0;color:#143e5b!important;font-size:clamp(21px,3vw,28px);line-height:1.25}
+.v52-eyebrow{font-size:12px;font-weight:850;letter-spacing:.04em;color:#18557a}
+.v52-subtitle{font-size:13px;color:#395d73;margin:3px 0 14px}.atlas52-lab p{color:#20465e!important}
+.v52-field{display:flex;flex-direction:column;gap:5px;margin:9px 0;font-size:14px;font-weight:800;color:#20465e!important}
+.v52-field input,.v52-field select{width:100%;min-width:0;min-height:47px;font-size:16px;line-height:1.2;border:2px solid #78a9bf;border-radius:11px;padding:9px;background:white!important;color:#153f58!important}
+.v52-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 12px}
+.v52-urn{display:flex;gap:9px;flex-wrap:wrap;padding:22px 15px;justify-content:center;align-items:center;min-height:90px;background:#fff;border:2px solid #a7cadb;border-radius:15px;margin:13px 0}
+.v52-ball{width:27px;height:27px;flex:0 0 27px;background:var(--ball);border:2px solid #183e59;border-radius:50%;box-shadow:inset -5px -5px #0002}
+.v52-key{display:flex;flex-wrap:wrap;gap:8px 17px;color:#21445e!important;font-size:13px;font-weight:650}
+.v52-key span{display:inline-flex;align-items:center;gap:6px}.v52-key i{display:inline-block;width:16px;height:16px;border:1px solid #193e59;border-radius:50%;background:var(--ball)}
+.v52-wheel{display:block;width:min(250px,85%);height:auto;margin:12px auto 18px}
+.v52-emphasis{padding:15px;font-size:clamp(23px,4vw,33px);font-weight:850;color:#114f74;background:#fff;border:2px solid #9ac6da;border-radius:15px;text-align:center}
+.v52-tip,.v52-note{background:#e0f0f9!important;color:#16445f!important;padding:11px;border-radius:10px;border-left:4px solid #176d91}
+.v52-sliders{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.v52-sliders label{display:flex;flex-direction:column;background:#fff;color:#24465e;border:1px solid #9ac1d5;padding:9px 12px;border-radius:10px;font-size:13px;font-weight:700}
+.v52-sliders input{width:100%;min-height:42px;accent-color:#0f6b92;cursor:pointer}
+.v52-chart{border:1px solid #accbdc;background:#fff;border-radius:13px;padding:9px}.v52-line{width:100%;max-width:390px;display:block;height:auto;margin:auto}
+.v52-controls{display:flex;gap:10px;flex-wrap:wrap;margin:17px 0 12px}
+.v52-controls button{font-size:15px;cursor:pointer;min-height:48px;border-radius:10px;padding:10px 15px;background:#0b688c!important;color:#fff!important;border:2px solid #07516f!important;font-weight:750}
+.v52-controls button.secondary{background:#e4f2f9!important;color:#17506b!important;border-color:#90bbcc!important}
+.v52-status{padding:13px;border-left:4px solid #23836b;border-radius:10px;background:#dff5eb!important;color:#15563f!important;font-weight:750}
+.v52-status[data-error=true]{background:#fff1df!important;color:#7c4314!important;border-color:#a9631e!important}
+.atlas52-lab :is(button,input,select):focus-visible{outline:3px solid #c76706!important;outline-offset:3px}
+/* Audited problem zones: readable labels on both normal and legacy dark shells */
+.statslab .st-colname,.statslab .st-colvalue,.statslab .st-axisnote,.statslab .st-legend,.statslab .st-muted{color:#173b52!important;text-shadow:none!important}
+.statslab .st-chartbox,.statslab .st-livechart,.statslab .st-chartpanel{background:#f8fcff!important;color:#173b52!important}
+.statslab .st-col{background:linear-gradient(180deg,#86decd,#16857c)!important;border:1px solid #175b6c!important}
+.atlas51-lab .v51-table tr,.atlas49-lab .v49-table tr{background:#fff!important;color:#173c55!important}
+@media(max-width:520px){.v52-fields,.v52-sliders{grid-template-columns:1fr}.v52-ball{width:24px;height:24px;flex-basis:24px}.v52-controls button{flex:1 1 130px}}
+@media(prefers-reduced-motion:reduce){.atlas52-lab *{animation:none!important;transition:none!important}}

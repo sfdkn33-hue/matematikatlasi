@@ -1,0 +1,46 @@
+{
+  "program": "Türkiye Yüzyılı Maarif Modeli, Ortaokul Matematik, 5. sınıf",
+  "tema": "Sayılar ve Nicelikler (2)",
+  "ders_saati": 33,
+  "url": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/449",
+  "outcomes": {
+    "MAT.5.1.3": {
+      "resmi_metin": "Gerçek yaşam durumlarına karşılık gelen kesirleri farklı biçimlerde temsil edebilme",
+      "surec": [
+        "a",
+        "b",
+        "c",
+        "ç",
+        "d",
+        "e"
+      ]
+    },
+    "MAT.5.1.4": {
+      "resmi_metin": "Farklı gösterimlerle ifade edilen kesirlerin karşılaştırılmasına yönelik çıkarım yapabilme",
+      "surec": [
+        "a",
+        "b",
+        "c",
+        "ç",
+        "d"
+      ]
+    }
+  },
+  "tema_becerileri": [
+    "MAB3. Matematiksel Temsil",
+    "KB2.10. Çıkarım Yapma"
+  ],
+  "tema_egilimleri": [
+    "E1.1. Merak",
+    "E3.4. Gerçeği Arama"
+  ],
+  "tema_degerleri": [
+    "D1. Adalet",
+    "D5. Duyarlılık",
+    "D14. Saygı",
+    "D16. Sorumluluk",
+    "D17. Tasarruf",
+    "D19. Vatanseverlik"
+  ],
+  "uyari": "Programın tema düzeyindeki eşlemeleridir. Bu görevlerin MEB tarafından onaylandığı anlamına gelmez."
+}

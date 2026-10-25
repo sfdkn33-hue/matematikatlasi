@@ -1,0 +1,23 @@
+/* Readable, touch-friendly categorical data laboratory */
+.s5-lab{margin:18px 0;padding:17px;border-radius:17px;background:linear-gradient(145deg,#122943,#102238);border:1px solid #3d7182;color:#edf8ff;max-width:100%;overflow-wrap:anywhere}
+.s5-kicker{font-weight:750;font-size:12px;letter-spacing:.1em;color:#7fe8d4;margin-bottom:9px}
+.s5-lab h3{font-size:1.3rem;margin:4px 0 8px}.s5-intro{line-height:1.5}.s5-view{background:#152f49;padding:12px;border-radius:13px;border:1px solid #33556e;margin:10px 0}
+.s5-muted,.s5-note{font-size:.86rem;color:#b6cddd;line-height:1.5}
+.s5-cards,.s5-countergrid,.s5-dual{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:10px 0}
+.s5-card,.s5-counter{min-width:0;background:#1e3c53;border:1px solid #496e82;border-radius:11px;padding:10px 7px;text-align:center}
+.s5-card span,.s5-card strong{display:block}.s5-card span{font-size:.77rem;color:#b9d6e0}.s5-card strong{font-size:1.2rem;color:#ffe0a0}
+.s5-chart{display:flex;align-items:flex-end;justify-content:space-around;gap:8px;min-height:190px;padding:12px 3px 6px;max-width:100%;overflow:hidden}
+.s5-barcol{display:flex;flex:1 1 0;flex-direction:column;align-items:center;gap:5px;min-width:0}.s5-barcol b{font-size:.9rem}.s5-barcol small{text-align:center;font-size:.72rem;max-width:100%;overflow-wrap:anywhere;color:#d9eff3}
+.s5-track{width:min(65px,92%);height:132px;background:#0e2538;border:1px solid #3b6172;border-radius:8px;display:flex;align-items:flex-end;overflow:hidden}.s5-bar{width:100%;background:linear-gradient(180deg,#7be8d9,#469cb9);border-radius:5px 5px 0 0;min-height:3px}
+.s5-dual{grid-template-columns:repeat(2,minmax(0,1fr))}.s5-dual .s5-chart{gap:2px}.s5-dual .s5-barcol small{font-size:.68rem}
+.s5-field{border:1px solid #365971;border-radius:11px;padding:11px;display:block;min-width:0;margin:10px 0;color:#eff8fb}.s5-field legend{padding:0 6px;font-weight:650;font-size:.95rem}.s5-options{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,165px),1fr));gap:8px}.s5-choice{background:#1c405d!important;border:1px solid #5a8397!important;color:#f6fbfe!important;border-radius:11px;padding:10px;min-height:48px;text-align:left;white-space:normal;line-height:1.35;font-size:.89rem}
+.s5-choice[aria-pressed="true"]{background:#26786e!important;outline:2px solid #a9f6dd;outline-offset:0}
+.s5-input{width:100%;max-width:270px;font-size:1.15rem;padding:10px;border-radius:9px;border:1px solid #86b4c7;background:#effaff;color:#102032}
+.s5-countergrid{grid-template-columns:repeat(3,minmax(0,1fr))}.s5-counter b{font-size:.8rem}.s5-row{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:7px}
+.s5-btn,.s5-step,.s5-primary{color:#e6fcff!important;background:#22506c!important;border-radius:9px;min-height:45px;padding:8px 12px;border:1px solid #5e869c!important;cursor:pointer}
+.s5-step{min-width:38px;padding:4px 8px;font-size:1.25rem}.s5-primary{background:#237e75!important;font-weight:750}
+.s5-tokens{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.s5-token{padding:5px 8px;font-size:.78rem;border-radius:22px;background:#284c60;border:1px solid #537787}
+.s5-dots{display:flex;flex-wrap:wrap;justify-content:center;gap:2px;min-height:14px;color:#9bebd1}.s5-cycleline{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:6px 0;padding:7px;background:#1e3c53;border-radius:8px}
+.s5-reason{display:block;color:#cce7ef;margin:14px 0 8px}.s5-reason textarea{display:block;width:100%;margin-top:8px;padding:9px;border-radius:9px;min-height:62px;resize:vertical;color:#112334;background:#f4fdff}
+.s5-status{padding:12px;border-radius:11px;background:#1c394a;color:#e1fff7;font-weight:600}.s5-status[data-error="true"]{background:#512e34;color:#ffe9e9}.s5-actions{display:flex;flex-wrap:wrap;gap:8px;margin:9px 0}.s5-claim{font-weight:600;background:#183c54;border-left:3px solid #f3d18a;padding:9px}
+@media(max-width:480px){.s5-lab{padding:11px}.s5-cards,.s5-countergrid{gap:4px}.s5-card,.s5-counter{padding:7px 3px}.s5-row{gap:3px}.s5-step{min-width:31px;padding:3px 5px}.s5-chart{min-height:165px}.s5-track{height:120px}}

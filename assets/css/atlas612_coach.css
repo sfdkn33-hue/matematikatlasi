@@ -1,0 +1,21 @@
+/* v6.12: yüksek kontrastlı, basit öneri ekranı — açık ve koyu temada aynı. */
+#atlas612Coach{border:2px solid #bed9e5;background:#f3faff!important;border-radius:16px;margin:15px 0;padding:15px;color:#13354d!important}
+#atlas612Coach .atlas612-heading{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+#atlas612Coach h3{margin:0;font-size:21px;color:#13354d!important}
+#atlas612Coach .atlas612-label{font-size:12px;font-weight:800;background:#d8eef7;color:#174866;padding:5px 9px;border-radius:99px}
+#atlas612Coach .atlas612-intro,#atlas612Coach .atlas612-foot,#atlas612Coach .atlas612-empty{font-size:13px!important;line-height:1.5;color:#38576b!important;margin:8px 0!important}
+#atlas612Coach .atlas612-card{display:flex;gap:12px;justify-content:space-between;align-items:center;background:#fff!important;border:1px solid #c8d9e4;border-radius:13px;padding:12px;margin:9px 0;color:#15344e!important}
+#atlas612Coach .atlas612-cardbody{min-width:0;flex:1}
+#atlas612Coach .atlas612-card b{display:block;color:#123955!important;font-size:15px}
+#atlas612Coach .atlas612-card p{color:#38576b!important;font-size:13px;margin:5px 0!important}
+#atlas612Coach .atlas612-card small{color:#49677c!important}
+#atlas612Coach .atlas612-open,#atlas612Inline button{background:#116087!important;color:#fff!important;border:2px solid #116087;border-radius:11px;min-height:46px;padding:9px 12px;font-weight:800;cursor:pointer}
+#atlas612Coach button:focus-visible,#atlas612Inline button:focus-visible{outline:3px solid #ffab36;outline-offset:3px}
+#atlas612Inline[hidden]{display:none!important}
+#atlas612Inline{display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:#ecf9f8!important;color:#123d42!important;border:2px solid #6ab5ad;border-radius:14px;padding:12px 16px;margin:13px auto;max-width:1040px}
+#atlas612Inline strong{color:#123d42!important;font-size:16px}
+#atlas612Inline span{flex:1;min-width:185px;color:#285456!important;font-size:14px}
+@media(max-width:600px){#atlas612Coach{padding:11px}#atlas612Coach .atlas612-card{flex-direction:column;align-items:stretch}#atlas612Coach .atlas612-open{width:100%}#atlas612Inline button{width:100%}}
+
+/* v6.13: inspectable error step, high contrast in both themes. */
+.atlas613-insight{font-size:0.96rem!important;font-weight:700!important;color:#173d54!important;background:#eaf5ff!important;border-left:4px solid #187cac;border-radius:9px;padding:9px 11px;margin:8px 0!important}

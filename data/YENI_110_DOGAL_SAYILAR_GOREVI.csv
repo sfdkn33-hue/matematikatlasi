@@ -1,0 +1,111 @@
+﻿Görev;Öğrenme çıktısı;Alt mekanik;Seviye;Önerilen süreç bileşeni;Matematiksel doğrulama;Kaynak
+MAT.5.1.1-G21;MAT.5.1.1;composeGroups;1;b;"Milyonlar bölüğü: 13; Binler bölüğü: 138; Birler bölüğü: 196";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G22;MAT.5.1.1;composeGroups;1;b;"Milyonlar bölüğü: 24; Binler bölüğü: 239; Birler bölüğü: 369";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G23;MAT.5.1.1;composeGroups;1;b;"Milyonlar bölüğü: 35; Binler bölüğü: 340; Birler bölüğü: 542";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G24;MAT.5.1.1;composeGroups;1;b;"Milyonlar bölüğü: 46; Binler bölüğü: 441; Birler bölüğü: 715";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G25;MAT.5.1.1;composeGroups;1;b;"Milyonlar bölüğü: 57; Binler bölüğü: 542; Birler bölüğü: 888";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G26;MAT.5.1.1;readNumber;1;b;"Bu sayının okunuşu: kırk milyon altı bin yedi; Tamamı sıfır olan bölük sayısı: 0";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G27;MAT.5.1.1;readNumber;1;b;"Bu sayının okunuşu: yediyüz otuz iki milyon kırk bir; Tamamı sıfır olan bölük sayısı: 1";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G28;MAT.5.1.1;readNumber;1;b;"Bu sayının okunuşu: ikiyüz beş milyon on sekiz bin dokuzyüz üç; Tamamı sıfır olan bölük sayısı: 0";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G29;MAT.5.1.1;readNumber;1;b;"Bu sayının okunuşu: dokuzyüz milyon beşyüz altı; Tamamı sıfır olan bölük sayısı: 1";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G30;MAT.5.1.1;readNumber;1;b;"Bu sayının okunuşu: altıyüz üç milyon dört bin elli; Tamamı sıfır olan bölük sayısı: 0";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G31;MAT.5.1.1;writeNumber;1;ç;"Okunuşa karşılık gelen sayı: 70005006; Sayının basamak sayısı: 8";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G32;MAT.5.1.1;writeNumber;1;ç;"Okunuşa karşılık gelen sayı: 100000034; Sayının basamak sayısı: 9";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G33;MAT.5.1.1;writeNumber;2;ç;"Okunuşa karşılık gelen sayı: 304007020; Sayının basamak sayısı: 9";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G34;MAT.5.1.1;writeNumber;2;ç;"Okunuşa karşılık gelen sayı: 502000601; Sayının basamak sayısı: 9";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G35;MAT.5.1.1;writeNumber;2;ç;"Okunuşa karşılık gelen sayı: 800100004; Sayının basamak sayısı: 9";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G36;MAT.5.1.1;zeroGroup;2;c;"Okunuşta söylenmeyen bölük: binler; Sayının okunuşu: on iki milyon yedi";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G37;MAT.5.1.1;zeroGroup;2;c;"Okunuşta söylenmeyen bölük: birler; Sayının okunuşu: yirmi yedi milyon ikiyüz dört bin";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G38;MAT.5.1.1;zeroGroup;2;c;"Okunuşta söylenmeyen bölük: binler; Sayının okunuşu: kırk iki milyon yirmi yedi";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G39;MAT.5.1.1;zeroGroup;2;c;"Okunuşta söylenmeyen bölük: birler; Sayının okunuşu: elli yedi milyon ikiyüz altı bin";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G40;MAT.5.1.1;zeroGroup;2;c;"Okunuşta söylenmeyen bölük: binler; Sayının okunuşu: yetmiş iki milyon kırk yedi";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G41;MAT.5.1.1;digitPlace;2;b;"İşaretli rakam: 4; Rakamın basamak değeri: 400000000";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G42;MAT.5.1.1;digitPlace;2;b;"İşaretli rakam: 6; Rakamın basamak değeri: 600000";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G43;MAT.5.1.1;digitPlace;2;b;"İşaretli rakam: 6; Rakamın basamak değeri: 6000000";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G44;MAT.5.1.1;digitPlace;2;b;"İşaretli rakam: 4; Rakamın basamak değeri: 4000";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G45;MAT.5.1.1;digitPlace;3;b;"İşaretli rakam: 2; Rakamın basamak değeri: 20000";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G46;MAT.5.1.1;decomposer;3;ç;"Vurgulanan basamağın çözümlemedeki terimi: 4000000; Bu terim çıkarılırsa kalan sayı: 300020507";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G47;MAT.5.1.1;decomposer;3;ç;"Vurgulanan basamağın çözümlemedeki terimi: 2000000; Bu terim çıkarılırsa kalan sayı: 600003410";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G48;MAT.5.1.1;decomposer;3;ç;"Vurgulanan basamağın çözümlemedeki terimi: 40000; Bu terim çıkarılırsa kalan sayı: 850000092";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G49;MAT.5.1.1;decomposer;3;ç;"Vurgulanan basamağın çözümlemedeki terimi: 70000000; Bu terim çıkarılırsa kalan sayı: 100506008";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G50;MAT.5.1.1;decomposer;3;ç;"Vurgulanan basamağın çözümlemedeki terimi: 90000; Bu terim çıkarılırsa kalan sayı: 903000064";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G51;MAT.5.1.1;compareBig;3;ç;"En büyük sayının kartı: B; En küçük sayının kartı: A";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G52;MAT.5.1.1;compareBig;3;ç;"En büyük sayının kartı: B; En küçük sayının kartı: C";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G53;MAT.5.1.1;compareBig;3;ç;"En büyük sayının kartı: B; En küçük sayının kartı: A";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G54;MAT.5.1.1;compareBig;3;ç;"En büyük sayının kartı: B; En küçük sayının kartı: C";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G55;MAT.5.1.1;compareBig;3;ç;"En büyük sayının kartı: B; En küçük sayının kartı: A";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G56;MAT.5.1.1;pattern1000;3;ç;"Sayı 1000 ile çarpılırsa sonuç: 3005000; Çarpımdaki basamak sayısı: 7";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G57;MAT.5.1.1;pattern1000;4;ç;"Sayı 1000 ile çarpılırsa sonuç: 4017000; Çarpımdaki basamak sayısı: 7";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G58;MAT.5.1.1;pattern1000;4;ç;"Sayı 1000 ile çarpılırsa sonuç: 5029000; Çarpımdaki basamak sayısı: 7";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G59;MAT.5.1.1;pattern1000;4;ç;"Sayı 1000 ile çarpılırsa sonuç: 6041000; Çarpımdaki basamak sayısı: 7";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G60;MAT.5.1.1;pattern1000;4;ç;"Sayı 1000 ile çarpılırsa sonuç: 7053000; Çarpımdaki basamak sayısı: 7";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G61;MAT.5.1.1;faultyRead;4;c;"Hatalı okunuştaki değişen bölük: binler; Doğru okunuş: otuz iki milyon sekiz bin dokuz";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G62;MAT.5.1.1;faultyRead;4;c;"Hatalı okunuştaki değişen bölük: binler; Doğru okunuş: yüz yedi milyon dört bin elli";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G63;MAT.5.1.1;faultyRead;4;c;"Hatalı okunuştaki değişen bölük: binler; Doğru okunuş: altıyüz kırk milyon sekiz bin on";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G64;MAT.5.1.1;faultyRead;4;c;"Hatalı okunuştaki değişen bölük: binler; Doğru okunuş: dokuzyüz iki milyon yetmiş bin üç";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G65;MAT.5.1.1;faultyRead;4;c;"Hatalı okunuştaki değişen bölük: binler; Doğru okunuş: sekizyüz bir milyon altı bin yirmi";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G66;MAT.5.1.1;missingDigits;4;ç;"Gizlenen binler bölüğü: 101; Tamamlanan sayının okunuşu: yedi milyon yüz bir bin on üç";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G67;MAT.5.1.1;missingDigits;4;ç;"Gizlenen binler bölüğü: 132; Tamamlanan sayının okunuşu: yirmi dört milyon yüz otuz iki bin seksen";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G68;MAT.5.1.1;missingDigits;4;ç;"Gizlenen binler bölüğü: 163; Tamamlanan sayının okunuşu: kırk bir milyon yüz altmış üç bin yüz kırk yedi";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G69;MAT.5.1.1;missingDigits;5;ç;"Gizlenen binler bölüğü: 194; Tamamlanan sayının okunuşu: elli sekiz milyon yüz doksan dört bin ikiyüz on dört";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.1-G70;MAT.5.1.1;missingDigits;5;ç;"Gizlenen binler bölüğü: 225; Tamamlanan sayının okunuşu: yetmiş beş milyon ikiyüz yirmi beş bin ikiyüz seksen bir";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G21;MAT.5.1.2;stock;1;e;"Uygun işlem sırası: Topla → Çıkar; Depoda kalan kitap: 5599";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G22;MAT.5.1.2;stock;1;e;"Uygun işlem sırası: Topla → Çıkar; Depoda kalan kitap: 5766";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G23;MAT.5.1.2;stock;1;e;"Uygun işlem sırası: Topla → Çıkar; Depoda kalan kitap: 5933";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G24;MAT.5.1.2;stock;1;e;"Uygun işlem sırası: Topla → Çıkar; Depoda kalan kitap: 6100";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G25;MAT.5.1.2;stock;1;e;"Uygun işlem sırası: Topla → Çıkar; Depoda kalan kitap: 6267";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G26;MAT.5.1.2;fleet;1;f;"Gerekli araç sayısı: 6; Son araçta boş koltuk: 15";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G27;MAT.5.1.2;fleet;1;f;"Gerekli araç sayısı: 7; Son araçta boş koltuk: 7";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G28;MAT.5.1.2;fleet;1;f;"Gerekli araç sayısı: 8; Son araçta boş koltuk: 3";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G29;MAT.5.1.2;fleet;1;f;"Gerekli araç sayısı: 9; Son araçta boş koltuk: 3";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G30;MAT.5.1.2;fleet;1;f;"Gerekli araç sayısı: 10; Son araçta boş koltuk: 7";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G31;MAT.5.1.2;time;1;e;"Bitiş saati (SS:DD): 09:40; Etkinliğin süresi (dakika): 65";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G32;MAT.5.1.2;time;1;e;"Bitiş saati (SS:DD): 10:24; Etkinliğin süresi (dakika): 84";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G33;MAT.5.1.2;time;2;e;"Bitiş saati (SS:DD): 11:08; Etkinliğin süresi (dakika): 103";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G34;MAT.5.1.2;time;2;e;"Bitiş saati (SS:DD): 11:52; Etkinliğin süresi (dakika): 122";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G35;MAT.5.1.2;time;2;e;"Bitiş saati (SS:DD): 12:36; Etkinliğin süresi (dakika): 141";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G36;MAT.5.1.2;market;2;g;"Birim fiyatı daha uygun paket: B; Paketlerin birim fiyat farkı (TL): 5.0";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G37;MAT.5.1.2;market;2;g;"Birim fiyatı daha uygun paket: A; Paketlerin birim fiyat farkı (TL): 5.0";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G38;MAT.5.1.2;market;2;g;"Birim fiyatı daha uygun paket: B; Paketlerin birim fiyat farkı (TL): 5.0";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G39;MAT.5.1.2;market;2;g;"Birim fiyatı daha uygun paket: A; Paketlerin birim fiyat farkı (TL): 5.0";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G40;MAT.5.1.2;market;2;g;"Birim fiyatı daha uygun paket: B; Paketlerin birim fiyat farkı (TL): 5.0";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G41;MAT.5.1.2;orchard;2;e;"Toplanan toplam meyve: 756; Satılabilir meyve sayısı: 628";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G42;MAT.5.1.2;orchard;2;e;"Toplanan toplam meyve: 1148; Satılabilir meyve sayısı: 997";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G43;MAT.5.1.2;orchard;2;e;"Toplanan toplam meyve: 1610; Satılabilir meyve sayısı: 1436";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G44;MAT.5.1.2;orchard;2;e;"Toplanan toplam meyve: 2142; Satılabilir meyve sayısı: 1945";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G45;MAT.5.1.2;orchard;3;e;"Toplanan toplam meyve: 2744; Satılabilir meyve sayısı: 2524";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G46;MAT.5.1.2;estimate;3;d;"Yüzlüğe yuvarlayarak tahmin: 3600; Kesin sonuç: 3549";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G47;MAT.5.1.2;estimate;3;d;"Yüzlüğe yuvarlayarak tahmin: 4300; Kesin sonuç: 4223";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G48;MAT.5.1.2;estimate;3;d;"Yüzlüğe yuvarlayarak tahmin: 4900; Kesin sonuç: 4897";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G49;MAT.5.1.2;estimate;3;d;"Yüzlüğe yuvarlayarak tahmin: 5500; Kesin sonuç: 5571";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G50;MAT.5.1.2;estimate;3;d;"Yüzlüğe yuvarlayarak tahmin: 6200; Kesin sonuç: 6245";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G51;MAT.5.1.2;invoice;3;f;"Fişin çarpım sonucu doğru mu?: Hayır; Doğru ara toplam (TL): 392";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G52;MAT.5.1.2;invoice;3;f;"Fişin çarpım sonucu doğru mu?: Hayır; Doğru ara toplam (TL): 595";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G53;MAT.5.1.2;invoice;3;f;"Fişin çarpım sonucu doğru mu?: Hayır; Doğru ara toplam (TL): 840";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G54;MAT.5.1.2;invoice;3;f;"Fişin çarpım sonucu doğru mu?: Hayır; Doğru ara toplam (TL): 1127";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G55;MAT.5.1.2;invoice;3;f;"Fişin çarpım sonucu doğru mu?: Hayır; Doğru ara toplam (TL): 1456";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G56;MAT.5.1.2;inverse;3;f;"Eksilen ürün sayısı: 17; Kontrol için hangi işlem kullanılır?: Çarpma → Çıkarma";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G57;MAT.5.1.2;inverse;4;f;"Eksilen ürün sayısı: 21; Kontrol için hangi işlem kullanılır?: Çarpma → Çıkarma";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G58;MAT.5.1.2;inverse;4;f;"Eksilen ürün sayısı: 25; Kontrol için hangi işlem kullanılır?: Çarpma → Çıkarma";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G59;MAT.5.1.2;inverse;4;f;"Eksilen ürün sayısı: 29; Kontrol için hangi işlem kullanılır?: Çarpma → Çıkarma";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G60;MAT.5.1.2;inverse;4;f;"Eksilen ürün sayısı: 33; Kontrol için hangi işlem kullanılır?: Çarpma → Çıkarma";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G61;MAT.5.1.2;budget;4;g;"Bütçeyle alınabilecek en çok ürün: 14; Kalan para (TL): 10";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G62;MAT.5.1.2;budget;4;g;"Bütçeyle alınabilecek en çok ürün: 13; Kalan para (TL): 69";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G63;MAT.5.1.2;budget;4;g;"Bütçeyle alınabilecek en çok ürün: 13; Kalan para (TL): 63";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G64;MAT.5.1.2;budget;4;g;"Bütçeyle alınabilecek en çok ürün: 13; Kalan para (TL): 57";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G65;MAT.5.1.2;budget;4;g;"Bütçeyle alınabilecek en çok ürün: 13; Kalan para (TL): 51";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G66;MAT.5.1.2;sustain;4;ğ;"Toplam tasarruf (litre): 959; Aynı tasarruf iki kez tekrarlansa (litre): 1918";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G67;MAT.5.1.2;sustain;4;ğ;"Toplam tasarruf (litre): 1826; Aynı tasarruf iki kez tekrarlansa (litre): 3652";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G68;MAT.5.1.2;sustain;4;ğ;"Toplam tasarruf (litre): 2925; Aynı tasarruf iki kez tekrarlansa (litre): 5850";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G69;MAT.5.1.2;sustain;5;ğ;"Toplam tasarruf (litre): 4256; Aynı tasarruf iki kez tekrarlansa (litre): 8512";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G70;MAT.5.1.2;sustain;5;ğ;"Toplam tasarruf (litre): 5819; Aynı tasarruf iki kez tekrarlansa (litre): 11638";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G71;MAT.5.1.2;librarySplit;5;f;"Tam dolu kutu sayısı: 18; Artan kitap sayısı: 11";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G72;MAT.5.1.2;librarySplit;5;f;"Tam dolu kutu sayısı: 21; Artan kitap sayısı: 14";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G73;MAT.5.1.2;librarySplit;5;f;"Tam dolu kutu sayısı: 23; Artan kitap sayısı: 28";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G74;MAT.5.1.2;librarySplit;5;f;"Tam dolu kutu sayısı: 25; Artan kitap sayısı: 30";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G75;MAT.5.1.2;librarySplit;5;f;"Tam dolu kutu sayısı: 27; Artan kitap sayısı: 20";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G76;MAT.5.1.2;strategy;5;g;"Uygun çözüm stratejisi: Önce topla, sonra böl; Her takımın alacağı malzeme: 76; Artan malzeme: 0";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G77;MAT.5.1.2;strategy;5;g;"Uygun çözüm stratejisi: Önce topla, sonra böl; Her takımın alacağı malzeme: 69; Artan malzeme: 0";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G78;MAT.5.1.2;strategy;5;g;"Uygun çözüm stratejisi: Önce topla, sonra böl; Her takımın alacağı malzeme: 64; Artan malzeme: 0";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G79;MAT.5.1.2;strategy;5;g;"Uygun çözüm stratejisi: Önce topla, sonra böl; Her takımın alacağı malzeme: 60; Artan malzeme: 10";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447
+MAT.5.1.2-G80;MAT.5.1.2;strategy;5;g;"Uygun çözüm stratejisi: Önce topla, sonra böl; Her takımın alacağı malzeme: 57; Artan malzeme: 15";https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/447

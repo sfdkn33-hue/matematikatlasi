@@ -1,0 +1,71 @@
+/* v6.6.1 — mobile clarity and robust contrast, additive UI-only stylesheet. */
+body.atlas-v3{overflow-x:clip}
+/* Dark mode uses a light task question card with dark ink, never white on white. */
+body.atlas-v3.atlas-dark main>.panel>.card{background:#f2f8ff!important;color:#193d59!important;border:2px solid #b9d4e8!important}
+body.atlas-v3.atlas-dark main>.panel>.card #question,
+body.atlas-v3.atlas-dark main>.panel>.card #question *{color:#163954!important;text-shadow:none!important;opacity:1!important}
+body.atlas-v3.atlas-dark main>.panel>.card .chip{background:#dcecf8!important;color:#234b70!important;border:1px solid #a5c6db!important}
+/* An independent light-colored intro panel must always carry dark text.
+   The original `.atlas-dark .atlas-hero p` selector accidentally turned it pale. */
+body.atlas-v3 .atlas-hero #atlasExpansionNote,
+body.atlas-v3.atlas-dark .atlas-hero #atlasExpansionNote{background:#e9f2fd!important;color:#244362!important;border:1px solid #bdd5e9!important;opacity:1!important;text-shadow:none!important;font-weight:570}
+body.atlas-v3 .atlas-hero #atlasExpansionNote *,
+body.atlas-v3.atlas-dark .atlas-hero #atlasExpansionNote *{color:#244362!important}
+/* The dark theme uses a light workbench for visual models with fixed dark SVG ink. */
+body.atlas-v3.atlas-dark .atlas7-stage{background:#f7fbff!important;color:#1b3b55!important;border:2px solid #a6cadf!important}
+body.atlas-v3.atlas-dark .atlas7-stage :is(.atlas7-ticks,.atlas7-example,.atlas7-input-label,.atlas7-coordinate){color:#234e6b!important;opacity:1!important;text-shadow:none!important}
+body.atlas-v3.atlas-dark .atlas7-stage svg text{fill:#173e5b!important;opacity:1!important}
+body.atlas-v3.atlas-dark .atlas7-stage .atlas7-line{accent-color:#1276a5!important}
+body.atlas-v3.atlas-dark .atlas7-stage :is(input,select){background:#fff!important;color:#173c57!important;border-color:#8ab8d0!important}
+body.atlas-v3 .atlas7-ticks{color:#3c5b73!important;font-size:12px!important;font-weight:700!important}
+body.atlas-v3 .atlas7-example{color:#3d5b73!important}
+/* v3.4 pilot number lines place fixed dark SVG text on a scene: do not darken the scene. */
+body.atlas-v3.atlas-dark .atlas-upper-scene{background:#f7fbff!important;color:#193e58!important;border:2px solid #a6c9df!important}
+body.atlas-v3.atlas-dark .atlas-upper-scene svg text,
+body.atlas-v3 .atlas-upper-scene svg text{font-size:25px!important;font-weight:720!important;fill:#204b6c!important;opacity:1!important}
+body.atlas-v3.atlas-dark .atlas-upper-eyebrow{color:#9ccfff!important}
+body.atlas-v3 .atlas-upper-scene svg path{stroke-linecap:round}
+/* Grades: clear selected and unselected states in both themes. */
+body.atlas-v3 .atlas-grade-switch button:not(.is-current),
+body.atlas-v3.atlas-dark .atlas-grade-switch button:not(.is-current){color:#344f71!important;opacity:1!important}
+body.atlas-v3 .atlas-grade-switch button.is-current,
+body.atlas-v3.atlas-dark .atlas-grade-switch button.is-current{color:#124d87!important;background:#fff!important;box-shadow:0 0 0 2px #6094cf inset!important}
+/* More legible labels and focus states. */
+body.atlas-v3 :is(.atlas-bigactions,.atlas-playing-top,.atlas-grade-switch) button:focus-visible{outline:3px solid #db8a12!important;outline-offset:3px}
+body.atlas-v3 .atlas-playing-top .atlas-playing-info{flex:1 1 200px}
+body.atlas-v3 .atlas-playing-top .atlas-playing-actions{flex:0 1 auto;min-width:0;gap:8px}
+body.atlas-v3 .atlas-playing-top .atlas-playing-actions button{white-space:normal;line-height:1.25;min-height:44px}
+body.atlas-v3 .atlas-playing-top .atlas-playing-actions .atlas64-quiet{background:#eaf3ff!important;color:#1c5278!important;border:1px solid #a9c9e0!important}
+body.atlas-v3.atlas-dark .atlas-playing-top .atlas-playing-actions .atlas64-quiet{background:#edf6ff!important;color:#194663!important}
+body.atlas-v3 .atlas-class-pill{color:#214d7b!important}
+body.atlas-v3 .atlas-topquiet{min-height:44px}
+/* Mobile: one action row, no overlapping navigation. The audit stays on the home page. */
+@media(max-width:680px){
+ body.atlas-v3 #atlasPlayingTop{display:grid;grid-template-columns:minmax(0,1fr);align-items:stretch;gap:10px;padding:12px;margin:8px 10px 0;min-width:0}
+ body.atlas-v3 #atlasPlayingTop[hidden]{display:none!important}
+ body.atlas-v3 .atlas-playing-info{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:center;width:100%;min-width:0}
+ body.atlas-v3 .atlas-playing-info>div{min-width:0}
+ body.atlas-v3 .atlas-playing-info b{max-width:100%;font-size:16px!important;white-space:normal;line-height:1.28}
+ body.atlas-v3 .atlas-playing-info span{font-size:12px!important;color:#597b9d!important}
+ body.atlas-v3.atlas-dark .atlas-playing-info span{color:#c5d8ed!important}
+ body.atlas-v3 .atlas-playing-actions{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;gap:8px!important;min-width:0}
+ body.atlas-v3 .atlas-playing-actions [data-atlas65-open]{display:none!important}
+ body.atlas-v3 .atlas-playing-actions .atlas-tiny-progress{display:none!important}
+ body.atlas-v3 .atlas-playing-actions .atlas64-quiet,
+ body.atlas-v3 .atlas-playing-actions #atlasPickTask{display:flex;justify-content:center;align-items:center;min-width:0;width:100%;min-height:48px;font-size:13px!important;padding:8px 9px!important;text-align:center;border-radius:12px}
+ body.atlas-v3 .atlas-top{height:auto!important;min-height:68px!important;padding:9px 12px!important;gap:8px!important}
+ body.atlas-v3 .atlas-brand{font-size:18px!important;min-width:0;line-height:1.15}
+ body.atlas-v3 .atlas-toplinks{gap:6px!important;min-width:0}
+ body.atlas-v3 .atlas-class-pill{font-size:11px!important;padding:6px 8px!important;line-height:1.15;text-align:center;max-width:88px}
+ body.atlas-v3 .atlas-topquiet{font-size:12px!important;padding:8px!important;min-width:48px}
+ body.atlas-v3 .atlas-grade-switch{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important;width:100%!important;max-width:100%!important}
+ body.atlas-v3 .atlas-grade-switch button{width:100%!important;min-width:0!important;flex:auto!important;min-height:54px!important;padding:10px 8px!important;font-size:15px!important;line-height:1.22!important;white-space:normal!important}
+ body.atlas-v3 .atlas-hero #atlasExpansionNote{font-size:14px!important;line-height:1.58!important;padding:14px!important;margin-top:12px!important}
+ body.atlas-v3 .atlas7-stage{padding:12px!important}
+ body.atlas-v3 .atlas7-ticks{font-size:11px!important}
+}
+@media(max-width:350px){
+ body.atlas-v3 .atlas-top{flex-wrap:wrap!important}
+ body.atlas-v3 .atlas-toplinks{width:100%;justify-content:space-between}
+ body.atlas-v3 .atlas-brand{width:100%;justify-content:center}
+}

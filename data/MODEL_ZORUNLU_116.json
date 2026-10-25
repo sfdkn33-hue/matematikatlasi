@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "MAT.5.3.1-G08",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "tur": "ruler",
+    "soru": "Dik kesişen iki doğrunun oluşturduğu küçük açı",
+    "dogru": 90,
+    "kanit": "Dik açı 90°dir.",
+    "fark": 5,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.1-G10",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "tur": "digits",
+    "soru": "Yarıçapı 3 birim olan çemberin çapı",
+    "dogru": 6,
+    "kanit": "Çap 2 × yarıçaptır.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.1-G11",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "tur": "order",
+    "soru": "60° açının komşu bütünler açısı",
+    "dogru": 120,
+    "kanit": "Komşu bütünler açıların toplamı 180°dir.",
+    "fark": 5,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.1-G12",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "tur": "digits",
+    "soru": "Dik kesişen iki doğrunun oluşturduğu küçük açı",
+    "dogru": 90,
+    "kanit": "Dik açı 90°dir.",
+    "fark": 5,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.1-G14",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "tur": "comparison",
+    "soru": "Bir çemberde bütün noktaların merkeze olan farklı uzaklık sayısı",
+    "dogru": 1,
+    "kanit": "Çemberde merkez uzaklığı tüm noktalar için sabittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.1-G15",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "tur": "ruler",
+    "soru": "45° açının komşu bütünler açısı",
+    "dogru": 135,
+    "kanit": "Komşu bütünler açıların toplamı 180°dir.",
+    "fark": 5,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.1-G16",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "tur": "diagnose",
+    "soru": "Dik kesişen iki doğrunun oluşturduğu küçük açı",
+    "dogru": 90,
+    "kanit": "Dik açı 90°dir.",
+    "fark": 5,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.1-G17",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "tur": "ruler",
+    "soru": "Bir doğru parçasını belirleyen uç nokta sayısı",
+    "dogru": 2,
+    "kanit": "Bir doğru parçasının iki uç noktası vardır.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.1-G18",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "tur": "diagnose",
+    "soru": "Yarıçapı 3 birim olan çemberin çapı",
+    "dogru": 6,
+    "kanit": "Çap 2 × yarıçaptır.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.1-G19",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "tur": "comparison",
+    "soru": "60° açının komşu bütünler açısı",
+    "dogru": 120,
+    "kanit": "Komşu bütünler açıların toplamı 180°dir.",
+    "fark": 5,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.1-G20",
+    "ogrenme_ciktisi": "MAT.5.3.1",
+    "tur": "order",
+    "soru": "Dik kesişen iki doğrunun oluşturduğu küçük açı",
+    "dogru": 90,
+    "kanit": "Dik açı 90°dir.",
+    "fark": 5,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.2-G02",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "tur": "digits",
+    "soru": "İki yöne sınırsız uzayan doğrunun uç noktası",
+    "dogru": 0,
+    "kanit": "Doğrunun uç noktası yoktur.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.2-G03",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "tur": "diagnose",
+    "soru": "İki yöne sınırsız uzayan doğrunun uç noktası",
+    "dogru": 0,
+    "kanit": "Doğrunun uç noktası yoktur.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.2-G04",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "tur": "order",
+    "soru": "İki yöne sınırsız uzayan doğrunun uç noktası",
+    "dogru": 0,
+    "kanit": "Doğrunun uç noktası yoktur.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.2-G06",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "tur": "comparison",
+    "soru": "Bir ışının başlangıç noktası sayısı",
+    "dogru": 1,
+    "kanit": "Işının tek bir başlangıç noktası vardır.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.2-G07",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "tur": "ruler",
+    "soru": "Bir ışının başlangıç noktası sayısı",
+    "dogru": 1,
+    "kanit": "Işının tek bir başlangıç noktası vardır.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.2-G08",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "tur": "digits",
+    "soru": "Bir ışının başlangıç noktası sayısı",
+    "dogru": 1,
+    "kanit": "Işının tek bir başlangıç noktası vardır.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.2-G10",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "tur": "diagnose",
+    "soru": "Bir doğru parçasının uç nokta sayısı",
+    "dogru": 2,
+    "kanit": "Bir doğru parçasının iki uç noktası bulunur.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.2-G11",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "tur": "order",
+    "soru": "Bir doğru parçasının uç nokta sayısı",
+    "dogru": 2,
+    "kanit": "Bir doğru parçasının iki uç noktası bulunur.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.2-G12",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "tur": "comparison",
+    "soru": "Bir doğru parçasının uç nokta sayısı",
+    "dogru": 2,
+    "kanit": "Bir doğru parçasının iki uç noktası bulunur.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.2-G14",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "tur": "ruler",
+    "soru": "Dik kesişen iki doğrunun oluşturduğu küçük açı",
+    "dogru": 90,
+    "kanit": "Dik açı 90°dir.",
+    "fark": 5,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.2-G15",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "tur": "digits",
+    "soru": "Dik kesişen iki doğrunun oluşturduğu küçük açı",
+    "dogru": 90,
+    "kanit": "Dik açı 90°dir.",
+    "fark": 5,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.2-G16",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "tur": "diagnose",
+    "soru": "Dik kesişen iki doğrunun oluşturduğu küçük açı",
+    "dogru": 90,
+    "kanit": "Dik açı 90°dir.",
+    "fark": 5,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.2-G18",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "tur": "order",
+    "soru": "Bir çemberde bütün noktaların merkeze olan farklı uzaklık sayısı",
+    "dogru": 1,
+    "kanit": "Çemberde merkez uzaklığı tüm noktalar için sabittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.2-G19",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "tur": "comparison",
+    "soru": "Bir çemberde bütün noktaların merkeze olan farklı uzaklık sayısı",
+    "dogru": 1,
+    "kanit": "Çemberde merkez uzaklığı tüm noktalar için sabittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.2-G20",
+    "ogrenme_ciktisi": "MAT.5.3.2",
+    "tur": "ruler",
+    "soru": "Bir çemberde bütün noktaların merkeze olan farklı uzaklık sayısı",
+    "dogru": 1,
+    "kanit": "Çemberde merkez uzaklığı tüm noktalar için sabittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.3-G12",
+    "ogrenme_ciktisi": "MAT.5.3.3",
+    "tur": "digits",
+    "soru": "45° açının komşu bütünler açısı",
+    "dogru": 135,
+    "kanit": "Komşu bütünler açıların toplamı 180°dir.",
+    "fark": 5,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.3-G14",
+    "ogrenme_ciktisi": "MAT.5.3.3",
+    "tur": "diagnose",
+    "soru": "75° açının komşu bütünler açısı",
+    "dogru": 105,
+    "kanit": "Komşu bütünler açıların toplamı 180°dir.",
+    "fark": 5,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.3-G16",
+    "ogrenme_ciktisi": "MAT.5.3.3",
+    "tur": "order",
+    "soru": "105° açının komşu bütünler açısı",
+    "dogru": 75,
+    "kanit": "Komşu bütünler açıların toplamı 180°dir.",
+    "fark": 5,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.3-G18",
+    "ogrenme_ciktisi": "MAT.5.3.3",
+    "tur": "comparison",
+    "soru": "135° açının komşu bütünler açısı",
+    "dogru": 45,
+    "kanit": "Komşu bütünler açıların toplamı 180°dir.",
+    "fark": 5,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.3-G20",
+    "ogrenme_ciktisi": "MAT.5.3.3",
+    "tur": "ruler",
+    "soru": "165° açının komşu bütünler açısı",
+    "dogru": 15,
+    "kanit": "Komşu bütünler açıların toplamı 180°dir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.4-G11",
+    "ogrenme_ciktisi": "MAT.5.3.4",
+    "tur": "digits",
+    "soru": "İki farklı paralel doğrunun kesişme noktası sayısı",
+    "dogru": 0,
+    "kanit": "Farklı paralel doğrular kesişmez.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.4-G20",
+    "ogrenme_ciktisi": "MAT.5.3.4",
+    "tur": "diagnose",
+    "soru": "Birbirini dik kesen iki doğrunun oluşturduğu dik açı sayısı",
+    "dogru": 4,
+    "kanit": "Tam açı dört eş dik açıdan oluşur.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.5-G06",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "tur": "order",
+    "soru": "3 kenarlı çokgenin köşe sayısı",
+    "dogru": 3,
+    "kanit": "Bir çokgenin kenar ve köşe sayısı eşittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.5-G07",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "tur": "digits",
+    "soru": "4 kenarlı çokgenin köşe sayısı",
+    "dogru": 4,
+    "kanit": "Bir çokgenin kenar ve köşe sayısı eşittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.5-G08",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "tur": "comparison",
+    "soru": "5 kenarlı çokgenin köşe sayısı",
+    "dogru": 5,
+    "kanit": "Bir çokgenin kenar ve köşe sayısı eşittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.5-G09",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "tur": "diagnose",
+    "soru": "6 kenarlı çokgenin köşe sayısı",
+    "dogru": 6,
+    "kanit": "Bir çokgenin kenar ve köşe sayısı eşittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.5-G10",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "tur": "ruler",
+    "soru": "7 kenarlı çokgenin köşe sayısı",
+    "dogru": 7,
+    "kanit": "Bir çokgenin kenar ve köşe sayısı eşittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.5-G11",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "tur": "comparison",
+    "soru": "3 kenarlı çokgenin köşe sayısı",
+    "dogru": 3,
+    "kanit": "Bir çokgenin kenar ve köşe sayısı eşittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.5-G12",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "tur": "diagnose",
+    "soru": "4 kenarlı çokgenin köşe sayısı",
+    "dogru": 4,
+    "kanit": "Bir çokgenin kenar ve köşe sayısı eşittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.5-G13",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "tur": "ruler",
+    "soru": "5 kenarlı çokgenin köşe sayısı",
+    "dogru": 5,
+    "kanit": "Bir çokgenin kenar ve köşe sayısı eşittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.5-G14",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "tur": "order",
+    "soru": "6 kenarlı çokgenin köşe sayısı",
+    "dogru": 6,
+    "kanit": "Bir çokgenin kenar ve köşe sayısı eşittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.5-G15",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "tur": "digits",
+    "soru": "7 kenarlı çokgenin köşe sayısı",
+    "dogru": 7,
+    "kanit": "Bir çokgenin kenar ve köşe sayısı eşittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.5-G16",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "tur": "ruler",
+    "soru": "3 kenarlı çokgenin köşe sayısı",
+    "dogru": 3,
+    "kanit": "Bir çokgenin kenar ve köşe sayısı eşittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.5-G17",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "tur": "order",
+    "soru": "4 kenarlı çokgenin köşe sayısı",
+    "dogru": 4,
+    "kanit": "Bir çokgenin kenar ve köşe sayısı eşittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.5-G18",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "tur": "digits",
+    "soru": "5 kenarlı çokgenin köşe sayısı",
+    "dogru": 5,
+    "kanit": "Bir çokgenin kenar ve köşe sayısı eşittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.5-G19",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "tur": "comparison",
+    "soru": "6 kenarlı çokgenin köşe sayısı",
+    "dogru": 6,
+    "kanit": "Bir çokgenin kenar ve köşe sayısı eşittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.5.3.5-G20",
+    "ogrenme_ciktisi": "MAT.5.3.5",
+    "tur": "diagnose",
+    "soru": "7 kenarlı çokgenin köşe sayısı",
+    "dogru": 7,
+    "kanit": "Bir çokgenin kenar ve köşe sayısı eşittir.",
+    "fark": 1,
+    "laboratuvar": "studio"
+  },
+  {
+    "id": "MAT.6.6.1-G02",
+    "ogrenme_ciktisi": "MAT.6.6.1",
+    "tur": "order",
+    "soru": "Bu simülasyon görevinde ilk kontrol için gereken asgari deneme sayısı",
+    "dogru": 20,
+    "kanit": "Deneysel sıklık için belirtilen sayıda deneme yapılmalıdır.",
+    "fark": 1,
+    "laboratuvar": "expLab"
+  },
+  {
+    "id": "MAT.6.6.1-G03",
+    "ogrenme_ciktisi": "MAT.6.6.1",
+    "tur": "comparison",
+    "soru": "Bu simülasyon görevinde ilk kontrol için gereken asgari deneme sayısı",
+    "dogru": 20,
+    "kanit": "Deneysel sıklık için belirtilen sayıda deneme yapılmalıdır.",
+    "fark": 1,
+    "laboratuvar": "expLab"
+  },
+  {
+    "id": "MAT.6.6.1-G04",
+    "ogrenme_ciktisi": "MAT.6.6.1",
+    "tur": "ruler",
+    "soru": "Bu simülasyon görevinde ilk kontrol için gereken asgari deneme sayısı",
+    "dogru": 20,
+    "kanit": "Deneysel sıklık için belirtilen sayıda deneme yapılmalıdır.",
+    "fark": 1,
+    "laboratuvar": "expLab"
+  },
+  {
+    "id": "MAT.6.6.1-G05",
+    "ogrenme_ciktisi": "MAT.6.6.1",
+    "tur": "digits",
+    "soru": "Bu simülasyon görevinde ilk kontrol için gereken asgari deneme sayısı",
+    "dogru": 20,
+    "kanit": "Deneysel sıklık için belirtilen sayıda deneme yapılmalıdır.",
+    "fark": 1,
+    "laboratuvar": "expLab"
+  },
+  {
+    "id": "MAT.6.6.1-G14",
+    "ogrenme_ciktisi": "MAT.6.6.1",
+    "tur": "diagnose",
+    "soru": "Bu simülasyon görevinde ilk kontrol için gereken asgari deneme sayısı",
+    "dogru": 20,
+    "kanit": "Deneysel sıklık için belirtilen sayıda deneme yapılmalıdır.",
+    "fark": 1,
+    "laboratuvar": "expLab"
+  },
+  {
+    "id": "MAT.6.6.1-G15",
+    "ogrenme_ciktisi": "MAT.6.6.1",
+    "tur": "order",
+    "soru": "Bu simülasyon görevinde ilk kontrol için gereken asgari deneme sayısı",
+    "dogru": 20,
+    "kanit": "Deneysel sıklık için belirtilen sayıda deneme yapılmalıdır.",
+    "fark": 1,
+    "laboratuvar": "expLab"
+  },
+  {
+    "id": "MAT.6.5.1-G12",
+    "ogrenme_ciktisi": "MAT.6.5.1",
+    "tur": "comparison",
+    "soru": "Temsil gücü yüksek seçim için birlikte gözeteceğin iki ilke sayısı: rastgele seçme ve farklı grupları kapsama",
+    "dogru": 2,
+    "kanit": "Rastgele seçme ve grupları kapsama, yanlılığı azaltmaya yardımcı olur.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.1-G13",
+    "ogrenme_ciktisi": "MAT.6.5.1",
+    "tur": "ruler",
+    "soru": "Temsil gücü yüksek seçim için birlikte gözeteceğin iki ilke sayısı: rastgele seçme ve farklı grupları kapsama",
+    "dogru": 2,
+    "kanit": "Rastgele seçme ve grupları kapsama, yanlılığı azaltmaya yardımcı olur.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.1-G16",
+    "ogrenme_ciktisi": "MAT.6.5.1",
+    "tur": "digits",
+    "soru": "Temsil gücü yüksek seçim için birlikte gözeteceğin iki ilke sayısı: rastgele seçme ve farklı grupları kapsama",
+    "dogru": 2,
+    "kanit": "Rastgele seçme ve grupları kapsama, yanlılığı azaltmaya yardımcı olur.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.1-G19",
+    "ogrenme_ciktisi": "MAT.6.5.1",
+    "tur": "order",
+    "soru": "Temsil gücü yüksek seçim için birlikte gözeteceğin iki ilke sayısı: rastgele seçme ve farklı grupları kapsama",
+    "dogru": 2,
+    "kanit": "Rastgele seçme ve grupları kapsama, yanlılığı azaltmaya yardımcı olur.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.1-G20",
+    "ogrenme_ciktisi": "MAT.6.5.1",
+    "tur": "diagnose",
+    "soru": "Temsil gücü yüksek seçim için birlikte gözeteceğin iki ilke sayısı: rastgele seçme ve farklı grupları kapsama",
+    "dogru": 2,
+    "kanit": "Rastgele seçme ve grupları kapsama, yanlılığı azaltmaya yardımcı olur.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.1-G37",
+    "ogrenme_ciktisi": "MAT.6.5.1",
+    "tur": "comparison",
+    "soru": "Nokta grafiğindeki toplam gözlem sayısı",
+    "dogru": 11,
+    "kanit": "Bütün noktaların toplamı gözlem sayısını verir.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.1-G38",
+    "ogrenme_ciktisi": "MAT.6.5.1",
+    "tur": "ruler",
+    "soru": "Nokta grafiğindeki toplam gözlem sayısı",
+    "dogru": 12,
+    "kanit": "Bütün noktaların toplamı gözlem sayısını verir.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.1-G39",
+    "ogrenme_ciktisi": "MAT.6.5.1",
+    "tur": "digits",
+    "soru": "Nokta grafiğindeki toplam gözlem sayısı",
+    "dogru": 13,
+    "kanit": "Bütün noktaların toplamı gözlem sayısını verir.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.1-G40",
+    "ogrenme_ciktisi": "MAT.6.5.1",
+    "tur": "diagnose",
+    "soru": "Nokta grafiğindeki toplam gözlem sayısı",
+    "dogru": 14,
+    "kanit": "Bütün noktaların toplamı gözlem sayısını verir.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.1-G73",
+    "ogrenme_ciktisi": "MAT.6.5.1",
+    "tur": "order",
+    "soru": "Araştırma döngüsünün temel aşama sayısı",
+    "dogru": 4,
+    "kanit": "Soru, plan, veri, yorum adımları sıralanır.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.1-G76",
+    "ogrenme_ciktisi": "MAT.6.5.1",
+    "tur": "comparison",
+    "soru": "Araştırma döngüsünün temel aşama sayısı",
+    "dogru": 4,
+    "kanit": "Soru, plan, veri, yorum adımları sıralanır.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.2-G14",
+    "ogrenme_ciktisi": "MAT.6.5.2",
+    "tur": "digits",
+    "soru": "Temsil gücü yüksek seçim için birlikte gözeteceğin iki ilke sayısı: rastgele seçme ve farklı grupları kapsama",
+    "dogru": 2,
+    "kanit": "Rastgele seçme ve grupları kapsama, yanlılığı azaltmaya yardımcı olur.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.2-G15",
+    "ogrenme_ciktisi": "MAT.6.5.2",
+    "tur": "ruler",
+    "soru": "Temsil gücü yüksek seçim için birlikte gözeteceğin iki ilke sayısı: rastgele seçme ve farklı grupları kapsama",
+    "dogru": 2,
+    "kanit": "Rastgele seçme ve grupları kapsama, yanlılığı azaltmaya yardımcı olur.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.2-G16",
+    "ogrenme_ciktisi": "MAT.6.5.2",
+    "tur": "diagnose",
+    "soru": "Temsil gücü yüksek seçim için birlikte gözeteceğin iki ilke sayısı: rastgele seçme ve farklı grupları kapsama",
+    "dogru": 2,
+    "kanit": "Rastgele seçme ve grupları kapsama, yanlılığı azaltmaya yardımcı olur.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.2-G19",
+    "ogrenme_ciktisi": "MAT.6.5.2",
+    "tur": "order",
+    "soru": "Temsil gücü yüksek seçim için birlikte gözeteceğin iki ilke sayısı: rastgele seçme ve farklı grupları kapsama",
+    "dogru": 2,
+    "kanit": "Rastgele seçme ve grupları kapsama, yanlılığı azaltmaya yardımcı olur.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.2-G39",
+    "ogrenme_ciktisi": "MAT.6.5.2",
+    "tur": "comparison",
+    "soru": "İki grubun ortancaları arasındaki mutlak fark",
+    "dogru": 2,
+    "kanit": "Ortancaların farkı büyükten küçüğün çıkarılmasıyla bulunur.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.5.2-G40",
+    "ogrenme_ciktisi": "MAT.6.5.2",
+    "tur": "ruler",
+    "soru": "İki grubun ortancaları arasındaki mutlak fark",
+    "dogru": 2,
+    "kanit": "Ortancaların farkı büyükten küçüğün çıkarılmasıyla bulunur.",
+    "fark": 1,
+    "laboratuvar": "researchLab"
+  },
+  {
+    "id": "MAT.6.3.2-G05",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "digits",
+    "soru": "Yamuk modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 1,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.2-G06",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "order",
+    "soru": "Paralelkenar modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 2,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.2-G07",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "ruler",
+    "soru": "Dikdörtgen modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 2,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.2-G08",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "digits",
+    "soru": "Kare modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 2,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.2-G09",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "diagnose",
+    "soru": "Yamuk modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 1,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.2-G10",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "comparison",
+    "soru": "Paralelkenar modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 2,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.2-G16",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "diagnose",
+    "soru": "Paralelkenar modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 2,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.2-G17",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "order",
+    "soru": "Dikdörtgen modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 2,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.2-G18",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "comparison",
+    "soru": "Eşkenar Dörtgen modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 2,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.2-G19",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "ruler",
+    "soru": "Kare modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 2,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.2-G20",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "digits",
+    "soru": "Yamuk modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 1,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.2-G36",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "diagnose",
+    "soru": "Eşkenar Dörtgen modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 2,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.2-G37",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "order",
+    "soru": "Kare modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 2,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.2-G38",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "comparison",
+    "soru": "Yamuk modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 1,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.2-G39",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "ruler",
+    "soru": "Paralelkenar modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 2,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.2-G40",
+    "ogrenme_ciktisi": "MAT.6.3.2",
+    "tur": "digits",
+    "soru": "Dikdörtgen modelinde birbirine paralel kenar çifti sayısı",
+    "dogru": 2,
+    "kanit": "Bu modelde yamuk yalnızca bir çift; diğer verilen özel dörtgenler iki çift paralel kenar taşır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G05",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "diagnose",
+    "soru": "Paralelkenar dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G06",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "comparison",
+    "soru": "Dikdörtgen dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G07",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "digits",
+    "soru": "Eşkenar Dörtgen dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G08",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "diagnose",
+    "soru": "Kare dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G09",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "order",
+    "soru": "Paralelkenar dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G10",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "ruler",
+    "soru": "Dikdörtgen dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G15",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "order",
+    "soru": "Dikdörtgen dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G16",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "ruler",
+    "soru": "Eşkenar Dörtgen dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G17",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "diagnose",
+    "soru": "Kare dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G18",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "order",
+    "soru": "Paralelkenar dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G19",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "comparison",
+    "soru": "Dikdörtgen dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G20",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "digits",
+    "soru": "Eşkenar Dörtgen dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G26",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "comparison",
+    "soru": "Köşegenlerin birbirini ortaladığı noktada hedef kayma uzaklığı",
+    "dogru": 0,
+    "kanit": "Ortak orta nokta için iki orta noktanın arası sıfır olmalıdır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G27",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "ruler",
+    "soru": "Köşegenlerin birbirini ortaladığı noktada hedef kayma uzaklığı",
+    "dogru": 0,
+    "kanit": "Ortak orta nokta için iki orta noktanın arası sıfır olmalıdır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G28",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "digits",
+    "soru": "Köşegenlerin birbirini ortaladığı noktada hedef kayma uzaklığı",
+    "dogru": 0,
+    "kanit": "Ortak orta nokta için iki orta noktanın arası sıfır olmalıdır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G29",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "diagnose",
+    "soru": "Köşegenlerin birbirini ortaladığı noktada hedef kayma uzaklığı",
+    "dogru": 0,
+    "kanit": "Ortak orta nokta için iki orta noktanın arası sıfır olmalıdır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G30",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "order",
+    "soru": "Köşegenlerin birbirini ortaladığı noktada hedef kayma uzaklığı",
+    "dogru": 0,
+    "kanit": "Ortak orta nokta için iki orta noktanın arası sıfır olmalıdır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G35",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "comparison",
+    "soru": "Kare dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G36",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "digits",
+    "soru": "Paralelkenar dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G37",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "order",
+    "soru": "Dikdörtgen dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G38",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "comparison",
+    "soru": "Eşkenar Dörtgen dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G39",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "ruler",
+    "soru": "Kare dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.3-G40",
+    "ogrenme_ciktisi": "MAT.6.3.3",
+    "tur": "diagnose",
+    "soru": "Paralelkenar dörtgeninde çizilebilecek köşegen sayısı",
+    "dogru": 2,
+    "kanit": "Dörtgende karşı köşeleri birleştiren iki köşegen vardır.",
+    "fark": 1,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.4-G10",
+    "ogrenme_ciktisi": "MAT.6.3.4",
+    "tur": "ruler",
+    "soru": "Üçgenin bilinmeyen iç açısı",
+    "dogru": 105,
+    "kanit": "Üçgenin iç açıları toplamı 180°dir.",
+    "fark": 5,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.4-G19",
+    "ogrenme_ciktisi": "MAT.6.3.4",
+    "tur": "digits",
+    "soru": "Üçgenin bilinmeyen dış açısı",
+    "dogru": 80,
+    "kanit": "Dış açı komşu olmayan iki iç açının toplamıdır.",
+    "fark": 5,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.4-G20",
+    "ogrenme_ciktisi": "MAT.6.3.4",
+    "tur": "diagnose",
+    "soru": "Üçgenin bilinmeyen dış açısı",
+    "dogru": 95,
+    "kanit": "Dış açı komşu olmayan iki iç açının toplamıdır.",
+    "fark": 5,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.4-G28",
+    "ogrenme_ciktisi": "MAT.6.3.4",
+    "tur": "order",
+    "soru": "Dörtgenin bilinmeyen iç açısı",
+    "dogru": 100,
+    "kanit": "Dörtgenin iç açıları toplamı 360°dir.",
+    "fark": 5,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.4-G29",
+    "ogrenme_ciktisi": "MAT.6.3.4",
+    "tur": "comparison",
+    "soru": "Dörtgenin bilinmeyen iç açısı",
+    "dogru": 80,
+    "kanit": "Dörtgenin iç açıları toplamı 360°dir.",
+    "fark": 5,
+    "laboratuvar": "geometry6Lab"
+  },
+  {
+    "id": "MAT.6.3.4-G30",
+    "ogrenme_ciktisi": "MAT.6.3.4",
+    "tur": "ruler",
+    "soru": "Dörtgenin bilinmeyen iç açısı",
+    "dogru": 60,
+    "kanit": "Dörtgenin iç açıları toplamı 360°dir.",
+    "fark": 5,
+    "laboratuvar": "geometry6Lab"
+  }
+]

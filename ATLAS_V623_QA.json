@@ -1,0 +1,24 @@
+{
+  "version": "6.23 foundation",
+  "result": "64/64 controlled local tests passed",
+  "legacy_lan": 18,
+  "qr_pairing": 24,
+  "google_oidc_offline": 22,
+  "live_github_modified": false,
+  "real_google_login_tested": false,
+  "physical_qr_scanning_tested": false,
+  "student_tasks_modified": false,
+  "files": [
+    "lan/server.js",
+    "lan/google-auth.js",
+    "lan/qr-pairing.js",
+    "tests_v622/test_lan.js",
+    "tests_v623/test_pairing.js",
+    "tests_v623/test_google.js",
+    "config/atlas.env.example",
+    ".gitignore",
+    ".github/workflows/atlas-lan-tests.yml",
+    "ATLAS_GITHUB_V623_KURULUM.md"
+  ],
+  "reviewed_caveat": "QR API is ready but camera/rendering UI and Google Cloud HTTPS are not configured."
+}

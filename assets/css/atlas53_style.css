@@ -1,0 +1,34 @@
+/* Atlas v5.3 — tek standart, koyu arka plandan bağımsız yüksek kontrast */
+.atlas53-lab[hidden]{display:none!important}
+.atlas53-lab,.atlas53-lab *{box-sizing:border-box}
+.atlas53-lab{background:#f7fbff!important;border:2px solid #95bbd0;border-radius:20px;margin:18px 0;padding:clamp(15px,3vw,24px);color:#153c55!important;font:inherit;line-height:1.55}
+.atlas53-lab h3{color:#123e5d!important;margin:4px 0;font-size:clamp(22px,3vw,28px);line-height:1.3}
+.v53-eyebrow,.v53-subtitle,.v53-label{color:#225c78!important;font-size:13px;font-weight:800}
+.v53-subtitle{font-weight:600;margin:0 0 12px}.v53-label{letter-spacing:.02em;margin:8px 0}
+.atlas53-lab p{color:#25475d!important;margin:9px 0}
+.v53-scene{border:1px solid #a4c2d5;background:#fff!important;border-radius:13px;padding:14px;margin-bottom:14px}
+.v53-equation{font-size:clamp(18px,4vw,26px);font-weight:850;color:#133c61!important;text-align:center;padding:10px 2px;overflow-wrap:anywhere}
+.v53-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 13px;margin:10px 0 16px}
+.v53-field{display:flex;flex-direction:column;gap:6px;min-width:0;padding:9px 10px;background:#edf6fc!important;border:1px solid #b0cedf;border-radius:11px;color:#193e55!important;font-weight:760;font-size:14px}
+.v53-field input{font:inherit!important;color:#12374f!important;background:#fff!important;border:2px solid #6c9ab7!important;border-radius:8px;min-height:46px;width:100%;min-width:0;padding:8px 10px}
+.v53-product{display:grid;grid-template-columns:90px repeat(2,minmax(0,1fr));gap:6px;padding:9px;border-radius:12px;border:1px solid #b6d4e2;background:#fff;margin-bottom:14px}
+.v53-product .v53-field{margin:0;padding:7px;font-size:12px}.v53-product .v53-field input{min-height:40px}
+.v53-head{padding:10px 2px;background:#dfedf7!important;color:#1b4760!important;font-weight:850;text-align:center;align-content:center;border-radius:8px;overflow-wrap:anywhere}
+.v53-tile-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;max-width:340px;margin:12px auto}
+.v53-tile{display:flex;align-items:center;justify-content:center;padding:17px 7px;min-height:60px;background:#cce9f5;color:#10436c;border:2px solid #5e95b4;border-radius:10px;font-size:clamp(17px,3vw,25px);font-weight:850;overflow-wrap:anywhere}
+.v53-tile.mixed{background:#f4e5ca!important;border-color:#b68e44;color:#654718}.v53-tile.minus{background:#f7dddd!important;border-color:#bc6969;color:#702d32}
+.v53-choices{display:flex;flex-wrap:wrap;gap:7px;margin:9px 0 15px}
+.atlas53-lab .v53-choice{border:2px solid #779cb6!important;background:#fff!important;color:#173d59!important;border-radius:11px;padding:10px;font-size:14px;font-weight:760;min-height:45px;cursor:pointer}
+.atlas53-lab .v53-choice[aria-pressed=true]{border-color:#0c705d!important;background:#d7f5e9!important;color:#0e5542!important;box-shadow:inset 0 0 0 1px #0c705d}
+.v53-factor{font-size:clamp(18px,3vw,23px);font-weight:850;text-align:center;background:#e2f1fa!important;color:#164b67!important;border-radius:11px;padding:12px}
+.v53-status{background:#e3f5ed!important;color:#17553c!important;border-left:4px solid #19846f;padding:11px;border-radius:8px;font-weight:750}
+.v53-status[data-error=true]{background:#fff2e3!important;border-color:#b56418;color:#79400a!important}
+.v53-controls{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.atlas53-lab .v53-controls button{font:inherit!important;min-height:48px;padding:9px 13px;border-radius:10px;font-weight:850;background:#096a91!important;color:#fff!important;border:2px solid #07536e!important;cursor:pointer}
+.atlas53-lab .v53-controls button.secondary{background:#e3f1f8!important;color:#174e69!important;border-color:#8cb4c8!important}
+.atlas53-lab :is(button,input):focus-visible{outline:3px solid #b65c00!important;outline-offset:3px}
+/* İstatistik ve 7. sınıf eski grafiklerinde yazı/sütun ayrımı: yalnızca grafik alanlarına uygulanır. */
+.statslab :is(.st-colname,.st-colvalue,.st-legend,.st-axisnote,.st-muted),.atlas-stats :is(.stats-axis,.stats-tick,.stats-label,.stats-value){color:#173d55!important;text-shadow:none!important}
+.statslab :is(.st-chartbox,.st-livechart,.st-chartpanel),.atlas-stats :is(.stats-panel,.stats-chart,.stats-board){background:#f6fbff!important;color:#173d55!important}
+@media(max-width:520px){.v53-grid{grid-template-columns:1fr}.v53-product{grid-template-columns:65px repeat(2,minmax(0,1fr))}.v53-choices button{flex:1 1 145px}}
+@media(prefers-reduced-motion:reduce){.atlas53-lab *{animation:none!important;transition:none!important}}

@@ -1,0 +1,271 @@
+{
+  "surum": "v4.2",
+  "kaynak": "https://tymm.meb.gov.tr/ogretim-programlari/ortaokul-matematik-dersi/8",
+  "resmi_cikti_sayisi": 30,
+  "uygulama_parcasi_sayisi": 9,
+  "resmi_tema_sayisi": 7,
+  "uygulama_parcalari": [
+    {
+      "sira": 1,
+      "ad": "Sayılar ve Nicelikler (1)",
+      "ders_saati": 35,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/463",
+      "durum": "ilk_paket_uygulandi",
+      "ciktilar": [
+        {
+          "kod": "MAT.7.1.1",
+          "kisa_ozet": "Sayı kümeleri, rasyonel sayılar, mutlak değer ve sayı doğrusu",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 23
+        },
+        {
+          "kod": "MAT.7.1.2",
+          "kisa_ozet": "Rasyonel sayıların sonlu ve devirli ondalık gösterimleri",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 20
+        },
+        {
+          "kod": "MAT.7.1.3",
+          "kisa_ozet": "Rasyonel sayıları karşılaştırma ve sıralama",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 20
+        },
+        {
+          "kod": "MAT.7.1.4",
+          "kisa_ozet": "Rasyonel sayılarla işlemler ve problem çözme",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 20
+        }
+      ]
+    },
+    {
+      "sira": 2,
+      "ad": "Geometrik Nicelikler (1)",
+      "ders_saati": 19,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/467",
+      "durum": "ilk_paket_uygulandi",
+      "ciktilar": [
+        {
+          "kod": "MAT.7.4.1",
+          "kisa_ozet": "Eş küplerle yapılar ve farklı yönlerden görünümler",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 20
+        },
+        {
+          "kod": "MAT.7.4.2",
+          "kisa_ozet": "Dikdörtgenler prizmasının yüzey alanı",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 20
+        },
+        {
+          "kod": "MAT.7.4.3",
+          "kisa_ozet": "Birim küplerle prizma hacmini yorumlama",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 20
+        },
+        {
+          "kod": "MAT.7.4.4",
+          "kisa_ozet": "Prizmanın hacim bağıntısını değerlendirme",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 20
+        },
+        {
+          "kod": "MAT.7.4.5",
+          "kisa_ozet": "Hacim ve sıvı ölçme birimleri",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 20
+        },
+        {
+          "kod": "MAT.7.4.6",
+          "kisa_ozet": "Prizmada yüzey alanı ve hacim problemleri",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 20
+        }
+      ]
+    },
+    {
+      "sira": 3,
+      "ad": "İstatistiksel Araştırma Süreci",
+      "ders_saati": 24,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/470",
+      "durum": "ilk_paket_uygulandi",
+      "ciktilar": [
+        {
+          "kod": "MAT.7.6.1",
+          "kisa_ozet": "İstatistiksel araştırma yapma ve veriye dayalı karar verme",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 40
+        },
+        {
+          "kod": "MAT.7.6.2",
+          "kisa_ozet": "İstatistiksel sonuçlarda hata ve yanlılıkları tartışma",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 40
+        }
+      ]
+    },
+    {
+      "sira": 4,
+      "ad": "Dönüşüm",
+      "ders_saati": 8,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/466",
+      "durum": "ilk_paket_uygulandi",
+      "ciktilar": [
+        {
+          "kod": "MAT.7.3.1",
+          "kisa_ozet": "Yansıma dönüşümü ile şekil oluşturma",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 30
+        },
+        {
+          "kod": "MAT.7.3.2",
+          "kisa_ozet": "Orta dikme ve açıortay inşası",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 30
+        }
+      ]
+    },
+    {
+      "sira": 5,
+      "ad": "Geometrik Şekiller",
+      "ders_saati": 6,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/469",
+      "durum": "ilk_paket_uygulandi",
+      "ciktilar": [
+        {
+          "kod": "MAT.7.5.1",
+          "kisa_ozet": "Üçgende kenarortay, açıortay ve yükseklik",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 32
+        },
+        {
+          "kod": "MAT.7.5.2",
+          "kisa_ozet": "Üçgende kenarortay inşası",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 24
+        }
+      ]
+    },
+    {
+      "sira": 6,
+      "ad": "Sayılar ve Nicelikler (2)",
+      "ders_saati": 15,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/464",
+      "durum": "ilk_paket_uygulandi",
+      "ciktilar": [
+        {
+          "kod": "MAT.7.1.5",
+          "kisa_ozet": "Oran ve birim oran üzerine muhakeme",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 30
+        },
+        {
+          "kod": "MAT.7.1.6",
+          "kisa_ozet": "Orantılı durumları yorumlama",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 30
+        },
+        {
+          "kod": "MAT.7.1.7",
+          "kisa_ozet": "Doğru orantıya dayalı problem çözme",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 30
+        }
+      ]
+    },
+    {
+      "sira": 7,
+      "ad": "Veriden Olasılığa",
+      "ders_saati": 9,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/471",
+      "durum": "ilk_paket_uygulandi",
+      "ciktilar": [
+        {
+          "kod": "MAT.7.7.1",
+          "kisa_ozet": "Bir olayın ve tümleyeninin olasılığı",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 30
+        },
+        {
+          "kod": "MAT.7.7.2",
+          "kisa_ozet": "Eşit ve eşit olmayan olasılıklı olaylar",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 30
+        },
+        {
+          "kod": "MAT.7.7.3",
+          "kisa_ozet": "Ayrık ve ayrık olmayan olaylar",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 30
+        }
+      ]
+    },
+    {
+      "sira": 8,
+      "ad": "İşlemlerle Cebirsel Düşünme ve Değişimler",
+      "ders_saati": 38,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/465",
+      "durum": "ilk_paket_uygulandi",
+      "ciktilar": [
+        {
+          "kod": "MAT.7.2.1",
+          "kisa_ozet": "Cebirsel ifadelerle işlemleri yorumlama",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 20
+        },
+        {
+          "kod": "MAT.7.2.2",
+          "kisa_ozet": "Denklem ve eşitsizlik problemlerini çözme",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 20
+        },
+        {
+          "kod": "MAT.7.2.3",
+          "kisa_ozet": "Sayıların özelliklerini ispatla gerekçelendirme",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 20
+        },
+        {
+          "kod": "MAT.7.2.4",
+          "kisa_ozet": "Aritmetik ve cebirsel algoritmalar kurma",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 20
+        }
+      ]
+    },
+    {
+      "sira": 9,
+      "ad": "Geometrik Nicelikler (2)",
+      "ders_saati": 18,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/468",
+      "durum": "planlandi",
+      "ciktilar": [
+        {
+          "kod": "MAT.7.4.7",
+          "kisa_ozet": "Dairenin alan bağıntısı",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 0
+        },
+        {
+          "kod": "MAT.7.4.8",
+          "kisa_ozet": "Merkez açı ve daire diliminin alanı",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 0
+        },
+        {
+          "kod": "MAT.7.4.9",
+          "kisa_ozet": "Eşkenar dörtgen ve yamuğun alanı",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 0
+        },
+        {
+          "kod": "MAT.7.4.10",
+          "kisa_ozet": "Daire, daire dilimi, dörtgen ve yamuk problemleri",
+          "asgarî_gorev_hedefi": 20,
+          "yayinlanan_yeni_gorev": 0
+        }
+      ]
+    }
+  ],
+  "durum_aciklamasi": "Dört öğretim bölümü için 340 yeni görev; 14 çıktı için uygulama, 16 çıktı geliştirme planında."
+}

@@ -1,0 +1,21 @@
+
+/* v3.4 higher-grade scaffold: compact, accessible and visually distinct */
+.atlas-grade-switch,.atlas-themes-grades{display:flex!important;flex-wrap:wrap!important;gap:8px!important;max-width:710px!important}
+.atlas-grade-switch button,.atlas-themes-grades button{min-width:90px;padding:10px 13px!important;white-space:nowrap}
+.atlas-grade-switch button:is(#atlasGrade8,#atlasGrade12),.atlas-themes-grades button:is(#atlasThemesGrade8,#atlasThemesGrade12){border:2px dashed #e9a047!important}
+.atlas-expansion-note{color:#38516f;background:#eff6ff;border-radius:12px;padding:10px 14px;max-width:610px;font-size:13px;line-height:1.5}
+.atlas-upper-pilot{background:linear-gradient(145deg,#eef7ff,#fffdf9);border:2px solid #cee6fa;border-radius:20px;padding:clamp(15px,3vw,28px);color:#153754;max-width:760px;margin:16px auto}
+.atlas-upper-eyebrow{font-weight:800;color:#206da7;font-size:13px;letter-spacing:.02em;margin-bottom:12px}
+.atlas-upper-scene{background:white;border-radius:14px;border:1px solid #d0e7f3;padding:16px;min-height:125px;display:grid;place-items:center;overflow:hidden}
+.atlas-upper-scene svg{width:100%;max-width:560px;height:auto;display:block}
+.atlas-upper-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:16px 0}
+.atlas-upper-options button{min-height:60px;border:2px solid #b7d8ed;border-radius:13px;background:white;color:#183d57;font-size:clamp(17px,2.5vw,22px);font-weight:750;padding:12px;cursor:pointer}
+.atlas-upper-options button:focus-visible{outline:3px solid #e59b18;outline-offset:2px}
+.atlas-upper-options button.is-correct{border-color:#2a9c7b;background:#d9f7e9}
+.atlas-upper-options button.is-incorrect{border-color:#ce6472;background:#fee8eb}
+.atlas-upper-options button:disabled{opacity:.7;cursor:default}
+.atlas-upper-result{min-height:25px;line-height:1.5;font-weight:650}
+.atlas-upper-hint{margin-top:12px;border:0;background:#e1eefc;color:#214e7d;border-radius:9px;padding:12px;font-weight:700;cursor:pointer}
+body.atlas-dark .atlas-upper-pilot{background:#13263f;color:#f3f9ff;border-color:#305a80}
+body.atlas-dark .atlas-upper-scene,body.atlas-dark .atlas-upper-options button{background:#203c58;color:white;border-color:#416484}
+@media(max-width:480px){.atlas-upper-options{grid-template-columns:1fr 1fr;gap:9px}.atlas-upper-options button{min-height:58px;padding:8px}.atlas-grade-switch button,.atlas-themes-grades button{flex:1 0 26%;min-width:72px!important}.atlas-expansion-note{font-size:12px}}

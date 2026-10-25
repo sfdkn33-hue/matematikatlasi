@@ -1,0 +1,9 @@
+/* v6.7 — local storage failure must remain visible, including narrow Android screens */
+#atlas67StorageBanner{position:sticky;top:0;z-index:5000;margin:0 auto;padding:14px 18px;max-width:920px;background:#fff5dd;color:#5c3100;border:3px solid #bc7500;border-radius:0 0 14px 14px;box-shadow:0 4px 15px #0003;font:inherit}
+#atlas67StorageBanner strong{color:#6b2e00;font-size:17px}
+#atlas67StorageBanner p{margin:7px 0;color:#573800;line-height:1.45}
+#atlas67StorageBanner button,#atlas67ManualBackup{border:2px solid #8a4800;background:#fff;color:#653300;border-radius:12px;min-height:44px;padding:10px 12px;font-weight:750;margin:4px 8px 4px 0;cursor:pointer}
+#atlas67StorageBanner textarea{width:100%;min-height:128px;background:#fff;color:#222;border:1px solid #946c42;font-size:13px}
+#atlas67StorageBanner [hidden]{display:none!important}
+#atlas67ManualBackup{display:block;margin:12px 0;}
+@media(max-width:520px){#atlas67StorageBanner{padding:12px}#atlas67StorageBanner button{width:100%;margin:4px 0}}

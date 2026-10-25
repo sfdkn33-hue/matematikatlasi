@@ -1,0 +1,24 @@
+#modelChallengeLab[hidden]{display:none!important}
+#modelChallengeLab{border:1px solid #5986a2;border-radius:18px;background:linear-gradient(140deg,#142a43,#17374a);padding:20px;margin:20px 0;color:#eaf8ff}
+#modelChallengeLab .mc-kicker{color:#8bf0d1;letter-spacing:.08em;font-size:.76rem;font-weight:800}
+#modelChallengeLab h3{margin:6px 0 12px;color:#fff}
+#modelChallengeLab .mc-question{font-weight:700;font-size:1.07rem}
+#modelChallengeLab .mc-instruction{color:#d2e5ee}
+#modelChallengeLab .mc-workspace{padding:12px 0}
+#modelChallengeLab .mc-button{min-width:42px;padding:10px 12px;min-height:44px;border:1px solid #6791ab;border-radius:10px;background:#21475b;color:white;cursor:pointer}
+#modelChallengeLab .mc-button:focus-visible{outline:3px solid #ffd18e;outline-offset:2px}
+#modelChallengeLab .mc-button[aria-pressed=true]{border-color:#aff3ce;background:#286751}
+#modelChallengeLab .mc-options,#modelChallengeLab .mc-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+#modelChallengeLab .mc-range{display:block;width:100%;accent-color:#75ecc1;margin:16px 0}
+#modelChallengeLab .mc-number{font-size:1.6rem;font-weight:800;color:#fff;display:block}
+#modelChallengeLab .mc-digits{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}
+#modelChallengeLab .mc-digit{min-width:0;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:5px;background:#0f2a42;padding:9px;border-radius:10px}
+#modelChallengeLab .mc-digit>span{width:100%;text-align:center;font-size:.8rem}
+#modelChallengeLab .mc-digit>strong{min-width:18px;text-align:center}
+#modelChallengeLab .mc-steps{display:grid;gap:8px;margin:12px 0}
+#modelChallengeLab .mc-step{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px;border:1px solid #4d809a;border-radius:10px}
+#modelChallengeLab .mc-input-label{display:block;font-weight:700;margin:15px 0}
+#modelChallengeLab .mc-input{display:block;padding:10px;color:#15273c;background:#fff;border-radius:8px;width:min(100%,280px);font-size:1.1rem}
+#modelChallengeLab .mc-status{padding:10px 13px;border-radius:10px;background:#214c55}
+#modelChallengeLab .mc-status[data-error=true]{background:#573a34}
+@media(max-width:450px){#modelChallengeLab{padding:12px}#modelChallengeLab .mc-digit{gap:3px;padding:6px}#modelChallengeLab .mc-button{padding:9px}}

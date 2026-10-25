@@ -1,0 +1,35 @@
+{
+  "total": 4037,
+  "fraction": 150,
+  "types": 15,
+  "independent_math_checks": 150,
+  "sample_ui_flows": 15,
+  "widths": {
+    "320": {
+      "window": 320,
+      "document": 320,
+      "coach": 272
+    },
+    "390": {
+      "window": 390,
+      "document": 390,
+      "coach": 342
+    },
+    "768": {
+      "window": 768,
+      "document": 768,
+      "coach": 701
+    },
+    "1280": {
+      "window": 1280,
+      "document": 1280,
+      "coach": 896
+    }
+  },
+  "errors": [],
+  "notes": [],
+  "field_variant_checks": 300,
+  "second_field_distinct_work": true,
+  "storage_denied_warning": true,
+  "storage_test": "test-only localStorage mock; production still native storage"
+}

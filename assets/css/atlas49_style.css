@@ -1,0 +1,54 @@
+/* v4.9 — açık, yüksek kontrastlı öğrenme yüzeyi. Eski oyunları silmez. */
+.atlas49-lab[hidden]{display:none!important}
+.atlas49-lab{box-sizing:border-box;margin:22px 0;padding:clamp(14px,2vw,24px);border:2px solid #bad7e5;border-radius:22px;background:#f3faff;color:#18384f;box-shadow:0 5px 22px #1a4d6712;line-height:1.6}
+.atlas49-lab *{box-sizing:border-box}
+.atlas49-lab h3{font-size:clamp(21px,3vw,27px);color:#153f60;margin:6px 0 4px}
+.v49-eyebrow{font-size:12px;letter-spacing:.05em;color:#146c7e;font-weight:800}
+.v49-subtitle{font-size:13px;color:#405d73;margin:0 0 14px}
+.v49-hero{text-align:center;border-radius:18px;background:white;border:1px solid #b9d5e5;color:#075c8b;padding:13px;font-size:clamp(29px,6vw,44px);font-weight:900;letter-spacing:.015em;overflow-wrap:anywhere;margin:12px 0}
+.v49-field{display:grid;gap:6px;min-width:0;font-size:14px;font-weight:750;color:#244d68;margin:11px 0}
+.v49-field input,.v49-field select,.v49-place select{background:#fff;color:#153952;border:2px solid #85b3ca;border-radius:11px;padding:11px;min-height:48px;width:100%;font:inherit;font-size:17px;min-width:0}
+.v49-field input:focus-visible,.v49-field select:focus-visible,.atlas49-lab button:focus-visible,.v49-place select:focus-visible{outline:3px solid #ed9e2b;outline-offset:3px}
+.v49-places{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px;margin:12px 0}
+.v49-place{min-width:0;border:1px solid #bdd7e2;background:#fff;border-radius:12px;padding:8px 5px;text-align:center;display:grid;gap:5px;align-content:center}
+.v49-place span{color:#365c72;font-size:clamp(10px,1.5vw,13px);font-weight:700;overflow-wrap:anywhere}
+.v49-place b{color:#096a8b;font-size:29px}.v49-place select{padding:5px;font-size:18px}
+.v49-preview{background:#e6f2fb;border-left:4px solid #167b9e;padding:12px;border-radius:10px;margin:14px 0;color:#164663;font-size:17px;font-weight:800;overflow-wrap:anywhere}
+.v49-note,.v49-hint{background:#e5f3e9;border:1px solid #b4d7c4;color:#245441;border-radius:12px;padding:9px 12px;font-size:14px}
+.v49-choices{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:16px 0}
+.v49-choices button{color:#173c56;background:#fff;border:2px solid #b0d0de;border-radius:12px;padding:12px;font-weight:720;text-align:left;min-height:50px;cursor:pointer}
+.v49-choices button[aria-pressed=true]{background:#d1f2e4;border-color:#078362;box-shadow:inset 0 0 0 1px #078362;color:#074734}
+.v49-twocol{display:grid;grid-template-columns:minmax(140px,210px) 1fr;align-items:center;gap:12px;background:#fff;border:1px solid #d1e3ed;border-radius:14px;margin:13px 0;padding:12px}
+.v49-twocol p{margin:7px 0}.v49-geometry{max-width:210px;width:100%;max-height:195px}
+.v49-pill{background:#daefe7;padding:6px 10px;border-radius:999px;color:#125a47;font-weight:800;display:inline-block}
+.v49-twoinputs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.v49-comparison{display:flex;gap:12px;align-items:center;justify-content:space-around;background:#fff;border-radius:14px;padding:16px;color:#124c73;font-weight:850;font-size:clamp(23px,4vw,36px)}
+.v49-scale{display:flex;gap:10px;align-items:center;color:#456779;font-size:12px}.v49-ruler{height:6px;flex:1;border-radius:99px;background:repeating-linear-gradient(90deg,#1681a4 0 2px,#d6e8f3 2px 10px)}
+.v49-rootbox{display:flex;justify-content:center;align-items:center;gap:12px;font-size:25px;font-weight:800;color:#125b82}
+.v49-controls{display:flex;gap:9px;flex-wrap:wrap;margin:14px 0}
+.v49-controls button{font:inherit;cursor:pointer;background:#086c91;color:white;border:2px solid #076287;border-radius:11px;min-height:48px;padding:10px 16px;font-weight:750}
+.v49-controls button.secondary{background:#e1eff8;color:#164d6b;border-color:#a8cada}
+.v49-status{background:#e4f6ee;color:#16553c;border-left:5px solid #139b70;border-radius:10px;padding:12px 14px;min-height:45px;font-weight:650}
+.v49-status[data-error=true]{background:#fff0e0;color:#784418;border-color:#db852a}
+@media(max-width:550px){.v49-places{grid-template-columns:repeat(3,minmax(0,1fr))}.v49-twocol{grid-template-columns:1fr}.v49-geometry{display:block;margin:auto}.v49-twoinputs{grid-template-columns:1fr}.v49-choices{grid-template-columns:1fr}}
+/* Eski koyu ondalık atölyesindeki metin ve sütun kontrast düzeltmesi. */
+.decimal-lab{background:#eef8ff!important;color:#173e58!important;border:2px solid #a4cee0!important}
+.decimal-lab h3,.decimal-lab p,.decimal-lab label,.decimal-lab .dc-teacher-note{color:#173e58!important}
+.decimal-lab .dc-kicker{color:#116d77!important}.decimal-lab .dc-hint{color:#36586b!important}
+.decimal-lab .dc-panel,.decimal-lab .dc-digit,.decimal-lab .dc-place-box{background:white!important;color:#194259!important;border-color:#a5c8da!important}
+.decimal-lab .dc-place-box span,.decimal-lab .dc-place-box strong{color:#144d6d!important}
+.decimal-lab .dc-field input,.decimal-lab .dc-digit select,.decimal-lab .dc-select{background:white!important;color:#153951!important;border-color:#6f9fb7!important}
+.decimal-lab .dc-result,.decimal-lab .dc-value{color:#076887!important}
+.decimal-lab .dc-status{background:#e0f1fa!important;color:#17516a!important}.decimal-lab .dc-status[data-error=true]{background:#fff0d6!important;color:#714712!important}
+.decimal-lab .dc-division{background:white!important;color:#194765!important;border-color:#a2c6d9!important}
+.decimal-lab .dc-btn{background:#176990!important;color:#fff!important}.decimal-lab .dc-btn.dc-picked{background:#c4efdf!important;color:#07513b!important;border-color:#08775a!important}
+.decimal-lab .dc-cell{background:#f4fbff!important;border-color:#819aaa!important}.decimal-lab .dc-cell.dc-painted{background:#068c80!important}
+.decimal-lab .dc-log,.decimal-lab .dc-line-labels{color:#214c63!important}
+/* Sütunlar için açık arka planda zor okunan etiketleri koyulaştır, sayıları görünür tut. */
+.statslab .st-colname,.statslab .st-colvalue,.statslab .st-legend,.statslab .st-axisnote{color:#f4fdff!important}
+.statslab .st-col{background:linear-gradient(180deg,#8ee9d0,#0a817c)!important;border:1px solid #74c9b4!important}
+/* 7. sınıf ve 8. sınıf eski labların üzerinde genel tipografi ve odak görünürlüğü */
+.atlas7-lab button,.atlas8-lab button,.atlas8-lab48 button{min-height:42px}
+@media(prefers-reduced-motion:reduce){.atlas49-lab *{transition:none!important;animation:none!important}}
+
+.v49-slices{display:block;width:100%;max-width:200px;margin:auto;max-height:220px}

@@ -1,0 +1,80 @@
+{
+  "version": "v6.8",
+  "active_grades": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "active_tasks": 4037,
+  "grade_counts": {
+    "5": 967,
+    "6": 1286,
+    "7": 899,
+    "8": 885
+  },
+  "grade8_playable_outcomes": 52,
+  "grade8_total_outcomes": 52,
+  "grade8_remaining": 0,
+  "grade7_covered_outputs": 30,
+  "exam_bank_question_variants": 854,
+  "lgs_pilot_question_count": 20,
+  "progress_key": "mathAtlas940Done",
+  "new_v53": 80,
+  "old_v52_preserved": 3471,
+  "old_v53_preserved": 3551,
+  "new_v54_grade7": 24,
+  "new_v54_grade8": 48,
+  "lgs_new_original_questions": 20,
+  "new_v55_grade7": 24,
+  "new_v55_grade8": 96,
+  "old_v54_preserved": 3623,
+  "new_v56_grade8": 110,
+  "old_v55_preserved": 3743,
+  "grade8_pilot_only": true,
+  "repeated_question_repair_count": 219,
+  "additional_reasons_count": 323,
+  "removed_teacher_review_flags": 200,
+  "v59_quality_review": {
+    "updated_tasks": 100,
+    "new_reasoning_models": {
+      "v59_net": 20,
+      "v59_root": 20,
+      "v59_circle": 20,
+      "v59_graph": 20,
+      "v59_balance": 20
+    },
+    "progress_key_unchanged": "mathAtlas940Done"
+  },
+  "v61_renewed_primary_tasks": 75,
+  "v61_task_total": 3885,
+  "v61_new_interaction_subtypes": 15,
+  "v61_unchanged_task_objects": 3810,
+  "v63_new_integrated_pilot_tasks": 36,
+  "v63_original_unchanged_tasks": 3885,
+  "v63_pilot_kazanims": [
+    "MAT.6.1.5",
+    "MAT.7.6.2",
+    "M.8.2.2.5"
+  ],
+  "v63_new_qa_status": "36/36 correct; 36/36 filled wrong rejected; 3 empty and 3 bypass rejected in Chromium HTML memory runtime",
+  "v63_scope_labels_only_new_tasks": true,
+  "v64_new_tasks": 24,
+  "v64_old_tasks_preserved": 3921,
+  "v64_tagged_pilot_tasks": 60,
+  "v64_spaced_review_steps_days": [
+    1,
+    7,
+    21
+  ],
+  "v64_attempt_store_key": "mathAtlas64Attempts",
+  "v64_attempt_logging_scope": "yalnız atlas63Pilot etiketli görevler",
+  "v66_integrated_tasks": 40,
+  "v66_old_task_objects_preserved": 3961,
+  "v66_pilot_monitored_tasks": 116,
+  "v66_visual_confirmation_required": true,
+  "v68_new_tasks": 36,
+  "v68_preserved_tasks": 4001,
+  "v68_tagged_pilot_tasks": 152,
+  "v68_qa_status": "QA pending"
+}

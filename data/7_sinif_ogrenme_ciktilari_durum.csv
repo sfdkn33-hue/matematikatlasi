@@ -1,0 +1,31 @@
+﻿islenis_sirasi,tema,ders_saati,ogrenme_ciktisi,kisa_aciklama,durum,gorev_sayisi,kaynak_url
+1,Sayılar ve Nicelikler (1),35,MAT.7.1.1,"Sayı kümeleri, rasyonel sayılar, mutlak değer ve sayı doğrusu",ilk_paket_uygulandi,23,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/463
+1,Sayılar ve Nicelikler (1),35,MAT.7.1.2,Rasyonel sayıların sonlu ve devirli ondalık gösterimleri,ilk_paket_uygulandi,20,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/463
+1,Sayılar ve Nicelikler (1),35,MAT.7.1.3,Rasyonel sayıları karşılaştırma ve sıralama,ilk_paket_uygulandi,20,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/463
+1,Sayılar ve Nicelikler (1),35,MAT.7.1.4,Rasyonel sayılarla işlemler ve problem çözme,ilk_paket_uygulandi,20,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/463
+2,Geometrik Nicelikler (1),19,MAT.7.4.1,Eş küplerle yapılar ve farklı yönlerden görünümler,ilk_paket_uygulandi,20,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/467
+2,Geometrik Nicelikler (1),19,MAT.7.4.2,Dikdörtgenler prizmasının yüzey alanı,ilk_paket_uygulandi,20,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/467
+2,Geometrik Nicelikler (1),19,MAT.7.4.3,Birim küplerle prizma hacmini yorumlama,ilk_paket_uygulandi,20,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/467
+2,Geometrik Nicelikler (1),19,MAT.7.4.4,Prizmanın hacim bağıntısını değerlendirme,ilk_paket_uygulandi,20,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/467
+2,Geometrik Nicelikler (1),19,MAT.7.4.5,Hacim ve sıvı ölçme birimleri,ilk_paket_uygulandi,20,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/467
+2,Geometrik Nicelikler (1),19,MAT.7.4.6,Prizmada yüzey alanı ve hacim problemleri,ilk_paket_uygulandi,20,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/467
+3,İstatistiksel Araştırma Süreci,24,MAT.7.6.1,İstatistiksel araştırma yapma ve veriye dayalı karar verme,ilk_paket_uygulandi,40,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/470
+3,İstatistiksel Araştırma Süreci,24,MAT.7.6.2,İstatistiksel sonuçlarda hata ve yanlılıkları tartışma,ilk_paket_uygulandi,40,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/470
+4,Dönüşüm,8,MAT.7.3.1,Yansıma dönüşümü ile şekil oluşturma,ilk_paket_uygulandi,30,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/466
+4,Dönüşüm,8,MAT.7.3.2,Orta dikme ve açıortay inşası,ilk_paket_uygulandi,30,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/466
+5,Geometrik Şekiller,6,MAT.7.5.1,"Üçgende kenarortay, açıortay ve yükseklik",ilk_paket_uygulandi,32,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/469
+5,Geometrik Şekiller,6,MAT.7.5.2,Üçgende kenarortay inşası,ilk_paket_uygulandi,24,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/469
+6,Sayılar ve Nicelikler (2),15,MAT.7.1.5,Oran ve birim oran üzerine muhakeme,ilk_paket_uygulandi,30,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/464
+6,Sayılar ve Nicelikler (2),15,MAT.7.1.6,Orantılı durumları yorumlama,ilk_paket_uygulandi,30,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/464
+6,Sayılar ve Nicelikler (2),15,MAT.7.1.7,Doğru orantıya dayalı problem çözme,ilk_paket_uygulandi,30,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/464
+7,Veriden Olasılığa,9,MAT.7.7.1,Bir olayın ve tümleyeninin olasılığı,ilk_paket_uygulandi,30,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/471
+7,Veriden Olasılığa,9,MAT.7.7.2,Eşit ve eşit olmayan olasılıklı olaylar,ilk_paket_uygulandi,30,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/471
+7,Veriden Olasılığa,9,MAT.7.7.3,Ayrık ve ayrık olmayan olaylar,ilk_paket_uygulandi,30,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/471
+8,İşlemlerle Cebirsel Düşünme ve Değişimler,38,MAT.7.2.1,Cebirsel ifadelerle işlemleri yorumlama,ilk_paket_uygulandi,20,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/465
+8,İşlemlerle Cebirsel Düşünme ve Değişimler,38,MAT.7.2.2,Denklem ve eşitsizlik problemlerini çözme,ilk_paket_uygulandi,20,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/465
+8,İşlemlerle Cebirsel Düşünme ve Değişimler,38,MAT.7.2.3,Sayıların özelliklerini ispatla gerekçelendirme,ilk_paket_uygulandi,20,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/465
+8,İşlemlerle Cebirsel Düşünme ve Değişimler,38,MAT.7.2.4,Aritmetik ve cebirsel algoritmalar kurma,ilk_paket_uygulandi,20,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/465
+9,Geometrik Nicelikler (2),18,MAT.7.4.7,Dairenin alan bağıntısı,planlandi,0,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/468
+9,Geometrik Nicelikler (2),18,MAT.7.4.8,Merkez açı ve daire diliminin alanı,planlandi,0,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/468
+9,Geometrik Nicelikler (2),18,MAT.7.4.9,Eşkenar dörtgen ve yamuğun alanı,planlandi,0,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/468
+9,Geometrik Nicelikler (2),18,MAT.7.4.10,"Daire, daire dilimi, dörtgen ve yamuk problemleri",planlandi,0,https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/468

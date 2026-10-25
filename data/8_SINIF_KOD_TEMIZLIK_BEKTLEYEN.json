@@ -1,0 +1,1014 @@
+{
+  "old_8_grade_unverified": 168,
+  "note": "ATLAS.8... kodlu eski soru kimliklerine/kodlarına dokunulmadı; her biri öğretmen tarafından denetlenip resmî koda ayrı sürümde eşlenecek.",
+  "items": [
+    {
+      "id": "ATLAS-Y8-01-01",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "Çarpanlar ve Katlar",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-02-01",
+      "old_outcome": "ATLAS.8.2018.EKOK",
+      "topic": "Çarpanlar ve Katlar",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-03-01",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü İfadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-04-01",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü İfadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-05-01",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü İfadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-06-01",
+      "old_outcome": "ATLAS.8.2018.BILIMSEL",
+      "topic": "Bilimsel gösterim",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-07-01",
+      "old_outcome": "ATLAS.8.2018.CEBIR",
+      "topic": "Cebirsel İfadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-08-01",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal Denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-09-01",
+      "old_outcome": "ATLAS.8.2018.OLASILIK",
+      "topic": "Olasılık",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-10-01",
+      "old_outcome": "ATLAS.8.2018.UCGEN",
+      "topic": "Üçgenler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-11-01",
+      "old_outcome": "ATLAS.8.2018.BENZERLIK",
+      "topic": "Eşlik ve Benzerlik",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-12-01",
+      "old_outcome": "ATLAS.8.2018.VERI",
+      "topic": "Veri Analizi",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-01-02",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "Çarpanlar ve Katlar",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-02-02",
+      "old_outcome": "ATLAS.8.2018.EKOK",
+      "topic": "Çarpanlar ve Katlar",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-03-02",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü İfadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-04-02",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü İfadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-05-02",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü İfadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-06-02",
+      "old_outcome": "ATLAS.8.2018.BILIMSEL",
+      "topic": "Bilimsel gösterim",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-07-02",
+      "old_outcome": "ATLAS.8.2018.CEBIR",
+      "topic": "Cebirsel İfadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-08-02",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal Denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-09-02",
+      "old_outcome": "ATLAS.8.2018.OLASILIK",
+      "topic": "Olasılık",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-10-02",
+      "old_outcome": "ATLAS.8.2018.UCGEN",
+      "topic": "Üçgenler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-11-02",
+      "old_outcome": "ATLAS.8.2018.BENZERLIK",
+      "topic": "Eşlik ve Benzerlik",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-Y8-12-02",
+      "old_outcome": "ATLAS.8.2018.VERI",
+      "topic": "Veri Analizi",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-K-01",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-O-01",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-Z-01",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-K-01",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-O-01",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-Z-01",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-K-01",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-O-01",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-Z-01",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-K-01",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-O-01",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-Z-01",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-K-02",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-O-02",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-Z-02",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-K-02",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-O-02",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-Z-02",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-K-02",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-O-02",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-Z-02",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-K-02",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-O-02",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-Z-02",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-K-03",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-O-03",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-Z-03",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-K-03",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-O-03",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-Z-03",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-K-03",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-O-03",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-Z-03",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-K-03",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-O-03",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-Z-03",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-K-04",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-O-04",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-Z-04",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-K-04",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-O-04",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-Z-04",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-K-04",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-O-04",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-Z-04",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-K-04",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-O-04",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-Z-04",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-K-05",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-O-05",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-Z-05",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-K-05",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-O-05",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-Z-05",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-K-05",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-O-05",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-Z-05",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-K-05",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-O-05",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-Z-05",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-K-06",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-O-06",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-Z-06",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-K-06",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-O-06",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-Z-06",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-K-06",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-O-06",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-Z-06",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-K-06",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-O-06",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-Z-06",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-K-07",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-O-07",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-Z-07",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-K-07",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-O-07",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-Z-07",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-K-07",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-O-07",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-Z-07",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-K-07",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-O-07",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-Z-07",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-K-08",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-O-08",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-Z-08",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-K-08",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-O-08",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-Z-08",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-K-08",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-O-08",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-Z-08",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-K-08",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-O-08",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-Z-08",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-K-09",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-O-09",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-Z-09",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-K-09",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-O-09",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-Z-09",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-K-09",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-O-09",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-Z-09",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-K-09",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-O-09",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-Z-09",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-K-10",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-O-10",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-Z-10",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-K-10",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-O-10",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-Z-10",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-K-10",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-O-10",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-Z-10",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-K-10",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-O-10",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-Z-10",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-K-11",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-O-11",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-Z-11",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-K-11",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-O-11",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-Z-11",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-K-11",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-O-11",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-Z-11",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-K-11",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-O-11",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-Z-11",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-K-12",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-O-12",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-GCD-Z-12",
+      "old_outcome": "ATLAS.8.2018.CARPAN",
+      "topic": "EBOB",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-K-12",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-O-12",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-POWER-Z-12",
+      "old_outcome": "ATLAS.8.2018.USLU",
+      "topic": "Üslü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-K-12",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-O-12",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-ROOT-Z-12",
+      "old_outcome": "ATLAS.8.2018.KAREKOK",
+      "topic": "Kareköklü ifadeler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-K-12",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-O-12",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    },
+    {
+      "id": "ATLAS-P8-LINE-Z-12",
+      "old_outcome": "ATLAS.8.2018.DENKLEM",
+      "topic": "Doğrusal denklemler",
+      "review": "required"
+    }
+  ]
+}

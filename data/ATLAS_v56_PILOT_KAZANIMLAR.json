@@ -1,0 +1,68 @@
+[
+  {
+    "kod": "M.8.3.3.1",
+    "aciklama": "Eş ve benzer çokgenlerin kenar-açı ilişkilerini belirler",
+    "etkinlik": "similarity_class",
+    "sayi": 10
+  },
+  {
+    "kod": "M.8.3.3.2",
+    "aciklama": "Benzerlik oranı belirler ve çokgeni ölçekleyerek oluşturur",
+    "etkinlik": "similarity_build",
+    "sayi": 10
+  },
+  {
+    "kod": "M.8.3.2.1",
+    "aciklama": "Öteleme sonucu görüntüyü oluşturur",
+    "etkinlik": "translate",
+    "sayi": 10
+  },
+  {
+    "kod": "M.8.3.2.2",
+    "aciklama": "Yansıma sonucu görüntüyü oluşturur",
+    "etkinlik": "reflect",
+    "sayi": 10
+  },
+  {
+    "kod": "M.8.3.2.3",
+    "aciklama": "İki ardışık öteleme ve yansıma ile çokgen görüntüsü oluşturur",
+    "etkinlik": "compose",
+    "sayi": 10
+  },
+  {
+    "kod": "M.8.3.4.1",
+    "aciklama": "Dik prizmaları tanır ve açınımlarını oluşturur",
+    "etkinlik": "prism",
+    "sayi": 10
+  },
+  {
+    "kod": "M.8.3.4.2",
+    "aciklama": "Dik dairesel silindiri tanır ve açınımını oluşturur",
+    "etkinlik": "cylinder_net",
+    "sayi": 10
+  },
+  {
+    "kod": "M.8.3.4.3",
+    "aciklama": "Dik dairesel silindir yüzey alanı ilişkisini kurar",
+    "etkinlik": "cylinder_area",
+    "sayi": 10
+  },
+  {
+    "kod": "M.8.3.4.4",
+    "aciklama": "Dik dairesel silindir hacim ilişkisini kurar",
+    "etkinlik": "cylinder_volume",
+    "sayi": 10
+  },
+  {
+    "kod": "M.8.3.4.5",
+    "aciklama": "Dik piramidin temel elemanlarını ve açınımını belirler",
+    "etkinlik": "pyramid",
+    "sayi": 10
+  },
+  {
+    "kod": "M.8.3.4.6",
+    "aciklama": "Dik koninin temel elemanlarını ve açınımını belirler",
+    "etkinlik": "cone",
+    "sayi": 10
+  }
+]

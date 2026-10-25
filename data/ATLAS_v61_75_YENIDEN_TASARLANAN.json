@@ -1,0 +1,452 @@
+[
+  {
+    "id": "MAT.7.6.2-G01-V37",
+    "family": "stats7",
+    "kind": "axis",
+    "question": "Okul bahçesi: A grubunda 18, B grubunda 21 katılım ölçüldü. Grafiğin ekseni 16 değerinden başlıyor. Sütunların görsel boylarına bakarak “B, A’nın iki katından fazladır” demek doğru mu? Gerçek farkı bul."
+  },
+  {
+    "id": "MAT.7.6.2-G02-V37",
+    "family": "stats7",
+    "kind": "claim",
+    "question": "Kütüphane: Geçen dönem 20, bu dönem 24 katılım var. “Katılım en az %25 arttı” iddiasını veriye dayanarak incele. Gerçek artış yüzdesini hesapla."
+  },
+  {
+    "id": "MAT.7.6.2-G03-V37",
+    "family": "stats7",
+    "kind": "compare",
+    "question": "Spor salonu: A grubunun 22, B grubunun 27 gözlemi var. Bir araştırmacı yalnız sütun yüksekliğini gördüğü için farkın 10 olduğunu söylüyor. Doğru farkı ve verilerden çıkarılabilen yargıyı seç."
+  },
+  {
+    "id": "MAT.7.6.2-G04-V37",
+    "family": "stats7",
+    "kind": "axis",
+    "question": "Bisiklet yolu: A grubunda 24, B grubunda 30 katılım ölçüldü. Grafiğin ekseni 19 değerinden başlıyor. Sütunların görsel boylarına bakarak “B, A’nın iki katından fazladır” demek doğru mu? Gerçek farkı bul."
+  },
+  {
+    "id": "MAT.7.6.2-G05-V37",
+    "family": "stats7",
+    "kind": "claim",
+    "question": "Bilim şenliği: Geçen dönem 26, bu dönem 33 katılım var. “Katılım en az %25 arttı” iddiasını veriye dayanarak incele. Gerçek artış yüzdesini hesapla."
+  },
+  {
+    "id": "MAT.7.6.2-G06-V37",
+    "family": "stats7",
+    "kind": "compare",
+    "question": "Geri dönüşüm atölyesi: A grubunun 28, B grubunun 36 gözlemi var. Bir araştırmacı yalnız sütun yüksekliğini gördüğü için farkın 13 olduğunu söylüyor. Doğru farkı ve verilerden çıkarılabilen yargıyı seç."
+  },
+  {
+    "id": "MAT.7.6.2-G07-V37",
+    "family": "stats7",
+    "kind": "axis",
+    "question": "Botanik bahçesi: A grubunda 30, B grubunda 39 katılım ölçüldü. Grafiğin ekseni 27 değerinden başlıyor. Sütunların görsel boylarına bakarak “B, A’nın iki katından fazladır” demek doğru mu? Gerçek farkı bul."
+  },
+  {
+    "id": "MAT.7.6.2-G08-V37",
+    "family": "stats7",
+    "kind": "claim",
+    "question": "Ulaşım planı: Geçen dönem 32, bu dönem 35 katılım var. “Katılım en az %25 arttı” iddiasını veriye dayanarak incele. Gerçek artış yüzdesini hesapla."
+  },
+  {
+    "id": "MAT.7.6.2-G09-V37",
+    "family": "stats7",
+    "kind": "compare",
+    "question": "Müze gezisi: A grubunun 34, B grubunun 38 gözlemi var. Bir araştırmacı yalnız sütun yüksekliğini gördüğü için farkın 9 olduğunu söylüyor. Doğru farkı ve verilerden çıkarılabilen yargıyı seç."
+  },
+  {
+    "id": "MAT.7.6.2-G10-V37",
+    "family": "stats7",
+    "kind": "axis",
+    "question": "Sağlıklı yaşam etkinliği: A grubunda 36, B grubunda 41 katılım ölçüldü. Grafiğin ekseni 30 değerinden başlıyor. Sütunların görsel boylarına bakarak “B, A’nın iki katından fazladır” demek doğru mu? Gerçek farkı bul."
+  },
+  {
+    "id": "MAT.7.6.2-G11-V37",
+    "family": "stats7",
+    "kind": "claim",
+    "question": "Kamp malzemeleri: Geçen dönem 38, bu dönem 44 katılım var. “Katılım en az %25 arttı” iddiasını veriye dayanarak incele. Gerçek artış yüzdesini hesapla."
+  },
+  {
+    "id": "MAT.7.6.2-G12-V37",
+    "family": "stats7",
+    "kind": "compare",
+    "question": "Teknoloji kulübü: A grubunun 40, B grubunun 47 gözlemi var. Bir araştırmacı yalnız sütun yüksekliğini gördüğü için farkın 12 olduğunu söylüyor. Doğru farkı ve verilerden çıkarılabilen yargıyı seç."
+  },
+  {
+    "id": "MAT.7.6.2-G13-V37",
+    "family": "stats7",
+    "kind": "axis",
+    "question": "Kermes: A grubunda 42, B grubunda 50 katılım ölçüldü. Grafiğin ekseni 38 değerinden başlıyor. Sütunların görsel boylarına bakarak “B, A’nın iki katından fazladır” demek doğru mu? Gerçek farkı bul."
+  },
+  {
+    "id": "MAT.7.6.2-G14-V37",
+    "family": "stats7",
+    "kind": "claim",
+    "question": "Doğa gözlemi: Geçen dönem 44, bu dönem 53 katılım var. “Katılım en az %25 arttı” iddiasını veriye dayanarak incele. Gerçek artış yüzdesini hesapla."
+  },
+  {
+    "id": "MAT.7.6.2-G15-V37",
+    "family": "stats7",
+    "kind": "compare",
+    "question": "Köy pazarı: A grubunun 46, B grubunun 49 gözlemi var. Bir araştırmacı yalnız sütun yüksekliğini gördüğü için farkın 8 olduğunu söylüyor. Doğru farkı ve verilerden çıkarılabilen yargıyı seç."
+  },
+  {
+    "id": "MAT.7.1.7-G01-V40",
+    "family": "ratio7",
+    "kind": "table",
+    "question": "Okul bahçesi: 2 eş pakette 6 ürün var. Aynı düzenle 4 pakette kaç ürün olur? İki satırlı oran tablosunu tamamla ve neden aynı katsayıyı kullandığını belirle."
+  },
+  {
+    "id": "MAT.7.1.7-G02-V40",
+    "family": "ratio7",
+    "kind": "price",
+    "question": "Kütüphane: A satıcısı 3 birim ürün için 18 TL, B satıcısı aynı 3 birim için 15 TL istiyor. Birim fiyatları bulup ekonomik seçeneği seç."
+  },
+  {
+    "id": "MAT.7.1.7-G03-V40",
+    "family": "ratio7",
+    "kind": "error",
+    "question": "Spor salonu: 4 ölçü birimi için 36 çıktı elde edildi. Bir öğrenci 16 birim için 48 çıktı olacağını öne sürüyor. Doğru orantıya göre gerçek çıktıyı hesapla ve iddiayı değerlendir."
+  },
+  {
+    "id": "MAT.7.1.7-G04-V40",
+    "family": "ratio7",
+    "kind": "table",
+    "question": "Bisiklet yolu: 5 eş pakette 25 ürün var. Aynı düzenle 25 pakette kaç ürün olur? İki satırlı oran tablosunu tamamla ve neden aynı katsayıyı kullandığını belirle."
+  },
+  {
+    "id": "MAT.7.1.7-G05-V40",
+    "family": "ratio7",
+    "kind": "price",
+    "question": "Bilim şenliği: A satıcısı 6 birim ürün için 48 TL, B satıcısı aynı 6 birim için 60 TL istiyor. Birim fiyatları bulup ekonomik seçeneği seç."
+  },
+  {
+    "id": "MAT.7.1.7-G06-V40",
+    "family": "ratio7",
+    "kind": "error",
+    "question": "Geri dönüşüm atölyesi: 2 ölçü birimi için 8 çıktı elde edildi. Bir öğrenci 6 birim için 12 çıktı olacağını öne sürüyor. Doğru orantıya göre gerçek çıktıyı hesapla ve iddiayı değerlendir."
+  },
+  {
+    "id": "MAT.7.1.7-G07-V40",
+    "family": "ratio7",
+    "kind": "table",
+    "question": "Botanik bahçesi: 3 eş pakette 21 ürün var. Aynı düzenle 12 pakette kaç ürün olur? İki satırlı oran tablosunu tamamla ve neden aynı katsayıyı kullandığını belirle."
+  },
+  {
+    "id": "MAT.7.1.7-G08-V40",
+    "family": "ratio7",
+    "kind": "price",
+    "question": "Ulaşım planı: A satıcısı 4 birim ürün için 12 TL, B satıcısı aynı 4 birim için 8 TL istiyor. Birim fiyatları bulup ekonomik seçeneği seç."
+  },
+  {
+    "id": "MAT.7.1.7-G09-V40",
+    "family": "ratio7",
+    "kind": "error",
+    "question": "Müze gezisi: 5 ölçü birimi için 30 çıktı elde edildi. Bir öğrenci 10 birim için 35 çıktı olacağını öne sürüyor. Doğru orantıya göre gerçek çıktıyı hesapla ve iddiayı değerlendir."
+  },
+  {
+    "id": "MAT.7.1.7-G10-V40",
+    "family": "ratio7",
+    "kind": "table",
+    "question": "Sağlıklı yaşam etkinliği: 6 eş pakette 54 ürün var. Aynı düzenle 18 pakette kaç ürün olur? İki satırlı oran tablosunu tamamla ve neden aynı katsayıyı kullandığını belirle."
+  },
+  {
+    "id": "MAT.7.1.7-G11-V40",
+    "family": "ratio7",
+    "kind": "price",
+    "question": "Kamp malzemeleri: A satıcısı 2 birim ürün için 10 TL, B satıcısı aynı 2 birim için 14 TL istiyor. Birim fiyatları bulup ekonomik seçeneği seç."
+  },
+  {
+    "id": "MAT.7.1.7-G12-V40",
+    "family": "ratio7",
+    "kind": "error",
+    "question": "Teknoloji kulübü: 3 ölçü birimi için 24 çıktı elde edildi. Bir öğrenci 15 birim için 36 çıktı olacağını öne sürüyor. Doğru orantıya göre gerçek çıktıyı hesapla ve iddiayı değerlendir."
+  },
+  {
+    "id": "MAT.7.1.7-G13-V40",
+    "family": "ratio7",
+    "kind": "table",
+    "question": "Kermes: 4 eş pakette 16 ürün var. Aynı düzenle 8 pakette kaç ürün olur? İki satırlı oran tablosunu tamamla ve neden aynı katsayıyı kullandığını belirle."
+  },
+  {
+    "id": "MAT.7.1.7-G14-V40",
+    "family": "ratio7",
+    "kind": "price",
+    "question": "Doğa gözlemi: A satıcısı 5 birim ürün için 35 TL, B satıcısı aynı 5 birim için 30 TL istiyor. Birim fiyatları bulup ekonomik seçeneği seç."
+  },
+  {
+    "id": "MAT.7.1.7-G15-V40",
+    "family": "ratio7",
+    "kind": "error",
+    "question": "Köy pazarı: 6 ölçü birimi için 18 çıktı elde edildi. Bir öğrenci 24 birim için 36 çıktı olacağını öne sürüyor. Doğru orantıya göre gerçek çıktıyı hesapla ve iddiayı değerlendir."
+  },
+  {
+    "id": "M.8.4.1.2-V51-001",
+    "family": "graph8",
+    "kind": "pie",
+    "question": "Okul bahçesi: A, B ve C kategorilerinin değerleri sırasıyla [3, 5, 7]. A grubuna karşılık gelen daire diliminin merkez açısını bul. Sonucu gerekirse ondalık yaz."
+  },
+  {
+    "id": "M.8.4.1.2-V51-002",
+    "family": "graph8",
+    "kind": "share",
+    "question": "Kütüphane: Bir sütun grafiğinde A=4, B=7, C=10. B grubunun toplam içindeki yüzde payını hesaplayıp ilgili sütunu belirle."
+  },
+  {
+    "id": "M.8.4.1.2-V51-003",
+    "family": "graph8",
+    "kind": "compare",
+    "question": "Spor salonu: Üç kategorinin değerleri A=5, B=9, C=8. En yüksek sütunu seç ve en büyük–en küçük değer farkını hesapla."
+  },
+  {
+    "id": "M.8.4.1.2-V51-004",
+    "family": "graph8",
+    "kind": "pie",
+    "question": "Bisiklet yolu: A, B ve C kategorilerinin değerleri sırasıyla [6, 11, 11]. A grubuna karşılık gelen daire diliminin merkez açısını bul. Sonucu gerekirse ondalık yaz."
+  },
+  {
+    "id": "M.8.4.1.2-V51-005",
+    "family": "graph8",
+    "kind": "share",
+    "question": "Bilim şenliği: Bir sütun grafiğinde A=7, B=6, C=9. B grubunun toplam içindeki yüzde payını hesaplayıp ilgili sütunu belirle."
+  },
+  {
+    "id": "M.8.4.1.2-V51-006",
+    "family": "graph8",
+    "kind": "compare",
+    "question": "Geri dönüşüm atölyesi: Üç kategorinin değerleri A=3, B=8, C=7. En yüksek sütunu seç ve en büyük–en küçük değer farkını hesapla."
+  },
+  {
+    "id": "M.8.4.1.2-V51-007",
+    "family": "graph8",
+    "kind": "pie",
+    "question": "Botanik bahçesi: A, B ve C kategorilerinin değerleri sırasıyla [4, 10, 10]. A grubuna karşılık gelen daire diliminin merkez açısını bul. Sonucu gerekirse ondalık yaz."
+  },
+  {
+    "id": "M.8.4.1.2-V51-008",
+    "family": "graph8",
+    "kind": "share",
+    "question": "Ulaşım planı: Bir sütun grafiğinde A=5, B=5, C=8. B grubunun toplam içindeki yüzde payını hesaplayıp ilgili sütunu belirle."
+  },
+  {
+    "id": "M.8.4.1.2-V51-009",
+    "family": "graph8",
+    "kind": "compare",
+    "question": "Müze gezisi: Üç kategorinin değerleri A=6, B=7, C=11. En yüksek sütunu seç ve en büyük–en küçük değer farkını hesapla."
+  },
+  {
+    "id": "M.8.4.1.2-V51-010",
+    "family": "graph8",
+    "kind": "pie",
+    "question": "Sağlıklı yaşam etkinliği: A, B ve C kategorilerinin değerleri sırasıyla [7, 9, 9]. A grubuna karşılık gelen daire diliminin merkez açısını bul. Sonucu gerekirse ondalık yaz."
+  },
+  {
+    "id": "M.8.4.1.2-V51-011",
+    "family": "graph8",
+    "kind": "share",
+    "question": "Kamp malzemeleri: Bir sütun grafiğinde A=3, B=11, C=7. B grubunun toplam içindeki yüzde payını hesaplayıp ilgili sütunu belirle."
+  },
+  {
+    "id": "M.8.4.1.2-V51-012",
+    "family": "graph8",
+    "kind": "compare",
+    "question": "Teknoloji kulübü: Üç kategorinin değerleri A=4, B=6, C=10. En yüksek sütunu seç ve en büyük–en küçük değer farkını hesapla."
+  },
+  {
+    "id": "M.8.4.1.2-V51-013",
+    "family": "graph8",
+    "kind": "pie",
+    "question": "Kermes: A, B ve C kategorilerinin değerleri sırasıyla [5, 8, 8]. A grubuna karşılık gelen daire diliminin merkez açısını bul. Sonucu gerekirse ondalık yaz."
+  },
+  {
+    "id": "M.8.4.1.2-V51-014",
+    "family": "graph8",
+    "kind": "share",
+    "question": "Doğa gözlemi: Bir sütun grafiğinde A=6, B=10, C=11. B grubunun toplam içindeki yüzde payını hesaplayıp ilgili sütunu belirle."
+  },
+  {
+    "id": "M.8.4.1.2-V51-015",
+    "family": "graph8",
+    "kind": "compare",
+    "question": "Köy pazarı: Üç kategorinin değerleri A=7, B=5, C=9. En yüksek sütunu seç ve en büyük–en küçük değer farkını hesapla."
+  },
+  {
+    "id": "M.8.2.1.2-V53-001",
+    "family": "algebra8",
+    "kind": "grid",
+    "question": "Okul bahçesi: (1x + 2)(1x − 1) için dört hücreli alan tablosunu kur. x², iki farklı x hücresi ve sabit alanı doğru yerleştir."
+  },
+  {
+    "id": "M.8.2.1.2-V53-002",
+    "family": "algebra8",
+    "kind": "error",
+    "question": "Kütüphane: (2x + 2)(-2x − 1) çarpımı için bir öğrenci ikinci hücreye yanlış katsayı yazdı. Hatalı hücreyi belirle, doğru hücre katsayısını ve sadeleşmiş x katsayısını bul."
+  },
+  {
+    "id": "M.8.2.1.2-V53-003",
+    "family": "algebra8",
+    "kind": "coeff",
+    "question": "Spor salonu: Kenarları (-1x + 2) ve (3x + 3) olan cebirsel dikdörtgenin alanının x², x ve sabit katsayılarını çıkar."
+  },
+  {
+    "id": "M.8.2.1.2-V53-004",
+    "family": "algebra8",
+    "kind": "grid",
+    "question": "Bisiklet yolu: (3x − 3)(-1x + 3) için dört hücreli alan tablosunu kur. x², iki farklı x hücresi ve sabit alanı doğru yerleştir."
+  },
+  {
+    "id": "M.8.2.1.2-V53-005",
+    "family": "algebra8",
+    "kind": "error",
+    "question": "Bilim şenliği: (-2x − 3)(2x + 2) çarpımı için bir öğrenci ikinci hücreye yanlış katsayı yazdı. Hatalı hücreyi belirle, doğru hücre katsayısını ve sadeleşmiş x katsayısını bul."
+  },
+  {
+    "id": "M.8.2.1.2-V53-006",
+    "family": "algebra8",
+    "kind": "coeff",
+    "question": "Geri dönüşüm atölyesi: Kenarları (1x − 3) ve (1x + 2) olan cebirsel dikdörtgenin alanının x², x ve sabit katsayılarını çıkar."
+  },
+  {
+    "id": "M.8.2.1.2-V53-007",
+    "family": "algebra8",
+    "kind": "grid",
+    "question": "Botanik bahçesi: (2x + 4)(-2x − 2) için dört hücreli alan tablosunu kur. x², iki farklı x hücresi ve sabit alanı doğru yerleştir."
+  },
+  {
+    "id": "M.8.2.1.2-V53-008",
+    "family": "algebra8",
+    "kind": "error",
+    "question": "Ulaşım planı: (-1x + 4)(3x − 2) çarpımı için bir öğrenci ikinci hücreye yanlış katsayı yazdı. Hatalı hücreyi belirle, doğru hücre katsayısını ve sadeleşmiş x katsayısını bul."
+  },
+  {
+    "id": "M.8.2.1.2-V53-009",
+    "family": "algebra8",
+    "kind": "coeff",
+    "question": "Müze gezisi: Kenarları (3x + 4) ve (-1x + 1) olan cebirsel dikdörtgenin alanının x², x ve sabit katsayılarını çıkar."
+  },
+  {
+    "id": "M.8.2.1.2-V53-010",
+    "family": "algebra8",
+    "kind": "grid",
+    "question": "Sağlıklı yaşam etkinliği: (-2x + 1)(2x + 1) için dört hücreli alan tablosunu kur. x², iki farklı x hücresi ve sabit alanı doğru yerleştir."
+  },
+  {
+    "id": "M.8.2.1.2-V53-011",
+    "family": "algebra8",
+    "kind": "error",
+    "question": "Kamp malzemeleri: (1x + 1)(1x − 1) çarpımı için bir öğrenci ikinci hücreye yanlış katsayı yazdı. Hatalı hücreyi belirle, doğru hücre katsayısını ve sadeleşmiş x katsayısını bul."
+  },
+  {
+    "id": "M.8.2.1.2-V53-012",
+    "family": "algebra8",
+    "kind": "coeff",
+    "question": "Teknoloji kulübü: Kenarları (2x + 1) ve (-2x − 1) olan cebirsel dikdörtgenin alanının x², x ve sabit katsayılarını çıkar."
+  },
+  {
+    "id": "M.8.2.1.2-V53-013",
+    "family": "algebra8",
+    "kind": "grid",
+    "question": "Kermes: (-1x − 2)(3x + 3) için dört hücreli alan tablosunu kur. x², iki farklı x hücresi ve sabit alanı doğru yerleştir."
+  },
+  {
+    "id": "M.8.2.1.2-V53-014",
+    "family": "algebra8",
+    "kind": "error",
+    "question": "Doğa gözlemi: (3x − 2)(-1x + 3) çarpımı için bir öğrenci ikinci hücreye yanlış katsayı yazdı. Hatalı hücreyi belirle, doğru hücre katsayısını ve sadeleşmiş x katsayısını bul."
+  },
+  {
+    "id": "M.8.2.1.2-V53-015",
+    "family": "algebra8",
+    "kind": "coeff",
+    "question": "Köy pazarı: Kenarları (-2x − 2) ve (2x + 2) olan cebirsel dikdörtgenin alanının x², x ve sabit katsayılarını çıkar."
+  },
+  {
+    "id": "M.8.5.1.5-V52-001",
+    "family": "prob8",
+    "kind": "bag",
+    "question": "Okul bahçesi: Torbada 2 kırmızı, 3 mavi, 1 yeşil bilye var. Rastgele tek bilye çekiliyor. Kırmızı gelme olasılığını kesir olarak kur."
+  },
+  {
+    "id": "M.8.5.1.5-V52-002",
+    "family": "prob8",
+    "kind": "balance",
+    "question": "Kütüphane: Torbada 3 kırmızı ve 5 mavi bilye var. Yalnız kırmızı bilye ekleyerek iki rengin olasılığını eşitlemek için gereken en az eklemeyi modelle."
+  },
+  {
+    "id": "M.8.5.1.5-V52-003",
+    "family": "prob8",
+    "kind": "complement",
+    "question": "Spor salonu: Torbada 4 kırmızı, 7 mavi, 3 yeşil bilye var. Mavi gelmeme olasılığını tümleyen olay üzerinden bul ve pay–payda ile göster."
+  },
+  {
+    "id": "M.8.5.1.5-V52-004",
+    "family": "prob8",
+    "kind": "bag",
+    "question": "Bisiklet yolu: Torbada 5 kırmızı, 9 mavi, 4 yeşil bilye var. Rastgele tek bilye çekiliyor. Kırmızı gelme olasılığını kesir olarak kur."
+  },
+  {
+    "id": "M.8.5.1.5-V52-005",
+    "family": "prob8",
+    "kind": "balance",
+    "question": "Bilim şenliği: Torbada 6 kırmızı ve 11 mavi bilye var. Yalnız kırmızı bilye ekleyerek iki rengin olasılığını eşitlemek için gereken en az eklemeyi modelle."
+  },
+  {
+    "id": "M.8.5.1.5-V52-006",
+    "family": "prob8",
+    "kind": "complement",
+    "question": "Geri dönüşüm atölyesi: Torbada 7 kırmızı, 8 mavi, 2 yeşil bilye var. Mavi gelmeme olasılığını tümleyen olay üzerinden bul ve pay–payda ile göster."
+  },
+  {
+    "id": "M.8.5.1.5-V52-007",
+    "family": "prob8",
+    "kind": "bag",
+    "question": "Botanik bahçesi: Torbada 2 kırmızı, 4 mavi, 3 yeşil bilye var. Rastgele tek bilye çekiliyor. Kırmızı gelme olasılığını kesir olarak kur."
+  },
+  {
+    "id": "M.8.5.1.5-V52-008",
+    "family": "prob8",
+    "kind": "balance",
+    "question": "Ulaşım planı: Torbada 3 kırmızı ve 6 mavi bilye var. Yalnız kırmızı bilye ekleyerek iki rengin olasılığını eşitlemek için gereken en az eklemeyi modelle."
+  },
+  {
+    "id": "M.8.5.1.5-V52-009",
+    "family": "prob8",
+    "kind": "complement",
+    "question": "Müze gezisi: Torbada 4 kırmızı, 8 mavi, 1 yeşil bilye var. Mavi gelmeme olasılığını tümleyen olay üzerinden bul ve pay–payda ile göster."
+  },
+  {
+    "id": "M.8.5.1.5-V52-010",
+    "family": "prob8",
+    "kind": "bag",
+    "question": "Sağlıklı yaşam etkinliği: Torbada 5 kırmızı, 10 mavi, 2 yeşil bilye var. Rastgele tek bilye çekiliyor. Kırmızı gelme olasılığını kesir olarak kur."
+  },
+  {
+    "id": "M.8.5.1.5-V52-011",
+    "family": "prob8",
+    "kind": "balance",
+    "question": "Kamp malzemeleri: Torbada 6 kırmızı ve 7 mavi bilye var. Yalnız kırmızı bilye ekleyerek iki rengin olasılığını eşitlemek için gereken en az eklemeyi modelle."
+  },
+  {
+    "id": "M.8.5.1.5-V52-012",
+    "family": "prob8",
+    "kind": "complement",
+    "question": "Teknoloji kulübü: Torbada 7 kırmızı, 9 mavi, 4 yeşil bilye var. Mavi gelmeme olasılığını tümleyen olay üzerinden bul ve pay–payda ile göster."
+  },
+  {
+    "id": "M.8.5.1.5-V52-013",
+    "family": "prob8",
+    "kind": "bag",
+    "question": "Kermes: Torbada 2 kırmızı, 5 mavi, 1 yeşil bilye var. Rastgele tek bilye çekiliyor. Kırmızı gelme olasılığını kesir olarak kur."
+  },
+  {
+    "id": "M.8.5.1.5-V52-014",
+    "family": "prob8",
+    "kind": "balance",
+    "question": "Doğa gözlemi: Torbada 3 kırmızı ve 7 mavi bilye var. Yalnız kırmızı bilye ekleyerek iki rengin olasılığını eşitlemek için gereken en az eklemeyi modelle."
+  },
+  {
+    "id": "M.8.5.1.5-V52-015",
+    "family": "prob8",
+    "kind": "complement",
+    "question": "Köy pazarı: Torbada 4 kırmızı, 9 mavi, 3 yeşil bilye var. Mavi gelmeme olasılığını tümleyen olay üzerinden bul ve pay–payda ile göster."
+  }
+]

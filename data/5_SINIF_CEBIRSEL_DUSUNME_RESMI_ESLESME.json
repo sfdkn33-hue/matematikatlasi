@@ -1,0 +1,31 @@
+{
+  "program": "Türkiye Yüzyılı Maarif Modeli · Ortaokul Matematik 5. Sınıf · 2. Tema",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/450",
+  "ders_saati": 20,
+  "resmi_metinler": {
+    "MAT.5.2.1": "Eşitliğin korunumuna ve işlem özelliklerine yönelik çıkarım yapabilme",
+    "MAT.5.2.2": "Karşılaştığı günlük hayat ya da matematiksel durumlarda işlem önceliğini yorumlayabilme",
+    "MAT.5.2.3": "Sayı ve şekil örüntülerinin kuralına ilişkin muhakeme yapabilme",
+    "MAT.5.2.4": "Temel aritmetik işlem içeren durumlardaki algoritmaları yorumlayabilme"
+  },
+  "alan_becerileri": [
+    "MAB1. Matematiksel Muhakeme"
+  ],
+  "kavramsal_beceriler": [
+    "KB2.10. Çıkarım Yapma",
+    "KB2.14. Yorumlama"
+  ],
+  "egilimler": [
+    "E3.3. Yaratıcılık",
+    "E3.7. Sistematiklik"
+  ],
+  "degerler": [
+    "D3. Çalışkanlık",
+    "D11. Özgürlük",
+    "D17. Tasarruf"
+  ],
+  "okuryazarlik": [
+    "OB4. Görsel Okuryazarlık"
+  ],
+  "not": "Bileşen eşlemesi tema düzeyindedir; her bir göreve ayrı resmî MEB ataması yapıldığı iddia edilmez."
+}

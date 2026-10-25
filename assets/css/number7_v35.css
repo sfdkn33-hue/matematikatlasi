@@ -1,0 +1,34 @@
+
+/* v3.5 Seven-grade interactive lab, accessible mobile-first */
+.atlas7-lab{max-width:790px;margin:18px auto;border:2px solid #b6d9ed;background:linear-gradient(145deg,#f1f9ff,#fffef8);padding:clamp(14px,2.7vw,25px);border-radius:20px;color:#153852;box-shadow:0 9px 28px #12476618}
+.atlas7-lab[hidden]{display:none!important}
+.atlas7-head{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;font-size:13px;font-weight:850;letter-spacing:.015em;color:#236f9c;margin-bottom:14px}
+.atlas7-mode{font-size:12px;color:#326d58;background:#dcf4e9;border-radius:99px;padding:7px 11px}
+.atlas7-stage{min-height:154px;background:#fff;padding:clamp(12px,3vw,22px);border:1px solid #d0e4ee;border-radius:16px}
+.atlas7-note{margin:12px 2px 0;min-height:32px;font-size:15px;line-height:1.6;color:#304e65;font-weight:650}
+.atlas7-note.good{color:#087452}.atlas7-note.bad{color:#af4255}
+.atlas7-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px}
+.atlas7-actions button{padding:13px 16px;border-radius:12px;min-height:48px;border:2px solid #b5d3e5;background:#e9f5ff;color:#18466c;font-weight:800;cursor:pointer}
+.atlas7-actions #atlas7Verify{color:#fff;background:#226fbd;border-color:#226fbd}
+.atlas7-actions button:focus-visible,.atlas7-stage button:focus-visible,.atlas7-stage input:focus-visible{outline:3px solid #d98719;outline-offset:3px}
+.atlas7-footer{font-size:12px;color:#5d7585;margin:12px 2px 0}
+.atlas7-ticks{display:flex;justify-content:space-between;gap:0;color:#567386;font-size:10px;margin-top:4px}
+.atlas7-line{width:100%;accent-color:#137db4;margin-top:23px;min-height:33px;touch-action:pan-y}
+.atlas7-value{font-size:22px;font-weight:900;text-align:center;margin-bottom:10px;color:#1a527a}
+.atlas7-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.atlas7-cards button{min-height:65px;border:2px solid #a8cadb;background:#f7fcff;border-radius:13px;font-size:clamp(18px,3vw,23px);color:#153e5c;font-weight:850;cursor:pointer;padding:10px}
+.atlas7-cards button[aria-pressed="true"]{background:#d7f0ff;border-color:#167baa}
+.atlas7-picked{margin-bottom:14px;padding:12px;border-radius:12px;background:#eef6fd;color:#1b516f;min-height:42px;font-weight:800;line-height:1.5}
+.atlas7-picked:empty:before{content:'Önce en küçük sayıdan başlayarak kartlara dokun.';font-weight:600;color:#56788d}
+.atlas7-cards button:disabled{opacity:.35;cursor:not-allowed}
+.atlas7-strips{display:flex;gap:3px;margin:15px 0;min-height:58px}
+.atlas7-strips div{flex:1;min-width:0;border:1px solid #7ab1c8;background:#f0f8ff;border-radius:6px;transition:background .15s}
+.atlas7-strips div.painted{background:#43a7e3;border-color:#277ba8}
+.atlas7-frac-adjust{display:flex;gap:19px;align-items:center;justify-content:center;margin-top:18px}
+.atlas7-frac-adjust button{width:57px;height:57px;border-radius:16px;border:2px solid #91c9e0;background:#e1f3ff;color:#1c6592;font-size:27px;font-weight:900;cursor:pointer}
+.atlas7-frac-adjust strong{font-size:26px;color:#175b82;min-width:80px;text-align:center}
+.atlas7-input{font:inherit;font-size:24px;border:2px solid #afd0e4;background:#fff;border-radius:14px;min-height:66px;width:min(100%,430px);padding:14px;color:#143d55}
+.atlas7-input-label{display:block;font-weight:750;margin-bottom:12px;color:#2b617e}
+.atlas7-example{margin:14px 0 0;font-size:13px;color:#637d90}
+body.atlas-dark .atlas7-lab{background:#11283f;color:#eaf6ff;border-color:#365e7b}body.atlas-dark .atlas7-stage{background:#203b54;border-color:#466c89}body.atlas-dark .atlas7-cards button{background:#244a69;color:#fff}body.atlas-dark .atlas7-picked{background:#1d4763;color:#ecf6ff}body.atlas-dark .atlas7-value{color:#b9e7ff}body.atlas-dark .atlas7-note{color:#d5e7f2}body.atlas-dark .atlas7-note.bad{color:#ffb3c0}body.atlas-dark .atlas7-note.good{color:#93f3bb}
+@media(max-width:440px){.atlas7-cards{gap:8px}.atlas7-cards button{min-height:62px}.atlas7-actions button{flex:1 1 35%;padding:11px 7px}.atlas7-actions #atlas7Verify{flex-basis:100%}.atlas7-ticks{font-size:9px}}

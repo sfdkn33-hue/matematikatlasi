@@ -1,0 +1,73 @@
+[
+  {
+    "check": "4.037 mevcut görevün tamamı birebir korundu",
+    "ok": true,
+    "details": 4037
+  },
+  {
+    "check": "Kazanım ve tema verileri birebir korundu",
+    "ok": true,
+    "details": ""
+  },
+  {
+    "check": "Eski görev kimlikleri benzersiz",
+    "ok": true,
+    "details": ""
+  },
+  {
+    "check": "Ayrıntılı izleme 471 görev veri kümesini korudu",
+    "ok": true,
+    "details": ""
+  },
+  {
+    "check": "Depolama engellenince yeni tamamlama kanıtı yok",
+    "ok": true,
+    "details": {
+      "events": [],
+      "save": null,
+      "banner": true
+    }
+  },
+  {
+    "check": "Depolama hatası görünür uyarı üretti",
+    "ok": true,
+    "details": ""
+  },
+  {
+    "check": "Depolama açılınca doğrulanmış tamamlama gerçekleşti",
+    "ok": true,
+    "details": {
+      "events": [
+        {
+          "taskId": "MAT.5.3.1-G09",
+          "status": "correct",
+          "when": 1792876786969,
+          "family": "Doğrulanmış görev tamamlanması",
+          "wrongFields": [],
+          "firstTry": false,
+          "hintUsed": false,
+          "wrongCount": 0,
+          "automatic": true,
+          "focus": null,
+          "evidence": "completion-only"
+        }
+      ],
+      "done": true
+    }
+  },
+  {
+    "check": "Yalnız navigasyon başarısızlık sayılmaz",
+    "ok": true,
+    "details": ""
+  },
+  {
+    "check": "320 pikselde yatay taşma yok",
+    "ok": true,
+    "details": ""
+  },
+  {
+    "check": "Yeni JS çalışma hatası oluşmadı",
+    "ok": true,
+    "details": []
+  }
+]

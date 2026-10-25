@@ -1,0 +1,25 @@
+name: Matematik Atlası classroom server tests
+on:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  offline-server-qa:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax checks
+        run: |
+          node --check lan/server.js
+          node --check lan/google-auth.js
+          node --check lan/qr-pairing.js
+      - name: Legacy LAN regression
+        run: node tests_v622/test_lan.js
+      - name: QR pairing API tests
+        run: node tests_v623/test_pairing.js
+      - name: Offline Google OIDC verification tests
+        run: node tests_v623/test_google.js

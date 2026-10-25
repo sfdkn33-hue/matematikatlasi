@@ -1,0 +1,36 @@
+#atlas68Lab{background:#f3f9fe;color:#16344d;border:2px solid #b7d1e3;border-radius:19px;padding:clamp(12px,2.5vw,22px);margin:16px 0 22px;line-height:1.55}
+#atlas68Lab[hidden]{display:none!important}
+#atlas68Lab *{box-sizing:border-box}
+#atlas68Lab h3{color:#133a59;margin:5px 0 8px;font-size:clamp(21px,4vw,28px)}
+#atlas68Lab .a68-kicker{color:#245c7f;font-size:13px;font-weight:750}
+#atlas68Lab .a68-question{color:#13344e;background:white;padding:14px;border:1px solid #c3d6e4;border-radius:12px;font-weight:680;font-size:17px}
+#atlas68Lab .a68-picture{background:#fff;color:#153b56;border:1px solid #c2d9e7;border-radius:12px;margin:12px 0;padding:13px}
+#atlas68Lab .a68-picture svg{width:100%;max-width:460px;display:block;margin:auto}
+#atlas68Lab .a68-large{display:block;font-size:clamp(35px,7vw,49px);text-align:center;color:#165a7d}
+#atlas68Lab .a68-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+#atlas68Lab .a68-pair div{background:#e4f1fa;border-radius:12px;padding:12px;text-align:center}
+#atlas68Lab .a68-pair b{display:block;font-size:25px}
+#atlas68Lab .a68-data{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+#atlas68Lab .a68-data span{padding:8px 14px;background:#e8f3fa;border:1px solid #9abfd7;border-radius:8px;font-size:20px;font-weight:750}
+#atlas68Lab .a68-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;max-width:410px;margin:auto}
+#atlas68Lab .a68-grid span{display:grid;place-items:center;min-height:50px;font-size:18px;background:#e5f3fc;border-radius:7px;border:1px solid #b8d3e5;font-weight:700}
+#atlas68Lab .a68-grid .a68-header{background:#d0e8f0}#atlas68Lab .a68-grid .a68-cell{background:#fff0dc;border:1px dashed #b59162}
+#atlas68Lab .a68-model{min-width:0;background:#fff;border:1px solid #b4ccdc;border-radius:12px;margin:13px 0;padding:12px}
+#atlas68Lab .a68-model legend{font-size:15px;font-weight:750;color:#124e70;padding:0 5px}
+#atlas68Lab .a68-pool{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0}
+#atlas68Lab .a68-pool button{font:inherit;min-height:48px;border:2px solid #4580a5;border-radius:10px;background:#edf6fb;color:#153d57;padding:9px 13px;font-weight:700;cursor:pointer}
+#atlas68Lab .a68-pool button.selected{background:#125c7d;color:white}
+#atlas68Lab button:focus-visible,#atlas68Lab input:focus-visible{outline:3px solid #ef9a2a;outline-offset:3px}
+#atlas68Lab button[disabled]{opacity:.5;cursor:not-allowed}
+#atlas68Lab .a68-built{display:flex;flex-wrap:wrap;gap:7px;min-height:52px;border:1px dashed #a5c1d2;border-radius:8px;padding:8px;align-items:center}
+#atlas68Lab .a68-built span{padding:7px 9px;background:#174e71;color:white;border-radius:8px;font-weight:700}
+#atlas68Lab .a68-fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:10px}
+#atlas68Lab .a68-num{display:flex;flex-direction:column;gap:8px;background:white;padding:12px;border:1px solid #aecbdf;border-radius:12px;color:#1b4768;font-weight:750}
+#atlas68Lab .a68-num input{width:100%;min-width:0;border:2px solid #76aac8;border-radius:8px;padding:12px;background:white;color:#153149;font-size:18px}
+#atlas68Lab .a68-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+#atlas68Lab .a68-actions button:first-child{background:#11698d;color:white;border-radius:10px;padding:12px 16px;min-height:48px;border:0;font:inherit;font-weight:750}
+#atlas68Lab .a68-secondary{background:#ebf2f7;color:#18445d;border:1px solid #a8c4d5;border-radius:10px;padding:9px 12px;min-height:44px;font:inherit;margin:6px}
+#atlas68Lab .a68-status{background:#e5f3ec;color:#19503a;border:1px solid #a2cfb4;padding:11px;border-radius:9px;font-weight:700}
+#atlas68Lab .a68-status.error{background:#fff0ea;color:#89341a;border-color:#edac94}
+#atlas68Lab .a68-explanation{background:#eaf4fc;color:#1a415a;padding:11px;border-radius:9px}
+@media(max-width:420px){#atlas68Lab .a68-pool button.a68-choice{flex:1 1 100%}#atlas68Lab .a68-actions button{flex:1 1 100%}#atlas68Lab{padding:10px}}

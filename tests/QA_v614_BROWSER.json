@@ -1,0 +1,86 @@
+{
+  "data_changes": [
+    [
+      "MAT.5.3.1-G05",
+      [
+        "beklenen_yanit_veya_rubrik"
+      ],
+      "cetvel",
+      "pergel"
+    ],
+    [
+      "MAT.5.3.1-G09",
+      [
+        "beklenen_yanit_veya_rubrik"
+      ],
+      "cetvel",
+      "iletki"
+    ],
+    [
+      "MAT.5.3.1-G13",
+      [
+        "beklenen_yanit_veya_rubrik"
+      ],
+      "cetvel",
+      "gönye"
+    ]
+  ],
+  "task_count": 4037,
+  "unique_ids": true,
+  "coverage": {
+    "eligible": 4037,
+    "detailed": 471
+  },
+  "initial_history": 0,
+  "MAT.5.3.1-G05": {
+    "expected": "pergel",
+    "saved": true,
+    "events": 1,
+    "evidence": "completion-only"
+  },
+  "MAT.5.3.1-G09": {
+    "expected": "iletki",
+    "saved": true,
+    "events": 1,
+    "evidence": "completion-only"
+  },
+  "MAT.5.3.1-G13": {
+    "expected": "gönye",
+    "saved": true,
+    "events": 1,
+    "evidence": "completion-only"
+  },
+  "detailed_no_duplicate": [
+    [
+      "wrong",
+      "detailed"
+    ],
+    [
+      "correct",
+      "detailed"
+    ]
+  ],
+  "rubric_before": "Çözüm anahtarı görevi doğru tamamlayıp ilerlemeni kaydettikten sonra açılır. İpucu düğmesini kullan.",
+  "rubric_after": "Beklenen çözüm/kanıt: pergel",
+  "blocked_save": {
+    "saved": false,
+    "events": 0,
+    "banner": true,
+    "feedback": "⚠ Matematiksel çözüm doğru, ancak ilerlemen kalıcı olarak kaydedilemedi. Üstteki yedekleme seçeneğini kullan.",
+    "checked": null
+  },
+  "old_done_not_evidence": true,
+  "dashboard_open": true,
+  "metric_labels": [
+    "Tamamlanan görev",
+    "Ayrıntılı ölçülen görev",
+    "Yeni doğrulanmış kayıt",
+    "Tekrar zamanı gelen",
+    "Üç aşama tekrarı biten"
+  ],
+  "overflow_320": false,
+  "overflow_390": false,
+  "overflow_768": false,
+  "overflow_1280": false,
+  "page_errors": []
+}

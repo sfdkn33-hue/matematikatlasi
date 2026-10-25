@@ -1,0 +1,37 @@
+{
+  "tasks": 4037,
+  "targeted_new": 168,
+  "targeted_total": 584,
+  "type_count": 20,
+  "math_checked": 168,
+  "focus_variants": 3192,
+  "ui_flows": 20,
+  "validator_cases": {
+    "applied_sale": "empty/partial not logged; changed mistake tracked, repeat blocked; two fields distinguishable",
+    "decimal_match": "blank not logged; changed wrong observed; repeats blocked",
+    "main_applied_correct": "real original validator completion saved",
+    "main_decimal_correct": "real original validator completion saved",
+    "optional_note": "optional written reason alone creates no wrong-attempt event"
+  },
+  "widths": {
+    "320": {
+      "scroll": 320,
+      "inner": 320
+    },
+    "390": {
+      "scroll": 390,
+      "inner": 390
+    },
+    "768": {
+      "scroll": 768,
+      "inner": 768
+    },
+    "1280": {
+      "scroll": 1280,
+      "inner": 1280
+    }
+  },
+  "errors": [],
+  "local_asset_count": 121,
+  "storage_denied_warning": true
+}

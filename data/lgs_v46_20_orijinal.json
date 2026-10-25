@@ -1,0 +1,289 @@
+{
+  "note": "MEB resmî LGS soruları değildir. v4.5 12 soru + v4.6 sekiz özgün görsel akıl yürütme sorusu. Pilot çalışma, tam deneme değildir.",
+  "questions": [
+    {
+      "id": "ATLAS-LGS-V45-01",
+      "topic": "Çarpanlar ve Katlar",
+      "question": "36 m ve 48 m uzunluğundaki iki kurdele, eşit ve mümkün olan en uzun parçalara ayrılıyor. Toplam kaç parça elde edilir?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer_index": 2,
+      "explanation": "EBOB(36,48)=12; 36/12+48/12=7."
+    },
+    {
+      "id": "ATLAS-LGS-V45-02",
+      "topic": "Asal Çarpanlar",
+      "question": "2³×3² sayısının pozitif bölen sayısı kaçtır?",
+      "options": [
+        "5",
+        "10",
+        "12",
+        "18"
+      ],
+      "answer_index": 2,
+      "explanation": "(3+1)(2+1)=12."
+    },
+    {
+      "id": "ATLAS-LGS-V45-03",
+      "topic": "Üslü İfadeler",
+      "question": "(2⁵×2³)÷2⁴ işleminin değeri kaçtır?",
+      "options": [
+        "8",
+        "12",
+        "16",
+        "32"
+      ],
+      "answer_index": 2,
+      "explanation": "2^(5+3−4)=2⁴=16."
+    },
+    {
+      "id": "ATLAS-LGS-V45-04",
+      "topic": "Bilimsel Gösterim",
+      "question": "0,00048 sayısının bilimsel gösterimi hangisidir?",
+      "options": [
+        "4,8×10⁻⁵",
+        "4,8×10⁻⁴",
+        "48×10⁻⁵",
+        "0,48×10⁻³"
+      ],
+      "answer_index": 1,
+      "explanation": "Katsayı 1≤a<10 olmalıdır; 4,8×10⁻⁴."
+    },
+    {
+      "id": "ATLAS-LGS-V45-05",
+      "topic": "Kareköklü İfadeler",
+      "question": "√75+√12−√27 işleminin en sade biçimi nedir?",
+      "options": [
+        "2√3",
+        "3√3",
+        "4√3",
+        "5√3"
+      ],
+      "answer_index": 2,
+      "explanation": "5√3+2√3−3√3=4√3."
+    },
+    {
+      "id": "ATLAS-LGS-V45-06",
+      "topic": "Kareköklü İfadeler",
+      "question": "Alanı 98 cm² olan kare biçimindeki bir zeminin çevresi kaç cm’dir?",
+      "options": [
+        "14√2",
+        "21√2",
+        "28√2",
+        "49√2"
+      ],
+      "answer_index": 2,
+      "explanation": "Bir kenar √98=7√2; çevre 28√2."
+    },
+    {
+      "id": "ATLAS-LGS-V45-07",
+      "topic": "Olasılık",
+      "question": "5 mavi ve 3 kırmızı top olan torbadan bir top çekildiğinde mavi gelmeme olasılığı kaçtır?",
+      "options": [
+        "3/8",
+        "5/8",
+        "3/5",
+        "1/3"
+      ],
+      "answer_index": 0,
+      "explanation": "Mavi gelmemesi kırmızı olmasıdır: 3/8."
+    },
+    {
+      "id": "ATLAS-LGS-V45-08",
+      "topic": "Cebir",
+      "question": "Bir karenin kenarı x+4 ise alanı hangi ifadeye eşittir?",
+      "options": [
+        "x²+16",
+        "x²+4x+16",
+        "x²+8x+16",
+        "2x+8"
+      ],
+      "answer_index": 2,
+      "explanation": "(x+4)²=x²+8x+16."
+    },
+    {
+      "id": "ATLAS-LGS-V45-09",
+      "topic": "Doğrusal İlişki",
+      "question": "20 TL açılış ücreti ve kilometre başına 6 TL alan servis 5 km için kaç TL alır?",
+      "options": [
+        "26",
+        "30",
+        "50",
+        "60"
+      ],
+      "answer_index": 2,
+      "explanation": "20+6×5=50 TL."
+    },
+    {
+      "id": "ATLAS-LGS-V45-10",
+      "topic": "Eşitsizlik",
+      "question": "−3x+6≥18 eşitsizliğinin çözümü hangisidir?",
+      "options": [
+        "x≥−4",
+        "x≤−4",
+        "x≤4",
+        "x≥4"
+      ],
+      "answer_index": 1,
+      "explanation": "−3x≥12; −3’e bölünce işaret yön değişir: x≤−4."
+    },
+    {
+      "id": "ATLAS-LGS-V45-11",
+      "topic": "Üçgenler",
+      "question": "Dik kenarları 9 cm ve 12 cm olan üçgenin hipotenüsü kaç cm’dir?",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "answer_index": 2,
+      "explanation": "√(9²+12²)=√225=15."
+    },
+    {
+      "id": "ATLAS-LGS-V45-12",
+      "topic": "Geometrik Cisimler",
+      "question": "Yarıçapı 3 cm, yüksekliği 4 cm silindirin hacmi π=3 için kaç cm³’tür?",
+      "options": [
+        "36",
+        "72",
+        "108",
+        "144"
+      ],
+      "answer_index": 2,
+      "explanation": "V=πr²h=3×9×4=108 cm³."
+    },
+    {
+      "id": "ATLAS-LGS-V46-13",
+      "topic": "Veri analizi · karşılaştırmalı grafik",
+      "question": "Okul kütüphanesinde pazartesi 40, salı 55, çarşamba 65 kitap ödünç verilmiştir. Pazartesiden çarşambaya artış, pazartesi sayısının yüzde kaçıdır?",
+      "options": [
+        "%25",
+        "%40",
+        "%62,5",
+        "%65"
+      ],
+      "answer_index": 2,
+      "explanation": "Artış 65−40=25. Başlangıç 40 olduğundan 25/40×100=%62,5.",
+      "diagram": "<svg viewBox=\"0 0 340 160\" role=\"img\" aria-label=\"Özgün matematik diyagramı\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"160\" rx=\"13\" fill=\"#f4f9ff\"/><g font-size=\"12\" font-family=\"Arial\" fill=\"#254663\"><path d=\"M40 15 V130 H322\" fill=\"none\" stroke=\"#5e7793\" stroke-width=\"2\"/>\n<rect x=\"65\" y=\"66\" width=\"48\" height=\"64\" rx=\"4\" fill=\"#58a6dc\"/><rect x=\"149\" y=\"42\" width=\"48\" height=\"88\" rx=\"4\" fill=\"#4fbcad\"/><rect x=\"233\" y=\"26\" width=\"48\" height=\"104\" rx=\"4\" fill=\"#6f81e9\"/>\n<text x=\"88\" y=\"59\" text-anchor=\"middle\">40</text><text x=\"173\" y=\"35\" text-anchor=\"middle\">55</text><text x=\"258\" y=\"19\" text-anchor=\"middle\">65</text>\n<text x=\"88\" y=\"149\" text-anchor=\"middle\">Pzt</text><text x=\"173\" y=\"149\" text-anchor=\"middle\">Sal</text><text x=\"258\" y=\"149\" text-anchor=\"middle\">Çar</text></g></svg>",
+      "diagram_alt": "Üç sütun: Pazartesi 40, Salı 55, Çarşamba 65.",
+      "level": "görsel-çok-adımlı-pilot"
+    },
+    {
+      "id": "ATLAS-LGS-V46-14",
+      "topic": "Geometri · alan modelleme",
+      "question": "12 m × 8 m dikdörtgen bahçenin dört kenarında içeri doğru 1 m genişliğinde yürüyüş yolu yapılmıştır. Yolun alanı kaç m²’dir?",
+      "options": [
+        "24",
+        "30",
+        "36",
+        "48"
+      ],
+      "answer_index": 2,
+      "explanation": "Dış alan 96; iç dikdörtgen 10×6=60; yürüyüş yolu 96−60=36 m².",
+      "diagram": "<svg viewBox=\"0 0 340 160\" role=\"img\" aria-label=\"Özgün matematik diyagramı\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"160\" rx=\"13\" fill=\"#f4f9ff\"/><g font-family=\"Arial\" font-size=\"12\" fill=\"#264661\"><rect x=\"72\" y=\"31\" width=\"192\" height=\"112\" rx=\"2\" fill=\"#a1d4f8\" stroke=\"#24527b\" stroke-width=\"2\"/><rect x=\"88\" y=\"45\" width=\"160\" height=\"84\" fill=\"#fff\" stroke=\"#44778c\" stroke-width=\"2\"/><text x=\"168\" y=\"22\" text-anchor=\"middle\">12 m</text><text x=\"274\" y=\"92\">8 m</text><text x=\"168\" y=\"88\" text-anchor=\"middle\">İç alan</text><text x=\"168\" y=\"104\" text-anchor=\"middle\">kenarda 1 m pay</text></g></svg>",
+      "diagram_alt": "Dış dikdörtgen 12 m × 8 m, her kenarda içeri doğru 1 m yol.",
+      "level": "görsel-çok-adımlı-pilot"
+    },
+    {
+      "id": "ATLAS-LGS-V46-15",
+      "topic": "Doğrusal ilişkiler · iki tarife",
+      "question": "A servisinin ücreti 20+5x, B servisinin ücreti 50+2x TL. 12 km yolculukta hangisi kaç TL daha ucuzdur?",
+      "options": [
+        "A, 6 TL",
+        "B, 6 TL",
+        "A, 10 TL",
+        "B, 10 TL"
+      ],
+      "answer_index": 1,
+      "explanation": "12 km için A=80 TL, B=74 TL; B 6 TL daha ucuzdur.",
+      "diagram": "<svg viewBox=\"0 0 340 160\" role=\"img\" aria-label=\"Özgün matematik diyagramı\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"160\" rx=\"13\" fill=\"#f4f9ff\"/><g stroke=\"#d6e3f5\" stroke-width=\"1\"><path d=\"M50 15 V130\"/><path d=\"M70 15 V130\"/><path d=\"M90 15 V130\"/><path d=\"M110 15 V130\"/><path d=\"M130 15 V130\"/><path d=\"M150 15 V130\"/><path d=\"M170 15 V130\"/><path d=\"M190 15 V130\"/><path d=\"M210 15 V130\"/><path d=\"M230 15 V130\"/><path d=\"M250 15 V130\"/><path d=\"M270 15 V130\"/><path d=\"M290 15 V130\"/><path d=\"M50 15 H300\"/><path d=\"M50 25 H300\"/><path d=\"M50 35 H300\"/><path d=\"M50 45 H300\"/><path d=\"M50 55 H300\"/><path d=\"M50 65 H300\"/><path d=\"M50 75 H300\"/><path d=\"M50 85 H300\"/><path d=\"M50 95 H300\"/><path d=\"M50 105 H300\"/><path d=\"M50 115 H300\"/><path d=\"M50 125 H300\"/></g><g stroke=\"#55748c\" stroke-width=\"2\"><path d=\"M50 15 V130 H305\" fill=\"none\"/></g><path d=\"M50 114 L300 35\" stroke=\"#276bc2\" stroke-width=\"3\"/><path d=\"M50 82.5 L300 51\" stroke=\"#d2793c\" stroke-width=\"3\"/><g font-family=\"Arial\" font-size=\"12\" fill=\"#244a67\"><text x=\"215\" y=\"19\">A: 20 + 5x</text><text x=\"215\" y=\"65\">B: 50 + 2x</text><text x=\"165\" y=\"149\">km (x)</text></g></svg>",
+      "diagram_alt": "İki doğrusal tarifenin grafiği; A için başlangıç 20 ve km başı 5 TL, B için başlangıç 50 ve km başı 2 TL.",
+      "level": "görsel-çok-adımlı-pilot"
+    },
+    {
+      "id": "ATLAS-LGS-V46-16",
+      "topic": "Olasılık · veri temsili",
+      "question": "12 eş dilimli çarkta 5 kırmızı, 4 mavi, 3 sarı dilim vardır. Kırmızı veya sarı gelme olasılığı kaçtır?",
+      "options": [
+        "1/3",
+        "5/12",
+        "2/3",
+        "3/4"
+      ],
+      "answer_index": 2,
+      "explanation": "İstenen 5+3=8 dilim; P=8/12=2/3.",
+      "diagram": "<svg viewBox=\"0 0 340 160\" role=\"img\" aria-label=\"Özgün matematik diyagramı\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"160\" rx=\"13\" fill=\"#f4f9ff\"/><g transform=\"translate(160 82)\"><path d=\"M0 0 L0 -67 A67 67 0 0 1 33.5 58.0 Z\" fill=\"#e97a70\"/><path d=\"M0 0 L33.5 58.0 A67 67 0 0 1 -67 0 Z\" fill=\"#68add8\"/><path d=\"M0 0 L-67 0 A67 67 0 0 1 0 -67 Z\" fill=\"#e5c56a\"/></g><g font-size=\"12\" fill=\"#244761\" font-family=\"Arial\"><text x=\"256\" y=\"54\">Kırmızı: 5</text><text x=\"256\" y=\"77\">Mavi: 4</text><text x=\"256\" y=\"100\">Sarı: 3</text></g></svg>",
+      "diagram_alt": "12 eş dilimli çarkın 5 kırmızı, 4 mavi, 3 sarı dilimi var.",
+      "level": "görsel-çok-adımlı-pilot"
+    },
+    {
+      "id": "ATLAS-LGS-V46-17",
+      "topic": "Koordinatlar · bileşik dönüşüm",
+      "question": "B(−1,2) noktasını önce 3 birim sağa öteleyip sonra y eksenine göre yansıtıyoruz. Son koordinat nedir?",
+      "options": [
+        "(−2,2)",
+        "(2,2)",
+        "(−4,2)",
+        "(2,−2)"
+      ],
+      "answer_index": 0,
+      "explanation": "B(−1,2) sağa 3 birim → (2,2), y eksenine yansıma → (−2,2).",
+      "diagram": "<svg viewBox=\"0 0 340 160\" role=\"img\" aria-label=\"Özgün matematik diyagramı\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"160\" rx=\"13\" fill=\"#f4f9ff\"/><g stroke=\"#d1dfed\" stroke-width=\"1\"><path d=\"M16 12 V148\"/><path d=\"M38 12 V148\"/><path d=\"M60 12 V148\"/><path d=\"M82 12 V148\"/><path d=\"M104 12 V148\"/><path d=\"M126 12 V148\"/><path d=\"M148 12 V148\"/><path d=\"M170 12 V148\"/><path d=\"M192 12 V148\"/><path d=\"M214 12 V148\"/><path d=\"M236 12 V148\"/><path d=\"M258 12 V148\"/><path d=\"M280 12 V148\"/><path d=\"M302 12 V148\"/><path d=\"M324 12 V148\"/><path d=\"M18 16 H322\"/><path d=\"M18 38 H322\"/><path d=\"M18 60 H322\"/><path d=\"M18 82 H322\"/><path d=\"M18 104 H322\"/><path d=\"M18 126 H322\"/><path d=\"M18 148 H322\"/></g><path d=\"M18 82 H322 M170 12 V148\" stroke=\"#46657f\" stroke-width=\"2\"/><circle cx=\"148\" cy=\"-6\" r=\"0\"/><circle cx=\"148\" cy=\"38\" r=\"5\" fill=\"#ef895a\"/><g font-family=\"Arial\" font-size=\"12\" fill=\"#173f61\"><text x=\"153\" y=\"32\">B(−1,2)</text><text x=\"294\" y=\"96\">x</text><text x=\"176\" y=\"17\">y</text></g></svg>",
+      "diagram_alt": "Başlangıç noktası B(−1,2); yatay x ve düşey y eksenli kareli düzlem.",
+      "level": "görsel-çok-adımlı-pilot"
+    },
+    {
+      "id": "ATLAS-LGS-V46-18",
+      "topic": "Geometrik cisimler · yüzey alanı",
+      "question": "Ayrıtları 3 cm, 2 cm ve 2 cm olan kapalı dikdörtgenler prizmasının toplam yüzey alanı kaç cm²’dir?",
+      "options": [
+        "24",
+        "28",
+        "32",
+        "36"
+      ],
+      "answer_index": 2,
+      "explanation": "2(ab+bc+ac)=2(3·2+2·2+3·2)=2(6+4+6)=32.",
+      "diagram": "<svg viewBox=\"0 0 340 160\" role=\"img\" aria-label=\"Özgün matematik diyagramı\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"160\" rx=\"13\" fill=\"#f4f9ff\"/><polygon points=\"75,60 168,39 233,69 140,90\" fill=\"#8bbceb\" stroke=\"#285e91\" stroke-width=\"2\"/><polygon points=\"75,60 140,90 140,137 75,105\" fill=\"#4f9aca\" stroke=\"#285e91\" stroke-width=\"2\"/><polygon points=\"140,90 233,69 233,114 140,137\" fill=\"#a6cfe9\" stroke=\"#285e91\" stroke-width=\"2\"/><g font-family=\"Arial\" font-size=\"14\" fill=\"#164369\"><text x=\"166\" y=\"148\">3 cm</text><text x=\"59\" y=\"87\">2 cm</text><text x=\"244\" y=\"98\">2 cm</text></g></svg>",
+      "diagram_alt": "Ayrıtları 3,2,2 cm olan dikdörtgenler prizması.",
+      "level": "görsel-çok-adımlı-pilot"
+    },
+    {
+      "id": "ATLAS-LGS-V46-19",
+      "topic": "Veri okuryazarlığı · yüzde",
+      "question": "Bir sınıf oylamasında A adayı 18, B adayı 12, C adayı 10 oy aldı. A adayının oy oranı yüzde kaçtır?",
+      "options": [
+        "%35",
+        "%40",
+        "%45",
+        "%50"
+      ],
+      "answer_index": 2,
+      "explanation": "Toplam oy 18+12+10=40; A için 18/40×100=%45.",
+      "diagram": "<svg viewBox=\"0 0 340 160\" role=\"img\" aria-label=\"Özgün matematik diyagramı\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"160\" rx=\"13\" fill=\"#f4f9ff\"/><g font-family=\"Arial\" font-size=\"14\" fill=\"#204760\"><rect x=\"50\" y=\"25\" width=\"240\" height=\"110\" fill=\"white\" stroke=\"#9cc2df\" stroke-width=\"2\"/><path d=\"M50 60 H290 M50 98 H290 M170 25 V135\" stroke=\"#9cc2df\" stroke-width=\"2\"/><text x=\"110\" y=\"47\" text-anchor=\"middle\">Aday</text><text x=\"230\" y=\"47\" text-anchor=\"middle\">Oy sayısı</text><text x=\"110\" y=\"85\" text-anchor=\"middle\">A / B</text><text x=\"230\" y=\"85\" text-anchor=\"middle\">18 / 12</text><text x=\"110\" y=\"120\" text-anchor=\"middle\">C</text><text x=\"230\" y=\"120\" text-anchor=\"middle\">10</text></g></svg>",
+      "diagram_alt": "A 18 oy, B 12 oy, C 10 oy.",
+      "level": "görsel-çok-adımlı-pilot"
+    },
+    {
+      "id": "ATLAS-LGS-V46-20",
+      "topic": "Benzerlik · çevre ölçekleme",
+      "question": "Küçük üçgenin kenarları 6, 8, 10 cm’dir. Benzer büyük üçgenin 10 cm’ye karşılık gelen kenarı 25 cm. Büyük üçgenin çevresi kaç cm’dir?",
+      "options": [
+        "48",
+        "54",
+        "60",
+        "72"
+      ],
+      "answer_index": 2,
+      "explanation": "Benzerlik oranı 25/10=2,5. Küçük çevre 24; büyük çevre 24×2,5=60.",
+      "diagram": "<svg viewBox=\"0 0 340 160\" role=\"img\" aria-label=\"Özgün matematik diyagramı\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"340\" height=\"160\" rx=\"13\" fill=\"#f4f9ff\"/><g fill=\"none\" stroke=\"#3578b7\" stroke-width=\"2.6\"><path d=\"M40 130 L88 130 L40 94 Z\"/><path d=\"M168 130 L288 130 L168 40 Z\"/></g><g font-family=\"Arial\" font-size=\"13\" fill=\"#224969\"><text x=\"26\" y=\"113\">6</text><text x=\"62\" y=\"144\">8</text><text x=\"65\" y=\"108\">10</text><text x=\"148\" y=\"83\">?</text><text x=\"226\" y=\"144\">?</text><text x=\"246\" y=\"78\">25</text></g></svg>",
+      "diagram_alt": "Küçük üçgen kenarları 6,8,10; büyük üçgenin hipotenüsü 25.",
+      "level": "görsel-çok-adımlı-pilot"
+    }
+  ]
+}

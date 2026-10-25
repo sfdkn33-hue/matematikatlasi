@@ -1,0 +1,40 @@
+{
+  "source": "https://tymm.meb.gov.tr/ortaokul-matematik-dersi/unite/455",
+  "grade": "5",
+  "theme": "Veriden Olasılığa",
+  "hours": 9,
+  "skills": [
+    "KB2.13 Yapılandırma",
+    "KB2.14 Yorumlama",
+    "MAB3 Matematiksel Temsil"
+  ],
+  "dispositions": [
+    "E1.1 Merak",
+    "E2.5 Oyunseverlik",
+    "E3.9 Şüphe Duyma"
+  ],
+  "values": [
+    "D1 Adalet"
+  ],
+  "visual_literacy": [
+    "OB4 Görsel Okuryazarlık"
+  ],
+  "outcomes": {
+    "MAT.5.6.1": {
+      "official": "Herhangi bir olayın olasılığının 0 (imkânsız) ile 1 (kesin) arasında (0 ve 1 dâhil) olduğunu (olasılık spektrumu) yorumlayabilme",
+      "components": [
+        "Olayları ve olası durumları inceler.",
+        "Bir olayın olasılığına dair tahminlerini farklı sayı temsillerine dönüştürür.",
+        "Kendi ifadeleriyle tahminde bulunduğu bir olayın olasılığının 0 ile 1 arasında (0 ve 1 dâhil) olduğunu ifade eder."
+      ]
+    },
+    "MAT.5.6.2": {
+      "official": "Olayları az ya da çok olasılıklı şeklinde yapılandırabilme",
+      "components": [
+        "Olayların olasılıklarına ilişkin nedensel veya mantıksal ilişkiler ortaya koyar.",
+        "Kendi öz bilgisi ile elde ettiği ilişkilere dayanarak olayların olasılıklarını az veya çok olasılıklı şeklinde ortaya koyar."
+      ]
+    }
+  },
+  "note": "Bu bileşenler resmî tema düzeyindedir; her tekil görev için otomatik eşleşme doğrulanmış sayılmaz."
+}

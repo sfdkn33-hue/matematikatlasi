@@ -1,0 +1,51 @@
+/* v3.1: one task at a time; never alter task or answer data. */
+body.atlas-v3.atlas-playing main{padding-top:10px}
+body.atlas-v3.atlas-playing main>.panel{max-width:960px;margin-inline:auto;width:100%;padding:clamp(16px,2.4vw,29px)}
+body.atlas-v3.atlas-playing main>.panel>.eyebrow{display:none}
+body.atlas-v3.atlas-playing main>.panel>h2{font-size:clamp(24px,2.7vw,31px);margin:0 0 10px;line-height:1.2}
+body.atlas-v3.atlas-playing main>.panel>.card{padding:15px 19px;background:#f5f9ff;border-color:#dce9f9;border-left:5px solid #5599ed;border-radius:17px}
+body.atlas-v3.atlas-playing main>.panel>.card #question{font-size:clamp(17px,1.85vw,20px)!important;line-height:1.48}
+body.atlas-v3.atlas-playing .atlas-assist-line{display:flex;align-items:center;gap:9px;min-height:42px;margin:12px 0 14px;color:#41617f;font-size:13px}
+body.atlas-v3 .atlas-guide-icon{flex:0 0 30px;width:30px;height:30px;background:#dbf5e9;border:2px solid #a3e2cc;border-radius:12px;display:grid;place-items:center;color:#168a6d;font-size:20px;transform:rotate(-10deg)}
+body.atlas-v3 .atlas-assist-line #atlasTaskState{flex:1;min-width:0;line-height:1.35;font-weight:700}
+body.atlas-v3 #atlasShowInfo{flex-shrink:0;padding:9px 12px;border:1px solid #d3e2f4;border-radius:12px;background:#fff;color:#396b9d;font-size:13px;font-weight:750;min-height:41px}
+body.atlas-v3 #atlasShowInfo[aria-pressed=true]{background:#dcf2e8;border-color:#8fd6b8;color:#236b4c}
+body.atlas-v3 .atlas-help-note{font-size:13px;padding:10px 15px;margin:0 0 14px;border-radius:12px;color:#416481;background:#edf8f2;border:1px solid #bfddcf}
+body.atlas-v3.atlas-playing:not(.atlas-help-open) :is(.n5-footnote,.f5-lab > p.f5-note,.p5-lab > p.p5-note,.ft-footnote){display:none!important}
+/* Limit repetitive workshop kickers while keeping model names, directions and evidence. */
+body.atlas-v3.atlas-playing :is(.n5-kicker,.f5-kicker,.g5x-kicker,.p5-tag){display:none!important}
+body.atlas-v3.atlas-playing :is(.n5-lab,.f5-lab,.g5x-lab,.m5-lab,.s5-lab,.a5-lab,.p5-lab,.g6-lab,.m6-lab,.a6-lab,.rs-lab,.decimal-lab,.applied-lab,.experiment-lab,.ft-lab,.statslab,.ab-lab,.fxlab,.pr-lab,.measure-lab,.numberlab,.studio){margin-top:10px!important;margin-bottom:13px!important;padding:clamp(14px,2.4vw,23px)!important;box-shadow:none!important;border-radius:19px!important}
+body.atlas-v3.atlas-playing :is(.n5-lab,.f5-lab,.g5x-lab,.m5-lab,.s5-lab,.a5-lab,.p5-lab) h3{margin-top:0.2em}
+body.atlas-v3.atlas-playing :is(button,input[type=range],select,textarea){accent-color:#2976c8}
+body.atlas-v3.atlas-playing :is(button,[role=button]){touch-action:manipulation}
+body.atlas-v3.atlas-playing main>.panel :is(button,input,select,textarea,[tabindex]):focus-visible{outline:3px solid #e7a72a;outline-offset:3px}
+body.atlas-v3.atlas-playing :is(.studio-canvasbox,.f5-visual,.n5-visual,.g5x-board){max-width:100%;overflow-x:auto}
+body.atlas-v3.atlas-playing .atlas-progress-details{margin-top:13px;border:1px solid #e0eafa;border-radius:13px;padding:0 14px;background:#f9fbff}
+body.atlas-v3.atlas-playing .atlas-progress-details>summary{padding:14px 4px;color:#456c98;font-size:14px;font-weight:750;cursor:pointer}
+body.atlas-v3.atlas-playing .atlas-progress-details[open]{padding-bottom:15px}
+body.atlas-v3.atlas-playing .atlas-progress-details .note{font-size:13px}
+body.atlas-v3.atlas-playing .panel>hr{margin:16px 0!important}
+body.atlas-v3.atlas-playing #prev,body.atlas-v3.atlas-playing #next{min-height:47px;padding-inline:15px;border-radius:13px}
+body.atlas-v3.atlas-playing .feedback{border-radius:13px;padding:12px 15px;line-height:1.5}
+body.atlas-v3.atlas-playing #legacyAnswer{border-radius:17px}
+body.atlas-v3.atlas-playing #legacyAnswer>label{font-weight:750}
+body.atlas-v3.atlas-playing #studioCanvas{min-height:240px}
+body.atlas-v3.atlas-playing #studio .studio-toolbar{gap:10px;flex-wrap:wrap}
+body.atlas-v3.atlas-playing #studio .studio-toolbar button{min-height:46px}
+body.atlas-v3.atlas-dark .atlas-assist-line{color:#c4d8ee}
+body.atlas-v3.atlas-dark #atlasShowInfo{background:#213f5c;color:#dbecff;border-color:#52718d}
+body.atlas-v3.atlas-dark #atlasShowInfo[aria-pressed=true]{background:#285a4b;color:#f0fdf5}
+body.atlas-v3.atlas-dark .atlas-progress-details{background:#213854;border-color:#4d6782}
+body.atlas-v3.atlas-dark .atlas-progress-details>summary{color:#d5eaff}
+body.atlas-v3.atlas-dark .atlas-help-note{background:#225147;border-color:#43806e;color:#e5fff5}
+@media (max-width:650px){
+ body.atlas-v3.atlas-playing main{padding:8px 8px 26px}
+ body.atlas-v3.atlas-playing main>.panel{padding:16px 13px;border-radius:18px}
+ body.atlas-v3.atlas-playing main>.panel>.card{padding:14px 13px}
+ body.atlas-v3.atlas-playing .atlas-assist-line{gap:7px;font-size:12px}
+ body.atlas-v3 #atlasShowInfo{font-size:12px;padding:8px;white-space:nowrap}
+ body.atlas-v3.atlas-playing :is(.n5-lab,.f5-lab,.g5x-lab,.m5-lab,.s5-lab,.a5-lab,.p5-lab,.studio){padding:13px!important}
+ body.atlas-v3.atlas-playing #prev,body.atlas-v3.atlas-playing #next{font-size:13px;padding-inline:11px}
+ body.atlas-v3.atlas-playing :is(.n5-choices,.f5-choices,.p5-actions,.studio-toolbar){gap:8px}
+}
+@media(prefers-reduced-motion:reduce){body.atlas-v3 .atlas-guide-icon{transform:none}}

@@ -1,0 +1,59 @@
+{
+  "version": "6.21",
+  "tasks": 4037,
+  "newTargeted": 75,
+  "targetedTotal": 659,
+  "ratioVariants": 75,
+  "ratioModes": [
+    "compare",
+    "equivalent",
+    "graph",
+    "percent",
+    "recipe",
+    "table",
+    "unit"
+  ],
+  "studentExport": {
+    "valid": true,
+    "code": "A07",
+    "outcomes": 30,
+    "focusCount": 1
+  },
+  "teacherImport": {
+    "accepted": 2,
+    "rejectedMaliciousCode": true,
+    "gradeFilter": true,
+    "csvExport": true,
+    "progressUntouched": true
+  },
+  "ratioFlows": {
+    "emptyIgnored": true,
+    "partialIgnored": true,
+    "dedupedWrong": true,
+    "miniSuccessNoMainCompletion": true
+  },
+  "viewport": {
+    "320": {
+      "client": 320,
+      "scroll": 320,
+      "mini": 248
+    },
+    "390": {
+      "client": 390,
+      "scroll": 390,
+      "mini": 318
+    },
+    "768": {
+      "client": 768,
+      "scroll": 768,
+      "mini": 655.09375
+    },
+    "1280": {
+      "client": 1280,
+      "scroll": 1280,
+      "mini": 798
+    }
+  },
+  "errors": [],
+  "mathChecked": 75
+}

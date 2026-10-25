@@ -1,0 +1,52 @@
+{
+  "version": "6.19",
+  "tasks": 4037,
+  "geometry6": 170,
+  "modes": {
+    "correspond": 10,
+    "alternate": 10,
+    "outer": 10,
+    "parallelTest": 10,
+    "shapeBuild": 10,
+    "shapeClass": 10,
+    "angleTotal": 10,
+    "propertyCheck": 10,
+    "diagonalBuild": 10,
+    "diagonalName": 10,
+    "midpointFix": 10,
+    "diagonalFacts": 10,
+    "triangleAngle": 10,
+    "triangleExterior": 10,
+    "quadrilateralAngle": 10,
+    "parallelAngle": 10,
+    "rhombusHalf": 10
+  },
+  "field_variants": 1700,
+  "math_checks": 170,
+  "ui_flows": 17,
+  "real_validator_wrong": 6,
+  "widths": {
+    "320": {
+      "inner": 320,
+      "scroll": 320,
+      "card": 272
+    },
+    "390": {
+      "inner": 390,
+      "scroll": 390,
+      "card": 342
+    },
+    "768": {
+      "inner": 768,
+      "scroll": 768,
+      "card": 701
+    },
+    "1280": {
+      "inner": 1280,
+      "scroll": 1280,
+      "card": 896
+    }
+  },
+  "errors": [],
+  "storage_denied_warning": true
+}

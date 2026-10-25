@@ -1,0 +1,34 @@
+/* v6.4 classroom-friendly readable local learning dashboard */
+.atlas64-quiet{border:1px solid #9fc4d9;background:#f4fbff!important;color:#164566!important;border-radius:12px;padding:9px 12px;font-weight:800;min-height:42px;cursor:pointer}
+#atlas64Dashboard[hidden]{display:none!important}
+body.atlas64-open{overflow:hidden}
+#atlas64Dashboard{position:fixed;inset:0;z-index:999999;background:rgba(18,37,60,.74);display:flex;justify-content:center;align-items:flex-start;padding:clamp(10px,3vw,24px);overflow:auto}
+.atlas64-sheet{width:min(1050px,100%);margin:auto;background:#fff!important;color:#17324d!important;box-shadow:0 20px 70px #02152570;border-radius:22px;padding:clamp(14px,2.6vw,28px);font-size:15px;line-height:1.55}
+.atlas64-sheet h2,.atlas64-sheet h3{color:#17324d!important;margin:0 0 6px}
+.atlas64-sheet p{color:#37536e!important;margin:6px 0}
+.atlas64-head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;border-bottom:1px solid #d8e5f0;padding-bottom:14px}
+.atlas64-head h2{font-size:clamp(24px,4vw,34px)!important}
+.atlas64-eyebrow{color:#296889;font-size:12px;font-weight:900;letter-spacing:.05em}
+.atlas64-close,.atlas64-controls button,.atlas64-task-button{cursor:pointer;min-height:40px;border-radius:10px;padding:9px 12px;border:1px solid #9cbdd3;background:#eaf4fb;color:#153d59;font-weight:800}
+.atlas64-close{flex:none}
+.atlas64-controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:16px 0}
+.atlas64-controls select{min-height:44px;padding:9px 12px;border-radius:10px;border:2px solid #6ca0c3;background:white!important;color:#153d59!important;min-width:120px}
+.atlas64-controls label{font-weight:800;color:#17324d!important}
+.atlas64-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:14px 0}
+.atlas64-metric{background:#e9f3fa;border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:3px}
+.atlas64-metric b{font-size:clamp(19px,3vw,27px);color:#164c73}
+.atlas64-metric span{font-size:12px;color:#3e5a70}
+.atlas64-section{border:1px solid #c8dce9;border-radius:16px;padding:16px;margin:14px 0;background:#fff!important}
+.atlas64-task-row{display:flex;justify-content:space-between;align-items:center;gap:12px;border-top:1px solid #e4edf5;padding:10px 0}
+.atlas64-task-row strong{font-weight:750;color:#163956}
+.atlas64-task-row small{display:block;color:#51697d;font-size:12px}
+.atlas64-task-button{white-space:nowrap;background:#165d85!important;color:white!important;border-color:#165d85}
+.atlas64-error-row{display:flex;gap:10px;justify-content:space-between;border-bottom:1px solid #edf1f5;padding:9px 0;flex-wrap:wrap}
+.atlas64-table{max-height:300px;overflow:auto;border:1px solid #d5e2ec;border-radius:10px}
+.atlas64-tr{display:grid;grid-template-columns:minmax(155px,1.5fr) minmax(105px,.8fr) minmax(100px,.8fr);gap:10px;padding:10px 12px;border-bottom:1px solid #e7eef4;align-items:center;font-size:13px}
+.atlas64-tr:nth-child(odd){background:#f5f9fc}
+.atlas64-tr b{color:#16466a}.atlas64-tr small{display:block;color:#4c6578;font-size:12px}
+.atlas64-th{font-weight:900;background:#dcebf6!important;position:sticky;top:0}
+.atlas64-sheet .atlas64-disclaimer,.atlas64-sheet .atlas64-explain,.atlas64-sheet .atlas64-foot,.atlas64-sheet .atlas64-small{font-size:13px;color:#546a7b!important}
+.atlas64-task-button:focus-visible,.atlas64-close:focus-visible,.atlas64-controls button:focus-visible,.atlas64-controls select:focus-visible{outline:3px solid #e89b27;outline-offset:2px}
+@media(max-width:600px){.atlas64-sheet{padding:14px;border-radius:15px}.atlas64-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas64-section{padding:11px}.atlas64-head{flex-wrap:wrap}.atlas64-tr{grid-template-columns:minmax(110px,1.3fr) minmax(75px,.7fr) minmax(90px,.8fr);gap:5px;padding:9px 6px;font-size:12px}.atlas64-task-row{align-items:flex-start}.atlas64-task-button{font-size:12px;white-space:normal}.atlas64-quiet{font-size:12px;padding:7px}}

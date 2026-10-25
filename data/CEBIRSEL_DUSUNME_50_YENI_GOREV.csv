@@ -1,0 +1,51 @@
+﻿Görev ID;Öğrenme çıktısı;Oyun türü;Görev açıklaması;Ek gerekçe
+MAT.5.2.1-G21;MAT.5.2.1;Dengeli Terazi;"Terazinin iki kefesini aynı biçimde değiştir; eşitliğin neden korunduğunu sonuçlarla göster.";False
+MAT.5.2.1-G22;MAT.5.2.1;Dengeli Terazi;"Terazinin iki kefesini aynı biçimde değiştir; eşitliğin neden korunduğunu sonuçlarla göster.";False
+MAT.5.2.1-G23;MAT.5.2.1;Dengeli Terazi;"Terazinin iki kefesini aynı biçimde değiştir; eşitliğin neden korunduğunu sonuçlarla göster.";False
+MAT.5.2.1-G24;MAT.5.2.1;Dengeli Terazi;"Terazinin iki kefesini aynı biçimde değiştir; eşitliğin neden korunduğunu sonuçlarla göster.";True
+MAT.5.2.1-G25;MAT.5.2.1;Dağılma Alanı;Dikdörtgeni iki parçaya ayır, her parça ile bütünün kare sayısını doğrula.;False
+MAT.5.2.1-G26;MAT.5.2.1;Dağılma Alanı;Dikdörtgeni iki parçaya ayır, her parça ile bütünün kare sayısını doğrula.;False
+MAT.5.2.1-G27;MAT.5.2.1;Dağılma Alanı;Dikdörtgeni iki parçaya ayır, her parça ile bütünün kare sayısını doğrula.;False
+MAT.5.2.1-G28;MAT.5.2.1;Grup Fabrikası;"Üç sayıdan kurulan eş grupları farklı sırayla paketle; iki ara işlemi denetle.";True
+MAT.5.2.1-G29;MAT.5.2.1;Grup Fabrikası;"Üç sayıdan kurulan eş grupları farklı sırayla paketle; iki ara işlemi denetle.";False
+MAT.5.2.1-G30;MAT.5.2.1;Grup Fabrikası;"Üç sayıdan kurulan eş grupları farklı sırayla paketle; iki ara işlemi denetle.";False
+MAT.5.2.1-G31;MAT.5.2.1;Eşitlik Tamircisi;"Yanlış eşitliği fark et; yalnız bozuk tarafta nasıl onaracağını bul.";False
+MAT.5.2.1-G32;MAT.5.2.1;Eşitlik Tamircisi;"Yanlış eşitliği fark et; yalnız bozuk tarafta nasıl onaracağını bul.";True
+MAT.5.2.1-G33;MAT.5.2.1;Eşitlik Tamircisi;"Yanlış eşitliği fark et; yalnız bozuk tarafta nasıl onaracağını bul.";False
+MAT.5.2.2-G21;MAT.5.2.2;İşlem Sırası Rotası;İşlem sırasını adım adım kurup bütün ifadenin değerini hesapla.;False
+MAT.5.2.2-G22;MAT.5.2.2;İşlem Sırası Rotası;İşlem sırasını adım adım kurup bütün ifadenin değerini hesapla.;False
+MAT.5.2.2-G23;MAT.5.2.2;İşlem Sırası Rotası;İşlem sırasını adım adım kurup bütün ifadenin değerini hesapla.;False
+MAT.5.2.2-G24;MAT.5.2.2;İşlem Sırası Rotası;İşlem sırasını adım adım kurup bütün ifadenin değerini hesapla.;True
+MAT.5.2.2-G25;MAT.5.2.2;Parantez Mimarı;"Hedef değere ulaşan parantez yerini seç; işlemi hesapla.";False
+MAT.5.2.2-G26;MAT.5.2.2;Parantez Mimarı;"Hedef değere ulaşan parantez yerini seç; işlemi hesapla.";False
+MAT.5.2.2-G27;MAT.5.2.2;Parantez Mimarı;"Hedef değere ulaşan parantez yerini seç; işlemi hesapla.";False
+MAT.5.2.2-G28;MAT.5.2.2;Kare–Küp Gücü;Kare mi, küp mü? Üslü ifadeyi seç ve sonucunu üret.;True
+MAT.5.2.2-G29;MAT.5.2.2;Kare–Küp Gücü;Kare mi, küp mü? Üslü ifadeyi seç ve sonucunu üret.;False
+MAT.5.2.2-G30;MAT.5.2.2;Kare–Küp Gücü;Kare mi, küp mü? Üslü ifadeyi seç ve sonucunu üret.;False
+MAT.5.2.2-G31;MAT.5.2.2;Hikâyeden İşleme;Paketli satış hikâyesini doğru işlem cümlesine dönüştür ve hesabını kontrol et.;False
+MAT.5.2.2-G32;MAT.5.2.2;Hikâyeden İşleme;Paketli satış hikâyesini doğru işlem cümlesine dönüştür ve hesabını kontrol et.;True
+MAT.5.2.2-G33;MAT.5.2.2;Hikâyeden İşleme;Paketli satış hikâyesini doğru işlem cümlesine dönüştür ve hesabını kontrol et.;False
+MAT.5.2.3-G21;MAT.5.2.3;Örüntü Tablosu;"Sabit artışlı örüntünün hem yakın hem uzak adımını bul; genellemeyi sınamış ol.";False
+MAT.5.2.3-G22;MAT.5.2.3;Örüntü Tablosu;"Sabit artışlı örüntünün hem yakın hem uzak adımını bul; genellemeyi sınamış ol.";False
+MAT.5.2.3-G23;MAT.5.2.3;Örüntü Tablosu;"Sabit artışlı örüntünün hem yakın hem uzak adımını bul; genellemeyi sınamış ol.";False
+MAT.5.2.3-G24;MAT.5.2.3;Kibrit Deseni;Kibrit veya karo örüntüsünde büyüme kuralını bulup uzak şekli tahmin et.;True
+MAT.5.2.3-G25;MAT.5.2.3;Kibrit Deseni;Kibrit veya karo örüntüsünde büyüme kuralını bulup uzak şekli tahmin et.;False
+MAT.5.2.3-G26;MAT.5.2.3;Kibrit Deseni;Kibrit veya karo örüntüsünde büyüme kuralını bulup uzak şekli tahmin et.;False
+MAT.5.2.3-G27;MAT.5.2.3;Kural Makinesi;"Makinede adım sayısı ile değer arasındaki ilişkiyi kur; uzak değeri üret.";False
+MAT.5.2.3-G28;MAT.5.2.3;Kural Makinesi;"Makinede adım sayısı ile değer arasındaki ilişkiyi kur; uzak değeri üret.";True
+MAT.5.2.3-G29;MAT.5.2.3;Kural Makinesi;"Makinede adım sayısı ile değer arasındaki ilişkiyi kur; uzak değeri üret.";False
+MAT.5.2.3-G30;MAT.5.2.3;Yanlış Varsayım Avcısı;"Yanlış genellemeyi bir karşı örnekle çürüt; gerçek terimi hesapla.";False
+MAT.5.2.3-G31;MAT.5.2.3;Yanlış Varsayım Avcısı;"Yanlış genellemeyi bir karşı örnekle çürüt; gerçek terimi hesapla.";False
+MAT.5.2.3-G32;MAT.5.2.3;Yanlış Varsayım Avcısı;"Yanlış genellemeyi bir karşı örnekle çürüt; gerçek terimi hesapla.";True
+MAT.5.2.4-G21;MAT.5.2.4;Sayı Makinesi;"Sayı makinesini iki adım boyunca izle; ara değeri ve çıktıyı belirt.";False
+MAT.5.2.4-G22;MAT.5.2.4;Sayı Makinesi;"Sayı makinesini iki adım boyunca izle; ara değeri ve çıktıyı belirt.";False
+MAT.5.2.4-G23;MAT.5.2.4;Sayı Makinesi;"Sayı makinesini iki adım boyunca izle; ara değeri ve çıktıyı belirt.";False
+MAT.5.2.4-G24;MAT.5.2.4;Akış Şeması Kurucusu;"Karışmış akış şeması komutlarını sırala; çıkan sayıyı kontrol et.";True
+MAT.5.2.4-G25;MAT.5.2.4;Akış Şeması Kurucusu;"Karışmış akış şeması komutlarını sırala; çıkan sayıyı kontrol et.";False
+MAT.5.2.4-G26;MAT.5.2.4;Akış Şeması Kurucusu;"Karışmış akış şeması komutlarını sırala; çıkan sayıyı kontrol et.";False
+MAT.5.2.4-G27;MAT.5.2.4;Tekrarlı Çıkarma Robotu;"Tekrarlı çıkarma robotunu çalıştır; kaç adımda ve hangi kalanla bittiğini göster.";False
+MAT.5.2.4-G28;MAT.5.2.4;Tekrarlı Çıkarma Robotu;"Tekrarlı çıkarma robotunu çalıştır; kaç adımda ve hangi kalanla bittiğini göster.";True
+MAT.5.2.4-G29;MAT.5.2.4;Tekrarlı Çıkarma Robotu;"Tekrarlı çıkarma robotunu çalıştır; kaç adımda ve hangi kalanla bittiğini göster.";False
+MAT.5.2.4-G30;MAT.5.2.4;Algoritma Hata Avcısı;"Algoritmadaki hatalı ara değeri düzelt; doğru nihai çıktıyı elde et.";False
+MAT.5.2.4-G31;MAT.5.2.4;Algoritma Hata Avcısı;"Algoritmadaki hatalı ara değeri düzelt; doğru nihai çıktıyı elde et.";False
+MAT.5.2.4-G32;MAT.5.2.4;Algoritma Hata Avcısı;"Algoritmadaki hatalı ara değeri düzelt; doğru nihai çıktıyı elde et.";True
