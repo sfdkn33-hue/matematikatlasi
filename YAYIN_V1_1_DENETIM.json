@@ -1,0 +1,17 @@
+{
+  "base_questions": 1032,
+  "new_questions": 32,
+  "current_exam_questions": 1064,
+  "game_tasks_unchanged": 5579,
+  "new_count_by_grade": {
+    "5": 8,
+    "6": 8,
+    "7": 8,
+    "8": 8
+  },
+  "unchanged_ids_existing": true,
+  "unique_new_ids": true,
+  "unique_option_sets": true,
+  "source_copyright": "All new original text, not MEB-owned question reproduction",
+  "teacher_review": "required"
+}

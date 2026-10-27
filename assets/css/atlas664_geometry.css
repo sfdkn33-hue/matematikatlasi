@@ -1,0 +1,21 @@
+#atlas662Lab.a664{background:#f8fcff;color:#17354d;border:1px solid #c3d5e3;padding:15px;border-radius:16px;max-width:100%;box-sizing:border-box}
+.a664 .a664-kicker{font-size:.75rem;color:#167180;letter-spacing:.065em;font-weight:800}
+.a664 .a664-title{margin:7px 0;font-size:1.25rem;color:#153854}
+.a664 .a664-description{line-height:1.55;margin:6px 0 11px}
+.a664 .a664-band{background:#e2f1fa;border-radius:9px;padding:9px 10px;font-weight:700;font-size:.85rem}
+.a664 .a664-help{line-height:1.5;color:#4f677d;font-size:.87rem}
+.a664 .a664-graph{background:#fff;border:1px solid #cbdce9;border-radius:14px;overflow:hidden;width:min(100%,520px);margin:10px auto;touch-action:none}
+.a664 .a664-graph svg{display:block;width:100%;height:auto;touch-action:none;user-select:none}
+.a664 .a664-handle{cursor:grab;stroke:transparent}
+.a664 .a664-handle:focus-visible{stroke:#0f7e9b;stroke-width:4}
+.a664 .a664-controls{display:flex;gap:8px;align-items:end;flex-wrap:wrap;justify-content:center;margin:10px 0}
+.a664 .a664-controls label{display:flex;flex-direction:column;font-size:.85rem;font-weight:700;gap:4px}
+.a664 .a664-controls select,.a664 .a664-controls input{font:inherit;max-width:108px;box-sizing:border-box;background:#fff;color:#17354d;border:1px solid #b4cbdc;padding:9px;border-radius:9px}
+.a664 .a664-button{font:inherit;padding:9px 12px;border:1px solid #b4cbdc;background:#fff;color:#175172;border-radius:9px;cursor:pointer}
+.a664 .a664-primary{background:#116b82;color:white;border-color:#116b82}
+.a664 .a664-actions{display:flex;flex-wrap:wrap;gap:8px}
+.a664 .a664-status{min-height:35px;line-height:1.45;padding:10px;background:#eaf8f2;color:#145c43;border-radius:10px}
+.a664 .a664-status[data-error=true]{color:#9c382d;background:#fff1ee}
+.a664 .a664-coord-read{font-size:.8rem;color:#4d6479;overflow-wrap:anywhere}
+.a664 button:focus-visible,.a664 input:focus-visible,.a664 select:focus-visible{outline:3px solid #1686ad;outline-offset:2px}
+@media(max-width:430px){#atlas662Lab.a664{padding:9px}.a664 .a664-controls{gap:6px}.a664 .a664-controls input{max-width:80px}.a664 .a664-button{font-size:.85rem;padding:9px 7px}}

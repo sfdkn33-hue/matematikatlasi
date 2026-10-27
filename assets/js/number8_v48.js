@@ -17,8 +17,19 @@ if(m.kind==='place_match'){
  output=`<div class="a48-value">${esc(m.number_text)}</div><p>Her rakam için doğru basamak kuvvetini seç. Sıfır rakamları da bir basamakta bulunur.</p><div class="a48-rows">${m.cells.map((c,i)=>`<div class="a48-row"><label for="a48place${i}"><span><b>${c.digit}</b> ×</span><select id="a48place${i}" data-a48-exp="${i}"><option value="">10’un kuvvetini seç</option>${m.exp_choices.map(e=>`<option value="${e}" ${String(state['e'+i])===String(e)?'selected':''}>10${sup(e)}</option>`).join('')}</select></label></div>`).join('')}</div><p class="a48-note">Virgülün soluna doğru üs artar, sağına doğru negatif olur.</p>`;
 }
 if(m.kind==='power_shift'){
- output=`<div class="a48-value">${esc(m.number_text)}</div><div class="a48-math">${m.coefficient} × 10<sup>${state.shift??'□'}</sup> = ${esc(m.number_text)}</div><p>Üs kartlarından birini seç ve virgülün hangi yöne kayacağını yorumla.</p>${choose(m.options,'shift',e=>'10'+sup(e))}<div class="a48-note">Katsayı ${m.coefficient}; seçtiğin kuvvet ${state.shift??'—'}.</div>`;
+ const variant=m.variant||'direct',expected=m.exp;
+ const equation=`${m.coefficient} × 10<sup>${state.shift??'□'}</sup> = ${esc(m.number_text)}`;
+ if(variant==='debug'){
+  output=`<div class="a48-value">${esc(m.number_text)}</div><p><b>Hata avcısı:</b> Bir öğrenci ${m.coefficient} × 10<sup>${m.wrong_exp}</sup> = ${esc(m.number_text)} demiş. Önce iddiayı denetle, ardından doğru kuvveti seç.</p>${choose(['Doğru','Yanlış'],'claim')}<strong>Doğru üs</strong>${choose(m.options,'shift',e=>'10'+sup(e))}<div class="a48-math">${equation}</div>`;
+ }else if(variant==='direction'){
+  output=`<div class="a48-value">${esc(m.number_text)}</div><p><b>Virgül rotası:</b> ${m.coefficient} katsayısından hedef sayıya ulaşmak için 10’un kuvvetini seç ve ondalık virgülün hangi yöne ilerlediğini göster.</p>${choose(['Sola','Sağa'],'direction')}<strong>Gerekli kuvvet</strong>${choose(m.options,'shift',e=>'10'+sup(e))}<div class="a48-math">${equation}</div>`;
+ }else if(variant==='compare'){
+  output=`<div class="a48-value">${esc(m.number_text)}</div><p><b>Büyüklük araştırması:</b> Hedef sayı ${m.coefficient} katsayısına göre büyümüş mü, küçülmüş mü? Kararı verdikten sonra eşitliği sağlayan üssü bul.</p>${choose(['Büyüdü','Küçüldü'],'compare')}<strong>Üs kartı</strong>${choose(m.options,'shift',e=>'10'+sup(e))}<div class="a48-math">${equation}</div>`;
+ }else{
+  output=`<div class="a48-value">${esc(m.number_text)}</div><div class="a48-math">${equation}</div><p>Eksik üssü seç ve virgülün hangi yönde kaydığını düşün.</p>${choose(m.options,'shift',e=>'10'+sup(e))}<div class="a48-note">Katsayı ${m.coefficient}; seçtiğin kuvvet ${state.shift??'—'}.</div>`;
+ }
 }
+
 if(m.kind==='science'){
  if(m.type==='convert')output=`<div class="a48-value">${esc(m.number_text)}</div><p>Bilimsel gösterimde katsayı <strong>1 ile 10 arasında</strong> olmalı. Önce katsayıyı, sonra 10’un kuvvetini seç.</p><strong>Katsayı</strong>${choose(m.coef_choices,'coef',dec)}<strong>10’un kuvveti</strong>${choose(m.exp_choices,'exp',e=>'10'+sup(e))}<div class="a48-math">${state.coef?dec(Number(state.coef)):'□'} × 10<sup>${state.exp??'□'}</sup></div>`;
  else output=`<div class="a48-twocol"><div class="a48-compare">${dec(m.left_coef10)} × 10<sup>${m.left_exp}</sup></div><div class="a48-compare">${dec(m.right_coef10)} × 10<sup>${m.right_exp}</sup></div></div><p>Soldaki ve sağdaki sayıları karşılaştır:</p>${choose(['<','=','>'],'relation')}<div class="a48-note">Önce üsleri karşılaştır. Üsler eşitse katsayılar belirleyicidir.</div>`;
@@ -37,10 +48,10 @@ area.querySelectorAll('[data-a48-step]').forEach(x=>x.addEventListener('click',(
 area.querySelectorAll('#a48side').forEach(x=>x.addEventListener('input',()=>{state.side=Number(x.value);draw()}));
 area.querySelectorAll('[data-a48-lower]').forEach(x=>x.addEventListener('click',()=>{state.lower=Number(x.dataset.a48Lower);draw()}));
 }
-function render(t){task=t||null;shell.hidden=!task;if(!task){area.replaceChildren();return}model=task.atlas8Lab48;state={side:model.kind==='square_build'?Math.max(1,model.side-2):1,lower:null};el('atlas8Mode48').textContent={place_match:'Basamak Haritası',power_shift:'Üs Kaydırma',science:'Bilimsel Gösterim',square_build:'Tam Kare Yapıcı',root_line:'Karekök Sayı Doğrusu'}[model.kind];draw();status('Modelini oluşturup çözümünü kontrol et.');}
+function render(t){task=t||null;shell.hidden=!task;if(!task){area.replaceChildren();return}model=task.atlas8Lab48;state={side:model.kind==='square_build'?Math.max(1,model.side-2):1,lower:null};el('atlas8Mode48').textContent=model.kind==='power_shift'?({direct:'Üs Bulmacası',debug:'Hata Avcısı',direction:'Virgül Rotası',compare:'Büyüklük Araştırması'}[model.variant||'direct']):({place_match:'Basamak Haritası',science:'Bilimsel Gösterim',square_build:'Tam Kare Yapıcı',root_line:'Karekök Sayı Doğrusu'}[model.kind]);draw();status('Modelini oluşturup çözümünü kontrol et.');}
 function verify(){if(!task)return;const m=model;let good=false;
 if(m.kind==='place_match')good=m.cells.every((c,i)=>state['e'+i]!==undefined&&state['e'+i]!==''&&Number(state['e'+i])===c.power);
-if(m.kind==='power_shift')good=state.shift!==undefined&&Number(state.shift)===m.exp;
+if(m.kind==='power_shift')good=window.MatematikAtlasPower624?.verify(m,state)===true;
 if(m.kind==='science')good=m.type==='convert'?(state.coef!==undefined&&state.exp!==undefined&&Number(state.coef)===m.coef10&&Number(state.exp)===m.exp):state.relation===m.relation;
 if(m.kind==='square_build')good=state.side===m.side;
 if(m.kind==='root_line')good=state.lower===m.lower;

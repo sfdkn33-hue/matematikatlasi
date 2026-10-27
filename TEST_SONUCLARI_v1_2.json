@@ -1,0 +1,25 @@
+{
+  "version": "v1.2",
+  "grade_counts_new": {
+    "5": 8,
+    "6": 8,
+    "7": 8,
+    "8": 8
+  },
+  "game_tasks_preserved": 5579,
+  "exam_questions_before": 1064,
+  "exam_questions_after": 1096,
+  "exam_bank_modules_synchronized": true,
+  "new_visuals": {
+    "table": 24,
+    "steps": 6,
+    "bar": 2
+  },
+  "new_question_ids_unique": true,
+  "each_question_has_one_correct_choice": true,
+  "external_javascript_syntax_checked": 77,
+  "inline_scripts_checked": 5,
+  "missing_local_links": [],
+  "pedagogical_status": "Teacher review pending: curriculum alignment, solution language and distractor validity.",
+  "browser_status": "32 new questions tested in independent preview in mobile and desktop viewports; main pages loaded as inline documents, not deployed GitHub Pages."
+}

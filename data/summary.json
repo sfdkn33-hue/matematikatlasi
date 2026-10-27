@@ -1,17 +1,17 @@
 {
-  "version": "v6.8",
+  "version": "v6.57",
   "active_grades": [
     5,
     6,
     7,
     8
   ],
-  "active_tasks": 4037,
+  "active_tasks": 5579,
   "grade_counts": {
-    "5": 967,
-    "6": 1286,
-    "7": 899,
-    "8": 885
+    "5": 1114,
+    "6": 1390,
+    "7": 1248,
+    "8": 1827
   },
   "grade8_playable_outcomes": 52,
   "grade8_total_outcomes": 52,
@@ -76,5 +76,77 @@
   "v68_new_tasks": 36,
   "v68_preserved_tasks": 4001,
   "v68_tagged_pilot_tasks": 152,
-  "v68_qa_status": "QA pending"
+  "v68_qa_status": "QA pending",
+  "v635_new_tasks": 128,
+  "v635_previous_tasks_preserved": 4037,
+  "v635_expanded_outcomes": [
+    "MAT.5.4.3",
+    "MAT.5.2.3",
+    "MAT.6.1.1",
+    "MAT.6.1.4",
+    "MAT.7.1.3",
+    "MAT.7.1.4",
+    "M.8.5.1.5",
+    "M.8.2.2.3"
+  ],
+  "v635_new_grade_counts": {
+    "5": 32,
+    "6": 32,
+    "7": 32,
+    "8": 32
+  },
+  "v636_added_tasks": 96,
+  "v636_old_tasks_preserved": 4165,
+  "v636_new_by_outcome": {
+    "MAT.5.5.1": 8,
+    "MAT.5.6.2": 8,
+    "MAT.5.4.4": 8,
+    "MAT.6.5.2": 8,
+    "MAT.6.4.2": 8,
+    "MAT.6.6.1": 8,
+    "MAT.7.6.2": 8,
+    "MAT.7.7.3": 8,
+    "MAT.7.4.8": 8,
+    "M.8.4.1.1": 8,
+    "M.8.2.3.3": 8,
+    "M.8.3.1.2": 8
+  },
+  "v637_added_tasks": 64,
+  "v637_old_tasks_preserved": 4261,
+  "v637_new_by_outcome": {
+    "MAT.5.4.4": 8,
+    "MAT.5.5.2": 8,
+    "MAT.6.1.7": 8,
+    "MAT.6.4.2": 8,
+    "MAT.7.1.4": 8,
+    "MAT.7.6.2": 8,
+    "M.8.2.2.5": 8,
+    "M.8.5.1.5": 8
+  },
+  "v646_diagnostic_questions": 32,
+  "v646_exams_total": 688,
+  "v646_total_content": 5013,
+  "v657": {
+    "new_tasks": 348,
+    "total_tasks": 5579,
+    "assessments": 1032,
+    "code_family_pairs": 100,
+    "grade8_internal_planning_gap": 0,
+    "release_status": "STAGING_ONLY"
+  },
+  "v1_1_addon": {
+    "grade_counts": {
+      "5": 8,
+      "6": 8,
+      "7": 8,
+      "8": 8
+    },
+    "new_original_exam_questions": 32,
+    "updated_exam_modules": [
+      "ANTRENMAN_MERKEZI.html",
+      "DONEM_SONU_DENEMELERI.html",
+      "SENARYOLU_YAZILI_SIMULATORU.html"
+    ],
+    "old_exam_questions_preserved": 1032
+  }
 }

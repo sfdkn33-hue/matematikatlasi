@@ -1,57 +1,75 @@
-# Matematik Atlası · Ortaokul (5–8. sınıflar)
+# Matematik Atlası — GitHub Pages yayın paketi
 
-**Kaynak kod deposu / ilk içe aktarma · v6.22 + v6.23 altyapı taslağı**
+Bu depo **5–8. sınıf Matematik Atlası**'nın ücretsiz erişilebilen, statik web sürümünü barındırmak için hazırlanmıştır.
 
-Matematik Atlası; ortaokul öğrencileri için otomatik matematiksel doğrulama yapan görevler, hedefli öğrenme koçu ve öğretmen sınıf yönetimi sistemidir. Öğrenci cevapları öğretmen onayı gerektirmeden uygulama tarafından değerlendirilir.
+## v1.5: Öğrenci ve öğretmen çalışma alanları
 
-## Kaynakların durumu
+- `index.html`: iki çalışma alanından birini seçme ekranı. Seçim tarayıcıda hatırlanır; `index.html?sec=1` ile rol değiştirilebilir.
+- `ogrenci-paneli.html`: öğrenciler için sade öğrenme ve deneme bağlantıları.
+- `ogretmen-paneli.html`: yayımlanan **18 uygulama ve araca** tek ekrandan erişim (ana oyun dahil).
+- `atlas.html`: önceki `index.html` ana oyun motoru, soru ve görevleri değiştirilmeden taşındı.
+- Her içerik sayfasında paneline dönüş menüsü bulunur.
+- **Bu bir kimlik doğrulama sistemi değildir**: rol seçimi güvenlik sağlamaz, herkes öğretmen görünümüne geçebilir; ilerleme verileri bu tarayıcıya özeldir. Merkezi okul/sınıf yönetimi veya Google oturumu bulunmaz.
 
-| Bileşen | Durum |
-| --- | --- |
-| `data/tasks.json` | 4.037 mevcut görev korunmuştur |
-| `index.html` ve `assets/` | v6.22 öğrenci arayüzü ve oyun motorları |
-| `lan/board.js`, `lan/teacher.html` | v6.22 tahta–telefon sınıf kumandası |
-| `lan/server.js` | v6.23 yerel sınıf sunucusu, yetki kontrolleri |
-| `lan/qr-pairing.js` | Kısa ömürlü, tek kullanımlık QR eşleştirme **API** altyapısı |
-| `lan/google-auth.js` | Google OpenID Connect/OAuth doğrulama **sunucu** altyapısı |
-| `.github/workflows/atlas-lan-tests.yml` | Pull Request ve elle tetiklenen testler |
+## Kapsam
 
-### Henüz hazır olmayanlar
+- 5.579 oyun görevi / 1.132 sınav sorusu (güncel üç sınav havuzu); 130 Atlas kodundan biri eski pilot kodudur.
+- Öğrenme etkinlikleri, otomatik cevap değerlendirme, ilerleme kaydı (bu tarayıcıda), çalışma alanları, antrenman ve deneme ekranları.
+- Ücretsiz, oturum açmadan kullanım; öğretmen onayı gerekmez.
 
-- **Gerçek Gmail/Google girişi çalıştırılmadı:** Google Cloud OAuth istemcisi, HTTPS sunucu ve arayüz bağlantıları kurulmalı.
-- **Kamera üzerinden QR okutma ekranı henüz bağlanmadı:** QR ve yetkilendirme API mevcuttur; görsel QR üretimi, telefon tarama akışı ve tahta onayı için kullanıcı arayüzü entegrasyonu gerekir.
-- **Üretim/halk erişimi için uygun değildir:** Yerel sınıf ağı pilotundan önce okul ve cihaz testleri gerekir. GitHub Pages Node.js sunucusu çalıştırmaz.
-- Öğrenci bilgileri, Gmail içeriği, özel anahtarlar veya gerçek oturum şifreleri bu depoya konmamalıdır.
+## Bilinen sınırlar
 
-## Başlangıç
+- **GitHub Pages statiktir.** Google/Gmail girişi, QR ile eşleme, telefondan akıllı tahta yönetimi, merkezi öğrenci takibi ve abonelik için ayrı sunucu/altyapı gerekir; bu dağıtımda çalışmaz.
+- Öğrenci ilerleme verileri tarayıcıda kalır; cihazlar arasında otomatik senkronize edilmez.
+- Soru bankasının yanıt anahtarları istemci tarafındadır; bu sürüm resmî/güvenli yüksek önem taşıyan sınav için kullanılmamalıdır.
+- Tüm 5–8. sınıf kazanımlarının MEB ile eşleşmesi ve soruların pedagojik doğruluğu bağımsız uzman onayından geçmedi.
+- Gerçek cihazlar, sınıf ağı ve tüm ekranlarda saha testleri devam eder.
 
-**Ön koşul:** Node.js 20 veya üzeri. Proje dizininde:
+## Yayınlama
 
-```sh
-node lan/server.js
-```
+`GITHUBA_YUKLEME_REHBERI.md` dosyasını takip edin. GitHub Pages ayarı **main / (root)** olmalıdır. ZIP dosyasının kendisini GitHub'a yüklemek yerine **ZIP'in içindekileri** depo köküne koyun.
 
-Tahta aynı bilgisayarda `http://127.0.0.1:8765/tahta`, telefon aynı güvenilir yerel ağdan `http://BILGISAYARIN-YEREL-IP-ADRESI:8765/kumanda`.
+## Güvenlik
 
-**Testler:**
+Bu statik pakette `.env`, sunucu yapılandırması, özel anahtar, kimlik doğrulama sırları veya gerçek öğrenci verisi bulunmaz.
 
-```sh
-node tests_v622/test_lan.js
-node tests_v623/test_pairing.js
-node tests_v623/test_google.js
-```
+## Kaynak
 
-Bu 64 kontrollü test, gerçek Google OAuth servisini veya fiziksel telefonu kullanmaz.
+Orijinal geliştirme arşivinden derlenmiş, kaynak dosyaları ve ilerleme anahtarları korunmuş yayın adayı. Resmî MEB hizmeti veya MEB onaylı program değildir.
 
-## Güvenlik ve kaynak yönetimi
+## v1.2 — Beceri temelli özgün sorular (MEBİ yaklaşımından ilhamla)
 
-- `main` kararlı temel için ayrılmıştır. Bu ilk içe aktarmayı `feature/atlas-v623-google-qr-foundation` dalına yükle; hemen birleştirme.
-- `.env`, OAuth gizli anahtarları, gerçek öğrenci verileri ve kimlik bilgileri GitHub'a yüklenmez. `config/atlas.env.example` yalnız değişken adları için örnektir.
-- v6.22'nin büyük, üretilmiş *tek dosyalı HTML* kopyaları ve eski ekran görüntüleri Git geçmişini şişirmemek için **bu yükleme paketinden çıkarıldı**. Oyun kaynakları (`index.html`, `assets/`, `data/`) korunmuştur.
-- Eski yerel `localStorage` kayıtlarının başka bir web adresine otomatik taşındığı varsayılmamalıdır.
+- `BECERI_TEMELLI_64_OZGUN_SORU.html`: dört sınıfta on altışar soru; özgün tablolar, grafikler ve işlem şemalarıyla otomatik denetim ve çözümler.
+- `data/mebi_yaklasimi_ozgun_32.json`: v1.1 soruları.
+- `data/atlas_v12_32_yeni_beceri_sorusu.json`: v1.2 yeni 32 soru.
+- `data/atlas_v12_64_beceri_sorusu_toplam.json`: toplam 64 özgün soru.
+- 64 özgün soru, `ANTRENMAN_MERKEZI.html`, `DONEM_SONU_DENEMELERI.html` ve `SENARYOLU_YAZILI_SIMULATORU.html` içine eklenmiştir (önceki 1.032 soru korunur, yeni 1.096).
+- MEBİ/MEB soru metinleri, görselleri ve cevapları kopyalanmamıştır. Öğretmen incelemesi ve canlı alan adı testi gereklidir.
 
-## Rehberler
+## v1.2 yayın notu
 
-- **[İlk GitHub yükleme adımları](GITHUB_DESKTOP_ADIM_ADIM.md)**
-- **[v6.23 API ve OAuth kurulum notları](ATLAS_GITHUB_V623_KURULUM.md)**
-- **[v6.22 sınıf kumandası notları](README_v622.md)**
+- 5, 6, 7 ve 8. sınıfa sekizer yeni beceri temelli soru (toplam 32); önceki 1.064 soru değiştirilmedi.
+- 24 veri tablosu, 6 işlem şeması, 2 çubuk grafik.
+- Resmî MEB/MEBİ onayı veya soru bankası lisansı iddia edilmez.
+- Kazanım kodları ve pedagojik nitelik için öğretmen incelemesi sürmektedir.
+- GitHub Pages statik sürüm; cihazlar arası öğrenci hesabı ve canlı öğretmen–tahta bağlantısı bulunmaz.
+
+
+## v1.3 — Özgün muhakeme ve açık uçlu soru paketi
+- 5.579 oyun görevi, 1.132 sınav sorusu, toplam 6.711 ana içerik.
+- 8. sınıfa 18 çok aşamalı çoktan seçmeli soru; 5–7. sınıflara 18 sayısal yanıtlı açık uçlu soru eklenmiştir.
+- Tüm yeni sorular üç sınav aracının veri havuzuna işlendi.
+- `LGS_VE_ACIK_UCLU_ATOLYE.html` yeni soruların çevrimdışı etkileşimli ekranıdır.
+- Yazılı işlemler otomatik olarak doğrulanmaz. Nihai cevap otomatik kontrol edilir, işlem ve gerekçe için çözüm anahtarı gösterilir.
+- Resmî kazanım eşleştirmeleri, kapsamlı pedagojik inceleme ve canlı GitHub Pages testi henüz tamamlanmamıştır.
+- MEB/MEBİ soruları kopyalanmamıştır.
+
+## v1.4 — Üç yanlış denemeden sonra çözüm seçeneği
+
+- Ana oyun görevlerinde çözüm düğmesi başlangıçta kilitlidir. Üç ayrı doğrulanmış yanlış kontrolünden sonra açılır. Boş yanıt sayılmaz.
+- Yanlış sayacı görev ve içerik sürümü bazında cihazda saklanır. Öğrencinin mevcut başarı kayıtları değiştirilmez.
+- Açık uçlu/LGS atölyesi, 32/64 beceri sorusu, yeni nesil soru ekranı ve tanılama-tekrar çalışmasında aynı gösterme davranışı uygulanır. Tanılama ekranında ilk yanıtın ölçüm sonucu korunur.
+- Çözümü açmak başarı kaydı oluşturmaz; öğrencinin yeniden deneme hakkı sürer. İpuçları üçüncü yanlıştan önce de kullanılabilir.
+- Süreli deneme ve senaryolu yazılıda cevap anahtarı sınav tamamlanmadan açılmaz.
+- Eski mini-laboratuvarların tamamında doğrulanmış yanlış olayı yayımlanmadığından uçtan uca saha testi gerekir.
+- Soru sayısı değişmedi: 5.579 oyun + 1.132 sınav = 6.711 içerik.

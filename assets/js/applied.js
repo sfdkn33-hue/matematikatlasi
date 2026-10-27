@@ -19,7 +19,7 @@ function cards(stage,arr){const pane=node(stage,'div',null,'ap-cards');for(const
 function fractionBars(stage,n,d,caption){node(stage,'p',caption,'ap-help');const bar=node(stage,'div',null,'ap-fracbar');bar.style.gridTemplateColumns=`repeat(${d},minmax(0,1fr))`;for(let k=0;k<d;k++)node(bar,'span',null,'ap-bit'+(k<n?' ap-fill':''));bar.setAttribute('role','img');bar.setAttribute('aria-label',`${d} eş parçadan ${n} parça`)}
 function live(text,bad=false){const e=$('apStatus');if(!e)return;e.textContent=(bad?'⚠ ':'')+text;e.dataset.error=String(bad)}
 function checkResult(ok,details){if(!ok){live('Matematiksel model veya sonuç henüz doğru değil. İpucunu inceleyerek yeniden dene.',true);return false}return true}
-function render(task,onDone){if(!root)return;root.hidden=!Boolean(task.appliedLab);root.replaceChildren();if(!task.appliedLab){current=null;return}
+function render(task,onDone){if(!root)return;if(task?.atlas625&&window.MatematikAtlas625?.render(root,task,onDone))return;root.hidden=!Boolean(task.appliedLab);root.replaceChildren();if(!task.appliedLab){current=null;return}
 const c=task.appliedLab,st={task,done:false};current=st;
 node(root,'div','6. SINIF · SEÇ · MODELLE · DOĞRULA','ap-kicker');node(root,'h3',c.label);
 const stage=node(root,'div',null,'ap-stage'),controls=node(root,'div',null,'ap-controls'),actions=node(root,'div',null,'ap-actions');

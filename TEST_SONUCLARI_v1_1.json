@@ -1,0 +1,14 @@
+[
+  {
+    "viewport": 390,
+    "new_question_correct_wrong_flows": 32,
+    "js_errors": 0,
+    "horizontal_overflow": false
+  },
+  {
+    "viewport": 1280,
+    "new_question_correct_wrong_flows": 32,
+    "js_errors": 0,
+    "horizontal_overflow": false
+  }
+]

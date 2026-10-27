@@ -123,3 +123,9 @@
 .mc59-field{display:grid;gap:6px;font-weight:700;color:#193c56}.mc59-number{width:100%;max-width:360px;padding:12px;border:2px solid #648eac;border-radius:9px;background:#fff;color:#132e45;font-size:1.1rem;min-height:48px}
 .mc59-balls{display:grid;gap:10px}.mc59-ballrow{display:flex;flex-direction:column;gap:6px;color:#183e5b}.mc59-balltray{display:flex;flex-wrap:wrap;gap:5px;background:#fff;border:1px solid #c5dce9;padding:10px;border-radius:12px;min-height:42px}.mc59-red,.mc59-blue{display:inline-block;width:21px;height:21px;border-radius:50%;border:2px solid #213e57}.mc59-red{background:#e36f5e}.mc59-blue{background:#75b5e4}
 @media(max-width:480px){.mc59-stage{gap:10px}.mc59-faces{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}#modelChallengeLab .mc59-faces button{min-width:0}}
+
+/* v6.24: planned vs. varied progression control, teacher-friendly and touch accessible. */
+.atlas624-order{margin:14px 0;padding:12px;border:1px solid rgba(24,99,125,.25);border-radius:12px;background:rgba(235,250,255,.08)}
+.atlas624-order label{display:block;font-weight:800;margin-bottom:6px}
+.atlas624-order select{display:block;width:100%;min-height:44px}
+.atlas624-order small{display:block;line-height:1.5;margin-top:7px;opacity:.9}

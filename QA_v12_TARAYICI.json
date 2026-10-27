@@ -1,0 +1,19 @@
+{
+  "test": "Independent preview 32 new questions",
+  "results": [
+    {
+      "viewport": 390,
+      "correct_checks": 32,
+      "wrong_checks": 32,
+      "scroll_overflow": false,
+      "page_errors": 0
+    },
+    {
+      "viewport": 1280,
+      "correct_checks": 32,
+      "wrong_checks": 32,
+      "scroll_overflow": false,
+      "page_errors": 0
+    }
+  ]
+}

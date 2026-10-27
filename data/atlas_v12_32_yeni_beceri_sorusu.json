@@ -1,0 +1,1420 @@
+{
+  "meta": {
+    "license": "Matematik Atlası özgün içerik",
+    "count": 32,
+    "sourceNote": "MEBİ ve MEB soru bankasından kopyalanmamıştır; resmî MEB sorusu değildir.",
+    "externalReviewPending": true
+  },
+  "items": [
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-5-01",
+      "grade": 5,
+      "term": 2,
+      "outcome": "MAT.5.5.1",
+      "topic": "Veri yorumlama",
+      "family": "ATLAS-V12-5-01-veri-karşılaştırma",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "Tablodaki kulüp üyelikleri bir ay sonra karşılaştırılıyor. Satranç kulübü her sınıfta 3 kişi artarsa müzik kulübü üyeliği toplamı ile satranç üyeliği toplamı arasındaki fark kaç olur?",
+      "answer": "6",
+      "options": [
+        "6",
+        "3",
+        "9",
+        "12"
+      ],
+      "solution": "Başlangıçta satranç 11+13=24, müzik 16+20=36 kişidir. Satranç 6 artınca 30 olur; fark 36−30=6.",
+      "skill": "Veri karşılaştırma",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Sadece bir sınıftaki artışı hesaplamak veya toplamı fark sanmak",
+      "media": {
+        "type": "table",
+        "title": "Kulüplerdeki öğrenciler",
+        "columns": [
+          "Sınıf",
+          "Satranç",
+          "Müzik"
+        ],
+        "rows": [
+          [
+            "5/A",
+            11,
+            16
+          ],
+          [
+            "5/B",
+            13,
+            20
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-5-02",
+      "grade": 5,
+      "term": 2,
+      "outcome": "MAT.5.1.3",
+      "topic": "Kesirler",
+      "family": "ATLAS-V12-5-02-eksik-parçayı-modelleme",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "Bir yürüyüş parkuru dört bölüme ayrılıyor. Tablodaki ilk üç bölüm parkurun belirtilen kesirleri kadardır. Dördüncü bölüm 300 metreyse bütün parkur kaç metredir?",
+      "answer": "2400",
+      "options": [
+        "1200",
+        "1800",
+        "3000",
+        "2400"
+      ],
+      "solution": "3/8+1/4+1/4=7/8. Son bölüm 1/8 olduğundan toplam yol 300×8=2400 metredir.",
+      "skill": "Eksik parçayı modelleme",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Kesirleri toplamadan yalnız bilinen paydaları çarpma",
+      "media": {
+        "type": "table",
+        "title": "Yürüyüş bölümleri",
+        "columns": [
+          "Bölüm",
+          "Parkurun oranı"
+        ],
+        "rows": [
+          [
+            "I",
+            "3/8"
+          ],
+          [
+            "II",
+            "1/4"
+          ],
+          [
+            "III",
+            "1/4"
+          ],
+          [
+            "IV",
+            "kalan"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-5-03",
+      "grade": 5,
+      "term": 1,
+      "outcome": "MAT.5.4.1",
+      "topic": "Çevre",
+      "family": "ATLAS-V12-5-03-kısıtla-tasarım",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "Çevresi 40 metre olacak dikdörtgen bir oyun alanı tasarlanıyor. Aşağıdaki adaylardan hangisi hem bu çevreyi sağlar hem de en geniş alanı verir?",
+      "answer": "B",
+      "options": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "solution": "A: 2(6+14)=40 ve alan 84. B: 2(10+10)=40 ve alan 100. C: 2(7+13)=40, alan 91. D: 2(8+12)=40, alan 96. En büyük alan B seçeneğindedir.",
+      "skill": "Kısıtla tasarım",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "En büyük kenar uzunluğunu en büyük alan sanmak",
+      "media": {
+        "type": "table",
+        "title": "Tasarımlar",
+        "columns": [
+          "Tasarım",
+          "Uzunluk (m)",
+          "Genişlik (m)"
+        ],
+        "rows": [
+          [
+            "A",
+            6,
+            14
+          ],
+          [
+            "B",
+            10,
+            10
+          ],
+          [
+            "C",
+            7,
+            13
+          ],
+          [
+            "D",
+            8,
+            12
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-5-04",
+      "grade": 5,
+      "term": 2,
+      "outcome": "MAT.5.5.2",
+      "topic": "Örneklem ve yorum",
+      "family": "ATLAS-V12-5-04-temsil-yanlılığı",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "Okulun tüm öğrencilerinin kütüphane kullanımını araştıran dört araştırmacı örneklem planlıyor. Hangi plan okulun genelini daha iyi temsil eder?",
+      "answer": "D",
+      "options": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "solution": "D planı, her sınıf düzeyinden farklı kullanımlara sahip öğrencileri rastgele seçtiği için diğer seçeneklere göre daha dengeli bir örneklemdir.",
+      "skill": "Temsil yanlılığı",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Büyük örneklemin tek başına temsil gücü sağladığını sanmak",
+      "media": {
+        "type": "table",
+        "title": "Örneklem planları",
+        "columns": [
+          "Plan",
+          "Seçim"
+        ],
+        "rows": [
+          [
+            "A",
+            "Yalnız kütüphane kulübünden 80 kişi"
+          ],
+          [
+            "B",
+            "Yalnız 8. sınıftan 120 kişi"
+          ],
+          [
+            "C",
+            "Yalnız okul çıkışında kütüphanede bulunan 60 kişi"
+          ],
+          [
+            "D",
+            "Her sınıf düzeyinden rastgele seçilmiş toplam 120 kişi"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-5-05",
+      "grade": 5,
+      "term": 2,
+      "outcome": "MAT.5.4.4",
+      "topic": "Alan",
+      "family": "ATLAS-V12-5-05-alan-ayrıştırma",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "Dikdörtgen bir bahçenin ortasında havuz vardır. Çiçek dikilebilecek alan, bahçenin alanından havuzun alanı çıkarılarak bulunur. Çiçek alanı kaç metrekaredir?",
+      "answer": "108",
+      "options": [
+        "108",
+        "96",
+        "120",
+        "144"
+      ],
+      "solution": "Bahçe 15×10=150 m², havuz 7×6=42 m². Çiçek alanı 150−42=108 m².",
+      "skill": "Alan ayrıştırma",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Alan yerine çevreyi kullanma",
+      "media": {
+        "type": "table",
+        "title": "Alan bilgileri",
+        "columns": [
+          "Bölüm",
+          "Uzunluk",
+          "Genişlik"
+        ],
+        "rows": [
+          [
+            "Bahçe",
+            "15 m",
+            "10 m"
+          ],
+          [
+            "Havuz",
+            "7 m",
+            "6 m"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-5-06",
+      "grade": 5,
+      "term": 1,
+      "outcome": "MAT.5.1.2",
+      "topic": "Doğal sayılarla problem çözme",
+      "family": "ATLAS-V12-5-06-kaynak-planlama",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "Bir okul tiyatrosunun üç salonunda eşit sayıda koltuk bulunuyor. Gösteri için 336 bilet satıldı. İlk iki salon tamamen doluyken üçüncüde 16 koltuk boş kalmıştır. Hangisi kesinlikle doğrudur?",
+      "answer": "Veriler çelişkili",
+      "options": [
+        "80",
+        "88",
+        "96",
+        "Veriler çelişkili"
+      ],
+      "solution": "Eş kapasite x için 3x−16=336, yani x=352/3 çıkar. Kapasite tam sayı olacağı için koşulların tümü aynı anda sağlanamaz.",
+      "skill": "Kaynak planlama",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Yalnızca sayıları bölüp veri tutarsızlığını görmemek",
+      "media": {
+        "type": "steps",
+        "title": "Veriler",
+        "lines": [
+          "3 eş kapasite salon",
+          "Toplam satılan: 336",
+          "İlk iki salon dolu",
+          "Üçüncü salonda 16 boş koltuk"
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-5-07",
+      "grade": 5,
+      "term": 2,
+      "outcome": "MAT.5.6.2",
+      "topic": "Olasılık karşılaştırma",
+      "family": "ATLAS-V12-5-07-olasılık-ve-tümleyen",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "Eş dilimli çarkta renklerin sayıları tabloda verilmiştir. Mavi gelmeme olasılığını artırmak için yalnızca bir mavi dilim sarıya boyanırsa yeni olasılık kaç olur?",
+      "answer": "3/4",
+      "options": [
+        "2/3",
+        "1/2",
+        "3/4",
+        "5/6"
+      ],
+      "solution": "Başlangıçta 12 dilimin 4’ü mavidir. Bir mavi sarı olunca mavi 3, mavi olmayan 9 dilim olur. Olasılık 9/12=3/4.",
+      "skill": "Olasılık ve tümleyen",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Boyanan dilimi toplam dilim sayısına eklemek",
+      "media": {
+        "type": "table",
+        "title": "Eş bölmeli çark",
+        "columns": [
+          "Renk",
+          "Dilim sayısı"
+        ],
+        "rows": [
+          [
+            "Mavi",
+            4
+          ],
+          [
+            "Sarı",
+            5
+          ],
+          [
+            "Kırmızı",
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-5-08",
+      "grade": 5,
+      "term": 2,
+      "outcome": "MAT.5.5.1",
+      "topic": "Veri yorumlama",
+      "family": "ATLAS-V12-5-08-eksen-ve-oran-yorumu",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "Grafikteki iki sınıfın okuduğu kitap sayıları görülüyor. 5/B sınıfının sayısı 5/A sınıfının sayısından yüzde kaç fazladır?",
+      "answer": "%25",
+      "options": [
+        "%20",
+        "%25",
+        "%40",
+        "%50"
+      ],
+      "solution": "Fark 25−20=5 kitaptır. 5/A temel alındığında artış 5/20=%25 olur.",
+      "skill": "Eksen ve oran yorumu",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Artış yüzdesinin bölenine 25 yazmak",
+      "media": {
+        "type": "bar",
+        "title": "Okunan kitap sayısı",
+        "labels": [
+          "5/A",
+          "5/B"
+        ],
+        "values": [
+          20,
+          25
+        ],
+        "yLabel": "Kitap"
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-6-01",
+      "grade": 6,
+      "term": 1,
+      "outcome": "MAT.6.1.1",
+      "topic": "Çarpanlar ve katlar",
+      "family": "ATLAS-V12-6-01-ortak-bölen-tasarımı",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "72 mavi ve 120 kırmızı boncuk, hiç artmayacak biçimde özdeş paketlere yerleştiriliyor. Her paketteki mavi boncuk sayısı diğer paketlerle, kırmızı boncuk sayısı da diğer paketlerle aynı olacak. Paket sayısı en büyük olduğunda bir pakette toplam kaç boncuk bulunur?",
+      "answer": "8",
+      "options": [
+        "12",
+        "8",
+        "24",
+        "16"
+      ],
+      "solution": "En büyük paket sayısı EBOB(72,120)=24. Bir pakette 72/24=3 mavi, 120/24=5 kırmızı; toplam 8 boncuk.",
+      "skill": "Ortak bölen tasarımı",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "EBOB olan 24’ü boncuk sayısıyla karıştırmak",
+      "media": {
+        "type": "table",
+        "title": "Stoktaki boncuklar",
+        "columns": [
+          "Renk",
+          "Adet"
+        ],
+        "rows": [
+          [
+            "Mavi",
+            72
+          ],
+          [
+            "Kırmızı",
+            120
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-6-02",
+      "grade": 6,
+      "term": 1,
+      "outcome": "MAT.6.1.2",
+      "topic": "Bölünebilme",
+      "family": "ATLAS-V12-6-02-hatalı-gerekçeyi-bulma",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "Bir öğrenci 53A sayısının 6 ile bölünebilmesini araştırıyor. Aşağıdaki çıkarımlardan hangisi doğrudur?",
+      "answer": "A=4 olduğunda 6 ile bölünür.",
+      "options": [
+        "A=4 olduğunda 6 ile bölünür.",
+        "A=2 olduğunda 6 ile bölünür.",
+        "A=6 olduğunda 6 ile bölünür.",
+        "A=8 olduğunda 6 ile bölünür."
+      ],
+      "solution": "6 ile bölünebilmek için çift ve rakam toplamı 3’ün katı olmalı. 5+3+A=8+A; çift rakamlar içinden A=4 iken toplam 12 olur.",
+      "skill": "Hatalı gerekçeyi bulma",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Yalnızca çift olmayı yeterli sayma",
+      "media": {
+        "type": "steps",
+        "title": "Çözüm denemesi",
+        "lines": [
+          "6 ile bölünebilme için 2 ve 3 koşullarına birlikte bak.",
+          "2 için son basamak çift olmalıdır.",
+          "3 için rakam toplamı 3’ün katı olmalıdır."
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-6-03",
+      "grade": 6,
+      "term": 1,
+      "outcome": "MAT.6.1.4",
+      "topic": "Ortak kat",
+      "family": "ATLAS-V12-6-03-takvim-çakışması",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "İki bakım ekibi aynı gün bir araya geliyor. A ekibi her 8, B ekibi her 12 günde bakım yapıyor. İlk ortak günden itibaren sonraki 60 gün içinde, ilk gün hariç kaç kez aynı günde bakım yaparlar?",
+      "answer": "2",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "solution": "EKOK(8,12)=24 gün. Sonraki 60 günde ortak günler 24 ve 48’dir; 72 aralığın dışındadır.",
+      "skill": "Takvim çakışması",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "İlk günü tekrar saymak ya da EBOB kullanmak",
+      "media": {
+        "type": "table",
+        "title": "Bakım döngüleri",
+        "columns": [
+          "Ekip",
+          "Periyot (gün)"
+        ],
+        "rows": [
+          [
+            "A",
+            8
+          ],
+          [
+            "B",
+            12
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-6-04",
+      "grade": 6,
+      "term": 1,
+      "outcome": "MAT.6.1.5",
+      "topic": "Ondalık gösterim",
+      "family": "ATLAS-V12-6-04-birim-dönüşümü",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "Dört metrelik bir tel rulosundan tabloda verilen üç parça kesiliyor. İşlem sonunda ruloda kaç santimetre tel kalır?",
+      "answer": "75",
+      "options": [
+        "115",
+        "125",
+        "75",
+        "215"
+      ],
+      "solution": "0,85 m=85 cm, 135 cm ve 1,05 m=105 cm; toplam 325 cm. 400−325=75 cm.",
+      "skill": "Birim dönüşümü",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Metre ile santimetreyi doğrudan toplamak",
+      "media": {
+        "type": "table",
+        "title": "Kesilecek tel",
+        "columns": [
+          "Parça",
+          "Uzunluk"
+        ],
+        "rows": [
+          [
+            "I",
+            "0,85 m"
+          ],
+          [
+            "II",
+            "135 cm"
+          ],
+          [
+            "III",
+            "1,05 m"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-6-05",
+      "grade": 6,
+      "term": 2,
+      "outcome": "MAT.6.5.1",
+      "topic": "Veri analizi",
+      "family": "ATLAS-V12-6-05-aykırı-değer-yorumu",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "Bir deneyde sıcaklık ölçümleri tabloda verilmiştir. Tipik bir günü temsil etmek için aykırı değerden daha az etkilenen hangi ölçü kullanılmalıdır?",
+      "answer": "Ortanca",
+      "options": [
+        "Aritmetik ortalama",
+        "Ortanca",
+        "En büyük değer",
+        "Açıklık"
+      ],
+      "solution": "Sıralı 11,12,12,13,52 ölçümlerinin ortancası 12’dir. 52 aykırı değeri ortalamayı 20’ye çıkarır.",
+      "skill": "Aykırı değer yorumu",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Aykırı değerle ortalama yükselmesini görmezden gelmek",
+      "media": {
+        "type": "table",
+        "title": "Sıcaklık ölçümleri",
+        "columns": [
+          "Gün",
+          "Sıcaklık (°C)"
+        ],
+        "rows": [
+          [
+            "Pzt",
+            11
+          ],
+          [
+            "Sal",
+            12
+          ],
+          [
+            "Çar",
+            12
+          ],
+          [
+            "Per",
+            13
+          ],
+          [
+            "Cum",
+            52
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-6-06",
+      "grade": 6,
+      "term": 2,
+      "outcome": "MAT.6.4.2",
+      "topic": "Paralelkenarın alanı",
+      "family": "ATLAS-V12-6-06-alanı-koruma",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "Aynı taban uzunluğuna sahip iki paralelkenarın alanları eşittir. P paralelkenarının yüksekliği 9 cm, Q paralelkenarının yüksekliği 6 cm olarak ölçüldüğüne göre aşağıdakilerden hangisi doğrudur?",
+      "answer": "Bu veriler birbiriyle çelişir.",
+      "options": [
+        "Bu veriler birbiriyle çelişir.",
+        "P’nin alanı Q’nun alanının 2 katıdır.",
+        "Alanlar eşit kalabilir.",
+        "Q’nun alanı P’ninkinin 3 katıdır."
+      ],
+      "solution": "Ortak taban b için P alanı 9b, Q alanı 6b olur. b>0 ise alanlar eşit olamaz; veri çelişkilidir.",
+      "skill": "Alanı koruma",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Yükseklik etkisini görmeyip yalnız ortak tabana bakmak",
+      "media": {
+        "type": "table",
+        "title": "Ölçümler",
+        "columns": [
+          "Şekil",
+          "Taban",
+          "Yükseklik"
+        ],
+        "rows": [
+          [
+            "P",
+            "b",
+            "9 cm"
+          ],
+          [
+            "Q",
+            "b",
+            "6 cm"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-6-07",
+      "grade": 6,
+      "term": 2,
+      "outcome": "MAT.6.5.2",
+      "topic": "Veri toplama",
+      "family": "ATLAS-V12-6-07-anket-tasarımı",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "Okul kantininde yeni ürün seçilecek. Tablodaki araştırma planlarından hangisi bütün sınıfların tercihlerini daha az yanlı ölçer?",
+      "answer": "D",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "solution": "D planı hem çeşitli sınıflardan öğrenci alır hem de farklı günleri kapsar. Diğer planlar yalnız tek grubu veya tek zamanı örneklemektedir.",
+      "skill": "Anket tasarımı",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Kolay ulaşılan tek grubu evren sanmak",
+      "media": {
+        "type": "table",
+        "title": "Araştırma planları",
+        "columns": [
+          "Plan",
+          "Örnekleme"
+        ],
+        "rows": [
+          [
+            "A",
+            "Bir gün, yalnız spor takımındaki 40 öğrenci"
+          ],
+          [
+            "B",
+            "Bir gün, yalnız 8. sınıflar"
+          ],
+          [
+            "C",
+            "Her gün, yalnız kantin görevlileri"
+          ],
+          [
+            "D",
+            "Farklı günler, her sınıftan rastgele öğrenci"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-6-08",
+      "grade": 6,
+      "term": 2,
+      "outcome": "MAT.6.4.5",
+      "topic": "Çember çevresi",
+      "family": "ATLAS-V12-6-08-dönüş-ve-çevre-modelleme",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "Bisiklet parkurunda A tekerleğinin çapı 70 cm, B tekerleğinin çapı 56 cm’dir. Her ikisi de kaymadan 22 m yol alırsa, π=22/7 kabul edildiğinde hangi ifade doğrudur?",
+      "answer": "A 10 tur, B 12,5 tur atar.",
+      "options": [
+        "İkisi de 10 tur atar.",
+        "A 12,5 tur, B 10 tur atar.",
+        "A 10 tur, B 12,5 tur atar.",
+        "A 8 tur, B 10 tur atar."
+      ],
+      "solution": "Çevre A=70×22/7=220 cm=2,2 m; B=56×22/7=176 cm=1,76 m. Dönüş sayıları 22/2,2=10 ve 22/1,76=12,5.",
+      "skill": "Dönüş ve çevre modelleme",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Çapı tur sayısıyla doğru orantılı sanmak",
+      "media": {
+        "type": "table",
+        "title": "Tekerlekler",
+        "columns": [
+          "Tekerlek",
+          "Çap"
+        ],
+        "rows": [
+          [
+            "A",
+            "70 cm"
+          ],
+          [
+            "B",
+            "56 cm"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-7-01",
+      "grade": 7,
+      "term": 1,
+      "outcome": "MAT.7.1.6",
+      "topic": "Oran ve orantı",
+      "family": "ATLAS-V12-7-01-birim-fiyat-analizi",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "Aynı özellikte ürün sunan dört paket için birim fiyat karşılaştırılıyor. Birim başına en uygun paket hangisidir?",
+      "answer": "C",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "solution": "A=96/8=12 TL/kg, B=138/12=11,5 TL/kg, C=180/16=11,25 TL/kg, D=120/10=12 TL/kg. En düşük C’dir.",
+      "skill": "Birim fiyat analizi",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "En düşük toplam fiyatı en hesaplı paket sanmak",
+      "media": {
+        "type": "table",
+        "title": "Paket karşılaştırması",
+        "columns": [
+          "Paket",
+          "Miktar (kg)",
+          "Fiyat (TL)"
+        ],
+        "rows": [
+          [
+            "A",
+            8,
+            96
+          ],
+          [
+            "B",
+            12,
+            138
+          ],
+          [
+            "C",
+            16,
+            180
+          ],
+          [
+            "D",
+            10,
+            120
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-7-02",
+      "grade": 7,
+      "term": 1,
+      "outcome": "MAT.7.1.7",
+      "topic": "Orantı problemleri",
+      "family": "ATLAS-V12-7-02-i̇ki-aşamalı-orantı",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "Bir sulama düzeni 3 saatte 450 litre su harcıyor. Aynı hızla çalışırken depoya 90 litre su ekleniyor ve başlangıçta depoda 360 litre bulunuyorsa toplam kaç saat çalışabilir?",
+      "answer": "3",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "solution": "Saatlik tüketim 450/3=150 litredir. Su 360+90=450 litreye çıkar. 450/150=3 saat çalışır.",
+      "skill": "İki aşamalı orantı",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "90 litreyi saatlik tüketime eklemek",
+      "media": {
+        "type": "steps",
+        "title": "Su dengesi",
+        "lines": [
+          "Başlangıç deposu: 360 L",
+          "Eklenen su: 90 L",
+          "3 saatte tüketim: 450 L"
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-7-03",
+      "grade": 7,
+      "term": 1,
+      "outcome": "MAT.7.2.2",
+      "topic": "Cebirsel modelleme",
+      "family": "ATLAS-V12-7-03-başa-baş-analizi",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "İki kitap kulübünün aylık ücretleri tabloda verilmiştir. Bir ayda her biri aynı sayıda kitap alınıyor. İki kulüpte toplam ücretin eşit olması için kaç kitap alınmalıdır?",
+      "answer": "6",
+      "options": [
+        "6",
+        "4",
+        "8",
+        "10"
+      ],
+      "solution": "A: 24+7n, B: 48+3n. 24+7n=48+3n ise 4n=24, n=6.",
+      "skill": "Başa baş analizi",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Sabit ve değişken ücreti ayrı ayrı eşitlemek",
+      "media": {
+        "type": "table",
+        "title": "Üyelik modelleri",
+        "columns": [
+          "Kulüp",
+          "Sabit ücret",
+          "Kitap başı ücret"
+        ],
+        "rows": [
+          [
+            "A",
+            "24 TL",
+            "7 TL"
+          ],
+          [
+            "B",
+            "48 TL",
+            "3 TL"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-7-04",
+      "grade": 7,
+      "term": 2,
+      "outcome": "MAT.7.7.3",
+      "topic": "Olasılık",
+      "family": "ATLAS-V12-7-04-kesişimi-çıkararak-sayma",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "1–30 arasında eş olasılıklı numaralanmış kartlardan biri seçiliyor. Kart numarasının 3’e veya 5’e bölünebilme olasılığı kaçtır?",
+      "answer": "7/15",
+      "options": [
+        "1/2",
+        "8/15",
+        "2/5",
+        "7/15"
+      ],
+      "solution": "3’ün katı 10, 5’in katı 6; her ikisinin katı 15 ve 30 olmak üzere 2 sayı. Birleşim 10+6−2=14; olasılık 14/30=7/15.",
+      "skill": "Kesişimi çıkararak sayma",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Kesişimi iki kez saymak",
+      "media": {
+        "type": "steps",
+        "title": "Sayma planı",
+        "lines": [
+          "3’ün katlarını say.",
+          "5’in katlarını say.",
+          "Her iki kümede olanları bir kez çıkar.",
+          "30 eş olası sonuçla karşılaştır."
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-7-05",
+      "grade": 7,
+      "term": 2,
+      "outcome": "MAT.7.4.3",
+      "topic": "Dikdörtgenler prizmasının hacmi",
+      "family": "ATLAS-V12-7-05-boş-hacim-modeli",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "Bir akvaryumun dış ölçüleri tabloda verilmiş; içinde tabana oturan taş blok vardır. İç ölçüler dış ölçülere eşit varsayılırsa suyun doldurabileceği boş hacim kaç cm³ olur?",
+      "answer": "432",
+      "options": [
+        "480",
+        "528",
+        "432",
+        "48"
+      ],
+      "solution": "Akvaryum 12×8×5=480 cm³, taş blok 4×3×4=48 cm³. Boş hacim 480−48=432 cm³.",
+      "skill": "Boş hacim modeli",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Hacimleri toplamak veya taşın yalnız taban alanını çıkarmak",
+      "media": {
+        "type": "table",
+        "title": "Ölçüler",
+        "columns": [
+          "Cisim",
+          "Boy",
+          "En",
+          "Yükseklik"
+        ],
+        "rows": [
+          [
+            "Akvaryum",
+            "12 cm",
+            "8 cm",
+            "5 cm"
+          ],
+          [
+            "Taş",
+            "4 cm",
+            "3 cm",
+            "4 cm"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-7-06",
+      "grade": 7,
+      "term": 2,
+      "outcome": "MAT.7.6.2",
+      "topic": "Veri gösterimi",
+      "family": "ATLAS-V12-7-06-ölçek-etkisi",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "Grafikte sıfırdan başlayan çubuklar iki sınıfın toplam okuma dakikalarını veriyor. A sınıfı ile B sınıfı arasındaki farkın B sınıfına oranı yüzde kaçtır?",
+      "answer": "%20",
+      "options": [
+        "%25",
+        "%20",
+        "%40",
+        "%50"
+      ],
+      "solution": "A 60, B 50 dakikadır. Fark 10, B’ye oran 10/50=%20.",
+      "skill": "Ölçek etkisi",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Yüzde hesapta yanlış tabanı kullanmak",
+      "media": {
+        "type": "bar",
+        "title": "Okuma süresi",
+        "labels": [
+          "A",
+          "B"
+        ],
+        "values": [
+          60,
+          50
+        ],
+        "yLabel": "Dakika"
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-7-07",
+      "grade": 7,
+      "term": 2,
+      "outcome": "MAT.7.4.9",
+      "topic": "Yamuk alanı",
+      "family": "ATLAS-V12-7-07-alanı-iki-parçaya-ayırma",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "Yamuğun üst ve alt tabanları ile yüksekliği tabloda verilmiştir. Aynı alanı veren 10 cm tabanlı bir paralelkenarın yüksekliği kaç cm olmalıdır?",
+      "answer": "9",
+      "options": [
+        "9",
+        "12",
+        "6",
+        "18"
+      ],
+      "solution": "Yamuk alanı (14+6)×9/2=90 cm². Paralelkenarın yüksekliği 90/10=9 cm.",
+      "skill": "Alanı iki parçaya ayırma",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Tabanların farkını kullanmak",
+      "media": {
+        "type": "table",
+        "title": "Yamuk",
+        "columns": [
+          "Alt taban",
+          "Üst taban",
+          "Yükseklik"
+        ],
+        "rows": [
+          [
+            "Uzunluk",
+            "14 cm",
+            "6 cm",
+            "9 cm"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-7-08",
+      "grade": 7,
+      "term": 1,
+      "outcome": "MAT.7.1.2",
+      "topic": "Tam sayılar",
+      "family": "ATLAS-V12-7-08-denge-çizelgesi",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "Bir laboratuvar dondurucusunun sıcaklığı üç adımda değişiyor. Başlangıç −4 °C ise son sıcaklık kaç °C olur?",
+      "answer": "-5",
+      "options": [
+        "-13",
+        "5",
+        "-3",
+        "-5"
+      ],
+      "solution": "Başlangıç −4, değişimler −7,+9,−3 toplam −1; son −4−1=−5 °C.",
+      "skill": "Denge çizelgesi",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Negatif sıcaklıkta artışı çıkarma olarak okumak",
+      "media": {
+        "type": "table",
+        "title": "Sıcaklık değişimleri",
+        "columns": [
+          "Adım",
+          "Değişim (°C)"
+        ],
+        "rows": [
+          [
+            "1",
+            "−7"
+          ],
+          [
+            "2",
+            "+9"
+          ],
+          [
+            "3",
+            "−3"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-8-01",
+      "grade": 8,
+      "term": 1,
+      "outcome": "M.8.1.1.2",
+      "topic": "EBOB",
+      "family": "ATLAS-V12-8-01-en-büyük-kare-tasarımı",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "84 cm × 126 cm ölçülerindeki panonun tamamı kesilmeyen en büyük eş karelerle kaplanacak. Kaç kare gerekir?",
+      "answer": "6",
+      "options": [
+        "5",
+        "9",
+        "12",
+        "6"
+      ],
+      "solution": "EBOB(84,126)=42 cm. Kenar boyunca 84/42=2 ve 126/42=3 kare vardır; toplam 2×3=6.",
+      "skill": "En büyük kare tasarımı",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "EBOB değeri ile kare sayısını karıştırmak",
+      "media": {
+        "type": "table",
+        "title": "Pano",
+        "columns": [
+          "Uzun kenar",
+          "Kısa kenar"
+        ],
+        "rows": [
+          [
+            "Ölçü",
+            "126 cm",
+            "84 cm"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-8-02",
+      "grade": 8,
+      "term": 1,
+      "outcome": "M.8.1.2.4",
+      "topic": "Bilimsel gösterim",
+      "family": "ATLAS-V12-8-02-çok-büyük-sayı-modelleme",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "Bir ölçüm cihazının veri aktarımı tabloda gösterilmiştir. İki cihaz aynı anda çalışırsa 10³ saniyede toplam kaç MB veri üretirler?",
+      "answer": "9×10²",
+      "options": [
+        "9×10¹",
+        "9×10³",
+        "9×10²",
+        "3×10²"
+      ],
+      "solution": "A cihazı saniyede 0,3 MB, B 0,6 MB üretir. Birlikte 0,9 MB/sn; 1000 saniyede 900 MB=9×10² MB.",
+      "skill": "Çok büyük sayı modelleme",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Negatif üssün büyüklük etkisini ters yorumlamak",
+      "media": {
+        "type": "table",
+        "title": "Aktarım hızı",
+        "columns": [
+          "Cihaz",
+          "MB/sn"
+        ],
+        "rows": [
+          [
+            "A",
+            "3×10⁻¹"
+          ],
+          [
+            "B",
+            "6×10⁻¹"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-8-03",
+      "grade": 8,
+      "term": 1,
+      "outcome": "M.8.1.3.3",
+      "topic": "Kareköklü ifadeler",
+      "family": "ATLAS-V12-8-03-alan-ve-kök-ilişkisi",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "Alanı 98 cm² olan karenin çevresi hangi ifadeye eşittir?",
+      "answer": "28√2",
+      "options": [
+        "14√2",
+        "28√2",
+        "56√2",
+        "49√2"
+      ],
+      "solution": "Karenin kenarı √98=7√2 cm. Çevre 4×7√2=28√2 cm.",
+      "skill": "Alan ve kök ilişkisi",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Alanı doğrudan dörtle çarpıp çevre sanmak",
+      "media": {
+        "type": "steps",
+        "title": "Karenin bilgileri",
+        "lines": [
+          "Kare alanı = kenar × kenar",
+          "Alan 98 cm²",
+          "Çevre = 4 × kenar"
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-8-04",
+      "grade": 8,
+      "term": 1,
+      "outcome": "M.8.4.1.2",
+      "topic": "Veri analizi",
+      "family": "ATLAS-V12-8-04-daire-grafiğinden-sayı",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "Bir okulda 300 öğrenci üç farklı spor seçmiştir. Grafiğin merkez açıları tabloda verilmiştir. Voleybol seçen öğrenci sayısı basketbol seçenlerden kaç fazladır?",
+      "answer": "25",
+      "options": [
+        "25",
+        "50",
+        "75",
+        "100"
+      ],
+      "solution": "Basketbol 90/360×300=75; voleybol 120/360×300=100. Fark 25.",
+      "skill": "Daire grafiğinden sayı",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Açı farkı olan 30’u öğrenci sayısı sanmak",
+      "media": {
+        "type": "table",
+        "title": "Daire grafiği",
+        "columns": [
+          "Spor",
+          "Merkez açısı"
+        ],
+        "rows": [
+          [
+            "Basketbol",
+            "90°"
+          ],
+          [
+            "Voleybol",
+            "120°"
+          ],
+          [
+            "Yüzme",
+            "150°"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-8-05",
+      "grade": 8,
+      "term": 2,
+      "outcome": "M.8.2.1.3",
+      "topic": "Özdeşlikler",
+      "family": "ATLAS-V12-8-05-alan-farkı-modelleme",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "Kenarları (x+3) ve (x−3) santimetre olan iki karenin alan farkı 72 cm² ise x kaçtır?",
+      "answer": "6",
+      "options": [
+        "8",
+        "9",
+        "12",
+        "6"
+      ],
+      "solution": "(x+3)²−(x−3)²=12x. 12x=72’den x=6. x>3 sağlanır.",
+      "skill": "Alan farkı modelleme",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Karelerin kenar farkı ile alan farkını karıştırmak",
+      "media": {
+        "type": "steps",
+        "title": "Alan farkı planı",
+        "lines": [
+          "Büyük kare alanı (x+3)²",
+          "Küçük kare alanı (x−3)²",
+          "Alan farkı 72 cm²"
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-8-06",
+      "grade": 8,
+      "term": 2,
+      "outcome": "M.8.2.2.5",
+      "topic": "Doğrusal ilişkiler",
+      "family": "ATLAS-V12-8-06-kesişim-ve-karar",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "İki taksi tarifesinden hangisi 12 km sonunda daha ekonomiktir ve ücret farkı kaç TL’dir?",
+      "answer": "B tarifesi, 12 TL daha ucuz.",
+      "options": [
+        "A tarifesi, 12 TL daha ucuz.",
+        "B tarifesi, 24 TL daha ucuz.",
+        "B tarifesi, 12 TL daha ucuz.",
+        "Ücretler eşittir."
+      ],
+      "solution": "A: 36+9×12=144 TL. B: 60+6×12=132 TL. B 12 TL daha ucuz.",
+      "skill": "Kesişim ve karar",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Yalnız kilometre ücretini karşılaştırmak",
+      "media": {
+        "type": "table",
+        "title": "Tarifeler",
+        "columns": [
+          "Tarife",
+          "Açılış",
+          "Kilometre ücreti"
+        ],
+        "rows": [
+          [
+            "A",
+            "36 TL",
+            "9 TL"
+          ],
+          [
+            "B",
+            "60 TL",
+            "6 TL"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-8-07",
+      "grade": 8,
+      "term": 2,
+      "outcome": "M.8.2.3.3",
+      "topic": "Eşitsizlikler",
+      "family": "ATLAS-V12-8-07-en-büyük-tam-sayı-çözümü",
+      "difficulty": "Orta",
+      "kind": "choice",
+      "stem": "Bir raf en çok 110 kg taşıyor. Rafın kendi üzerinde hâlihazırda 26 kg yük var. Her biri 12 kg olan eş paketlerden en fazla kaç paket eklenebilir?",
+      "answer": "7",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "solution": "26+12n≤110, yani 12n≤84. n≤7; en fazla 7 tam paket.",
+      "skill": "En büyük tam sayı çözümü",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "En fazla kavramını eşitliği dışlayarak yorumlamak",
+      "media": {
+        "type": "table",
+        "title": "Yük bilgileri",
+        "columns": [
+          "Sabit yük",
+          "Paket kütlesi",
+          "Üst sınır"
+        ],
+        "rows": [
+          [
+            "26 kg",
+            "12 kg",
+            "110 kg"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ATLAS-OZGUN-BECERI-2026-8-08",
+      "grade": 8,
+      "term": 2,
+      "outcome": "M.8.3.1.5",
+      "topic": "Pisagor bağıntısı",
+      "family": "ATLAS-V12-8-08-uzaklık-kıyaslama",
+      "difficulty": "Zor",
+      "kind": "choice",
+      "stem": "Bir güvenlik kamerasından yere uzatılan iki kablonun dik üçgen oluşturduğu düzenekler tabloda gösteriliyor. Daha uzun kablo ile kısa kablo arasındaki fark kaç metredir?",
+      "answer": "2",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "solution": "A kablosu √(9²+12²)=15 m; B kablosu √(5²+12²)=13 m. Fark 2 m.",
+      "skill": "Uzaklık kıyaslama",
+      "source": "Matematik Atlası özgün içerik; MEB veya MEBİ sorusu değildir.",
+      "original": true,
+      "teacherReviewRequired": true,
+      "curriculumReview": "Kazanım eşleşmesi öğretmen kontrolü bekliyor",
+      "distractorReview": "Dik kenar farkını hipotenüs farkı sanmak",
+      "media": {
+        "type": "table",
+        "title": "Dik üçgen düzenekleri",
+        "columns": [
+          "Düzenek",
+          "Yatay (m)",
+          "Düşey (m)"
+        ],
+        "rows": [
+          [
+            "A",
+            9,
+            12
+          ],
+          [
+            "B",
+            5,
+            12
+          ]
+        ]
+      }
+    }
+  ]
+}

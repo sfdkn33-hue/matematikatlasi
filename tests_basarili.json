@@ -1,0 +1,159 @@
+{
+  "static": {
+    "missing_assets": [],
+    "tasks": 5579,
+    "outcomes": 130,
+    "unique_tasks": 5579,
+    "js_matches_json": true,
+    "class_distribution": {
+      "5": 1114,
+      "6": 1390,
+      "7": 1248,
+      "8": 1827
+    }
+  },
+  "browser": [
+    {
+      "page": "index.html",
+      "width": 390,
+      "grade": 5,
+      "task": "Görev 1/32 · MAT.5.3.1",
+      "title": "Dedektif: Okul kütüphanesi",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "grade": 6,
+      "task": "Görev 1/40 · MAT.6.1.1",
+      "title": "6. sınıf · Çarpan çiftlerini belirleme",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "grade": 7,
+      "task": "Görev 1/40 · MAT.7.1.1",
+      "title": "7. sınıf · Işaretli sayı farkı",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "grade": 8,
+      "task": "Görev 1/40 · M.8.1.1.1",
+      "title": "Carpan Atölyesi · 01",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "is_welcome": true,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "page": "index.html",
+      "width": 1280,
+      "grade": 5,
+      "task": "Görev 1/32 · MAT.5.3.1",
+      "title": "Dedektif: Okul kütüphanesi",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "page": "index.html",
+      "width": 1280,
+      "grade": 6,
+      "task": "Görev 1/40 · MAT.6.1.1",
+      "title": "6. sınıf · Çarpan çiftlerini belirleme",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "page": "index.html",
+      "width": 1280,
+      "grade": 7,
+      "task": "Görev 1/40 · MAT.7.1.1",
+      "title": "7. sınıf · Işaretli sayı farkı",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "page": "index.html",
+      "width": 1280,
+      "grade": 8,
+      "task": "Görev 1/40 · M.8.1.1.1",
+      "title": "Carpan Atölyesi · 01",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "page": "index.html",
+      "width": 1280,
+      "is_welcome": true,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "page": "ANTRENMAN_MERKEZI.html",
+      "width": 390,
+      "title": "Matematik Atlası | Sınav Antrenman Merkezi",
+      "body_chars": 1571,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "page": "SENARYOLU_YAZILI_SIMULATORU.html",
+      "width": 390,
+      "title": "Matematik Atlası | Senaryo Yazılı Simülatörü v6.52",
+      "body_chars": 2183,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "page": "DONEM_SONU_DENEMELERI.html",
+      "width": 390,
+      "title": "Matematik Atlası • Dönem Sonu Denemeleri v6.46",
+      "body_chars": 888,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "page": "YAZILI_MERKEZI.html",
+      "width": 390,
+      "title": "Matematik Atlası · Yazılı Sınav Merkezi v4.6",
+      "body_chars": 19728,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "page": "ogretmen.html",
+      "width": 390,
+      "title": "Matematik Atlası v6.21 · Öğretmen Öğrenme İzleri",
+      "body_chars": 9766,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "page": "ATLAS_v664_9_DINAMIK_GEOMETRI.html",
+      "width": 390,
+      "title": "Matematik Atlası v6.64 · Dinamik Geometri",
+      "body_chars": 1450,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "page": "gizlilik.html",
+      "width": 390,
+      "title": "Gizlilik ve Kullanım | Matematik Atlası",
+      "body_chars": 1495,
+      "overflow": false,
+      "errors": []
+    }
+  ]
+}

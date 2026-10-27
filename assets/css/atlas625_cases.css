@@ -1,0 +1,20 @@
+/* v6.25 approachable, readable, mobile-first reasoning cases */
+#appliedLab .v625{margin:12px 0;padding:16px;background:#f8fbff;border:1px solid #d6e5ef;color:#182d3d;border-radius:18px;box-shadow:0 8px 28px rgba(5,34,65,.06)}
+#appliedLab .v625-kicker{font-size:.72rem;font-weight:900;letter-spacing:.05em;color:#15528b}
+#appliedLab .v625-heading{margin:6px 0 16px;color:#172d48;font-size:1.2rem}
+#appliedLab .v625-scene{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:12px 0 18px}
+#appliedLab .v625-card{background:white;border:1px solid #d3e2f0;border-radius:12px;padding:10px;display:flex;flex-direction:column;gap:5px}
+#appliedLab .v625-card small{color:#536777;font-size:.8rem}#appliedLab .v625-card strong{color:#092e4c;font-size:1rem;overflow-wrap:anywhere}
+#appliedLab .v625-reason{min-width:0;border:0;padding:0;margin:0}#appliedLab .v625-reason legend{font-weight:800;margin:0 0 8px;color:#123858}
+#appliedLab .v625-options{display:grid;grid-template-columns:1fr;gap:8px}
+#appliedLab .v625-option{min-height:44px;white-space:normal;text-align:left;background:#fff;border:2px solid #c7d9ec;border-radius:11px;color:#153755;padding:12px;line-height:1.4;cursor:pointer}
+#appliedLab .v625-option[aria-pressed=true]{background:#d9f7f0;border-color:#097b6b;color:#074337;font-weight:800}
+#appliedLab .v625-option:focus-visible,#appliedLab .v625-actions button:focus-visible{outline:3px solid #0867c4;outline-offset:3px}
+#appliedLab .v625-field{display:block;margin:14px 0 6px;color:#153655;font-weight:700}#appliedLab .v625-field span{display:block;margin:0 0 5px}
+#appliedLab .v625-field input{display:block;box-sizing:border-box;width:100%;max-width:360px;background:#fff;color:#132d43;border:2px solid #c9daea;border-radius:9px;min-height:44px;padding:9px 11px;font:inherit}
+#appliedLab .v625-status{padding:12px;border-radius:10px;background:#e8f1fa;color:#123b61;min-height:24px;line-height:1.5}
+#appliedLab .v625-actions{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+#appliedLab .v625-actions button{min-height:44px;border:1px solid #adc6db;background:white;color:#194361;padding:10px 12px;border-radius:10px;font-weight:750;cursor:pointer}
+#appliedLab .v625-actions .v625-check{background:#0c7667;color:#fff;border-color:#0c7667}
+#appliedLab .v625-foot{color:#546574;font-size:.8rem;line-height:1.5}
+@media(max-width:400px){#appliedLab .v625{padding:10px}#appliedLab .v625-scene{grid-template-columns:repeat(2,minmax(0,1fr))}#appliedLab .v625-actions button{flex:1 1 125px}}

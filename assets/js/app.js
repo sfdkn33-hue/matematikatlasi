@@ -1,17 +1,32 @@
 
 (()=>{
 const db=window.ATLAS_DB,$=id=>document.getElementById(id);
-const G=$('grade'),T=$('theme'),O=$('outcome');let taskIndex=0;let done={};
+const G=$('grade'),T=$('theme'),O=$('outcome');
+const atlas626Root=document.createElement('section');atlas626Root.id='atlas626Root';atlas626Root.hidden=true;document.getElementById('studio').before(atlas626Root);
+let taskIndex=0;let done={};
 let draftAnswers={};try{draftAnswers=JSON.parse(localStorage.getItem('mathAtlasDraftAnswers')||'{}')||{}}catch(e){draftAnswers={}}
 const saveDrafts=()=>{const payload=JSON.stringify(draftAnswers);try{localStorage.setItem('mathAtlasDraftAnswers',payload);if(localStorage.getItem('mathAtlasDraftAnswers')!==payload)throw Error('Taslak doğrulanamadı')}catch(e){document.dispatchEvent(new CustomEvent('atlas:storagefailure',{detail:{area:'taslak kayıtları'}}))}};
 $('answer').addEventListener('input',()=>{const a=t();if(!a)return;draftAnswers[a.id]=$('answer').value;saveDrafts()});
 function taskNavFocus(){$('title').focus({preventScroll:true})}
 
 try{done=JSON.parse(localStorage.getItem('mathAtlas940Done')||'{}')}catch(e){}
+let atlas626Done={};try{atlas626Done=JSON.parse(localStorage.getItem('mathAtlas626Done')||'{}')||{}}catch(e){atlas626Done={}}
+let atlas662Done={};try{atlas662Done=JSON.parse(localStorage.getItem('mathAtlas662Done')||'{}')||{}}catch(e){atlas662Done={}}
+const isDoneTask=task=>done[task.id]===true&&(!task.atlas626||atlas626Done[task.id]===task.atlas626.revision)&&(!task.atlas662||atlas662Done[task.id]===task.atlas662.revision);
+
 const atlas614LastSaved=new Set(Object.entries(done).filter(([id,v])=>v===true).map(([id])=>id));
 const themes=()=>db.themes.filter(a=>String(a.sinif)===G.value),currentTheme=()=>themes().find(a=>Number(a.tema_sirasi)===Number(T.value));
 const currentOutcomes=()=>db.outcomes.filter(a=>String(a.sinif)===G.value&&Number(a.tema_sirasi)===Number(T.value));
-const pack=()=>db.tasks.filter(t=>t.ogrenme_ciktisi===O.value), t=()=>pack()[taskIndex];
+const rawPack=()=>db.tasks.filter(t=>t.ogrenme_ciktisi===O.value);
+let atlas624Mode='variety';try{atlas624Mode=localStorage.getItem('atlas624Order')==='sequence'?'sequence':'variety'}catch(e){}
+let atlas624CacheKey='',atlas624Cached=[];
+const pack=()=>{const cacheKey=O.value+'|'+atlas624Mode;if(cacheKey===atlas624CacheKey)return atlas624Cached;const items=rawPack();atlas624Cached=atlas624Mode==='variety'&&window.MatematikAtlas624?window.MatematikAtlas624.arrange(items):items;atlas624CacheKey=cacheKey;return atlas624Cached}, t=()=>pack()[taskIndex];
+// Seçilen görevi ID üzerinden sabitle; sıra değişirken başarı kayıtları değişmez.
+const atlas624OrderControl=document.createElement('div');atlas624OrderControl.className='atlas624-order';
+atlas624OrderControl.innerHTML='<label for="atlas624Order">📚 Görev gösterim sırası</label><select id="atlas624Order"><option value="variety">Çeşitli çalışma (önerilen)</option><option value="sequence">Özgün plan sırası</option></select><small>Çeşitli çalışma aynı seviyedeki farklı soru stillerini dönüşümlü sunar. Sorular veya ilerleme silinmez.</small>';
+O.insertAdjacentElement('afterend',atlas624OrderControl);
+const atlas624OrderSelect=document.getElementById('atlas624Order');atlas624OrderSelect.value=atlas624Mode;
+atlas624OrderSelect.addEventListener('change',()=>{const taskId=t()?.id;atlas624Mode=atlas624OrderSelect.value==='sequence'?'sequence':'variety';try{localStorage.setItem('atlas624Order',atlas624Mode)}catch(e){}const next=pack();taskIndex=Math.max(0,next.findIndex(x=>x.id===taskId));render()});
 // v6.7: Success in mathematics must NOT be confused with success on persistent storage.
 let atlasSaveFailed=false;
 function atlasStorageBanner(){let b=document.getElementById('atlas67StorageBanner');if(b)return b;
@@ -21,7 +36,7 @@ function atlasStorageBanner(){let b=document.getElementById('atlas67StorageBanne
  b.querySelector('#atlas67BackupText').onclick=()=>atlasExportBackup(true);return b;
 }
 function atlasExportBackup(asText){
- const payload={schema:'matematik-atlasi-v6.7-backup',exportedAt:new Date().toISOString(),completed:done,
+ const payload={schema:'matematik-atlasi-v6.7-backup',exportedAt:new Date().toISOString(),completed:done,completedRevisions:atlas626Done,completedConstructionRevisions:atlas662Done,
    attempts:(window.MatematikAtlas64?.getEvents?.()||[]),drafts:draftAnswers};
  const encoded=JSON.stringify(payload,null,2);
  if(asText){const t=atlasStorageBanner().querySelector('#atlas67BackupData');t.hidden=false;t.value=encoded;t.focus();t.select();return}
@@ -29,6 +44,7 @@ function atlasExportBackup(asText){
  catch(e){atlasExportBackup(true)}
 }
 window.MatematikAtlas67={backup:atlasExportBackup,storageHealthy:()=>!atlasSaveFailed};
+window.MatematikAtlas662Commit=(id,revision)=>{atlas662Done[id]=revision;try{const encoded=JSON.stringify(atlas662Done);localStorage.setItem('mathAtlas662Done',encoded);if(localStorage.getItem('mathAtlas662Done')!==encoded)throw Error('Görev revizyonu kaydı doğrulanamadı');return true}catch(e){document.dispatchEvent(new CustomEvent('atlas:storagefailure',{detail:{area:'inşa görevi içerik sürümü'}}));return false}};
 const backupButton=document.createElement('button');backupButton.type='button';backupButton.id='atlas67ManualBackup';backupButton.textContent='📥 Yedek al';backupButton.title='Bu cihazdaki ilerlememi JSON olarak yedekle';backupButton.onclick=()=>atlasExportBackup(false);
 const progressAnchor=document.getElementById('atlasProgressDetails');if(progressAnchor)progressAnchor.appendChild(backupButton);
 document.addEventListener('atlas:storagefailure',()=>{atlasSaveFailed=true;atlasStorageBanner()});
@@ -46,29 +62,36 @@ function populateThemes(choose){const th=themes();setOptions(T,th.map(a=>({value
 function populateOutcomes(choose){const outs=currentOutcomes();setOptions(O,outs.map(a=>({value:a.kod,text:a.tema_cikti_sirasi+'. '+a.kod+' · '+a.etiket})),choose||outs[0].kod);taskIndex=0;render()}
 function themeMap(){const box=$('themeMap');box.innerHTML='';for(const th of themes()){
  const codes=db.outcomes.filter(a=>String(a.sinif)===G.value&&Number(a.tema_sirasi)===Number(th.tema_sirasi)).map(a=>a.kod);
- const completed=db.tasks.filter(a=>codes.includes(a.ogrenme_ciktisi)&&done[a.id]).length;
+ const completed=db.tasks.filter(a=>codes.includes(a.ogrenme_ciktisi)&&isDoneTask(a)).length;
  const goal=db.tasks.filter(a=>codes.includes(a.ogrenme_ciktisi)).length;const btn=document.createElement('button');btn.className='theme-step'+(Number(th.tema_sirasi)===Number(T.value)?' selected':'');
  btn.type='button';btn.setAttribute('aria-pressed',String(Number(th.tema_sirasi)===Number(T.value)));
- btn.innerHTML='<span class="step-num'+(completed===goal?' done':'')+'">'+(completed===goal?'✓':th.tema_sirasi)+'</span><span>'+th.tema+'<span class="step-meta">'+completed+'/'+goal+' görev'+(th.atlas_pilot?' · pilot':' · '+th.ders_saati+' ders saati')+'</span></span>';
+ btn.innerHTML='<span class="step-num'+(completed===goal?' done':'')+'">'+(completed===goal?'✓':th.tema_sirasi)+'</span><span>'+th.tema+'<span class="step-meta">'+completed+'/'+goal+' görev'+(th.atlas_pilot?' · kazanım çalışmaları':' · '+th.ders_saati+' ders saati')+'</span></span>';
  btn.onclick=()=>{T.value=th.tema_sirasi;populateOutcomes()};box.appendChild(btn)
 }}
 function render(){const list=pack();if(!list.length)return;taskIndex=Math.max(0,Math.min(taskIndex,list.length-1));const a=list[taskIndex],o=db.outcomes.find(x=>x.kod===a.ogrenme_ciktisi),th=currentTheme();
- $('desc').textContent=o.resmi_metin||o.etiket;$('themeInfo').textContent=th.atlas_pilot?'Pilot içerik · ders saatleri ve yıllık sıralama sonraki aşamada tamamlanacak':th.ders_saati+' ders saati · yaklaşık '+th.yaklasik_hafta+'. haftalar (5 saat/hafta hesabı)';
- $('lessonPlan').textContent=o.atlas_pilot?(o.curriculum_version+' · PİLOT · '+o.kod+' · '+th.tema):o.plan_sirasi+'. öğrenme çıktısı / '+db.outcomes.filter(x=>x.sinif===o.sinif).length+' · '+o.kod+' · '+th.tema;
+ window.__atlasActiveTaskId=a.id;
+ $('desc').textContent=o.resmi_metin||o.etiket;$('themeInfo').textContent=th.atlas_pilot?'Bu konu için yıllık plan eşleştirmesi gözden geçirilmektedir':th.ders_saati+' ders saati · yaklaşık '+th.yaklasik_hafta+'. haftalar (5 saat/hafta hesabı)';
+ $('lessonPlan').textContent=o.atlas_pilot?(o.curriculum_version+' · '+o.kod+' · '+th.tema):o.plan_sirasi+'. öğrenme çıktısı / '+db.outcomes.filter(x=>x.sinif===o.sinif).length+' · '+o.kod+' · '+th.tema;
  $('eyebrow').textContent=a.ogrenme_ciktisi+' · GÖREV '+a.gorev_no+'/'+pack().length+' · '+a.asama;
- $('title').textContent=a.baslik;$('question').textContent=a.gorev;$('question').hidden=!!(a.atlas611Workbench||a.atlas610Workbench||a.atlas69Workbench||a.atlas68Workbench||a.atlas63Pilot||a.atlas61Lab||a.atlas60Lab||a.atlas54||a.atlas55||a.atlas56||a.atlas57);$('mechanic').textContent=a.mekanik;$('level').textContent='Seviye '+a.seviye;
- $('answer').value=draftAnswers[a.id]||'';$('feedback').style.display='none';$('numbergrid').innerHTML='';$('legacyAnswer').hidden=!!(a.atlas611Workbench||a.atlas610Workbench||a.atlas69Workbench||a.atlas68Workbench||a.atlas63Pilot||a.atlas61Lab);
- for(const b of list){const btn=document.createElement('button');btn.textContent=b.gorev_no;btn.title='Görev '+b.gorev_no;btn.className=(b.gorev_no===a.gorev_no?'active ':'')+(done[b.id]?'done':'');btn.onclick=()=>{taskIndex=list.findIndex(x=>x.id===b.id);render();taskNavFocus()};$('numbergrid').appendChild(btn)}
+ $('title').textContent=a.baslik;$('question').textContent=a.gorev;$('question').hidden=!!(a.atlas662||a.atlas626||a.atlas611Workbench||a.atlas610Workbench||a.atlas69Workbench||a.atlas68Workbench||a.atlas63Pilot||a.atlas61Lab||a.atlas60Lab||a.atlas54||a.atlas55||a.atlas56||a.atlas57);$('mechanic').textContent=a.mekanik;$('level').textContent='Seviye '+a.seviye;
+ $('answer').value=draftAnswers[a.id]||'';$('feedback').style.display='none';
+ // v6.60: Old completion is preserved; new mathematical revision needs its own verified attempt.
+ const staleRevision=Boolean(done[a.id]===true&&((a.atlas626&&atlas626Done[a.id]!==a.atlas626.revision)||(a.atlas662&&atlas662Done[a.id]!==a.atlas662.revision)));
+ let reviewNotice=document.getElementById('atlas660ReviewNotice');
+ if(!reviewNotice){reviewNotice=document.createElement('p');reviewNotice.id='atlas660ReviewNotice';reviewNotice.setAttribute('role','status');reviewNotice.className='atlas660-review-note';document.getElementById('question').insertAdjacentElement('afterend',reviewNotice)}
+ reviewNotice.hidden=!staleRevision;reviewNotice.textContent=staleRevision?'↻ Bu çalışmanın içeriği yenilendi. Önceki başarın saklı; yeni çalışmanın tamamlandı sayılması için adımlarını yeniden çözmelisin.':'';
+$('numbergrid').innerHTML='';$('legacyAnswer').hidden=!!(a.atlas662||a.atlas626||a.atlas611Workbench||a.atlas610Workbench||a.atlas69Workbench||a.atlas68Workbench||a.atlas63Pilot||a.atlas61Lab);
+ for(const b of list){const btn=document.createElement('button');btn.textContent=b.gorev_no;btn.title='Görev '+b.gorev_no;btn.className=(b.gorev_no===a.gorev_no?'active ':'')+(isDoneTask(b)?'done':'');btn.onclick=()=>{taskIndex=list.findIndex(x=>x.id===b.id);render();taskNavFocus()};$('numbergrid').appendChild(btn)}
 $('prev').disabled=taskIndex===0;
  $('next').disabled=taskIndex===list.length-1;
- const count=list.filter(x=>done[x.id]).length;
- $('progress').textContent='Bu öğrenme çıktısı: '+count+'/'+pack().length+' · Toplam: '+db.tasks.filter(x=>done[x.id]).length+'/'+db.tasks.length+' görev. Tamamlanan görevler bu tarayıcıda saklanır.';
- $('donecount').textContent='✓ '+db.tasks.filter(x=>done[x.id]).length+' tamamlandı';
+ const count=list.filter(x=>isDoneTask(x)).length;
+ $('progress').textContent='Bu öğrenme çıktısı: '+count+'/'+pack().length+' · Toplam: '+db.tasks.filter(x=>isDoneTask(x)).length+'/'+db.tasks.length+' görev. Tamamlanan görevler bu tarayıcıda saklanır.';
+ $('donecount').textContent='✓ '+db.tasks.filter(x=>isDoneTask(x)).length+' tamamlandı';
  const hasNext=db.outcomes.some(x=>x.sinif===o.sinif&&x.plan_sirasi>o.plan_sirasi);
  $('goNextOutcome').disabled=!hasNext;$('goNextOutcomeBottom').disabled=!hasNext;
- renderStudio(a);window.MatematikAtlasBonus?.render(a);window.MatematikAtlasChallenge?.render(a,!!done[a.id]);themeMap();document.dispatchEvent(new CustomEvent('atlas:taskrender',{detail:{id:a.id,grade:String(a.sinif),theme:Number(a.tema_sirasi),outcome:a.ogrenme_ciktisi,number:a.gorev_no,title:a.baslik}}))
+ renderStudio(a);window.MatematikAtlas626?.render(atlas626Root,a,()=>{atlas626Done[a.id]=a.atlas626.revision;try{localStorage.setItem('mathAtlas626Done',JSON.stringify(atlas626Done))}catch(e){document.dispatchEvent(new CustomEvent('atlas:storagefailure',{detail:{area:'yenilenmiş görev doğrulaması'}}))}done[a.id]=true;delete draftAnswers[a.id];saveDrafts();save();render();feedback('✅ Matematiksel adımlar doğrulandı. '+a.atlas626.explanation,true)});window.MatematikAtlasBonus?.render(a);window.MatematikAtlasChallenge?.render(a,isDoneTask(a));themeMap();document.dispatchEvent(new CustomEvent('atlas:taskrender',{detail:{id:a.id,grade:String(a.sinif),theme:Number(a.tema_sirasi),outcome:a.ogrenme_ciktisi,number:a.gorev_no,title:a.baslik}}))
 }
-function gateDone(a,finish){if(a.atlas61Lab){finish();return}if(window.MatematikAtlasChallenge?.gate(a,finish)===false){feedback('✅ İlk model doğru. Tamamlama için ikinci modeli de kontrol et.');return}finish()}
+function gateDone(a,finish){if(a.atlas663){finish();return}if(a.atlas61Lab){finish();return}if(window.MatematikAtlasChallenge?.gate(a,finish)===false){feedback('✅ İlk model doğru. Tamamlama için ikinci modeli de kontrol et.');return}finish()}
 function feedback(str,ok=false){
  if(!ok && (/^🔎/u.test(str)||/^Tekrar dene[. !]/u.test(str)||/^Henüz tamamlanmadı[.! ]/u.test(str))){
   const active=t();if(active)document.dispatchEvent(new CustomEvent('atlas:legacyfeedback',{detail:{taskId:active.id,status:'wrong'}}));
@@ -109,6 +132,7 @@ function answersEquivalent(actual,expected,task){
 }
 $('check').onclick=()=>{const x=t(),resp=$('answer').value.trim();if(!resp){feedback('Önce çözümünü veya bir gerekçeni yaz.');return}
 
+if(x.atlas662 && window.__atlas662Verified!==x.id){feedback('Önce görsel modeli oluşturarak doğrula.');return}
 if(x.atlas611Workbench && window.__atlas611Verified!==x.id){feedback('Önce v6.11 görsel modelini ve matematiksel hesabını doğrula.');return}
 if(x.atlas610Workbench && window.__atlas610Verified!==x.id){feedback('Önce v6.10 modelini ve sayısal kanıtını doğrula.');return}
 if(x.atlas69Workbench && window.__atlas69Verified!==x.id){feedback('Önce v6.9 modelini ve matematiksel kanıtını doğru tamamla.');return}
@@ -131,9 +155,16 @@ if(x.atlas7Algebra && window.__atlasAlgebraVerified!==x.id){feedback('Önce Cebi
 if(x.atlas7Probability && window.__atlasProbabilityVerified!==x.id){feedback('Önce Olasılık Laboratuvarı içindeki modeli çöz ve doğrula.');return}
 if(answersEquivalent(resp,x.beklenen_yanit_veya_rubrik,x)){gateDone(x,()=>{done[x.id]=true;delete draftAnswers[x.id];saveDrafts();save();render();feedback('✅ Doğru! '+x.ipucu,true)})}else {feedback('Tekrar dene. İpucundan yararlan veya düşünme yolunu kontrol et.')}};
 $('hint').onclick=()=>{const a=t();feedback('💡 '+a.ipucu)};
-$('rubric').onclick=()=>{const a=t();let persisted=false;try{persisted=JSON.parse(localStorage.getItem('mathAtlas940Done')||'{}')[a.id]===true}catch(e){}
- if(!persisted){feedback('Çözüm anahtarı görevi doğru tamamlayıp ilerlemeni kaydettikten sonra açılır. İpucu düğmesini kullan.');return}
- feedback('Beklenen çözüm/kanıt: '+a.beklenen_yanit_veya_rubrik)};
+$('rubric').onclick=()=>{const a=t();if(!a)return;
+ const policy=window.ATLAS_SOLUTION_POLICY;
+ if(!policy?.canShow(a,isDoneTask(a))){feedback('Çözüm üçüncü gerçek yanlış denemeden sonra açılır. Boş cevaplar yanlış sayılmaz; önce ipucunu kullanabilirsin.');return;}
+ const parts=[a.atlas626?.explanation,a.atlas662?.explanation,a.atlas663?.explanation,a.atlas664?.explanation,a.atlas611Workbench?.explanation,a.atlas610Workbench?.explanation,a.atlas61Lab?.explanation,a.atlas60Lab?.explanation,a.atlas653?.solution,a.atlas654?.solution,a.atlas655?.solution,a.atlas656?.solution,a.atlas657?.solution,a.atlas658?.solution,a.atlas659?.solution,a.atlas660?.solution,a.atlas661?.solution];
+ const unique=[...new Set(parts.filter(x=>typeof x==='string'&&x.trim()).map(x=>x.trim()))];
+ const rubric=String(a.beklenen_yanit_veya_rubrik||'').trim();
+ if(rubric&&!unique.some(x=>x.includes(rubric))&&!/^(?:her adım|iki aşamalı|çizim|modelin doğru|doğru aracın seçildiği)/iu.test(rubric))unique.unshift('Beklenen yanıt: '+rubric);
+ feedback('📖 Çözüm / açıklama: '+(unique.join(' · ')||'İpucundaki matematiksel ilişkiyi ve oluşturduğun modeli karşılaştır: '+String(a.ipucu||'Yanıtı kontrol ederek yeniden dene.'))+' · Çözümü açmak görevi tamamlamaz.');
+ policy.solutionViewed(a);
+};
 
 $('next').onclick=()=>{taskIndex=Math.min(pack().length-1,taskIndex+1);render();taskNavFocus()};
 $('prev').onclick=()=>{taskIndex=Math.max(0,taskIndex-1);render();taskNavFocus()};
@@ -165,7 +196,7 @@ function makeChoices(cfg){const options=cfg.kind==='tool'?['cetvel','pergel','il
  refreshChoices(options);}
 function renderProbability5PlusLab(a){window.MatematikAtlasProbability5Plus?.render(a,()=>{done[a.id]=true;save();render();feedback('✅ Olasılık tasarım görevi tamamlandı.',true)})}
 function renderAlgebra5PlusLab(a){window.MatematikAtlasAlgebra5Plus?.render(a,()=>{done[a.id]=true;save();render();feedback('✅ Cebirsel düşünme görevi tamamlandı.',true)})}
-function renderStudio(a){document.body.classList.toggle('atlas611-task',!!a.atlas611Workbench);document.body.classList.toggle('atlas610-task',!!a.atlas610Workbench);if(a.atlas611Workbench){$('studio').hidden=true;$('legacyAnswer').hidden=true;document.querySelectorAll('[id$=Lab]').forEach(e=>{if(e.id!=='atlas611Lab')e.hidden=true});return;}if(a.atlas610Workbench){$('studio').hidden=true;$('legacyAnswer').hidden=true;document.querySelectorAll('[id$=Lab]').forEach(e=>{if(e.id!=='atlas610Lab')e.hidden=true});return;}if(a.atlas69Workbench){$('studio').hidden=true;$('legacyAnswer').hidden=true;document.querySelectorAll('[id$=Lab]').forEach(e=>{if(e.id!=='atlas69Lab')e.hidden=true});return;}studio.task=a;renderNumberLab(a);renderMeasureLab(a);renderFractionLab(a);renderStatLab(a);renderAlgebraLab(a);renderProbabilityLab(a);renderFactorLab(a);renderExperimentLab(a);renderDecimalLab(a);renderAppliedLab(a);renderResearchLab(a);renderGeometry6Lab(a);renderAlgebra6Lab(a);renderMeasure6Lab(a);renderGeometry5PlusLab(a);renderNumber5PlusLab(a);renderFraction5PlusLab(a);renderMeasure5PlusLab(a);renderStatistics5PlusLab(a);renderAlgebra5PlusLab(a);renderProbability5PlusLab(a);const cfg=getCfg();$('studio').hidden=!cfg;document.body.classList.remove('atlas-board-focus');$('studioFocus').setAttribute('aria-pressed','false');$('studioFocus').textContent='⛶ Büyüt';$('legacyAnswer').hidden=!!(a.atlas611Workbench||a.atlas610Workbench||a.atlas69Workbench||a.atlas68Workbench||a.atlas63Pilot||a.atlas61Lab||a.atlas60Lab||a.atlas57||a.atlas56||a.atlas55||a.atlas54||a.atlas53||a.atlas52||a.atlas51||a.atlas50||a.atlas49||a.atlas8Lab48||a.atlas8Lab||a.pilot_ui||a.atlas7Lab||a.atlas7Solid||a.atlas7Stats||a.atlas7Transform||a.atlas7Triangle||a.atlas7Ratio||a.atlas7Algebra||a.atlas7Probability||cfg||a.numeric||a.geometryLab||a.fractionLab||a.statLab||a.algebraLab||a.probabilityLab||a.factorLab||a.expLab||a.decimalLab||a.appliedLab||a.researchLab||a.geometry6Lab||a.algebra6Lab||a.geometryMeasureLab||a.geometry5PlusLab||a.number5PlusLab||a.fraction5PlusLab||a.measure5PlusLab||a.research5PlusLab||a.algebra5PlusLab||a.probability5PlusLab);if(a.numeric||a.geometryLab||a.fractionLab||a.statLab||a.algebraLab||a.probabilityLab||a.factorLab||!cfg)return;
+function renderStudio(a){if(a.atlas662){$('studio').hidden=true;$('legacyAnswer').hidden=true;document.querySelectorAll('[id$=Lab]').forEach(e=>e.hidden=true);return;}if(a.atlas626){$('studio').hidden=true;$('legacyAnswer').hidden=true;document.querySelectorAll('[id$=Lab]').forEach(e=>e.hidden=true);return;}document.body.classList.toggle('atlas611-task',!!a.atlas611Workbench);document.body.classList.toggle('atlas610-task',!!a.atlas610Workbench);if(a.atlas611Workbench){$('studio').hidden=true;$('legacyAnswer').hidden=true;document.querySelectorAll('[id$=Lab]').forEach(e=>{if(e.id!=='atlas611Lab')e.hidden=true});return;}if(a.atlas610Workbench){$('studio').hidden=true;$('legacyAnswer').hidden=true;document.querySelectorAll('[id$=Lab]').forEach(e=>{if(e.id!=='atlas610Lab')e.hidden=true});return;}if(a.atlas69Workbench){$('studio').hidden=true;$('legacyAnswer').hidden=true;document.querySelectorAll('[id$=Lab]').forEach(e=>{if(e.id!=='atlas69Lab')e.hidden=true});return;}studio.task=a;renderNumberLab(a);renderMeasureLab(a);renderFractionLab(a);renderStatLab(a);renderAlgebraLab(a);renderProbabilityLab(a);renderFactorLab(a);renderExperimentLab(a);renderDecimalLab(a);renderAppliedLab(a);renderResearchLab(a);renderGeometry6Lab(a);renderAlgebra6Lab(a);renderMeasure6Lab(a);renderGeometry5PlusLab(a);renderNumber5PlusLab(a);renderFraction5PlusLab(a);renderMeasure5PlusLab(a);renderStatistics5PlusLab(a);renderAlgebra5PlusLab(a);renderProbability5PlusLab(a);const cfg=getCfg();$('studio').hidden=!cfg;document.body.classList.remove('atlas-board-focus');$('studioFocus').setAttribute('aria-pressed','false');$('studioFocus').textContent='⛶ Büyüt';$('legacyAnswer').hidden=!!(a.atlas611Workbench||a.atlas610Workbench||a.atlas69Workbench||a.atlas68Workbench||a.atlas63Pilot||a.atlas61Lab||a.atlas60Lab||a.atlas57||a.atlas56||a.atlas55||a.atlas54||a.atlas53||a.atlas52||a.atlas51||a.atlas50||a.atlas49||a.atlas8Lab48||a.atlas8Lab||a.pilot_ui||a.atlas7Lab||a.atlas7Solid||a.atlas7Stats||a.atlas7Transform||a.atlas7Triangle||a.atlas7Ratio||a.atlas7Algebra||a.atlas7Probability||cfg||a.numeric||a.geometryLab||a.fractionLab||a.statLab||a.algebraLab||a.probabilityLab||a.factorLab||a.expLab||a.decimalLab||a.appliedLab||a.researchLab||a.geometry6Lab||a.algebra6Lab||a.geometryMeasureLab||a.geometry5PlusLab||a.number5PlusLab||a.fraction5PlusLab||a.measure5PlusLab||a.research5PlusLab||a.algebra5PlusLab||a.probability5PlusLab);if(a.numeric||a.geometryLab||a.fractionLab||a.statLab||a.algebraLab||a.probabilityLab||a.factorLab||!cfg)return;
  studio.points=[];studio.closed=false;studio.angle=cfg.kind==='angle'?25:cfg.target||45;$('angleSlider').min=0;$('angleSlider').max=180;studio.option='';studio.preview=null;studio.drawing=false;studio.keyboard={x:280,y:200,active:false};
  $('studioInstructions').textContent=cfg.instruction;$('studioTitle').textContent=({tool:'Çizim aracı seç',circle:'Pergel istasyonu',angle:'Açıölçer laboratuvarı',angleRead:'Açıyı oku',perp:'Dikme ustası',line:'Doğru kur',ray:'Işın oluştur',segment:'Doğru parçası çiz',polygon:'Çokgen mimarı',lineRelations:'Kesişen doğrular ve açı ilişkileri',polyAnalyze:'Düzgün çokgen dedektifi',doubleCircle:'İki çemberle üçgen inşası'})[cfg.kind]||'Çizim istasyonu';
  $('studioCanvasBox').hidden=cfg.kind==='tool';document.body.classList.remove('atlas-board-focus');$('studioFocus').setAttribute('aria-pressed','false');$('studioFocus').textContent='⛶ Büyüt';const precise= $('studioPrecision');precise.hidden=!['circle','perp','line','ray','segment','polygon'].includes(cfg.kind);precise.open=false;studioPreciseCursor();$('angleControl').hidden=cfg.kind!=='angle';$('angleSlider').value=studio.angle;$('angleValue').textContent=studio.angle+'°';
@@ -867,7 +898,7 @@ function ftVerify(){if(!ft.task)return;const c=ft.task.factorLab;let ok=false;
  
  done[ft.task.id]=true;save();
  const dots=$('numbergrid').querySelectorAll('button');if(dots[taskIndex])dots[taskIndex].classList.add('done');
- const completed=pack().filter(x=>done[x.id]).length;const total=db.tasks.filter(x=>done[x.id]).length;
+ const completed=pack().filter(x=>isDoneTask(x)).length;const total=db.tasks.filter(x=>isDoneTask(x)).length;
  $('progress').textContent='Bu öğrenme çıktısı: '+completed+'/'+pack().length+' · Toplam: '+total+'/'+db.tasks.length+' görev. Tamamlanan görevler bu tarayıcıda saklanır.';$('donecount').textContent='✓ '+total+' tamamlandı';themeMap();
  ftSay('✅ Doğru model! Çözümün ekranda korunuyor; sonraki göreve geçebilirsin.');
  feedback('✅ Matematiksel model veya seçim doğru! '+(c.needsReason?'Açıklaman isteğe bağlı not olarak kaydedildi. ':'')+'Bir sonraki göreve geçebilirsin.',true)
@@ -880,7 +911,7 @@ function renderDecimalLab(a){
   window.MatematikAtlasDecimal.render(a.atlas51?{...a,decimalLab:null}:a,()=>{
     done[a.id]=true;save();
     const buttons=$('numbergrid').querySelectorAll('button');if(buttons[taskIndex])buttons[taskIndex].classList.add('done');
-    const count=pack().filter(x=>done[x.id]).length,total=db.tasks.filter(x=>done[x.id]).length;
+    const count=pack().filter(x=>isDoneTask(x)).length,total=db.tasks.filter(x=>isDoneTask(x)).length;
     $('progress').textContent='Bu öğrenme çıktısı: '+count+'/'+pack().length+' · Toplam: '+total+'/'+db.tasks.length+' görev. Tamamlanan görevler bu tarayıcıda saklanır.';
     $('donecount').textContent='✓ '+total+' tamamlandı';themeMap();
     feedback('✅ Matematiksel model doğrulandı. İstasyonun sonucunu inceleyebilirsin.',true);
@@ -892,8 +923,8 @@ function renderExperimentLab(a){
     for(const btn of $('numbergrid').querySelectorAll('button')){
       if(btn.title==='Görev '+a.gorev_no)btn.classList.add('done');
     }
-    const count=pack().filter(x=>done[x.id]).length;
-    const total=db.tasks.filter(x=>done[x.id]).length;
+    const count=pack().filter(x=>isDoneTask(x)).length;
+    const total=db.tasks.filter(x=>isDoneTask(x)).length;
     $('progress').textContent='Bu öğrenme çıktısı: '+count+'/'+pack().length+' · Toplam: '+total+'/'+db.tasks.length+' görev. Tamamlanan görevler bu tarayıcıda saklanır.';
     $('donecount').textContent='✓ '+total+' tamamlandı';themeMap();
     feedback('✅ Deney görevi tamamlandı. Grafik ve gözlemler ekranda korunuyor. Yazılı yorumun isteğe bağlıdır; puanlanmaz.',true);
@@ -903,7 +934,7 @@ function renderAppliedLab(a){
   window.MatematikAtlasApplied.render(a,()=>{
     done[a.id]=true;save();
     const buttons=$('numbergrid').querySelectorAll('button');if(buttons[taskIndex])buttons[taskIndex].classList.add('done');
-    const count=pack().filter(x=>done[x.id]).length,total=db.tasks.filter(x=>done[x.id]).length;
+    const count=pack().filter(x=>isDoneTask(x)).length,total=db.tasks.filter(x=>isDoneTask(x)).length;
     $('progress').textContent='Bu öğrenme çıktısı: '+count+'/'+pack().length+' · Toplam: '+total+'/'+db.tasks.length+' görev. Tamamlanan görevler bu tarayıcıda saklanır.';
     $('donecount').textContent='✓ '+total+' tamamlandı';themeMap();
     feedback('✅ Matematiksel model tamamlandı; çözüm ekranda kalıyor. Açıklama notun puanlanmaz.',true);
@@ -913,7 +944,7 @@ function renderGeometry6Lab(a){
   window.MatematikAtlasGeometry6.render(a,()=>{gateDone(a,()=>{
     done[a.id]=true;save();
     const buttons=$('numbergrid').querySelectorAll('button');if(buttons[taskIndex])buttons[taskIndex].classList.add('done');
-    const count=pack().filter(x=>done[x.id]).length,total=db.tasks.filter(x=>done[x.id]).length;
+    const count=pack().filter(x=>isDoneTask(x)).length,total=db.tasks.filter(x=>isDoneTask(x)).length;
     $('progress').textContent='Bu öğrenme çıktısı: '+count+'/'+pack().length+' · Toplam: '+total+'/'+db.tasks.length+' görev.';
     $('donecount').textContent='✓ '+total+' tamamlandı';themeMap();
     feedback('✅ Geometrik model kontrol edildi. Matematiksel gerekçe notun puanlanmaz.',true);
@@ -923,7 +954,7 @@ function renderResearchLab(a){
   window.MatematikAtlasResearch.render(a,()=>{gateDone(a,()=>{
     done[a.id]=true;save();
     const buttons=$('numbergrid').querySelectorAll('button');if(buttons[taskIndex])buttons[taskIndex].classList.add('done');
-    const count=pack().filter(x=>done[x.id]).length,total=db.tasks.filter(x=>done[x.id]).length;
+    const count=pack().filter(x=>isDoneTask(x)).length,total=db.tasks.filter(x=>isDoneTask(x)).length;
     $('progress').textContent='Bu öğrenme çıktısı: '+count+'/'+pack().length+' · Toplam: '+total+'/'+db.tasks.length+' görev. Kayıtlar bu tarayıcıdadır.';
     $('donecount').textContent='✓ '+total+' tamamlandı';themeMap();
     feedback('✅ Veri modeli doğrulandı. Yorumunun doğruluğunu puanlamaya dahil edilmez.',true);
@@ -932,7 +963,7 @@ function renderResearchLab(a){
 function renderMeasure6Lab(a){
  window.MatematikAtlasMeasure6.render(a,()=>{
   done[a.id]=true;save();const item=$('numbergrid').querySelectorAll('button')[taskIndex];if(item)item.classList.add('done');
-  const completed=pack().filter(x=>done[x.id]).length,total=db.tasks.filter(x=>done[x.id]).length;
+  const completed=pack().filter(x=>isDoneTask(x)).length,total=db.tasks.filter(x=>isDoneTask(x)).length;
   $('progress').textContent='Bu öğrenme çıktısı: '+completed+'/'+pack().length+' · Toplam: '+total+'/'+db.tasks.length+' görev.';
   $('donecount').textContent='✓ '+total+' tamamlandı';themeMap();
   feedback('✅ Geometrik ölçüm doğrulandı. Çözümün ekranda kalıyor.',true);
@@ -942,7 +973,7 @@ function renderAlgebra6Lab(a){
  window.MatematikAtlasAlgebra6.render(a,()=>{
   done[a.id]=true;save();
   const b=$('numbergrid').querySelectorAll('button')[taskIndex];if(b)b.classList.add('done');
-  const completed=pack().filter(x=>done[x.id]).length,total=db.tasks.filter(x=>done[x.id]).length;
+  const completed=pack().filter(x=>isDoneTask(x)).length,total=db.tasks.filter(x=>isDoneTask(x)).length;
   $('progress').textContent='Bu öğrenme çıktısı: '+completed+'/'+pack().length+' · Toplam: '+total+'/'+db.tasks.length+' görev.';
   $('donecount').textContent='✓ '+total+' tamamlandı';themeMap();
   feedback('✅ Cebirsel model kontrol edildi. Oluşturduğun çalışma ekranda kalıyor.',true);
@@ -952,7 +983,7 @@ function renderGeometry5PlusLab(a){
  window.MatematikAtlasGeometry5Plus.render(a,()=>{
   done[a.id]=true;save();
   const b=$('numbergrid').querySelectorAll('button')[taskIndex];if(b)b.classList.add('done');
-  const completed=pack().filter(x=>done[x.id]).length,total=db.tasks.filter(x=>done[x.id]).length;
+  const completed=pack().filter(x=>isDoneTask(x)).length,total=db.tasks.filter(x=>isDoneTask(x)).length;
   $('progress').textContent='Bu öğrenme çıktısı: '+completed+'/'+pack().length+' · Toplam: '+total+'/'+db.tasks.length+' görev.';
   $('donecount').textContent='✓ '+total+' tamamlandı';themeMap();
   feedback('✅ İki aşamalı geometrik model doğrulandı. Açıklamanı puanlamaya dahil edilmez.',true);
@@ -961,7 +992,7 @@ function renderGeometry5PlusLab(a){
 function renderMeasure5PlusLab(a){
  window.MatematikAtlasMeasure5Plus.render(a,()=>{
   done[a.id]=true;save();const btn=$('numbergrid').querySelectorAll('button')[taskIndex];if(btn)btn.classList.add('done');
-  const count=pack().filter(x=>done[x.id]).length,total=db.tasks.filter(x=>done[x.id]).length;
+  const count=pack().filter(x=>isDoneTask(x)).length,total=db.tasks.filter(x=>isDoneTask(x)).length;
   $('progress').textContent='Bu öğrenme çıktısı: '+count+'/'+pack().length+' · Toplam: '+total+'/'+db.tasks.length+' görev.';
   $('donecount').textContent='✓ '+total+' tamamlandı';themeMap();feedback('✅ Alan ve çevre modeli doğrulandı; gerekçeyi isteğe bağlı nottur.',true);
  });
@@ -969,7 +1000,7 @@ function renderMeasure5PlusLab(a){
 function renderFraction5PlusLab(a){
  window.MatematikAtlasFraction5Plus.render(a,()=>{
   done[a.id]=true;save();const btn=$('numbergrid').querySelectorAll('button')[taskIndex];if(btn)btn.classList.add('done');
-  const completed=pack().filter(x=>done[x.id]).length,total=db.tasks.filter(x=>done[x.id]).length;
+  const completed=pack().filter(x=>isDoneTask(x)).length,total=db.tasks.filter(x=>isDoneTask(x)).length;
   $('progress').textContent='Bu öğrenme çıktısı: '+completed+'/'+pack().length+' · Toplam: '+total+'/'+db.tasks.length+' görev.';
   $('donecount').textContent='✓ '+total+' tamamlandı';themeMap();
   feedback('✅ Kesir modeli ve karşılaştırma kararın doğrulandı.',true);
@@ -978,7 +1009,7 @@ function renderFraction5PlusLab(a){
 function renderNumber5PlusLab(a){
  window.MatematikAtlasNumber5Plus.render(a,()=>{
   done[a.id]=true;save();const b=$('numbergrid').querySelectorAll('button')[taskIndex];if(b)b.classList.add('done');
-  const count=pack().filter(x=>done[x.id]).length,total=db.tasks.filter(x=>done[x.id]).length;
+  const count=pack().filter(x=>isDoneTask(x)).length,total=db.tasks.filter(x=>isDoneTask(x)).length;
   $('progress').textContent='Bu öğrenme çıktısı: '+count+'/'+pack().length+' · Toplam: '+total+'/'+db.tasks.length+' görev.';
   $('donecount').textContent='✓ '+total+' tamamlandı';themeMap();
   feedback('✅ Doğal sayılar modeli doğrulandı. Açıklamanı puanlamaya dahil edilmez.',true);
@@ -987,7 +1018,7 @@ function renderNumber5PlusLab(a){
 function renderStatistics5PlusLab(a){
  window.MatematikAtlasStatistics5Plus.render(a,()=>{
   done[a.id]=true;save();const btn=$('numbergrid').querySelectorAll('button')[taskIndex];if(btn)btn.classList.add('done');
-  const count=pack().filter(x=>done[x.id]).length,total=db.tasks.filter(x=>done[x.id]).length;
+  const count=pack().filter(x=>isDoneTask(x)).length,total=db.tasks.filter(x=>isDoneTask(x)).length;
   $('progress').textContent='Bu öğrenme çıktısı: '+count+'/'+pack().length+' · Toplam: '+total+'/'+db.tasks.length+' görev.';
   $('donecount').textContent='✓ '+total+' tamamlandı';themeMap();
   feedback('✅ Kategorik araştırma ve kanıt kararı doğrulandı. Yazılı gerekçe isteğe bağlıdır; puanlanmaz.',true);

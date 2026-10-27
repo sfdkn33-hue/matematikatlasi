@@ -19,7 +19,7 @@ const palette=['#6097e8','#eba24b','#50b891','#e98572','#9972d8','#667fd6','#c99
 function count(gradeValue){const tasks=db.tasks.filter(a=>String(a.sinif)===gradeValue),progress=complete();return {total:tasks.length,done:tasks.filter(x=>progress[x.id]).length};}
 function setGrade(next){grade=validGrades.includes(String(next))?String(next):'5';setStored('mathAtlasV30Grade',grade);G.value=grade;G.dispatchEvent(new Event('change',{bubbles:true}));
  for(const [id,g] of validGrades.flatMap(n=>[['atlasGrade'+n,n],['atlasThemesGrade'+n,n]])){const b=q(id),on=grade===g;b.classList.toggle('is-current',on);b.setAttribute('aria-pressed',String(on))}
- q('atlasTopGrade').textContent=grade+'. sınıf'+(grade==='7'?' · 9 bölüm':grade==='8'?' · pilot':'');updateProgress();if(mode==='themes')renderThemes();}
+ q('atlasTopGrade').textContent=grade+'. sınıf'+(grade==='7'?' · 9 bölüm':'');updateProgress();if(mode==='themes')renderThemes();}
 function updateProgress(){const {total,done}=count(grade),percent=total?Math.round(100*done/total):0;
  q('atlasHomeDone').textContent=done+' görev tamamlandı';q('atlasHomeFill').style.width=percent+'%';
  q('atlasHomeProgress').setAttribute('aria-valuenow',String(percent));
@@ -32,7 +32,7 @@ function setMode(next){mode=next;body.classList.toggle('atlas-home',next==='home
  hideNav();window.scrollTo?.({top:0,behavior:'instant'});
  if(next==='themes')renderThemes();if(next==='home')updateProgress();
 }
-function firstAvailable(filter){const matches=db.tasks.filter(filter),progress=complete();return matches.find(x=>!progress[x.id])||matches[0];}
+function firstAvailable(filter){const matches=db.tasks.filter(filter),progress=complete();const preferred=matches.filter(x=>!String(x.ogrenme_ciktisi||'').startsWith('ATLAS.8.2018.PILOT'));const ordered=preferred.length?preferred:matches;return ordered.find(x=>!progress[x.id])||ordered[0];}
 function navigate(task){if(!task)return;grade=String(task.sinif);setGrade(grade);
  T.value=String(task.tema_sirasi);T.dispatchEvent(new Event('change',{bubbles:true}));
  O.value=String(task.ogrenme_ciktisi);O.dispatchEvent(new Event('change',{bubbles:true}));
@@ -52,7 +52,7 @@ function renderThemes(){const list=db.themes.filter(x=>String(x.sinif)===grade).
  const b=document.createElement('button');b.type='button';b.className='atlas-theme-card';b.style.setProperty('--card-bg',colors[i%7]);b.style.setProperty('--card-bar',palette[i%7]);
  const a=document.createElement('span');a.className='atlas-theme-symbol';a.textContent=symbols[i%7];
  const name=document.createElement('span');name.className='atlas-theme-title';name.textContent=th.tema;
- const sub=document.createElement('span');sub.className='atlas-theme-subtitle';sub.textContent=th.atlas_pilot?`${tasks.length} pilot görev`:`${tasks.length} görev · ${th.ders_saati} ders saati`;
+ const sub=document.createElement('span');sub.className='atlas-theme-subtitle';sub.textContent=th.atlas_pilot?`${tasks.length} görev`:`${tasks.length} görev · ${th.ders_saati} ders saati`;
  const bar=document.createElement('span');bar.className='atlas-theme-bar';const fill=document.createElement('span');fill.style.width=(tasks.length?100*done/tasks.length:0)+'%';bar.appendChild(fill);
  const bottom=document.createElement('span');bottom.className='atlas-theme-bottom';const label=document.createElement('span');label.textContent=`${done} tamamlandı`;const arrow=document.createElement('span');arrow.textContent='Başla →';bottom.append(label,arrow);
  b.append(a,name,sub,bar,bottom);b.onclick=()=>navigate(firstAvailable(t=>String(t.sinif)===grade&&Number(t.tema_sirasi)===Number(th.tema_sirasi)));

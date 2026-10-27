@@ -12,7 +12,7 @@
  const FILEFORMAT='atlas-v621-learning-summary';
  function produce(code,grade){
   if(!codeOK(code)||![5,6,7,8].includes(grade))throw Error('Öğrenci kodu veya sınıf geçersiz.');
-  const finished=read('mathAtlas940Done',{}), events=read('mathAtlas64Attempts',[]), now=Date.now();
+  const finished=read('mathAtlas940Done',{}),rev626=read('mathAtlas626Done',{}),rev662=read('mathAtlas662Done',{}), events=read('mathAtlas64Attempts',[]), now=Date.now();
   const from=now-30*86400000;
   const groups=db.outcomes.filter(o=>Number(o.sinif)===grade).map(o=>{
    const tasks=db.tasks.filter(t=>String(t.ogrenme_ciktisi)===String(o.kod));
@@ -22,7 +22,7 @@
    const focus={model:0,hesap:0,karar:0,adimlar:0};
    for(const e of relevant)if(e.status==='wrong'&&Object.hasOwn(focus,e.focus))focus[e.focus]++;
    const last=relevant.length?Math.max(...relevant.map(e=>e.when)):null;
-   return {code:o.kod,total:tasks.length,done:tasks.filter(t=>finished[t.id]===true).length,
+   return {code:o.kod,total:tasks.length,done:tasks.filter(t=>finished[t.id]===true&&(!t.atlas626||rev626[t.id]===t.atlas626.revision)&&(!t.atlas662||rev662[t.id]===t.atlas662.revision)).length,
     wrong:relevant.filter(e=>e.status==='wrong').length,hint:relevant.filter(e=>e.status==='hint').length,
     correct:relevant.filter(e=>e.status==='correct').length,
     wrongTasks:new Set(relevant.filter(e=>e.status==='wrong').map(e=>e.taskId)).size,

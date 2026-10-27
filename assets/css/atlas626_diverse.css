@@ -1,0 +1,81 @@
+/* Matematik Atlası · 6.26 çoklu düşünme ve görev ekranı */
+#atlas626Root[hidden]{display:none!important}
+.atlas626{color:#153853;background:#fff;border:1px solid #cfdeed;border-radius:20px;padding:clamp(16px,2.5vw,30px);margin:16px 0;box-shadow:0 7px 20px rgba(13,52,76,.06)}
+.atlas626-kicker{font-size:12px;font-weight:850;letter-spacing:.08em;color:#147e90}
+.atlas626-heading{margin:.3em 0;font-size:clamp(20px,2.3vw,28px);line-height:1.25;color:#113b59}
+.atlas626-story{font-size:clamp(15px,1.5vw,18px);line-height:1.6;margin:10px 0 18px}
+.atlas626-stepnav{display:flex;gap:8px;margin:12px 0 20px}
+.atlas626-step{border-radius:50%;background:#e9f2f8;color:#284e6a;display:grid;place-items:center;height:31px;width:31px;font-size:14px;font-weight:850}
+.atlas626-step.current{background:#147e90;color:#fff}
+.atlas626-stage{border:1px solid #cbdde9;border-radius:14px;background:#f7fbfd;padding:16px}
+.atlas626-stage h4{margin:0 0 16px;font-size:17px;line-height:1.4;color:#163d57}
+.atlas626-instruction{font-size:14px;color:#48687b}
+.atlas626-options,.atlas626-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.atlas626-tiles{grid-template-columns:repeat(auto-fit,minmax(52px,1fr))}
+.atlas626-option,.atlas626-tile{border:2px solid #cadeea;color:#173951;background:#fff;border-radius:10px;min-height:51px;padding:10px;cursor:pointer;font-weight:700;text-align:center;line-height:1.3}
+.atlas626-option[aria-pressed=true],.atlas626-tile[aria-pressed=true]{border-color:#147e90;background:#e0f4f3;color:#10575d}
+.atlas626-option:disabled{opacity:.45;cursor:default}
+.atlas626-input-wrap{display:grid;gap:8px;font-weight:700;color:#20485c}
+.atlas626-input-wrap input{max-width:400px;min-height:50px;border:2px solid #8eafc4;border-radius:11px;background:#fff;color:#153853;padding:12px;font-size:18px}
+.atlas626-status{margin:12px 0;padding:10px 12px;background:#eaf5fa;color:#245369;border-radius:10px;min-height:42px;line-height:1.5}
+.atlas626-footer{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0}
+.atlas626-primary,.atlas626-secondary,.atlas626-small{cursor:pointer;padding:12px 16px;border-radius:12px;border:1px solid #a7cad4;font-size:15px;font-weight:800}
+.atlas626-primary{color:white;background:#126e85;border-color:#126e85}
+.atlas626-secondary,.atlas626-small{color:#195873;background:#edf8fb}
+.atlas626-done{color:#146648;font-weight:800;font-size:18px}
+.atlas626-order-preview{background:#e5f3f5;color:#245269;border-radius:10px;padding:10px;line-height:1.7}
+.atlas626-table{width:100%;border-collapse:collapse;margin:0 0 14px;color:#18394c;font-size:15px}
+.atlas626-table th,.atlas626-table td{border:1px solid #d5e4ed;padding:10px;text-align:center}
+.atlas626-table th{background:#e2f2f7}
+.atlas626-chart{margin:10px 0;padding:10px;border:1px solid #d5e4ed;border-radius:12px}
+.atlas626-chart-row{display:grid;grid-template-columns:140px minmax(0,1fr) auto;gap:8px;align-items:center;margin:6px 0;font-size:13px}
+.atlas626-track{background:#e6eff6;border-radius:8px;height:18px;overflow:hidden}.atlas626-fill{background:#158eaa;height:100%;border-radius:8px}
+.atlas626-option:focus-visible,.atlas626-tile:focus-visible,.atlas626-footer button:focus-visible,.atlas626-small:focus-visible{outline:3px solid #ed9a2a;outline-offset:2px}
+@media(max-width:540px){.atlas626-options{grid-template-columns:1fr}.atlas626-stage{padding:12px}.atlas626-chart-row{grid-template-columns:92px minmax(0,1fr) auto}.atlas626-footer button{flex:1}}
+
+.atlas626-slider{display:block;width:min(100%,500px);accent-color:#148ea8;min-height:48px;cursor:grab}
+.atlas626-slider-output{font-size:20px;font-weight:850;color:#176a86}.atlas626-circle{width:160px;height:160px;border-radius:50%;margin:10px auto;border:3px solid #63869a;box-shadow:inset 0 0 0 2px white}
+
+.atlas626-matches{display:grid;gap:10px}.atlas626-match{display:grid;grid-template-columns:minmax(115px,1fr) 1.4fr;gap:10px;align-items:center}.atlas626-match select{background:#fff;border:2px solid #a1c3d5;border-radius:10px;min-height:46px;padding:7px;color:#163b50;font:inherit}.atlas626-match select:focus-visible{outline:3px solid #ec9d32}.atlas626-match strong{line-height:1.35}@media(max-width:450px){.atlas626-match{grid-template-columns:1fr}}
+
+/* v6.29 – erişilebilir boşluk doldurma ve ayrı ikili karar kartları */
+.atlas626-fills{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px}
+.atlas626-fills .atlas626-input-wrap input{max-width:100%;width:100%;box-sizing:border-box}
+@media(max-width:540px){.atlas626-fills{grid-template-columns:1fr}}
+
+/* v6.37: metinsel açıklamalı geometrik, olasılık ve rasyonel sayı modelleri */
+.atlas626-rectangle-figure,.atlas626-probability-figure,.atlas626-numberline-figure{margin:10px 0 18px;padding:14px;border:1px solid #cadee9;border-radius:14px;background:#f8fbff;max-width:100%;box-sizing:border-box}
+.atlas626-rect-image{background:repeating-linear-gradient(0deg,transparent,transparent 23px,#79b7ce90 24px),repeating-linear-gradient(90deg,#c7eef8,#c7eef8 23px,#79b7ce90 24px);border:3px solid #29748f;box-sizing:border-box;width:100%;margin:auto;position:relative;min-height:64px}
+.atlas626-rect-hole{position:absolute;right:0;top:0;background:#fff7ed;border:2px dashed #bb7044;box-sizing:border-box}
+.atlas626-rect-caption{font-size:13px;color:#24526e;line-height:1.6;margin:10px 0 0;text-align:center}
+.atlas626-probability-cells{display:grid;grid-template-columns:repeat(auto-fit,minmax(20px,1fr));gap:5px;max-width:500px;margin:auto}
+.atlas626-probability-cell{min-width:0;aspect-ratio:1;border-radius:5px;border:1px solid #5b798c;background:#8fd0dc}
+.atlas626-probability-cell.tone-1{background:#eab879}.atlas626-probability-cell.tone-2{background:#b8c7f2}.atlas626-probability-cell.tone-3{background:#b9dda0}
+.atlas626-numberline-figure{padding-top:38px}.atlas626-numberline-axis{height:45px;border-top:3px solid #497992;position:relative;margin:14px 22px 10px}
+.atlas626-numberline-tick{position:absolute;top:0;transform:translateX(-50%);font-size:12px;white-space:nowrap}
+.atlas626-numberline-tick:before{content:'';display:block;width:2px;height:10px;background:#497992;margin:0 auto 5px}
+.atlas626-numberline-dot{position:absolute;display:flex;align-items:center;justify-content:center;background:#126e85;color:white;border:2px solid white;box-shadow:0 1px 3px #20485c88;border-radius:50%;width:25px;height:25px;transform:translateX(-50%);font-size:12px;font-weight:800}
+@media(max-width:540px){.atlas626-rectangle-figure,.atlas626-probability-figure,.atlas626-numberline-figure{padding-left:8px;padding-right:8px}}
+
+.atlas626-probability-cell.hue-red{background:#e89090}.atlas626-probability-cell.hue-blue{background:#7dbee8}
+.atlas626-probability-cell.hue-green{background:#8dcea5}.atlas626-probability-cell.hue-yellow{background:#f0d47c}
+.atlas626-probability-cell.hue-purple{background:#baaae5}.atlas626-probability-cell.hue-orange{background:#ebb27b}
+
+.atlas626-axis-warning{margin:0 0 12px;font-size:13px;color:#734619;background:#fff3db;border-radius:7px;padding:8px;line-height:1.5}
+
+/* v6.59 — visual fractions & decimal place value */
+.atlas659-fraction-figure{margin:12px 0 18px;padding:clamp(10px,2vw,18px);border:1px solid #cddfea;border-radius:14px;background:#f7fcff;min-width:0}
+.atlas659-fraction-row{display:grid;grid-template-columns:minmax(95px,155px) minmax(0,1fr);align-items:center;gap:14px;margin:8px 0}
+.atlas659-fraction-label{font-size:14px;line-height:1.4;color:#1c5367;overflow-wrap:anywhere}
+.atlas659-fraction-strip{display:grid;gap:2px;height:39px;width:100%;min-width:0;border-radius:5px;overflow:hidden;background:#dcecf5;border:1px solid #628a9b;box-sizing:border-box;padding:2px}
+.atlas659-fraction-part{min-width:0;background:#fff;border:1px solid #afc9d6}
+.atlas659-fraction-part.is-filled{background:#2c8f9f;border-color:#166c7e}
+.atlas659-place-table{table-layout:fixed}.atlas659-place-table th,.atlas659-place-table td{padding:10px 3px;font-size:clamp(11px,2.5vw,16px);overflow-wrap:anywhere}
+.atlas659-place-note{color:#385e75;font-size:13px;line-height:1.5}
+@media(max-width:520px){.atlas659-fraction-row{grid-template-columns:1fr;gap:5px}.atlas659-fraction-strip{height:35px}.atlas659-place-table th{font-size:11px}}
+
+.atlas626-primary:disabled{opacity:.55;cursor:not-allowed}
+
+/* v6.60 revision reminder */
+.atlas660-review-note{padding:10px 14px;border-left:4px solid #d97706;border-radius:8px;background:#fff7e6;color:#734711;font-weight:600;line-height:1.55;margin:12px 0}
+.atlas660-review-note[hidden]{display:none!important}

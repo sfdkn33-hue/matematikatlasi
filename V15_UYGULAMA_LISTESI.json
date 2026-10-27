@@ -1,0 +1,110 @@
+{
+  "teacher": [
+    {
+      "file": "atlas.html",
+      "label": "Matematik Atlası — Ana Oyun"
+    },
+    {
+      "file": "7_SINIF_MUFREDAT_HARITASI.html",
+      "label": "7. sınıf kazanım haritası"
+    },
+    {
+      "file": "8_SINIF_OYUN_HARITASI.html",
+      "label": "8. sınıf oyun haritası"
+    },
+    {
+      "file": "ATLAS_v664_9_DINAMIK_GEOMETRI.html",
+      "label": "Dinamik Geometri"
+    },
+    {
+      "file": "arastirma.html",
+      "label": "Veri Araştırması"
+    },
+    {
+      "file": "ANTRENMAN_MERKEZI.html",
+      "label": "Sınav Antrenmanı"
+    },
+    {
+      "file": "SENARYOLU_YAZILI_SIMULATORU.html",
+      "label": "Senaryolu Yazılı Simülatörü"
+    },
+    {
+      "file": "YAZILI_MERKEZI.html",
+      "label": "Yazılı Sınav Merkezi"
+    },
+    {
+      "file": "DONEM_SONU_DENEMELERI.html",
+      "label": "Dönem Sonu Denemeleri"
+    },
+    {
+      "file": "LGS_VE_ACIK_UCLU_ATOLYE.html",
+      "label": "LGS ve Açık Uçlu Atölye"
+    },
+    {
+      "file": "BECERI_TEMELLI_64_OZGUN_SORU.html",
+      "label": "64 Beceri Temelli Soru"
+    },
+    {
+      "file": "BECERI_TEMELLI_32_OZGUN_SORU.html",
+      "label": "32 Soruluk İlk Set"
+    },
+    {
+      "file": "YENI_NESIL_OZGUN_SORULAR.html",
+      "label": "Yeni Nesil Özgün Sorular"
+    },
+    {
+      "file": "LGS_v54_12_SORU_VE_COZUMLER_OGRETMEN.html",
+      "label": "12 LGS Sorusu ve Çözümleri"
+    },
+    {
+      "file": "TANI_VE_TEKRAR.html",
+      "label": "Tanı ve Akıllı Tekrar"
+    },
+    {
+      "file": "ogretmen.html",
+      "label": "Yerel İlerleme Raporu"
+    },
+    {
+      "file": "KAZANIM_KALITE_HARITASI.html",
+      "label": "Kazanım Kalite Haritası"
+    },
+    {
+      "file": "KALITE_PANOSU.html",
+      "label": "Soru Kalitesi Panosu"
+    }
+  ],
+  "student": [
+    {
+      "file": "atlas.html",
+      "label": "Oyun Görevlerine Başla"
+    },
+    {
+      "file": "TANI_VE_TEKRAR.html",
+      "label": "Tanı ve Tekrar"
+    },
+    {
+      "file": "ATLAS_v664_9_DINAMIK_GEOMETRI.html",
+      "label": "Geometri Atölyesi"
+    },
+    {
+      "file": "ANTRENMAN_MERKEZI.html",
+      "label": "Sınav Antrenmanı"
+    },
+    {
+      "file": "DONEM_SONU_DENEMELERI.html",
+      "label": "Dönem Sonu Denemeleri"
+    },
+    {
+      "file": "BECERI_TEMELLI_64_OZGUN_SORU.html",
+      "label": "Beceri Temelli Sorular"
+    },
+    {
+      "file": "LGS_VE_ACIK_UCLU_ATOLYE.html",
+      "label": "LGS ve Açık Uçlu Sorular"
+    },
+    {
+      "file": "YENI_NESIL_OZGUN_SORULAR.html",
+      "label": "Yeni Nesil Sorular"
+    }
+  ]
+}
